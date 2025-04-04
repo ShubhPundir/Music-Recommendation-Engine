@@ -1,7 +1,13 @@
 [project]
 name = "music-recommendation-engine"
 version = "0.1.0"
-description = "Add your description here"
+description = "Music-recommendation via NLP + Waveform Analysis"
 readme = "README.md"
-requires-python = ">=3.12"
-dependencies = []
+requires-python = ">=3.10,<3.11"
+dependencies = [
+    "ffmpeg>=1.4",
+    "ffprobe>=0.5",
+    "numpy>=2.2.4",
+    "requests>=2.32.3",
+    "yt-dlp>=2025.3.31",
+]
