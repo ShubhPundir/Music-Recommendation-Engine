@@ -32,6 +32,6 @@ def search_and_download_wav(song_name, output_filename="output.wav"):
 
 # Example usage
 # song_query = input("Enter the name of the song: ")
-song_query = "Lollipop Lagelu"
+song_query = "Hit the road jack"
 download_name = song_query.replace(" ", "_") + ".wav"
 search_and_download_wav(song_query, download_name)
