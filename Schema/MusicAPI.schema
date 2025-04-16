@@ -1,0 +1,35 @@
+{
+    "artist": STRING,
+    "track": STRING,
+    "musicbrainz": {
+        "artist_id": id
+        "recording": {
+            "id": id,
+            "score": number, // I am unsure of the purpose of it, and how is the distribution of the variable score?
+            "title": STRING,
+            "disambiguation": STRING
+        },
+        "release_dates": [DATETIME],
+        "external_links": [link]
+    },
+    "lastfm": {
+        "tags": [STRING],
+        "wiki": {
+            "published": STRING,
+            "summary": STRING,
+            "content": STRING
+        },
+        "similar_tracks": []
+    },
+    "genius": {
+        "title": STRING,
+        "artist": STRING,
+        "lyrics": STRING,
+        "url": link,
+        "album": STRING,
+        "release_date": DATETIME,
+        "song_art_image_url": link,
+        "annotations": [STRING],
+        "verified": boolean
+    }
+}
