@@ -33,7 +33,7 @@ ACCESS_TOKEN = '15TK9a5jJZpzxaxn39KcMjyrjr08ArZEllCdfYOe0E16mxjTs7x7BsmU-v7TLvBO
 
 BASE_URL = "https://api.genius.com"
 headers = {
-    "Authorization": f"Bearer {ACCESS_TOKEN}"
+    "Authorization": f"{ACCESS_TOKEN}"
 }
 
 
@@ -198,7 +198,7 @@ for track in tracklist:
 import requests
 
 base_url = "https://api.genius.com"
-headers = {'Authorization': 'Bearer 15TK9a5jJZpzxaxn39KcMjyrjr08ArZEllCdfYOe0E16mxjTs7x7BsmU-v7TLvBO'}
+headers = {'Authorization': '15TK9a5jJZpzxaxn39KcMjyrjr08ArZEllCdfYOe0E16mxjTs7x7BsmU-v7TLvBO'}
 
 search_query = "Taylor Swift 1989"
 search_url = f"{base_url}/search?q={search_query}"
@@ -264,7 +264,7 @@ ACCESS_TOKEN = '15TK9a5jJZpzxaxn39KcMjyrjr08ArZEllCdfYOe0E16mxjTs7x7BsmU-v7TLvBO
 BASE_URL = "https://api.genius.com"
 
 headers = {
-    "Authorization": f"Bearer {ACCESS_TOKEN}"
+    "Authorization": f"{ACCESS_TOKEN}"
 }
 
 # Function to search and get song IDs
@@ -353,7 +353,7 @@ BASE_URL = "https://api.genius.com"
 
 # Headers for authorization
 HEADERS = {
-    "Authorization": f"Bearer {ACCESS_TOKEN}"
+    "Authorization": f"{ACCESS_TOKEN}"
 }
 
 # Function to search for songs
@@ -385,7 +385,7 @@ search_random_songs()
 import requests
 
 def search_song(song_name):
-    headers = {"Authorization": "Bearer KFe53Rk-6NzSke1n4yCPCxdFmRE6cf7VtkngFgaMToq7n1JE36p1iSqCxrKazZ92"}
+    headers = {"Authorization": "KFe53Rk-6NzSke1n4yCPCxdFmRE6cf7VtkngFgaMToq7n1JE36p1iSqCxrKazZ92"}
     url = f"https://api.genius.com/search?q={song_name}"
     response = requests.get(url, headers=headers).json()
     
