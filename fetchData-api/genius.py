@@ -53,3 +53,6 @@ def scrape_lyrics(url):
         return lyrics.strip()
     except Exception as e:
         return f"Lyrics not available: {str(e)}"
+
+
+# print(search_genius("The Beatles", "All my loving"))

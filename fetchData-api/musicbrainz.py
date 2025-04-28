@@ -1,23 +1,26 @@
+import os
 import requests
 from dotenv import load_dotenv
 
 load_dotenv()
 MUSICBRAINZ_USER_AGENT = os.getenv("MUSICBRAINZ_USER_AGENT")
 
+base_url = "https://musicbrainz.org/ws/2"
+# Custom headers to avoid throttling (use a unique User-Agent)
+headers = {
+    "User-Agent": MUSICBRAINZ_USER_AGENT
+}
+
 def search_musicbrainz(artist, track):
-    base_url = "https://musicbrainz.org/ws/2/recording/"
     query = f'artist:"{artist}" AND recording:"{track}"'
     params = {
         "query": query,
         "fmt": "json",
         "limit": 5
     }
-    headers = {
-        "User-Agent": MUSICBRAINZ_USER_AGENT
-    }
 
     try:
-        response = requests.get(base_url, params=params, headers=headers)
+        response = requests.get(f"{base_url}/recording", params=params, headers=headers)
         response.raise_for_status()
         data = response.json()
 
@@ -42,12 +45,7 @@ def search_musicbrainz(artist, track):
             "release_date": release_event.get("date", ""),
             "country": release_event.get("area", {}).get("iso-3166-1-codes", [""])[0],
             "disambiguation": rec.get("disambiguation", ""),
-            "length": rec.get("length", 0),
-            "track_number": "",  # Optional: deeper logic needed
-            "external_links": {
-                "artist_links": get_external_links("artist", artist_id),
-                "recording_links": get_external_links("recording", recording_id)
-            }
+            "length": rec.get("length", 0)
         }
 
     except requests.exceptions.RequestException as e:
@@ -55,29 +53,74 @@ def search_musicbrainz(artist, track):
     except Exception as e:
         return {"error": f"Unexpected error: {str(e)}"}
 
-
-def get_external_links(entity_type, mbid):
-    url = f"https://musicbrainz.org/ws/2/{entity_type}/{mbid}"
+def get_artist_id_musicbrainz(artist_name):
+    artist_query = f"{base_url}/artist/"
     params = {
-        "fmt": "json",
-        "inc": "url-rels"
-    }
-    headers = {
-        "User-Agent": "SongMetadataApp/1.0 (your-email@example.com)"
+        "query": f"artist:{artist_name}",
+        "fmt": "json"
     }
 
-    try:
-        response = requests.get(url, params=params, headers=headers)
-        response.raise_for_status()
-        data = response.json()
-        links = {}
+    artist_response = requests.get(artist_query, params=params, headers=headers)
+    artist_data = artist_response.json()
+    
+    # Check for multiple artist matches and find the best match
+    artists = artist_data.get("artists", [])
+    if not artists:
+        return None
+    
+    # Optionally, print all artist names to check what's returned
+    print(f"Found artists: {[artist['name'] for artist in artists]}")
+    
+    # Assume the first match is the correct one or try to find exact match
+    for artist in artists:
+        if artist_name.lower() == artist['name'].lower():
+            print(artist["id"])
+            return artist["id"]
 
-        for rel in data.get("relations", []):
-            rel_type = rel.get("type")
-            href = rel.get("url", {}).get("resource")
-            if rel_type and href:
-                links[rel_type] = href
+    # If no exact match, return the first artist
+    return artists[0]["id"]
 
-        return links
-    except:
-        return {}
+def get_album_tracks_musicbrainz(artist_name, album_name):
+
+    # 1. Search for artist and get ID
+    artist_id = get_artist_id_musicbrainz(artist_name)
+
+    if not artist_id:
+        print(f"Artist '{artist_name}' not found.")
+        return []
+
+    # 2. Search for release-group (album)
+    release_group_query = f"{base_url}/release-group/?artist={artist_id}&releasegroup={album_name}&type=album&fmt=json"
+    release_group_response = requests.get(release_group_query, headers=headers)
+    release_group_data = release_group_response.json()
+
+    release_group = release_group_data.get("release-groups", [])
+    if not release_group:
+        print(f"Album '{album_name}' not found for artist '{artist_name}'.")
+        return []
+
+    release_group_id = release_group[0]["id"]
+
+    # 3. Search for releases (specific versions of the album)
+    releases_query = f"{base_url}/release?release-group={release_group_id}&fmt=json"
+    releases_response = requests.get(releases_query, headers=headers)
+    releases_data = releases_response.json()
+
+    release = releases_data.get("releases", [])
+    if not release:
+        print(f"No releases found for album '{album_name}'.")
+        return []
+
+    release_id = release[0]["id"]
+
+    # 4. Get tracks (recordings) from the release
+    tracks_query = f"{base_url}/release/{release_id}?inc=recordings&fmt=json"
+    tracks_response = requests.get(tracks_query, headers=headers)
+    tracks_data = tracks_response.json()
+
+    track_titles = []
+    for media in tracks_data.get("media", []):
+        for track in media.get("tracks", []):
+            track_titles.append(track["title"])
+
+    return track_titles

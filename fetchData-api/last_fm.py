@@ -40,3 +40,5 @@ def search_lastfm(artist, track):
         }
     except Exception as e:
         return {"error": f"Last.fm error: {str(e)}"}
+
+# print(search_lastfm("The Beatles", "Twist and Shout"))

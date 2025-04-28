@@ -13,7 +13,7 @@ CREATE TABLE albums (
     release_date DATE,
     total_tracks INT,
     cover_url TEXT
-);
+); 
 
 -- Tracks Table
 CREATE TABLE tracks (
@@ -26,7 +26,7 @@ CREATE TABLE tracks (
     track_number INT,
     popularity INT CHECK (popularity BETWEEN 0 AND 100),
     preview_url TEXT
-);
+); -- NOT NECESSARY
 
 -- Lyrics Table
 CREATE TABLE lyrics (
@@ -36,7 +36,7 @@ CREATE TABLE lyrics (
     language VARCHAR(50),
     keywords TEXT[], -- For NLP applications
     sentiment VARCHAR(50) -- e.g., positive, negative, neutral
-);
+); -- GETTING STORED IN MONGO --> not here
 
 -- Audio Analysis Table 
 CREATE TABLE audio_analysis (

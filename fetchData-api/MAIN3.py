@@ -49,45 +49,13 @@ def search_musicbrainz(artist, track):
             "release_date": release_event.get("date", ""),
             "country": release_event.get("area", {}).get("iso-3166-1-codes", [""])[0],
             "disambiguation": rec.get("disambiguation", ""),
-            "length": rec.get("length", 0),
-            "track_number": "",  # Optional: deeper logic needed
-            "external_links": {
-                "artist_links": get_external_links("artist", artist_id),
-                "recording_links": get_external_links("recording", recording_id)
-            }
+            "length": rec.get("length", 0)
         }
 
     except requests.exceptions.RequestException as e:
         return {"error": f"Request failed: {str(e)}"}
     except Exception as e:
         return {"error": f"Unexpected error: {str(e)}"}
-
-
-def get_external_links(entity_type, mbid):
-    url = f"https://musicbrainz.org/ws/2/{entity_type}/{mbid}"
-    params = {
-        "fmt": "json",
-        "inc": "url-rels"
-    }
-    headers = {
-        "User-Agent": "SongMetadataApp/1.0 (your-email@example.com)"
-    }
-
-    try:
-        response = requests.get(url, params=params, headers=headers)
-        response.raise_for_status()
-        data = response.json()
-        links = {}
-
-        for rel in data.get("relations", []):
-            rel_type = rel.get("type")
-            href = rel.get("url", {}).get("resource")
-            if rel_type and href:
-                links[rel_type] = href
-
-        return links
-    except:
-        return {}
 
 
 def search_lastfm(artist, track):

@@ -10,6 +10,7 @@ dependencies = [
     "ffmpeg>=1.4",
     "ffprobe>=0.5",
     "numpy>=2.2.4",
+    "os",
     "psycopg2>=2.9.10",
     "requests>=2.32.3",
     "yt-dlp>=2025.3.31",
