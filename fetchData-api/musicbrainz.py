@@ -74,7 +74,7 @@ def get_artist_id_musicbrainz(artist_name):
     # Assume the first match is the correct one or try to find exact match
     for artist in artists:
         if artist_name.lower() == artist['name'].lower():
-            print(artist["id"])
+            print("\tArtist id: ",artist["id"])
             return artist["id"]
 
     # If no exact match, return the first artist

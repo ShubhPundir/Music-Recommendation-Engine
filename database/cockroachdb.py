@@ -4,23 +4,23 @@ from dotenv import load_dotenv
 
 # Load environment variables from .env
 load_dotenv()
-print(" DB_NAME:", os.getenv("DB_NAME"))
-print(" DB_USER:", os.getenv("DB_USER"))
-print(" DB_PASS:", os.getenv("DB_PASS"))
-print(" DB_HOST:", os.getenv("DB_HOST"))
-print(" DB_PORT:", os.getenv("DB_PORT"))
+# print(" COCKROACH_NAME:", os.getenv("COCKROACH_NAME"))
+# print(" COCKROACH_USER:", os.getenv("COCKROACH_USER"))
+# print(" COCKROACH_PASS:", os.getenv("COCKROACH_PASS"))
+# print(" COCKROACH_HOST:", os.getenv("COCKROACH_HOST"))
+# print(" COCKROACH_PORT:", os.getenv("COCKROACH_PORT"))
 
 
 # Debug: Check if .env is loading correctly
-print("🔍 DB_HOST from .env:", os.getenv("DB_HOST"))
+print("🔍 COCKROACH_HOST from .env:", os.getenv("COCKROACH_HOST"))
 
 def get_cockroach_connection():
     conn = psycopg2.connect(
-        dbname=os.getenv("DB_NAME"),
-        user=os.getenv("DB_USER"),
-        password=os.getenv("DB_PASS"),
-        host=os.getenv("DB_HOST"),
-        port=os.getenv("DB_PORT"),
+        dbname="music",
+        user=os.getenv("COCKROACH_USER"),
+        password=os.getenv("COCKROACH_PASS"),
+        host=os.getenv("COCKROACH_HOST"),
+        port=os.getenv("COCKROACH_PORT"),
         sslmode='require'  # Required for CockroachDB Cloud
     )
     return conn
