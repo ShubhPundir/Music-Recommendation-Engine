@@ -1,9 +1,9 @@
 -- Artists Table
 CREATE TABLE artists (
-    artist_id SERIAL PRIMARY KEY,
+    musicbrainz_artist_id STRING PRIMARY KEY,
     name VARCHAR(255) NOT NULL UNIQUE,
     genres TEXT[] -- Multiple genres per artist
-);
+); -- COCKROACH
 
 -- Albums Table
 CREATE TABLE albums (
@@ -13,7 +13,7 @@ CREATE TABLE albums (
     release_date DATE,
     total_tracks INT,
     cover_url TEXT
-); 
+); -- MONGO
 
 -- Tracks Table
 CREATE TABLE tracks (
@@ -26,7 +26,7 @@ CREATE TABLE tracks (
     track_number INT,
     popularity INT CHECK (popularity BETWEEN 0 AND 100),
     preview_url TEXT
-); -- NOT NECESSARY
+); -- MONGO
 
 -- Lyrics Table
 CREATE TABLE lyrics (
@@ -36,11 +36,11 @@ CREATE TABLE lyrics (
     language VARCHAR(50),
     keywords TEXT[], -- For NLP applications
     sentiment VARCHAR(50) -- e.g., positive, negative, neutral
-); -- GETTING STORED IN MONGO --> not here
+); -- MONGO
 
 -- Audio Analysis Table 
 CREATE TABLE audio_analysis (
-    analysis_id SERIAL PRIMARY KEY,
+    analysis_id STRING PRIMARY KEY,
     track_id INT REFERENCES tracks(track_id) ON DELETE CASCADE,
     file_path TEXT NOT NULL,
     
@@ -88,4 +88,4 @@ CREATE TABLE audio_analysis (
     mfcc_11 FLOAT,
     mfcc_12 FLOAT,
     mfcc_13 FLOAT
-);
+); -- COCKROACH
