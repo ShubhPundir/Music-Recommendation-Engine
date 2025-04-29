@@ -6,7 +6,7 @@ load_dotenv()
 LASTFM_API_KEY = os.getenv("LASTFM_API_KEY")
 
 
-def search_lastfm(artist, track):
+def search_lastfm_track(artist, track):
     if not LASTFM_API_KEY:
         return {"error": "Last.fm API key is missing. Please set LASTFM_API_KEY in your .env file."}
 
@@ -40,5 +40,52 @@ def search_lastfm(artist, track):
         }
     except Exception as e:
         return {"error": f"Last.fm error: {str(e)}"}
+
+def search_lastgm_album(artist, album):
+    url = "https://ws.audioscrobbler.com/2.0/"
+    headers = {
+        "User-Agent": "LastFM-AlbumInfoApp/1.0"
+    }
+    params = {
+        "method": "album.getinfo",
+        "api_key": LASTFM_API_KEY,
+        "artist": artist,
+        "album": album,
+        "format": "json"
+    }
+
+    response = requests.get(url, headers=headers, params=params)
+    response.raise_for_status()
+    data = response.json()
+
+    if "album" not in data:
+        raise ValueError("Album information not found.")
+
+    album_data = data["album"]
+
+    # Parse basic metadata
+    result = {
+        "name": album_data.get("name"),
+        "artist": album_data.get("artist"),
+        "url": album_data.get("url"),
+        "playcount": album_data.get("playcount"),
+        "listeners": album_data.get("listeners"),
+        "tags": [tag["name"] for tag in album_data.get("tags", {}).get("tag", [])],
+        "images": {img["size"]: img["#text"] for img in album_data.get("image", []) if img["#text"]},
+        "tracks": [],
+        "wiki_summary": album_data.get("wiki", {}).get("summary", "").split("<a")[0].strip()
+    }
+
+    # Parse track list
+    for track in album_data.get("tracks", {}).get("track", []):
+        result["tracks"].append({
+            "name": track.get("name"),
+            "duration": int(track.get("duration", 0)),
+            "rank": int(track.get("@attr", {}).get("rank", 0)),
+            "url": track.get("url"),
+            "artist": track.get("artist", {}).get("name")
+        })
+
+    return result
 
 # print(search_lastfm("The Beatles", "Twist and Shout"))
