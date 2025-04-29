@@ -5,7 +5,6 @@ from dotenv import load_dotenv
 load_dotenv()
 LASTFM_API_KEY = os.getenv("LASTFM_API_KEY")
 
-
 def search_lastfm_track(artist, track):
     if not LASTFM_API_KEY:
         return {"error": "Last.fm API key is missing. Please set LASTFM_API_KEY in your .env file."}
