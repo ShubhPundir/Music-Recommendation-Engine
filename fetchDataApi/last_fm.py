@@ -111,5 +111,56 @@ def search_lastfm_album(artist, album):
         print({"error": f"An error occurred: {str(e)}"})
         return 
 
+def search_lastfm_artist(artist):
+    if not LASTFM_API_KEY:
+        return {"error": "Last.fm API key is missing. Please set LASTFM_API_KEY in your .env file."}
+
+    base_url = "https://ws.audioscrobbler.com/2.0/"
+    params = {
+        "method": "artist.getinfo",
+        "artist": artist,
+        "api_key": LASTFM_API_KEY,
+        "format": "json"
+    }
+
+    try:
+        response = requests.get(base_url, params=params)
+        response.raise_for_status()
+        artist_data = response.json().get("artist", {})
+
+        # Genres / Tags
+        tags = [tag["name"] for tag in artist_data.get("tags", {}).get("tag", [])]
+
+        # Similar artists
+        similar_artists = []
+        for similar in artist_data.get("similar", {}).get("artist", []):
+            similar_artists.append({
+                "name": similar.get("name"),
+                "url": similar.get("url")
+            })
+
+        # Wiki summary and content
+        wiki = artist_data.get("bio", {})
+        summary = wiki.get("summary", "").split("<a")[0].strip()
+        content = wiki.get("content", "").strip()
+
+        return {
+            "name": artist_data.get("name"),
+            "tags": tags,
+            "similar_artists": similar_artists,
+            "wiki": {
+                "published": wiki.get("published", ""),
+                "summary": summary,
+                "content": content
+            }
+        }
+
+    except requests.exceptions.HTTPError as http_err:
+        print( {"error": f"HTTP error occurred: {http_err}"} )
+        return None
+    except Exception as e:
+        print({"error": f"An error occurred: {str(e)}"})
+        return None
+
 
 # print(search_lastfm("The Beatles", "Twist and Shout"))

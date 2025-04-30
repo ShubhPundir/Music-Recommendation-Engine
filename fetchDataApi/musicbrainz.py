@@ -60,25 +60,34 @@ def get_artist_id_musicbrainz(artist_name):
         "fmt": "json"
     }
 
-    artist_response = requests.get(artist_query, params=params, headers=headers)
-    artist_data = artist_response.json()
-    
-    # Check for multiple artist matches and find the best match
-    artists = artist_data.get("artists", [])
-    if not artists:
-        return None
-    
-    # Optionally, print all artist names to check what's returned
-    print(f"Found artists: {[artist['name'] for artist in artists]}")
-    
-    # Assume the first match is the correct one or try to find exact match
-    for artist in artists:
-        if artist_name.lower() == artist['name'].lower():
-            print("\tArtist id: ",artist["id"])
-            return artist["id"]
 
-    # If no exact match, return the first artist
-    return artists[0]["id"]
+    try:
+        artist_response = requests.get(artist_query, params=params, headers=headers)
+        artist_data = artist_response.json()
+        
+        # Check for multiple artist matches and find the best match
+        artists = artist_data.get("artists", [])
+        if not artists:
+            return None
+        
+        # Optionally, print all artist names to check what's returned
+        print(f"Found artists: {[artist['name'] for artist in artists]}")
+        
+        # Assume the first match is the correct one or try to find exact match
+        for artist in artists:
+            if artist_name.lower() == artist['name'].lower():
+                print("\tArtist id: ",artist["id"])
+                return artist["id"]
+
+        # If no exact match, return the first artist
+        return artists[0]["id"]
+    
+    except requests.exceptions.HTTPError as http_err:
+        print({"error": f"HTTP error occurred: {http_err}"})
+        return None
+    except Exception as e:
+        print({"error": f"An error occurred: {str(e)}"})
+        return None
 
 def get_album_tracks_musicbrainz(artist_name, album_name):
 
