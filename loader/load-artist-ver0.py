@@ -39,11 +39,9 @@ with open('Loader/Albums  - Sheet1.csv', newline='', encoding='utf-8') as csvfil
         try:
             result = db['artist'].insert_one(lastfm_data)
             print("Inserted artist with _id:", result.inserted_id, f" --> {artist} DONE :)")
-            count += 1
         except Exception as e:
             print(f"MongoDB insert failed for {artist}: {e}")
         count += 1
-
 
 print("-----"*10,":",count)
 print(artist_set)
