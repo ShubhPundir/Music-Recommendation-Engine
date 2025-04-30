@@ -46,7 +46,7 @@ CREATE TABLE audio_analysis (
     
     -- Time & Audio Info
     duration_seconds FLOAT,
-    sample_rate INTEGER,
+    sample_rate INTEG`  ER,
     tempo FLOAT,
     loudness FLOAT,
     key TEXT,
