@@ -9,11 +9,11 @@ uri: str = os.getenv("MONGO_ATLAS_URI")
 
 client = MongoClient(uri, server_api=ServerApi("1"))
 
-db = client["music"]
-
 # Send a ping to confirm a successful connection
 try:
     client.admin.command("ping")
     print("Pinged your deployment. You successfully connected to MongoDB!")
 except Exception as e:
     print(e)
+
+db = client['music']
