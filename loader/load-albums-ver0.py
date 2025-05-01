@@ -9,7 +9,7 @@ import csv
 
 count: int = 0
 
-with open('Loader/Albums  - Sheet1.csv', newline='', encoding='utf-8') as csvfile:
+with open('Loader/Albums  - Sheet2.csv', newline='', encoding='utf-8') as csvfile:
     reader = csv.DictReader(csvfile)
     for row in reader:
         album = row['Album']
