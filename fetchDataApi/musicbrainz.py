@@ -59,7 +59,6 @@ def get_artist_id_musicbrainz(artist_name):
         "fmt": "json"
     }
 
-
     try:
         artist_response = requests.get(artist_query, params=params, headers=headers)
         artist_data = artist_response.json()
