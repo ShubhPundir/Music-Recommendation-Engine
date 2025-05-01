@@ -2,16 +2,15 @@
     "prompted_artist": "The Beatles",
     "prompted_track": "A Hard Day's Night",
     "musicbrainz": {
-        "recording_id": "bae47c77-e688-475f-bd58-8b65c06745d9",
-        "title": "A Hard Day's Night",
+        "recording_id": "133dd497-1658-42b7-831c-d65e2b4c4a7b",
+        "title": "A Hard Day’s Night",
         "artist": "The Beatles",
         "artist_id": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
-        "album": "The Beatles - Favourite Hits 1963-1970",
-        "album_id": "7e04c045-91eb-4fb5-a6f7-213162df7ad0",
-        "release_date": "",
-        "country": "",
-        "disambiguation": "",
-        "length": 155493
+        "album": "1962–1966",
+        "album_id": "301aa0fc-75a7-3e55-82e2-74c3e9a7ebf7",
+        "release_date": "1993-10-05",
+        "country": "US",
+        "length": 154333
     },
     "lastfm": {
         "tags": [

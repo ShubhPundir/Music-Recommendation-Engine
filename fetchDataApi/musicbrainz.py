@@ -44,7 +44,6 @@ def search_musicbrainz(artist, track):
             "album_id": media.get("id", ""),
             "release_date": release_event.get("date", ""),
             "country": release_event.get("area", {}).get("iso-3166-1-codes", [""])[0],
-            "disambiguation": rec.get("disambiguation", ""),
             "length": rec.get("length", 0)
         }
 
