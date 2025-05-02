@@ -6,21 +6,31 @@
 
 import sys
 import os
+from concurrent.futures import ThreadPoolExecutor, as_completed
+
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-## ensures that fetchDataApi is not searched within the listing of python modules, but our root directories, WOW LOL
+
 from database.mongodb import db
 from database.cockroachdb import get_cockroach_connection
 from fetchDataApi.track_lyrics_metadata import get_track_lyrics_metadata
 from pprint import pprint
-from psycopg2 import sql, errors
+from psycopg2 import sql
+
+# LOGGING
+from utils.logger_setup import setup_logger
+
+logger = setup_logger()
+
+# Constants
+MAX_THREADS = 3
 
 # MongoDB setup
 albums_collection = db['albums']
-track_metadata_collection = db['tracks_metadata']  # new collection for metadata
+track_metadata_collection = db['tracks_metadata']
 
 
-# Insert into CockroachDB
 def insert_lyrics_into_cockroach(lyrics_data):
+    conn = None
     try:
         conn = get_cockroach_connection()
         with conn:
@@ -43,27 +53,20 @@ def insert_lyrics_into_cockroach(lyrics_data):
                     lyrics_data.get("lastfm_wiki_content")
                 ))
         print(f"🎶 Inserted lyrics for ID {lyrics_data.get('musicbrainz_id')} into CockroachDB")
+        logger.info(f"🎶 Inserted lyrics for ID {lyrics_data.get('musicbrainz_id')} into CockroachDB")
     except Exception as e:
-        print("⚠️ Error inserting into CockroachDB:", e)
+        print(f"⚠️ Error inserting into CockroachDB for ID {lyrics_data.get('musicbrainz_id')}: {e}")
+        logger.exception(f"⚠️ Error inserting into CockroachDB for ID {lyrics_data.get('musicbrainz_id')}: {e}")
     finally:
         if conn:
             conn.close()
 
 
-# Main loop
-for album in albums_collection.find():
-    
-    artist_name = album.get("artist")
-    album_name = album.get("name")
-    tracks = album.get("tracks", [])
-    track_names = [track['name'] for track in tracks]
-
-    print(f"Artist: {artist_name} | Album: {album_name} | Tracks: {track_names}")
-
-    for track_name in track_names:
+def process_track(artist_name, album_name, track_name):
+    try:
         track_data, lyrics_data = get_track_lyrics_metadata(artist=artist_name, track=track_name)
-        
-        # Insert track metadata into MongoDB
+
+        # Insert into MongoDB
         track_metadata = {
             "artist": artist_name,
             "track": track_name,
@@ -72,14 +75,37 @@ for album in albums_collection.find():
         }
         track_metadata_collection.insert_one(track_metadata)
         print(f"✅ Inserted track metadata for '{track_name}' into MongoDB")
+        logger.info(f"✅ Inserted track metadata for '{track_name}' into MongoDB")
 
-        # Insert lyrics into CockroachDB
+        # Insert into CockroachDB
         insert_lyrics_into_cockroach(lyrics_data)
         print(f"Track = {track_name} inserted")
+        logger.info(f"Track = {track_name} inserted")
 
-    break  # Remove this when ready to process all albums
+    except Exception as e:
+        print(f"❌ Error processing track '{track_name}': {e}")
+        logger.exception(f"❌ Error processing track '{track_name}': {e}")
 
+
+# Main loop
+for album in albums_collection.find():
+    artist_name = album.get("artist")
+    album_name = album.get("name")
+    tracks = album.get("tracks", [])
+    track_names = [track['name'] for track in tracks]
+
+    print(f"\n🎧 Artist: {artist_name} | Album: {album_name} | Tracks: {track_names}")
+
+    with ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
+        futures = [executor.submit(process_track, artist_name, album_name, track_name) for track_name in track_names]
+
+        for future in as_completed(futures):
+            try:
+                future.result()  # To raise exceptions if any
+            except Exception as e:
+                logger.exception(f"❌ Error in thread execution: {e}")
 
 # 114*11*11/3600 = 3.8316666667 hrs
 # albums * avg-tracks * latency / 3600 = time in hours for loading
 
+logger.info("✅ All albums processed successfully.")
