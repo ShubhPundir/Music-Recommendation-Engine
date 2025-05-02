@@ -5,7 +5,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from fetchDataApi.last_fm import search_lastfm_track
 from fetchDataApi.musicbrainz import search_musicbrainz
 from fetchDataApi.genius import search_genius
-# from pprint import pprint
+from pprint import pprint
 
 def get_track_lyrics_metadata(artist, track):
     musicbrainz_data = search_musicbrainz(artist, track)
@@ -19,10 +19,6 @@ def get_track_lyrics_metadata(artist, track):
         "lastfm": lastfm_data,
         "genius": genius_data
     }
-    track_metadata["genius"].pop('lyrics')
-    track_metadata["genius"].pop('url')
-    track_metadata["lastfm"].pop('wiki')
-
 
     lyrics_data = {
         "musicbrainz_id": musicbrainz_data.get("recording_id"),
@@ -31,6 +27,11 @@ def get_track_lyrics_metadata(artist, track):
         "lastfm_wiki_summary": lastfm_data.get("wiki", {}).get("summary"),
         "lastfm_wiki_content": lastfm_data.get("wiki", {}).get("content")
     }
+
+    track_metadata["genius"].pop('lyrics')
+    track_metadata["genius"].pop('url')
+    track_metadata["lastfm"].pop('wiki')
+
 
     return track_metadata, lyrics_data
 

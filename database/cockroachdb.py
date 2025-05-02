@@ -12,7 +12,7 @@ load_dotenv()
 
 
 # Debug: Check if .env is loading correctly
-print("🔍 COCKROACH_HOST from .env:", os.getenv("COCKROACH_HOST"))
+# print("🔍 COCKROACH_HOST from .env:", os.getenv("COCKROACH_HOST"))
 
 def get_cockroach_connection():
     conn = psycopg2.connect(
@@ -25,19 +25,19 @@ def get_cockroach_connection():
     )
     return conn
 
-# Test the connection
-if __name__ == "__main__":
-    try:
-        conn = get_cockroach_connection()
-        print("✅ Connected to CockroachDB!")
+# # Test the connection
+# if __name__ == "__main__":
+#     try:
+#         conn = get_cockroach_connection()
+#         print("✅ Connected to CockroachDB!")
 
-        # Simple test query
-        with conn.cursor() as cursor:
-            cursor.execute("SELECT now();")
-            current_time = cursor.fetchone()
-            print("⏱️ Current Time from DB:", current_time[0])
+#         # Simple test query
+#         with conn.cursor() as cursor:
+#             cursor.execute("SELECT now();")
+#             current_time = cursor.fetchone()
+#             print("⏱️ Current Time from DB:", current_time[0])
         
-        conn.close()
-    except Exception as e:
-        print("❌ Connection failed:")
-        print(e)
+#         conn.close()
+#     except Exception as e:
+#         print("❌ Connection failed:")
+#         print("\t",e)
