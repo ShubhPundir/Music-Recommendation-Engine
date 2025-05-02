@@ -12,11 +12,6 @@ def get_song_metadata(artist, track):
         "genius": search_genius(artist, track)
     }
 
-def compile_album(artist, album):
-    tracks = get_album_tracks_musicbrainz(artist_name=artist, album_name=album)
-    print(f"Compiling {tracks} in album: {album} by {artist}")
-    print(f"Number of tracks: {len(tracks)}")
-
 
 
 print("-------"*15)
@@ -24,8 +19,6 @@ print("-------"*15)
 prompted_artist = "The Beatles"
 prompted_track = "A Hard Day's Night"
 prompted_album = "Please Please Me"
-
-# compile_album(prompted_artist, prompted_album)
 
 metadata = get_song_metadata(prompted_artist, prompted_track)
 

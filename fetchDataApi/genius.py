@@ -35,7 +35,6 @@ def search_genius(artist, track):
             "album": song_data.get("album", {}).get("name", "Unknown"),
             "release_date": song_data.get("release_date", "Unknown"),
             "song_art_image_url": song_data.get("song_art_image_url", ""),
-            "annotations": [],
             "verified": song_data.get("verified", False)
         }
     except Exception as e:
