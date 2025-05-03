@@ -72,6 +72,7 @@ def main():
             except Exception as e:
                 logger.error(f"[ERROR] Uncaught exception in thread: {e}")
 
+    logger.info(f"[DONE] All tracks processed, I  hope this death worshipping piece of code works")
 
 if __name__ == "__main__":
     main()

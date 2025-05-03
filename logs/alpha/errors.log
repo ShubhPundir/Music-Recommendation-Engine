@@ -1,0 +1,11 @@
+2025-05-04 02:54:04,545 - ERROR - [EXCEPTION] Error processing track pete davidson (0bdf1cc9-502b-4cf1-97a8-1037422e77e4): unknown error
+2025-05-04 02:54:04,545 - ERROR - [EXCEPTION] Error processing track Default (0b0c657b-8f1f-4c16-bd48-c4d0d31e78d7): no connection to the server
+
+2025-05-04 02:54:04,546 - ERROR - [EXCEPTION] Error processing track Little Freak (0aa8109d-8f18-4940-aba5-a7085a63732e): no connection to the server
+
+2025-05-04 02:54:04,546 - ERROR - [EXCEPTION] Error processing track Die With a Smile (09e3ee84-1a1e-41cd-b911-b3b25413bf51): no connection to the server
+
+2025-05-04 02:54:15,283 - ERROR - [EXCEPTION] Error processing track my hair (0c1481db-8f8f-46ba-ba51-a238617c62b1): connection already closed
+2025-05-04 02:55:38,655 - ERROR - [EXCEPTION] Error processing track Daydreaming (0db9b3f4-3340-444c-a4f0-322057fc79be): connection already closed
+2025-05-04 02:55:42,831 - ERROR - [EXCEPTION] Error processing track To the Moon and Back (0c6652d7-1b12-44b4-b673-e63a0006bf90): connection already closed
+2025-05-04 02:55:58,974 - ERROR - [EXCEPTION] Error processing track Love Without Tragedy / Mother Mary (0c543b43-9332-4e3c-8108-af9c3d54fae4): connection already closed
