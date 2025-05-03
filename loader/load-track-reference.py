@@ -7,7 +7,7 @@ from fetchDataApi.musicbrainz import get_track_details_musicbrainz
 
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from psycopg2 import sql
-import time
+
 
 def fetch_musicbrainz_ids():
     """

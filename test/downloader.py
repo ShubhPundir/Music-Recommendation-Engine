@@ -47,7 +47,7 @@ def search_and_download_wav(song_name, output_filename="output.wav"):
         print(f"\n❌ An error occurred: {e}")
 
 # Example usage
-song_query = "Please Please Me"
+song_query = "I want to hold your hand"
 artist_name = "The Beatles"
 download_name = f"{song_query.replace(' ', '_')}-{artist_name.replace(' ', '_')}.wav"
 search_and_download_wav(f"{song_query} by {artist_name}", download_name)

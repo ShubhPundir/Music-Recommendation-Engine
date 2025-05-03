@@ -1,13 +1,11 @@
 import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-## ensures that fetchDataApi is not searched within the listing of python modules, but our root directories, WOW LOL
-
 
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, size, explode, countDistinct, sum
 
-from database.cockroachdb import get_cockroach_connection
+# from database.cockroachdb import get_cockroach_connection
 
 # MongoDB connection details
 MONGO_ATLAS_URI = "mongodb+srv://shbpndr:CrVz9nzipaLOZFVk@sounds-similar.8sd8tnl.mongodb.net/"
