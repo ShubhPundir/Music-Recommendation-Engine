@@ -1,6 +1,7 @@
 import os
 import requests
 from dotenv import load_dotenv
+import time
 
 load_dotenv()
 MUSICBRAINZ_USER_AGENT = os.getenv("MUSICBRAINZ_USER_AGENT")
@@ -131,3 +132,81 @@ def get_album_tracks_musicbrainz(artist_name, album_name):
             track_titles.append(track["title"])
 
     return track_titles
+
+def get_track_details_musicbrainz(recording_id):
+    """
+    Fetch detailed information about a recording using its MusicBrainz ID.
+    """
+    url = f"{base_url}/recording/{recording_id}"
+    params = {
+        "fmt": "json",
+        "inc": "artist-credits+releases"
+    }
+
+    time.sleep(1.1)  # Respect MusicBrainz rate limits
+
+    try:
+        response = requests.get(url, params=params, headers=headers)
+        response.raise_for_status()
+        data = response.json()
+
+        # Basic recording info
+        title = data.get("title", "")
+        length = data.get("length", 0)
+
+        artist_credit = data.get("artist-credit")
+
+        if artist_credit and isinstance(artist_credit, list):
+            artist_info = artist_credit[0].get("artist", {}) or {}
+        else:
+            artist_info = {}
+
+        artist_name = artist_info.get("name", "") or ""
+        artist_id = artist_info.get("id", "") or ""
+
+        # First release info
+        releases = data.get("releases", []) or []
+        release = releases[0] if releases and releases[0] else {}
+
+        album_title = release.get("title", "") or ""
+        album_id = release.get("id", "") or ""
+
+        # print(173)
+
+        # Normalize release date
+        release_events = release.get("release-events", []) or []
+        first_event = release_events[0] if release_events else {}
+        raw_date = first_event.get("date", "") or ""
+        if raw_date:
+            parts = raw_date.split("-")
+            if len(parts) == 1:
+                release_date = f"{parts[0]}-01-01"
+            elif len(parts) == 2:
+                release_date = f"{parts[0]}-{parts[1]}-01"
+            else:
+                release_date = raw_date
+        else:
+            release_date = None
+
+        # print(191)
+
+        area = first_event.get("area") or {}
+        iso_codes = area.get("iso-3166-1-codes") or []
+        country = iso_codes[0] if iso_codes else "NULL"
+
+        return {
+            "recording_id": recording_id,
+            "title": title,
+            "artist": artist_name,
+            "artist_id": artist_id,
+            "album": album_title,
+            "album_id": album_id,
+            "release_date": release_date,
+            "country": country,
+            "length": length
+        }
+
+    except requests.exceptions.RequestException as e:
+        return {"error": f"Request failed: {str(e)}"}
+    except Exception as e:
+        return {"error": f"Unexpected error: {str(e)}"}

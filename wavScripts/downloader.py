@@ -18,33 +18,36 @@ def search_and_download_wav(song_name, output_filename="output.wav"):
         'default_search': 'ytsearch1',
     }
 
-    with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-        info_dict = ydl.extract_info(song_name, download=True)
+    try:
+        with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+            info_dict = ydl.extract_info(song_name, download=True)
 
-        # Handle search result entry
-        if 'entries' in info_dict:
-            info_dict = info_dict['entries'][0]
+            # Handle search result entry
+            if 'entries' in info_dict:
+                info_dict = info_dict['entries'][0]
 
-        # Extract metadata
-        title = info_dict.get('title')
-        duration = info_dict.get('duration')
-        channel = info_dict.get('uploader')
-        url = info_dict.get('webpage_url')
+            # Extract metadata
+            title = info_dict.get('title', 'Unknown Title')
+            duration = info_dict.get('duration', 'Unknown Duration')
+            channel = info_dict.get('uploader', 'Unknown Channel')
+            url = info_dict.get('webpage_url', 'Unknown URL')
 
-    # Rename downloaded file
-    if os.path.exists(output_filename):
-        os.rename("temp.wav", output_filename)
-        print(f"\n✅ Download complete: {output_filename}")
-        print(f"🎵 Title      : {title}")
-        print(f"⏱  Duration   : {duration} seconds")
-        print(f"📺 Channel    : {channel}")
-        print(f"🔗 URL        : {url}\n")
-    else:
-        print("\n❌ Download failed or file not converted.")
+        # Rename downloaded file
+        temp_file = "temp.wav"
+        if os.path.exists(temp_file):
+            os.rename(temp_file, output_filename)
+            print(f"\n✅ Download complete: {output_filename}")
+            print(f"🎵 Title      : {title}")
+            print(f"⏱  Duration   : {duration} seconds")
+            print(f"📺 Channel    : {channel}")
+            print(f"🔗 URL        : {url}\n")
+        else:
+            print("\n❌ Download failed or file not converted.")
+    except Exception as e:
+        print(f"\n❌ An error occurred: {e}")
 
 # Example usage
-
-song_query = "Hit the road jack"
-artist_name = "Ray Charles"
-download_name = song_query.replace(" ", "_") + "-"+ artist_name + ".wav"
-search_and_download_wav(song_query + 'by' + artist_name, download_name)
+song_query = "Please Please Me"
+artist_name = "The Beatles"
+download_name = f"{song_query.replace(' ', '_')}-{artist_name.replace(' ', '_')}.wav"
+search_and_download_wav(f"{song_query} by {artist_name}", download_name)
