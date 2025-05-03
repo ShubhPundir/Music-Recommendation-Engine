@@ -12,6 +12,9 @@ def get_track_lyrics_metadata(artist, track):
     lastfm_data = search_lastfm_track(artist, track)
     genius_data = search_genius(artist, track)
 
+    if musicbrainz_data.get("recording_id") == None:
+        return None, None
+
     track_metadata = {
         "prompted_artist": artist,
         "prompted_track": track,
@@ -35,7 +38,7 @@ def get_track_lyrics_metadata(artist, track):
 
     return track_metadata, lyrics_data
 
-# x,y = get_track_lyrics_metadata("The Beatles", "Chains")
+# x,y = get_track_lyrics_metadata("Taylor Swift", "Breathe")
 # pprint(x)
 
 # print("-----"*10,"\n")
