@@ -52,8 +52,6 @@ CREATE TABLE audio_analysis (
     key TEXT,
     mode INT,
     time_signature INT,
-    is_processed BOOLEAN DEFAULT TRUE,
-    upload_timestamp TIMESTAMP DEFAULT NOW(),
 
     -- Musical Features
     danceability FLOAT,

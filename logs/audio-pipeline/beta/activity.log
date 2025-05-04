@@ -1,0 +1,1167 @@
+2025-05-04 02:59:51,270 - INFO - Fetched 1096 tracks from database.
+2025-05-04 02:59:51,295 - INFO - [STARTING] Starting processing with 8 threads.
+2025-05-04 02:59:51,296 - INFO - [SEARCHING] Searching YouTube for track 00b1397d-7f3e-4c59-bb42-ccd7fa17ee10: raindrops (an angel cried) Ariana Grande
+2025-05-04 02:59:51,296 - INFO - [SEARCHING] Searching YouTube for track 00c9dcab-4abf-47f5-9755-c5c805b779c7: Through the Wire Ye
+2025-05-04 02:59:51,297 - INFO - [SEARCHING] Searching YouTube for track 012e3459-b54d-49e9-b48d-d0922d295c5a: I'll Cry Instead The Beatles
+2025-05-04 02:59:51,297 - INFO - [SEARCHING] Searching YouTube for track 013a7fe3-0113-4604-a295-f74a0b88bf05: She’s Always a Woman Billy Joel
+2025-05-04 02:59:51,298 - INFO - [SEARCHING] Searching YouTube for track 01564f1c-99b2-466a-a60d-4e22a5008525: angel Kacey Musgraves
+2025-05-04 02:59:51,299 - INFO - [SEARCHING] Searching YouTube for track 0172efb9-b353-4e55-82cd-80136d98069f: Karma Police Radiohead
+2025-05-04 02:59:51,299 - INFO - [SEARCHING] Searching YouTube for track 01ae94a3-6f45-4ba8-9fba-3d2d44e7cfe4: Where the Money Flows Peter Cat Recording Co.
+2025-05-04 02:59:51,300 - INFO - [SEARCHING] Searching YouTube for track 01b3f322-c5c4-46d3-8558-d6a69a376d4f: Hold Up Demi Lovato
+2025-05-04 03:00:05,664 - INFO - [DOWNLOADED] Downloaded: Ariana Grande - raindrops (an angel cried) (Audio) (https://www.youtube.com/watch?v=-ZoJSLB2N18) for track 00b1397d-7f3e-4c59-bb42-ccd7fa17ee10
+2025-05-04 03:00:05,752 - INFO - [CORRECT] Metadata inserted for track 00b1397d-7f3e-4c59-bb42-ccd7fa17ee10: raindrops (an angel cried)
+2025-05-04 03:00:06,377 - INFO - [DOWNLOADED] Downloaded: Hold Up (https://www.youtube.com/watch?v=hakoZyX4QIc) for track 01b3f322-c5c4-46d3-8558-d6a69a376d4f
+2025-05-04 03:00:06,468 - INFO - [CORRECT] Metadata inserted for track 01b3f322-c5c4-46d3-8558-d6a69a376d4f: Hold Up
+2025-05-04 03:00:06,519 - INFO - [DOWNLOADED] Downloaded: I'll Cry Instead (Remastered 2009) (https://www.youtube.com/watch?v=zfnkMBOSIUQ) for track 012e3459-b54d-49e9-b48d-d0922d295c5a
+2025-05-04 03:00:06,612 - INFO - [CORRECT] Metadata inserted for track 012e3459-b54d-49e9-b48d-d0922d295c5a: I'll Cry Instead
+2025-05-04 03:00:06,961 - INFO - [DOWNLOADED] Downloaded: Billy Joel - She's Always a Woman (Official Audio) (https://www.youtube.com/watch?v=Cx3QmqV2pHg) for track 013a7fe3-0113-4604-a295-f74a0b88bf05
+2025-05-04 03:00:07,072 - INFO - [CORRECT] Metadata inserted for track 013a7fe3-0113-4604-a295-f74a0b88bf05: She’s Always a Woman
+2025-05-04 03:00:07,545 - INFO - [DOWNLOADED] Downloaded: Through The Wire (https://www.youtube.com/watch?v=AE8y25CcE6s) for track 00c9dcab-4abf-47f5-9755-c5c805b779c7
+2025-05-04 03:00:07,571 - INFO - [DOWNLOADED] Downloaded: Radiohead - Karma Police (https://www.youtube.com/watch?v=1uYWYWPc9HU) for track 0172efb9-b353-4e55-82cd-80136d98069f
+2025-05-04 03:00:07,650 - INFO - [CORRECT] Metadata inserted for track 00c9dcab-4abf-47f5-9755-c5c805b779c7: Through the Wire
+2025-05-04 03:00:07,650 - INFO - [CORRECT] Metadata inserted for track 0172efb9-b353-4e55-82cd-80136d98069f: Karma Police
+2025-05-04 03:00:07,681 - INFO - [DOWNLOADED] Downloaded: Peter Cat Recording Co. - Where the Money Flows (https://www.youtube.com/watch?v=Yh5NDSKwJvw) for track 01ae94a3-6f45-4ba8-9fba-3d2d44e7cfe4
+2025-05-04 03:00:07,726 - INFO - [DOWNLOADED] Downloaded: KACEY MUSGRAVES - angel (official lyric video) (https://www.youtube.com/watch?v=1jS-3q7qIfw) for track 01564f1c-99b2-466a-a60d-4e22a5008525
+2025-05-04 03:00:07,791 - INFO - [CORRECT] Metadata inserted for track 01ae94a3-6f45-4ba8-9fba-3d2d44e7cfe4: Where the Money Flows
+2025-05-04 03:00:07,792 - INFO - [CORRECT] Metadata inserted for track 01564f1c-99b2-466a-a60d-4e22a5008525: angel
+2025-05-04 03:00:37,571 - INFO - [AUDIO FEATURES] Audio features inserted for track 00b1397d-7f3e-4c59-bb42-ccd7fa17ee10: raindrops (an angel cried)
+2025-05-04 03:00:49,282 - INFO - [AUDIO FEATURES] Audio features inserted for track 012e3459-b54d-49e9-b48d-d0922d295c5a: I'll Cry Instead
+2025-05-04 03:00:49,285 - INFO - [SEARCHING] Searching YouTube for track 025a4d55-4ba8-4943-9269-6c05bf035328: King Kunta Kendrick Lamar
+2025-05-04 03:00:55,813 - INFO - [DOWNLOADED] Downloaded: Kendrick Lamar - King Kunta (https://www.youtube.com/watch?v=hRK7PVJFbS8) for track 025a4d55-4ba8-4943-9269-6c05bf035328
+2025-05-04 03:00:55,935 - INFO - [CORRECT] Metadata inserted for track 025a4d55-4ba8-4943-9269-6c05bf035328: King Kunta
+2025-05-04 03:00:57,088 - INFO - [AUDIO FEATURES] Audio features inserted for track 01564f1c-99b2-466a-a60d-4e22a5008525: angel
+2025-05-04 03:00:57,096 - INFO - [SEARCHING] Searching YouTube for track 02c531af-a082-44c3-9115-a1a9cc5dff17: Be Alright Ariana Grande
+2025-05-04 03:01:03,119 - INFO - [DOWNLOADED] Downloaded: Ariana Grande - Be Alright (Official Audio) (https://www.youtube.com/watch?v=eBAHqRnSgRw) for track 02c531af-a082-44c3-9115-a1a9cc5dff17
+2025-05-04 03:01:03,234 - INFO - [CORRECT] Metadata inserted for track 02c531af-a082-44c3-9115-a1a9cc5dff17: Be Alright
+2025-05-04 03:01:12,782 - INFO - [AUDIO FEATURES] Audio features inserted for track 01b3f322-c5c4-46d3-8558-d6a69a376d4f: Hold Up
+2025-05-04 03:01:12,810 - INFO - [SEARCHING] Searching YouTube for track 033b9896-629a-4722-87f6-6e4ca5d74b89: WTF Do I Know Miley Cyrus
+2025-05-04 03:01:18,788 - INFO - [DOWNLOADED] Downloaded: Miley Cyrus - WTF Do I Know (Audio) (https://www.youtube.com/watch?v=yqwYgpnCRGA) for track 033b9896-629a-4722-87f6-6e4ca5d74b89
+2025-05-04 03:01:18,867 - INFO - [CORRECT] Metadata inserted for track 033b9896-629a-4722-87f6-6e4ca5d74b89: WTF Do I Know
+2025-05-04 03:01:24,374 - INFO - [AUDIO FEATURES] Audio features inserted for track 013a7fe3-0113-4604-a295-f74a0b88bf05: She’s Always a Woman
+2025-05-04 03:01:24,398 - INFO - [SEARCHING] Searching YouTube for track 0340c9e5-3edf-4970-91c2-b0eda6dbac0e: Second One to Know Chris Stapleton
+2025-05-04 03:01:24,931 - INFO - [AUDIO FEATURES] Audio features inserted for track 00c9dcab-4abf-47f5-9755-c5c805b779c7: Through the Wire
+2025-05-04 03:01:24,952 - INFO - [SEARCHING] Searching YouTube for track 03510dcb-0a80-4aac-ac11-baf75dddfd17: MELTDOWN Travis Scott
+2025-05-04 03:01:31,271 - INFO - [DOWNLOADED] Downloaded: Chris Stapleton - Second One To Know (Official Audio) (https://www.youtube.com/watch?v=ISDXB9RGL_E) for track 0340c9e5-3edf-4970-91c2-b0eda6dbac0e
+2025-05-04 03:01:31,386 - INFO - [CORRECT] Metadata inserted for track 0340c9e5-3edf-4970-91c2-b0eda6dbac0e: Second One to Know
+2025-05-04 03:01:32,672 - INFO - [DOWNLOADED] Downloaded: Travis Scott - MELTDOWN (Official Audio) ft. Drake (https://www.youtube.com/watch?v=LuKm4L9ryB0) for track 03510dcb-0a80-4aac-ac11-baf75dddfd17
+2025-05-04 03:01:32,825 - INFO - [CORRECT] Metadata inserted for track 03510dcb-0a80-4aac-ac11-baf75dddfd17: MELTDOWN
+2025-05-04 03:01:40,720 - INFO - [AUDIO FEATURES] Audio features inserted for track 0172efb9-b353-4e55-82cd-80136d98069f: Karma Police
+2025-05-04 03:01:40,723 - INFO - [SEARCHING] Searching YouTube for track 03632781-7a52-450b-b56b-b147ea06411a: Facebook Story Frank Ocean
+2025-05-04 03:01:46,073 - INFO - [DOWNLOADED] Downloaded: Frank Ocean - Facebook Story (https://www.youtube.com/watch?v=yWVoqpXfiPA) for track 03632781-7a52-450b-b56b-b147ea06411a
+2025-05-04 03:01:46,183 - INFO - [CORRECT] Metadata inserted for track 03632781-7a52-450b-b56b-b147ea06411a: Facebook Story
+2025-05-04 03:02:09,093 - INFO - [AUDIO FEATURES] Audio features inserted for track 02c531af-a082-44c3-9115-a1a9cc5dff17: Be Alright
+2025-05-04 03:02:09,115 - INFO - [SEARCHING] Searching YouTube for track 036892d0-355c-4436-bb06-47e9f235e4b2: Far SZA
+2025-05-04 03:02:14,402 - INFO - [AUDIO FEATURES] Audio features inserted for track 03632781-7a52-450b-b56b-b147ea06411a: Facebook Story
+2025-05-04 03:02:14,423 - INFO - [SEARCHING] Searching YouTube for track 0373d146-0f84-453d-9704-4873d001b024: This Love Maroon 5
+2025-05-04 03:02:15,235 - INFO - [DOWNLOADED] Downloaded: SZA - Far (Audio) (https://www.youtube.com/watch?v=HQPrprfg_FA) for track 036892d0-355c-4436-bb06-47e9f235e4b2
+2025-05-04 03:02:15,352 - INFO - [CORRECT] Metadata inserted for track 036892d0-355c-4436-bb06-47e9f235e4b2: Far
+2025-05-04 03:02:18,343 - INFO - [AUDIO FEATURES] Audio features inserted for track 033b9896-629a-4722-87f6-6e4ca5d74b89: WTF Do I Know
+2025-05-04 03:02:18,353 - INFO - [SEARCHING] Searching YouTube for track 038ffd68-09f6-4476-a7a9-fb393ea61564: Touch the Sky Ye
+2025-05-04 03:02:18,447 - INFO - [AUDIO FEATURES] Audio features inserted for track 025a4d55-4ba8-4943-9269-6c05bf035328: King Kunta
+2025-05-04 03:02:18,453 - INFO - [SEARCHING] Searching YouTube for track 039326dc-e853-4de8-84c5-dd91c31d4256: Self Control Frank Ocean
+2025-05-04 03:02:20,453 - INFO - [DOWNLOADED] Downloaded: Maroon 5 - This Love (https://www.youtube.com/watch?v=XPpTgCho5ZA) for track 0373d146-0f84-453d-9704-4873d001b024
+2025-05-04 03:02:20,584 - INFO - [CORRECT] Metadata inserted for track 0373d146-0f84-453d-9704-4873d001b024: This Love
+2025-05-04 03:02:25,814 - INFO - [DOWNLOADED] Downloaded: Touch The Sky (https://www.youtube.com/watch?v=B95OUKk7alM) for track 038ffd68-09f6-4476-a7a9-fb393ea61564
+2025-05-04 03:02:25,958 - INFO - [CORRECT] Metadata inserted for track 038ffd68-09f6-4476-a7a9-fb393ea61564: Touch the Sky
+2025-05-04 03:02:26,216 - INFO - [DOWNLOADED] Downloaded: Frank Ocean - Self Control (https://www.youtube.com/watch?v=BME88lS6aVY) for track 039326dc-e853-4de8-84c5-dd91c31d4256
+2025-05-04 03:02:26,386 - INFO - [CORRECT] Metadata inserted for track 039326dc-e853-4de8-84c5-dd91c31d4256: Self Control
+2025-05-04 03:02:37,447 - INFO - [AUDIO FEATURES] Audio features inserted for track 0340c9e5-3edf-4970-91c2-b0eda6dbac0e: Second One to Know
+2025-05-04 03:02:37,469 - INFO - [SEARCHING] Searching YouTube for track 03962935-7001-42c2-82a9-014422844f6b: Goodnight Gotham Rihanna
+2025-05-04 03:02:37,883 - INFO - [AUDIO FEATURES] Audio features inserted for track 01ae94a3-6f45-4ba8-9fba-3d2d44e7cfe4: Where the Money Flows
+2025-05-04 03:02:37,890 - INFO - [SEARCHING] Searching YouTube for track 03b007d9-0b39-4ddc-9e12-397cc08778a7: Confirmation Justin Bieber
+2025-05-04 03:02:37,971 - INFO - [SEARCHING] Searching YouTube for track 042c0b8c-479b-4d21-a05e-5d7c32d46149: Shot Down in Flames AC/DC
+2025-05-04 03:02:44,614 - INFO - [DOWNLOADED] Downloaded: Rihanna - Goodnight Gotham (https://www.youtube.com/watch?v=UnSrgScjSE8) for track 03962935-7001-42c2-82a9-014422844f6b
+2025-05-04 03:02:44,707 - INFO - [CORRECT] Metadata inserted for track 03962935-7001-42c2-82a9-014422844f6b: Goodnight Gotham
+2025-05-04 03:02:45,547 - INFO - [DOWNLOADED] Downloaded: Justin Bieber - Confirmation (Audio) (https://www.youtube.com/watch?v=q1uwl3ohoKM) for track 03b007d9-0b39-4ddc-9e12-397cc08778a7
+2025-05-04 03:02:45,632 - INFO - [CORRECT] Metadata inserted for track 03b007d9-0b39-4ddc-9e12-397cc08778a7: Confirmation
+2025-05-04 03:02:46,007 - INFO - [DOWNLOADED] Downloaded: AC/DC - Shot Down In Flames (Official Video) (https://www.youtube.com/watch?v=UKwVvSleM6w) for track 042c0b8c-479b-4d21-a05e-5d7c32d46149
+2025-05-04 03:02:46,124 - INFO - [CORRECT] Metadata inserted for track 042c0b8c-479b-4d21-a05e-5d7c32d46149: Shot Down in Flames
+2025-05-04 03:02:59,670 - INFO - [AUDIO FEATURES] Audio features inserted for track 03510dcb-0a80-4aac-ac11-baf75dddfd17: MELTDOWN
+2025-05-04 03:02:59,681 - INFO - [SEARCHING] Searching YouTube for track 04484bf3-6617-4a99-ae67-f15a440fcd6c: U Not Like Me 50 Cent
+2025-05-04 03:03:05,650 - INFO - [DOWNLOADED] Downloaded: U Not Like Me (https://www.youtube.com/watch?v=YEwiw6Wgtlg) for track 04484bf3-6617-4a99-ae67-f15a440fcd6c
+2025-05-04 03:03:05,787 - INFO - [CORRECT] Metadata inserted for track 04484bf3-6617-4a99-ae67-f15a440fcd6c: U Not Like Me
+2025-05-04 03:03:07,971 - INFO - [AUDIO FEATURES] Audio features inserted for track 03962935-7001-42c2-82a9-014422844f6b: Goodnight Gotham
+2025-05-04 03:03:07,979 - INFO - [SEARCHING] Searching YouTube for track 045ccc99-34d4-4c23-90a9-1c16101e86bb: I Should Have Known Better The Beatles
+2025-05-04 03:03:14,165 - INFO - [DOWNLOADED] Downloaded: I Should Have Known Better (Remastered 2009) (https://www.youtube.com/watch?v=5en2JMLA8Z0) for track 045ccc99-34d4-4c23-90a9-1c16101e86bb
+2025-05-04 03:03:14,283 - INFO - [CORRECT] Metadata inserted for track 045ccc99-34d4-4c23-90a9-1c16101e86bb: I Should Have Known Better
+2025-05-04 03:03:18,915 - INFO - [AUDIO FEATURES] Audio features inserted for track 036892d0-355c-4436-bb06-47e9f235e4b2: Far
+2025-05-04 03:03:18,920 - INFO - [SEARCHING] Searching YouTube for track 04d36ad3-0f1d-4aca-af5e-16e5fa8dbdcd: STOP TRYING TO BE GOD Travis Scott
+2025-05-04 03:03:24,959 - INFO - [DOWNLOADED] Downloaded: Travis Scott - STOP TRYING TO BE GOD (https://www.youtube.com/watch?v=YqvCptqhHfs) for track 04d36ad3-0f1d-4aca-af5e-16e5fa8dbdcd
+2025-05-04 03:03:25,064 - INFO - [CORRECT] Metadata inserted for track 04d36ad3-0f1d-4aca-af5e-16e5fa8dbdcd: STOP TRYING TO BE GOD
+2025-05-04 03:03:31,563 - INFO - [AUDIO FEATURES] Audio features inserted for track 0373d146-0f84-453d-9704-4873d001b024: This Love
+2025-05-04 03:03:31,588 - INFO - [SEARCHING] Searching YouTube for track 04e0270b-16c8-44ba-a7fe-dc27ec6a86c4: Let Down Radiohead
+2025-05-04 03:03:38,100 - INFO - [DOWNLOADED] Downloaded: Let Down (Remastered) (https://www.youtube.com/watch?v=ZVgHPSyEIqk) for track 04e0270b-16c8-44ba-a7fe-dc27ec6a86c4
+2025-05-04 03:03:38,208 - INFO - [CORRECT] Metadata inserted for track 04e0270b-16c8-44ba-a7fe-dc27ec6a86c4: Let Down
+2025-05-04 03:03:43,815 - INFO - [AUDIO FEATURES] Audio features inserted for track 03b007d9-0b39-4ddc-9e12-397cc08778a7: Confirmation
+2025-05-04 03:03:43,842 - INFO - [SEARCHING] Searching YouTube for track 04e92e7e-2308-4d08-998b-7dcb6bc37612: Ever Since New York Harry Styles
+2025-05-04 03:03:47,771 - INFO - [AUDIO FEATURES] Audio features inserted for track 038ffd68-09f6-4476-a7a9-fb393ea61564: Touch the Sky
+2025-05-04 03:03:47,776 - INFO - [SEARCHING] Searching YouTube for track 04f7ed5b-bfbc-4b75-860e-792a0aa84fe7: Wanksta 50 Cent
+2025-05-04 03:03:48,531 - INFO - [AUDIO FEATURES] Audio features inserted for track 039326dc-e853-4de8-84c5-dd91c31d4256: Self Control
+2025-05-04 03:03:48,546 - INFO - [SEARCHING] Searching YouTube for track 0501d394-60d9-4d55-8415-ce420dad9b54: The National Anthem Radiohead
+2025-05-04 03:03:49,496 - INFO - [DOWNLOADED] Downloaded: Harry Styles - Ever Since New York (Audio) (https://www.youtube.com/watch?v=5bRDGQAUag8) for track 04e92e7e-2308-4d08-998b-7dcb6bc37612
+2025-05-04 03:03:49,585 - INFO - [CORRECT] Metadata inserted for track 04e92e7e-2308-4d08-998b-7dcb6bc37612: Ever Since New York
+2025-05-04 03:03:54,303 - INFO - [DOWNLOADED] Downloaded: 50 Cent - Wanksta (Official Music Video) (https://www.youtube.com/watch?v=ShOQQOy5pf8) for track 04f7ed5b-bfbc-4b75-860e-792a0aa84fe7
+2025-05-04 03:03:54,444 - INFO - [CORRECT] Metadata inserted for track 04f7ed5b-bfbc-4b75-860e-792a0aa84fe7: Wanksta
+2025-05-04 03:03:56,168 - INFO - [DOWNLOADED] Downloaded: The National Anthem (https://www.youtube.com/watch?v=NfQD1QiQ9o4) for track 0501d394-60d9-4d55-8415-ce420dad9b54
+2025-05-04 03:03:56,296 - INFO - [AUDIO FEATURES] Audio features inserted for track 042c0b8c-479b-4d21-a05e-5d7c32d46149: Shot Down in Flames
+2025-05-04 03:03:56,306 - INFO - [CORRECT] Metadata inserted for track 0501d394-60d9-4d55-8415-ce420dad9b54: The National Anthem
+2025-05-04 03:03:56,327 - INFO - [SEARCHING] Searching YouTube for track 05e5ca93-eb60-491b-9669-8bac0307d52d: Espresso Sabrina Carpenter
+2025-05-04 03:04:02,160 - INFO - [DOWNLOADED] Downloaded: Sabrina Carpenter - Espresso (Official Video) (https://www.youtube.com/watch?v=eVli-tstM5E) for track 05e5ca93-eb60-491b-9669-8bac0307d52d
+2025-05-04 03:04:02,299 - INFO - [CORRECT] Metadata inserted for track 05e5ca93-eb60-491b-9669-8bac0307d52d: Espresso
+2025-05-04 03:04:10,374 - INFO - [AUDIO FEATURES] Audio features inserted for track 045ccc99-34d4-4c23-90a9-1c16101e86bb: I Should Have Known Better
+2025-05-04 03:04:10,403 - INFO - [SEARCHING] Searching YouTube for track 05ee9ba8-fd70-4c4b-b4c8-1cb80a83a9a2: Golden Hour Kacey Musgraves
+2025-05-04 03:04:15,740 - INFO - [DOWNLOADED] Downloaded: Kacey Musgraves - Golden Hour (Official Audio) (https://www.youtube.com/watch?v=maONL_HfI20) for track 05ee9ba8-fd70-4c4b-b4c8-1cb80a83a9a2
+2025-05-04 03:04:15,870 - INFO - [CORRECT] Metadata inserted for track 05ee9ba8-fd70-4c4b-b4c8-1cb80a83a9a2: Golden Hour
+2025-05-04 03:04:26,156 - INFO - [AUDIO FEATURES] Audio features inserted for track 04484bf3-6617-4a99-ae67-f15a440fcd6c: U Not Like Me
+2025-05-04 03:04:26,194 - INFO - [SEARCHING] Searching YouTube for track 060134b9-d7aa-432f-9d0a-2e30eccc02de: Three Empty Words Shawn Mendes
+2025-05-04 03:04:32,476 - INFO - [DOWNLOADED] Downloaded: Shawn Mendes - Three Empty Words (Official Audio) (https://www.youtube.com/watch?v=XtOr7R1V5ac) for track 060134b9-d7aa-432f-9d0a-2e30eccc02de
+2025-05-04 03:04:32,623 - INFO - [CORRECT] Metadata inserted for track 060134b9-d7aa-432f-9d0a-2e30eccc02de: Three Empty Words
+2025-05-04 03:04:52,045 - INFO - [AUDIO FEATURES] Audio features inserted for track 04d36ad3-0f1d-4aca-af5e-16e5fa8dbdcd: STOP TRYING TO BE GOD
+2025-05-04 03:04:52,049 - INFO - [SEARCHING] Searching YouTube for track 062b0936-8d09-435f-8b40-d365b71548da: Fuck You Dr. Dre
+2025-05-04 03:04:58,936 - INFO - [DOWNLOADED] Downloaded: Dr. Dre - F**k You (Feat. Snoop Dogg & Devin The Dude) (https://www.youtube.com/watch?v=MEGr-XSjEKU) for track 062b0936-8d09-435f-8b40-d365b71548da
+2025-05-04 03:04:59,056 - INFO - [CORRECT] Metadata inserted for track 062b0936-8d09-435f-8b40-d365b71548da: Fuck You
+2025-05-04 03:05:08,765 - INFO - [AUDIO FEATURES] Audio features inserted for track 04f7ed5b-bfbc-4b75-860e-792a0aa84fe7: Wanksta
+2025-05-04 03:05:08,773 - INFO - [SEARCHING] Searching YouTube for track 0635e578-53be-4a18-9ee0-6a9505e8a5e2: Like My Style 50 Cent
+2025-05-04 03:05:12,841 - INFO - [AUDIO FEATURES] Audio features inserted for track 05e5ca93-eb60-491b-9669-8bac0307d52d: Espresso
+2025-05-04 03:05:12,845 - INFO - [SEARCHING] Searching YouTube for track 066c955d-0140-4425-bb13-9499e9691f68: Sex With Me Rihanna
+2025-05-04 03:05:14,657 - INFO - [DOWNLOADED] Downloaded: Like My Style (https://www.youtube.com/watch?v=o3Gm41HKdQA) for track 0635e578-53be-4a18-9ee0-6a9505e8a5e2
+2025-05-04 03:05:14,748 - INFO - [CORRECT] Metadata inserted for track 0635e578-53be-4a18-9ee0-6a9505e8a5e2: Like My Style
+2025-05-04 03:05:17,957 - INFO - [AUDIO FEATURES] Audio features inserted for track 04e0270b-16c8-44ba-a7fe-dc27ec6a86c4: Let Down
+2025-05-04 03:05:17,963 - INFO - [SEARCHING] Searching YouTube for track 07028e87-034d-4430-97f2-cfa19c9c1fcc: Electioneering Radiohead
+2025-05-04 03:05:18,888 - INFO - [DOWNLOADED] Downloaded: Sex With Me (https://www.youtube.com/watch?v=k4X9bXkKUJE) for track 066c955d-0140-4425-bb13-9499e9691f68
+2025-05-04 03:05:18,991 - INFO - [CORRECT] Metadata inserted for track 066c955d-0140-4425-bb13-9499e9691f68: Sex With Me
+2025-05-04 03:05:21,613 - INFO - [AUDIO FEATURES] Audio features inserted for track 04e92e7e-2308-4d08-998b-7dcb6bc37612: Ever Since New York
+2025-05-04 03:05:21,618 - INFO - [SEARCHING] Searching YouTube for track 070620e5-e755-491d-9c7e-7c2ab4199292: AMERIICAN REQUIEM Beyoncé
+2025-05-04 03:05:23,142 - INFO - [DOWNLOADED] Downloaded: Electioneering (https://www.youtube.com/watch?v=3DtgWrFTtQk) for track 07028e87-034d-4430-97f2-cfa19c9c1fcc
+2025-05-04 03:05:23,234 - INFO - [CORRECT] Metadata inserted for track 07028e87-034d-4430-97f2-cfa19c9c1fcc: Electioneering
+2025-05-04 03:05:28,540 - INFO - [DOWNLOADED] Downloaded: Beyoncé - AMERIICAN REQUIEM (Official Lyric Video) (https://www.youtube.com/watch?v=vp3BSjJdyow) for track 070620e5-e755-491d-9c7e-7c2ab4199292
+2025-05-04 03:05:28,683 - INFO - [CORRECT] Metadata inserted for track 070620e5-e755-491d-9c7e-7c2ab4199292: AMERIICAN REQUIEM
+2025-05-04 03:05:29,369 - INFO - [AUDIO FEATURES] Audio features inserted for track 05ee9ba8-fd70-4c4b-b4c8-1cb80a83a9a2: Golden Hour
+2025-05-04 03:05:29,403 - INFO - [SEARCHING] Searching YouTube for track 07415c45-a5ba-4f8d-8adc-5c6b047fc9fc: Razor Blade Luke Bryan
+2025-05-04 03:05:35,296 - INFO - [DOWNLOADED] Downloaded: Razor Blade (https://www.youtube.com/watch?v=EOmQH-502gY) for track 07415c45-a5ba-4f8d-8adc-5c6b047fc9fc
+2025-05-04 03:05:35,433 - INFO - [CORRECT] Metadata inserted for track 07415c45-a5ba-4f8d-8adc-5c6b047fc9fc: Razor Blade
+2025-05-04 03:05:41,372 - INFO - [AUDIO FEATURES] Audio features inserted for track 060134b9-d7aa-432f-9d0a-2e30eccc02de: Three Empty Words
+2025-05-04 03:05:41,400 - INFO - [SEARCHING] Searching YouTube for track 075a9095-3d13-4c9c-af79-9337237692a4: The Next Episode Dr. Dre
+2025-05-04 03:05:47,806 - INFO - [DOWNLOADED] Downloaded: Dr. Dre - The Next Episode (Official Music Video) ft. Snoop Dogg, Kurupt, Nate Dogg (https://www.youtube.com/watch?v=QZXc39hT8t4) for track 075a9095-3d13-4c9c-af79-9337237692a4
+2025-05-04 03:05:47,904 - INFO - [CORRECT] Metadata inserted for track 075a9095-3d13-4c9c-af79-9337237692a4: The Next Episode
+2025-05-04 03:05:54,813 - INFO - [AUDIO FEATURES] Audio features inserted for track 0501d394-60d9-4d55-8415-ce420dad9b54: The National Anthem
+2025-05-04 03:05:54,840 - INFO - [SEARCHING] Searching YouTube for track 077bcd8c-d844-4f3a-8c18-606cb85d1059: BREAK MY SOUL Beyoncé
+2025-05-04 03:06:00,857 - INFO - [DOWNLOADED] Downloaded: Beyoncé - BREAK MY SOUL (Official Lyric Video) (https://www.youtube.com/watch?v=yjki-9Pthh0) for track 077bcd8c-d844-4f3a-8c18-606cb85d1059
+2025-05-04 03:06:00,988 - INFO - [CORRECT] Metadata inserted for track 077bcd8c-d844-4f3a-8c18-606cb85d1059: BREAK MY SOUL
+2025-05-04 03:06:03,266 - INFO - [AUDIO FEATURES] Audio features inserted for track 062b0936-8d09-435f-8b40-d365b71548da: Fuck You
+2025-05-04 03:06:03,287 - INFO - [SEARCHING] Searching YouTube for track 078af7df-cea9-4720-8a06-46d908a3b50b: Shit I'm Dreaming Peter Cat Recording Co.
+2025-05-04 03:06:09,890 - INFO - [DOWNLOADED] Downloaded: Shit I'm Dreaming (https://www.youtube.com/watch?v=i3gWl2D6jD4) for track 078af7df-cea9-4720-8a06-46d908a3b50b
+2025-05-04 03:06:10,019 - INFO - [CORRECT] Metadata inserted for track 078af7df-cea9-4720-8a06-46d908a3b50b: Shit I'm Dreaming
+2025-05-04 03:06:16,375 - INFO - [AUDIO FEATURES] Audio features inserted for track 0635e578-53be-4a18-9ee0-6a9505e8a5e2: Like My Style
+2025-05-04 03:06:16,393 - INFO - [SEARCHING] Searching YouTube for track 07bb7cd7-fd7a-4106-bff5-28eb150d1a3d: Daylight Harry Styles
+2025-05-04 03:06:25,457 - INFO - [AUDIO FEATURES] Audio features inserted for track 066c955d-0140-4425-bb13-9499e9691f68: Sex With Me
+2025-05-04 03:06:25,470 - INFO - [SEARCHING] Searching YouTube for track 07bff688-08e1-460e-a1fa-420f41fac29b: Fitter Happier Radiohead
+2025-05-04 03:06:26,364 - INFO - [DOWNLOADED] Downloaded: Harry Styles - Daylight (Official Video) (https://www.youtube.com/watch?v=-UJCMfuFtSQ) for track 07bb7cd7-fd7a-4106-bff5-28eb150d1a3d
+2025-05-04 03:06:26,468 - INFO - [CORRECT] Metadata inserted for track 07bb7cd7-fd7a-4106-bff5-28eb150d1a3d: Daylight
+2025-05-04 03:06:26,477 - ERROR - [EXCEPTION] Error processing track Daylight (07bb7cd7-fd7a-4106-bff5-28eb150d1a3d): Error opening <_io.BytesIO object at 0x000001C21CA0C7C0>: Format not recognised.
+2025-05-04 03:06:26,483 - INFO - [SEARCHING] Searching YouTube for track 08011b80-6485-4861-b153-7f3f7634bf08: Where Do Broken Hearts Go One Direction
+2025-05-04 03:06:31,801 - INFO - [DOWNLOADED] Downloaded: Fitter Happier (https://www.youtube.com/watch?v=O4SzvsMFaek) for track 07bff688-08e1-460e-a1fa-420f41fac29b
+2025-05-04 03:06:31,916 - INFO - [CORRECT] Metadata inserted for track 07bff688-08e1-460e-a1fa-420f41fac29b: Fitter Happier
+2025-05-04 03:06:33,722 - INFO - [DOWNLOADED] Downloaded: One Direction - Where Do Broken Hearts Go (Audio) (https://www.youtube.com/watch?v=0Necz5glI4I) for track 08011b80-6485-4861-b153-7f3f7634bf08
+2025-05-04 03:06:33,862 - INFO - [CORRECT] Metadata inserted for track 08011b80-6485-4861-b153-7f3f7634bf08: Where Do Broken Hearts Go
+2025-05-04 03:06:42,966 - INFO - [AUDIO FEATURES] Audio features inserted for track 07028e87-034d-4430-97f2-cfa19c9c1fcc: Electioneering
+2025-05-04 03:06:42,978 - INFO - [SEARCHING] Searching YouTube for track 0863470f-3aa2-4e12-b8d4-00cf27aa743d: Down to One Luke Bryan
+2025-05-04 03:06:49,107 - INFO - [AUDIO FEATURES] Audio features inserted for track 07415c45-a5ba-4f8d-8adc-5c6b047fc9fc: Razor Blade
+2025-05-04 03:06:49,132 - INFO - [SEARCHING] Searching YouTube for track 0876f8b3-6a22-4526-bfaf-df35634e4a57: Gold Digger Ye
+2025-05-04 03:06:49,800 - INFO - [DOWNLOADED] Downloaded: Luke Bryan - Down To One (Official Music Video) (https://www.youtube.com/watch?v=L6qMLN34Irw) for track 0863470f-3aa2-4e12-b8d4-00cf27aa743d
+2025-05-04 03:06:49,949 - INFO - [CORRECT] Metadata inserted for track 0863470f-3aa2-4e12-b8d4-00cf27aa743d: Down to One
+2025-05-04 03:06:54,028 - INFO - [AUDIO FEATURES] Audio features inserted for track 075a9095-3d13-4c9c-af79-9337237692a4: The Next Episode
+2025-05-04 03:06:54,050 - INFO - [SEARCHING] Searching YouTube for track 08d829c0-a4a2-403f-855b-955d8751b37c: Close to You Frank Ocean
+2025-05-04 03:06:54,895 - INFO - [DOWNLOADED] Downloaded: Kanye West - Gold Digger ft. Jamie Foxx (https://www.youtube.com/watch?v=6vwNcNOTVzY) for track 0876f8b3-6a22-4526-bfaf-df35634e4a57
+2025-05-04 03:06:54,984 - INFO - [CORRECT] Metadata inserted for track 0876f8b3-6a22-4526-bfaf-df35634e4a57: Gold Digger
+2025-05-04 03:06:59,337 - INFO - [DOWNLOADED] Downloaded: Frank Ocean - Close To You (https://www.youtube.com/watch?v=ncqkC9Ob2ZI) for track 08d829c0-a4a2-403f-855b-955d8751b37c
+2025-05-04 03:06:59,446 - INFO - [CORRECT] Metadata inserted for track 08d829c0-a4a2-403f-855b-955d8751b37c: Close to You
+2025-05-04 03:07:10,428 - INFO - [AUDIO FEATURES] Audio features inserted for track 07bff688-08e1-460e-a1fa-420f41fac29b: Fitter Happier
+2025-05-04 03:07:10,437 - INFO - [SEARCHING] Searching YouTube for track 090d705e-58b2-4f34-b6b7-0ba567fd15df: Clouds One Direction
+2025-05-04 03:07:16,174 - INFO - [AUDIO FEATURES] Audio features inserted for track 070620e5-e755-491d-9c7e-7c2ab4199292: AMERIICAN REQUIEM
+2025-05-04 03:07:16,188 - INFO - [SEARCHING] Searching YouTube for track 09425f33-5824-4aed-bea8-f3c84bd4ed31: Freezing Peter Cat Recording Co.
+2025-05-04 03:07:16,969 - INFO - [DOWNLOADED] Downloaded: One Direction - Clouds (Audio) (https://www.youtube.com/watch?v=VyotcwmZE3w) for track 090d705e-58b2-4f34-b6b7-0ba567fd15df
+2025-05-04 03:07:17,052 - INFO - [CORRECT] Metadata inserted for track 090d705e-58b2-4f34-b6b7-0ba567fd15df: Clouds
+2025-05-04 03:07:21,720 - INFO - [DOWNLOADED] Downloaded: Freezing (https://www.youtube.com/watch?v=ltJlPfI4JHA) for track 09425f33-5824-4aed-bea8-f3c84bd4ed31
+2025-05-04 03:07:21,817 - INFO - [CORRECT] Metadata inserted for track 09425f33-5824-4aed-bea8-f3c84bd4ed31: Freezing
+2025-05-04 03:07:32,246 - INFO - [AUDIO FEATURES] Audio features inserted for track 08d829c0-a4a2-403f-855b-955d8751b37c: Close to You
+2025-05-04 03:07:32,249 - INFO - [SEARCHING] Searching YouTube for track 09532a6e-7b46-4f6f-a36f-c0b896328e5f: Smoking on My Ex Pack SZA
+2025-05-04 03:07:33,810 - INFO - [AUDIO FEATURES] Audio features inserted for track 077bcd8c-d844-4f3a-8c18-606cb85d1059: BREAK MY SOUL
+2025-05-04 03:07:33,826 - INFO - [SEARCHING] Searching YouTube for track 0963a17b-fcbb-40f1-8645-61318f6b5b6f: everytime Ariana Grande
+2025-05-04 03:07:38,496 - INFO - [DOWNLOADED] Downloaded: SZA - Smoking on my Ex Pack (Audio) (https://www.youtube.com/watch?v=0pWcpuyYrRk) for track 09532a6e-7b46-4f6f-a36f-c0b896328e5f
+2025-05-04 03:07:38,579 - INFO - [CORRECT] Metadata inserted for track 09532a6e-7b46-4f6f-a36f-c0b896328e5f: Smoking on My Ex Pack
+2025-05-04 03:07:39,962 - INFO - [DOWNLOADED] Downloaded: Ariana Grande - everytime (Official Audio) (https://www.youtube.com/watch?v=MYvjW3zdCws) for track 0963a17b-fcbb-40f1-8645-61318f6b5b6f
+2025-05-04 03:07:40,093 - INFO - [CORRECT] Metadata inserted for track 0963a17b-fcbb-40f1-8645-61318f6b5b6f: everytime
+2025-05-04 03:07:48,955 - INFO - [AUDIO FEATURES] Audio features inserted for track 08011b80-6485-4861-b153-7f3f7634bf08: Where Do Broken Hearts Go
+2025-05-04 03:07:49,005 - INFO - [SEARCHING] Searching YouTube for track 09e3ee84-1a1e-41cd-b911-b3b25413bf51: Die With a Smile Lady Gaga
+2025-05-04 03:07:56,363 - INFO - [DOWNLOADED] Downloaded: Lady Gaga, Bruno Mars - Die With A Smile (Official Music Video) (https://www.youtube.com/watch?v=kPa7bsKwL-c) for track 09e3ee84-1a1e-41cd-b911-b3b25413bf51
+2025-05-04 03:07:56,481 - INFO - [CORRECT] Metadata inserted for track 09e3ee84-1a1e-41cd-b911-b3b25413bf51: Die With a Smile
+2025-05-04 03:08:06,782 - INFO - [AUDIO FEATURES] Audio features inserted for track 0863470f-3aa2-4e12-b8d4-00cf27aa743d: Down to One
+2025-05-04 03:08:06,815 - INFO - [SEARCHING] Searching YouTube for track 0a62410e-efe8-4370-a4e5-e325a54fae16: THE LINDA MARTELL SHOW Beyoncé
+2025-05-04 03:08:07,058 - INFO - [AUDIO FEATURES] Audio features inserted for track 0876f8b3-6a22-4526-bfaf-df35634e4a57: Gold Digger
+2025-05-04 03:08:07,061 - INFO - [SEARCHING] Searching YouTube for track 0aa8109d-8f18-4940-aba5-a7085a63732e: Little Freak Harry Styles
+2025-05-04 03:08:08,732 - INFO - [AUDIO FEATURES] Audio features inserted for track 09532a6e-7b46-4f6f-a36f-c0b896328e5f: Smoking on My Ex Pack
+2025-05-04 03:08:08,738 - INFO - [SEARCHING] Searching YouTube for track 0b0c657b-8f1f-4c16-bd48-c4d0d31e78d7: Default Madison Beer
+2025-05-04 03:08:12,194 - INFO - [DOWNLOADED] Downloaded: Beyoncé, Linda Martell - THE LINDA MARTELL SHOW (Official Lyric Video) (https://www.youtube.com/watch?v=2bkKa6G5iFo) for track 0a62410e-efe8-4370-a4e5-e325a54fae16
+2025-05-04 03:08:12,276 - INFO - [CORRECT] Metadata inserted for track 0a62410e-efe8-4370-a4e5-e325a54fae16: THE LINDA MARTELL SHOW
+2025-05-04 03:08:15,126 - INFO - [DOWNLOADED] Downloaded: Harry Styles - Little Freak (Audio) (https://www.youtube.com/watch?v=hJpvI3w3tDc) for track 0aa8109d-8f18-4940-aba5-a7085a63732e
+2025-05-04 03:08:15,212 - INFO - [CORRECT] Metadata inserted for track 0aa8109d-8f18-4940-aba5-a7085a63732e: Little Freak
+2025-05-04 03:08:15,719 - INFO - [DOWNLOADED] Downloaded: Madison Beer - Default (Official Audio) (https://www.youtube.com/watch?v=QCsWwgwIkCM) for track 0b0c657b-8f1f-4c16-bd48-c4d0d31e78d7
+2025-05-04 03:08:15,818 - INFO - [CORRECT] Metadata inserted for track 0b0c657b-8f1f-4c16-bd48-c4d0d31e78d7: Default
+2025-05-04 03:08:23,780 - INFO - [AUDIO FEATURES] Audio features inserted for track 09425f33-5824-4aed-bea8-f3c84bd4ed31: Freezing
+2025-05-04 03:08:23,789 - INFO - [SEARCHING] Searching YouTube for track 0bdf1cc9-502b-4cf1-97a8-1037422e77e4: pete davidson Ariana Grande
+2025-05-04 03:08:24,706 - INFO - [AUDIO FEATURES] Audio features inserted for track 0a62410e-efe8-4370-a4e5-e325a54fae16: THE LINDA MARTELL SHOW
+2025-05-04 03:08:24,708 - INFO - [SEARCHING] Searching YouTube for track 0c1481db-8f8f-46ba-ba51-a238617c62b1: my hair Ariana Grande
+2025-05-04 03:08:24,948 - INFO - [AUDIO FEATURES] Audio features inserted for track 078af7df-cea9-4720-8a06-46d908a3b50b: Shit I'm Dreaming
+2025-05-04 03:08:24,952 - INFO - [SEARCHING] Searching YouTube for track 0c543b43-9332-4e3c-8108-af9c3d54fae4: Love Without Tragedy / Mother Mary Rihanna
+2025-05-04 03:08:30,368 - INFO - [DOWNLOADED] Downloaded: Ariana Grande - pete davidson (Official Audio) (https://www.youtube.com/watch?v=ba8CifMRZ2Y) for track 0bdf1cc9-502b-4cf1-97a8-1037422e77e4
+2025-05-04 03:08:30,536 - INFO - [CORRECT] Metadata inserted for track 0bdf1cc9-502b-4cf1-97a8-1037422e77e4: pete davidson
+2025-05-04 03:08:32,515 - INFO - [DOWNLOADED] Downloaded: Ariana Grande - my hair (Official Live Performance) | Vevo (https://www.youtube.com/watch?v=ZTF6vF7nHlM) for track 0c1481db-8f8f-46ba-ba51-a238617c62b1
+2025-05-04 03:08:32,604 - INFO - [CORRECT] Metadata inserted for track 0c1481db-8f8f-46ba-ba51-a238617c62b1: my hair
+2025-05-04 03:08:33,209 - INFO - [DOWNLOADED] Downloaded: Rihanna Love Without Tragedy/Mother Mary Lyric Video (https://www.youtube.com/watch?v=wMCgQ4hLST0) for track 0c543b43-9332-4e3c-8108-af9c3d54fae4
+2025-05-04 03:08:33,288 - INFO - [CORRECT] Metadata inserted for track 0c543b43-9332-4e3c-8108-af9c3d54fae4: Love Without Tragedy / Mother Mary
+2025-05-04 03:08:38,471 - INFO - [AUDIO FEATURES] Audio features inserted for track 0963a17b-fcbb-40f1-8645-61318f6b5b6f: everytime
+2025-05-04 03:08:38,504 - INFO - [SEARCHING] Searching YouTube for track 0c6652d7-1b12-44b4-b673-e63a0006bf90: To the Moon and Back Luke Bryan
+2025-05-04 03:08:39,826 - INFO - [AUDIO FEATURES] Audio features inserted for track 090d705e-58b2-4f34-b6b7-0ba567fd15df: Clouds
+2025-05-04 03:08:39,833 - INFO - [SEARCHING] Searching YouTube for track 0db9b3f4-3340-444c-a4f0-322057fc79be: Daydreaming Harry Styles
+2025-05-04 03:08:45,679 - INFO - [DOWNLOADED] Downloaded: To The Moon And Back (https://www.youtube.com/watch?v=GWKqDWtSMu0) for track 0c6652d7-1b12-44b4-b673-e63a0006bf90
+2025-05-04 03:08:45,753 - INFO - [CORRECT] Metadata inserted for track 0c6652d7-1b12-44b4-b673-e63a0006bf90: To the Moon and Back
+2025-05-04 03:08:47,460 - INFO - [DOWNLOADED] Downloaded: Harry Styles - Daydreaming (Audio) (https://www.youtube.com/watch?v=G2BYATpr4uY) for track 0db9b3f4-3340-444c-a4f0-322057fc79be
+2025-05-04 03:08:47,557 - INFO - [CORRECT] Metadata inserted for track 0db9b3f4-3340-444c-a4f0-322057fc79be: Daydreaming
+2025-05-04 03:08:53,748 - INFO - [AUDIO FEATURES] Audio features inserted for track 0b0c657b-8f1f-4c16-bd48-c4d0d31e78d7: Default
+2025-05-04 03:08:53,765 - INFO - [SEARCHING] Searching YouTube for track 0de09386-08fb-4156-97fc-3818a1e8e15a: Given the Dog a Bone AC/DC
+2025-05-04 03:08:54,600 - INFO - [AUDIO FEATURES] Audio features inserted for track 0bdf1cc9-502b-4cf1-97a8-1037422e77e4: pete davidson
+2025-05-04 03:08:54,611 - INFO - [SEARCHING] Searching YouTube for track 0e12be4c-bd1d-45bc-acf3-3d12dd981b60: Build Me a Daddy Luke Bryan
+2025-05-04 03:09:00,574 - INFO - [DOWNLOADED] Downloaded: AC/DC - Givin the Dog a Bone (Official Audio) (https://www.youtube.com/watch?v=9dD5r7N7Imw) for track 0de09386-08fb-4156-97fc-3818a1e8e15a
+2025-05-04 03:09:00,669 - INFO - [CORRECT] Metadata inserted for track 0de09386-08fb-4156-97fc-3818a1e8e15a: Given the Dog a Bone
+2025-05-04 03:09:02,295 - INFO - [DOWNLOADED] Downloaded: Luke Bryan - Build Me A Daddy (Official Music Video) (https://www.youtube.com/watch?v=T8t4S6ovrDs) for track 0e12be4c-bd1d-45bc-acf3-3d12dd981b60
+2025-05-04 03:09:02,422 - INFO - [CORRECT] Metadata inserted for track 0e12be4c-bd1d-45bc-acf3-3d12dd981b60: Build Me a Daddy
+2025-05-04 03:09:15,076 - INFO - [AUDIO FEATURES] Audio features inserted for track 09e3ee84-1a1e-41cd-b911-b3b25413bf51: Die With a Smile
+2025-05-04 03:09:15,165 - INFO - [SEARCHING] Searching YouTube for track 0e225847-0889-418b-9115-2f4a083eb783: Woo Rihanna
+2025-05-04 03:09:16,429 - INFO - [AUDIO FEATURES] Audio features inserted for track 0aa8109d-8f18-4940-aba5-a7085a63732e: Little Freak
+2025-05-04 03:09:16,445 - INFO - [SEARCHING] Searching YouTube for track 0eb581bf-7981-497e-a4fd-0493fa57ba23: Physical Dua Lipa
+2025-05-04 03:09:22,261 - INFO - [DOWNLOADED] Downloaded: Woo - Rihanna (Lyrics) | Send for me (https://www.youtube.com/watch?v=JBb36ZvWZuA) for track 0e225847-0889-418b-9115-2f4a083eb783
+2025-05-04 03:09:22,439 - INFO - [CORRECT] Metadata inserted for track 0e225847-0889-418b-9115-2f4a083eb783: Woo
+2025-05-04 03:09:23,365 - INFO - [DOWNLOADED] Downloaded: Dua Lipa - Physical (Official Video) (https://www.youtube.com/watch?v=9HDEHj2yzew) for track 0eb581bf-7981-497e-a4fd-0493fa57ba23
+2025-05-04 03:09:23,458 - INFO - [CORRECT] Metadata inserted for track 0eb581bf-7981-497e-a4fd-0493fa57ba23: Physical
+2025-05-04 03:09:32,074 - INFO - [AUDIO FEATURES] Audio features inserted for track 0c1481db-8f8f-46ba-ba51-a238617c62b1: my hair
+2025-05-04 03:09:32,078 - INFO - [SEARCHING] Searching YouTube for track 0ec1bf3a-982d-41e3-95b5-ce09283512e5: motive (natalie autumn prism mix) Ariana Grande
+2025-05-04 03:09:32,783 - WARNING - [ERROR] Skipping motive (natalie autumn prism mix) (0ec1bf3a-982d-41e3-95b5-ce09283512e5) — download failed.
+2025-05-04 03:09:32,789 - INFO - [SEARCHING] Searching YouTube for track 0f357623-b934-4dfb-8a16-ca1558fcbd45: Them Stems Chris Stapleton
+2025-05-04 03:09:39,153 - INFO - [DOWNLOADED] Downloaded: Chris Stapleton - Them Stems (Official Audio) (https://www.youtube.com/watch?v=cDlgSeIhTeU) for track 0f357623-b934-4dfb-8a16-ca1558fcbd45
+2025-05-04 03:09:39,267 - INFO - [CORRECT] Metadata inserted for track 0f357623-b934-4dfb-8a16-ca1558fcbd45: Them Stems
+2025-05-04 03:09:49,381 - INFO - [AUDIO FEATURES] Audio features inserted for track 0db9b3f4-3340-444c-a4f0-322057fc79be: Daydreaming
+2025-05-04 03:09:49,388 - INFO - [SEARCHING] Searching YouTube for track 0f5a6cbc-ac24-4b6a-8c12-907bf8f1b09a: Bad Reputation Shawn Mendes
+2025-05-04 03:09:55,011 - INFO - [DOWNLOADED] Downloaded: Bad Reputation (https://www.youtube.com/watch?v=GDPJG0zBvmE) for track 0f5a6cbc-ac24-4b6a-8c12-907bf8f1b09a
+2025-05-04 03:09:55,112 - INFO - [CORRECT] Metadata inserted for track 0f5a6cbc-ac24-4b6a-8c12-907bf8f1b09a: Bad Reputation
+2025-05-04 03:10:04,126 - INFO - [AUDIO FEATURES] Audio features inserted for track 0c6652d7-1b12-44b4-b673-e63a0006bf90: To the Moon and Back
+2025-05-04 03:10:04,132 - INFO - [SEARCHING] Searching YouTube for track 0f98fa93-a6fb-4d71-9f21-17e3feadf25a: LOST FOREVER Travis Scott
+2025-05-04 03:10:05,995 - INFO - [AUDIO FEATURES] Audio features inserted for track 0e12be4c-bd1d-45bc-acf3-3d12dd981b60: Build Me a Daddy
+2025-05-04 03:10:06,001 - INFO - [SEARCHING] Searching YouTube for track 10592ebc-737a-4027-bcf8-05b0b15e82f2: Half a Mile Away Billy Joel
+2025-05-04 03:10:11,172 - INFO - [DOWNLOADED] Downloaded: Travis Scott - LOST FOREVER (Official Audio) ft. Westside Gunn (https://www.youtube.com/watch?v=AppJbl-wODs) for track 0f98fa93-a6fb-4d71-9f21-17e3feadf25a
+2025-05-04 03:10:11,263 - INFO - [CORRECT] Metadata inserted for track 0f98fa93-a6fb-4d71-9f21-17e3feadf25a: LOST FOREVER
+2025-05-04 03:10:12,710 - INFO - [DOWNLOADED] Downloaded: Billy Joel - Half A Mile Away (Audio) (https://www.youtube.com/watch?v=SfPgEpkbJhY) for track 10592ebc-737a-4027-bcf8-05b0b15e82f2
+2025-05-04 03:10:12,833 - INFO - [CORRECT] Metadata inserted for track 10592ebc-737a-4027-bcf8-05b0b15e82f2: Half a Mile Away
+2025-05-04 03:10:14,825 - INFO - [AUDIO FEATURES] Audio features inserted for track 0de09386-08fb-4156-97fc-3818a1e8e15a: Given the Dog a Bone
+2025-05-04 03:10:14,867 - INFO - [SEARCHING] Searching YouTube for track 10660f7f-8023-4150-b50d-e618b46ff4de: Kiwi Harry Styles
+2025-05-04 03:10:20,205 - INFO - [DOWNLOADED] Downloaded: Harry Styles - Kiwi (https://www.youtube.com/watch?v=9wg3v-01yKQ) for track 10660f7f-8023-4150-b50d-e618b46ff4de
+2025-05-04 03:10:20,317 - INFO - [CORRECT] Metadata inserted for track 10660f7f-8023-4150-b50d-e618b46ff4de: Kiwi
+2025-05-04 03:10:40,994 - INFO - [AUDIO FEATURES] Audio features inserted for track 0e225847-0889-418b-9115-2f4a083eb783: Woo
+2025-05-04 03:10:41,029 - INFO - [SEARCHING] Searching YouTube for track 107d6e57-fb5b-4eb3-990b-deb96fb4783a: TELEKINESIS Travis Scott
+2025-05-04 03:10:41,668 - INFO - [AUDIO FEATURES] Audio features inserted for track 0f357623-b934-4dfb-8a16-ca1558fcbd45: Them Stems
+2025-05-04 03:10:41,673 - INFO - [SEARCHING] Searching YouTube for track 10a84606-3500-4acd-8956-54b6f3477144: Twist and Shout The Beatles
+2025-05-04 03:10:44,182 - INFO - [AUDIO FEATURES] Audio features inserted for track 0eb581bf-7981-497e-a4fd-0493fa57ba23: Physical
+2025-05-04 03:10:44,277 - INFO - [SEARCHING] Searching YouTube for track 110cb105-6ba1-4d2a-82da-fdbb6ed7b9d1: What Up Gangsta 50 Cent
+2025-05-04 03:10:48,614 - INFO - [AUDIO FEATURES] Audio features inserted for track 0c543b43-9332-4e3c-8108-af9c3d54fae4: Love Without Tragedy / Mother Mary
+2025-05-04 03:10:48,620 - INFO - [SEARCHING] Searching YouTube for track 11a15565-9ed1-4d90-a9cb-bef712b4bd96: Love Drought Beyoncé
+2025-05-04 03:10:50,040 - INFO - [DOWNLOADED] Downloaded: Twist And Shout (Remastered 2009) (https://www.youtube.com/watch?v=2RicaUqd9Hg) for track 10a84606-3500-4acd-8956-54b6f3477144
+2025-05-04 03:10:50,125 - INFO - [CORRECT] Metadata inserted for track 10a84606-3500-4acd-8956-54b6f3477144: Twist and Shout
+2025-05-04 03:10:50,233 - INFO - [DOWNLOADED] Downloaded: Travis Scott - TELEKINESIS (Official Audio) ft. SZA, Future (https://www.youtube.com/watch?v=xl5LunV-OkU) for track 107d6e57-fb5b-4eb3-990b-deb96fb4783a
+2025-05-04 03:10:50,319 - INFO - [CORRECT] Metadata inserted for track 107d6e57-fb5b-4eb3-990b-deb96fb4783a: TELEKINESIS
+2025-05-04 03:10:50,744 - INFO - [DOWNLOADED] Downloaded: What Up Gangsta (https://www.youtube.com/watch?v=xIl4ZGd8MPc) for track 110cb105-6ba1-4d2a-82da-fdbb6ed7b9d1
+2025-05-04 03:10:50,831 - INFO - [CORRECT] Metadata inserted for track 110cb105-6ba1-4d2a-82da-fdbb6ed7b9d1: What Up Gangsta
+2025-05-04 03:10:54,689 - INFO - [DOWNLOADED] Downloaded: Beyoncé - Love Drought (https://www.youtube.com/watch?v=CUyQSKe75L4) for track 11a15565-9ed1-4d90-a9cb-bef712b4bd96
+2025-05-04 03:10:54,795 - INFO - [CORRECT] Metadata inserted for track 11a15565-9ed1-4d90-a9cb-bef712b4bd96: Love Drought
+2025-05-04 03:11:03,419 - INFO - [AUDIO FEATURES] Audio features inserted for track 0f5a6cbc-ac24-4b6a-8c12-907bf8f1b09a: Bad Reputation
+2025-05-04 03:11:03,429 - INFO - [SEARCHING] Searching YouTube for track 11f17301-5e50-48c6-ba63-f2456e83423e: Don't Push Me 50 Cent
+2025-05-04 03:11:07,639 - INFO - [AUDIO FEATURES] Audio features inserted for track 0f98fa93-a6fb-4d71-9f21-17e3feadf25a: LOST FOREVER
+2025-05-04 03:11:07,642 - INFO - [SEARCHING] Searching YouTube for track 11f6c998-8867-463e-8e00-e60a695a08f1: Long Live Taylor Swift
+2025-05-04 03:11:09,221 - INFO - [DOWNLOADED] Downloaded: Don't Push Me (https://www.youtube.com/watch?v=Mj4YJHDpamg) for track 11f17301-5e50-48c6-ba63-f2456e83423e
+2025-05-04 03:11:09,322 - INFO - [CORRECT] Metadata inserted for track 11f17301-5e50-48c6-ba63-f2456e83423e: Don't Push Me
+2025-05-04 03:11:14,288 - INFO - [DOWNLOADED] Downloaded: Taylor Swift - Long Live (Taylor's Version) (Lyric Video) (https://www.youtube.com/watch?v=F5TMU6916U8) for track 11f6c998-8867-463e-8e00-e60a695a08f1
+2025-05-04 03:11:14,414 - INFO - [CORRECT] Metadata inserted for track 11f6c998-8867-463e-8e00-e60a695a08f1: Long Live
+2025-05-04 03:11:19,679 - INFO - [AUDIO FEATURES] Audio features inserted for track 10660f7f-8023-4150-b50d-e618b46ff4de: Kiwi
+2025-05-04 03:11:19,694 - INFO - [SEARCHING] Searching YouTube for track 1242606c-0cdb-44c8-9d1d-c6343e557b0d: Radio Lana Del Rey
+2025-05-04 03:11:25,817 - INFO - [DOWNLOADED] Downloaded: Lana Del Rey - Radio (Lyrics) (https://www.youtube.com/watch?v=2xFR65mv8CE) for track 1242606c-0cdb-44c8-9d1d-c6343e557b0d
+2025-05-04 03:11:25,999 - INFO - [CORRECT] Metadata inserted for track 1242606c-0cdb-44c8-9d1d-c6343e557b0d: Radio
+2025-05-04 03:11:33,240 - INFO - [AUDIO FEATURES] Audio features inserted for track 10592ebc-737a-4027-bcf8-05b0b15e82f2: Half a Mile Away
+2025-05-04 03:11:38,429 - INFO - [AUDIO FEATURES] Audio features inserted for track 10a84606-3500-4acd-8956-54b6f3477144: Twist and Shout
+2025-05-04 03:11:38,432 - INFO - [SEARCHING] Searching YouTube for track 128ca901-582f-4f04-8c96-ad80cc3e59b6: LOOOVE Travis Scott
+2025-05-04 03:11:39,330 - INFO - [DOWNLOADED] Downloaded: Travis Scott, Bad Bunny, The Weeknd - K-POP (Official Music Video) (https://www.youtube.com/watch?v=_kS7F4VpJa0) for track 1259f61a-08dc-44cc-b85e-220363ccc4a6
+2025-05-04 03:11:44,497 - INFO - [DOWNLOADED] Downloaded: Travis Scott - LOOOVE (Official Audio) ft. Kid Cudi (https://www.youtube.com/watch?v=tPdPgFhdp58) for track 128ca901-582f-4f04-8c96-ad80cc3e59b6
+2025-05-04 03:11:44,634 - INFO - [CORRECT] Metadata inserted for track 128ca901-582f-4f04-8c96-ad80cc3e59b6: LOOOVE
+2025-05-04 03:11:46,708 - INFO - [AUDIO FEATURES] Audio features inserted for track 110cb105-6ba1-4d2a-82da-fdbb6ed7b9d1: What Up Gangsta
+2025-05-04 03:11:46,746 - INFO - [SEARCHING] Searching YouTube for track 128e45d6-9d20-4195-b2d2-9052fe78c08a: epiphany Taylor Swift
+2025-05-04 03:11:53,632 - INFO - [DOWNLOADED] Downloaded: Taylor Swift – epiphany (Official Lyric Video) (https://www.youtube.com/watch?v=DUnDkI7l9LQ) for track 128e45d6-9d20-4195-b2d2-9052fe78c08a
+2025-05-04 03:11:53,863 - INFO - [CORRECT] Metadata inserted for track 128e45d6-9d20-4195-b2d2-9052fe78c08a: epiphany
+2025-05-04 03:12:03,608 - INFO - [AUDIO FEATURES] Audio features inserted for track 11a15565-9ed1-4d90-a9cb-bef712b4bd96: Love Drought
+2025-05-04 03:12:03,626 - INFO - [SEARCHING] Searching YouTube for track 1293e3be-4da1-4590-a7a8-5dbecaf5b076: Infinity One Direction
+2025-05-04 03:12:09,769 - INFO - [DOWNLOADED] Downloaded: One Direction - Infinity (Audio) (https://www.youtube.com/watch?v=JAERpGGh-wA) for track 1293e3be-4da1-4590-a7a8-5dbecaf5b076
+2025-05-04 03:12:09,850 - INFO - [CORRECT] Metadata inserted for track 1293e3be-4da1-4590-a7a8-5dbecaf5b076: Infinity
+2025-05-04 03:12:32,048 - INFO - [AUDIO FEATURES] Audio features inserted for track 11f17301-5e50-48c6-ba63-f2456e83423e: Don't Push Me
+2025-05-04 03:12:32,083 - INFO - [SEARCHING] Searching YouTube for track 12ae89f9-13c2-4e6a-aa2d-29ef9f10f174: Broken Halos Chris Stapleton
+2025-05-04 03:12:35,694 - INFO - [AUDIO FEATURES] Audio features inserted for track 1242606c-0cdb-44c8-9d1d-c6343e557b0d: Radio
+2025-05-04 03:12:35,711 - INFO - [SEARCHING] Searching YouTube for track 133f5147-7727-4005-95e7-4154bcfbfde1: Roses Ye
+2025-05-04 03:12:38,064 - INFO - [DOWNLOADED] Downloaded: Chris Stapleton - Broken Halos (Official Audio) (https://www.youtube.com/watch?v=sI0TeFf6uD8) for track 12ae89f9-13c2-4e6a-aa2d-29ef9f10f174
+2025-05-04 03:12:38,295 - INFO - [CORRECT] Metadata inserted for track 12ae89f9-13c2-4e6a-aa2d-29ef9f10f174: Broken Halos
+2025-05-04 03:12:41,651 - INFO - [DOWNLOADED] Downloaded: Roses (https://www.youtube.com/watch?v=Qxlnb1lEdEs) for track 133f5147-7727-4005-95e7-4154bcfbfde1
+2025-05-04 03:12:41,753 - INFO - [CORRECT] Metadata inserted for track 133f5147-7727-4005-95e7-4154bcfbfde1: Roses
+2025-05-04 03:12:49,021 - INFO - [SEARCHING] Searching YouTube for track 1374c09f-6ab9-405d-a68e-d255b23dfc4d: Last Thing I Needed, First Thing This Morning Chris Stapleton
+2025-05-04 03:12:52,726 - INFO - [AUDIO FEATURES] Audio features inserted for track 107d6e57-fb5b-4eb3-990b-deb96fb4783a: TELEKINESIS
+2025-05-04 03:12:52,745 - INFO - [SEARCHING] Searching YouTube for track 13bb099a-863c-4588-bac2-175b5b41b0db: Floated By Peter Cat Recording Co.
+2025-05-04 03:12:57,408 - INFO - [DOWNLOADED] Downloaded: Chris Stapleton - Last Thing I Needed, First Thing This Morning (Official Audio) (https://www.youtube.com/watch?v=bi9iBKa0Xtw) for track 1374c09f-6ab9-405d-a68e-d255b23dfc4d
+2025-05-04 03:12:57,513 - INFO - [CORRECT] Metadata inserted for track 1374c09f-6ab9-405d-a68e-d255b23dfc4d: Last Thing I Needed, First Thing This Morning
+2025-05-04 03:12:58,839 - INFO - [DOWNLOADED] Downloaded: Peter Cat Recording Co. - Floated By (https://www.youtube.com/watch?v=961LpbX4zCU) for track 13bb099a-863c-4588-bac2-175b5b41b0db
+2025-05-04 03:12:58,967 - INFO - [CORRECT] Metadata inserted for track 13bb099a-863c-4588-bac2-175b5b41b0db: Floated By
+2025-05-04 03:13:03,243 - INFO - [AUDIO FEATURES] Audio features inserted for track 128ca901-582f-4f04-8c96-ad80cc3e59b6: LOOOVE
+2025-05-04 03:13:03,265 - INFO - [SEARCHING] Searching YouTube for track 13c5ba92-c6dd-4c8c-88ae-5810626edd6a: Yo Lane tdf
+2025-05-04 03:13:04,522 - INFO - [AUDIO FEATURES] Audio features inserted for track 11f6c998-8867-463e-8e00-e60a695a08f1: Long Live
+2025-05-04 03:13:04,537 - INFO - [SEARCHING] Searching YouTube for track 13fd4b2b-9d5d-4df1-ab8a-e8f3aaf8c4c0: Supermodel SZA
+2025-05-04 03:13:09,762 - INFO - [DOWNLOADED] Downloaded: wildkarduno - yo lane (tdf) (https://www.youtube.com/watch?v=ZgEnSCipwII) for track 13c5ba92-c6dd-4c8c-88ae-5810626edd6a
+2025-05-04 03:13:09,850 - INFO - [CORRECT] Metadata inserted for track 13c5ba92-c6dd-4c8c-88ae-5810626edd6a: Yo Lane
+2025-05-04 03:13:11,946 - INFO - [DOWNLOADED] Downloaded: SZA - Supermodel (Official Video) (https://www.youtube.com/watch?v=Tiixq9rT_J0) for track 13fd4b2b-9d5d-4df1-ab8a-e8f3aaf8c4c0
+2025-05-04 03:13:12,067 - INFO - [CORRECT] Metadata inserted for track 13fd4b2b-9d5d-4df1-ab8a-e8f3aaf8c4c0: Supermodel
+2025-05-04 03:13:26,658 - INFO - [AUDIO FEATURES] Audio features inserted for track 128e45d6-9d20-4195-b2d2-9052fe78c08a: epiphany
+2025-05-04 03:13:26,675 - INFO - [SEARCHING] Searching YouTube for track 141c8038-ebe2-4aa3-88af-effc8621c7f9: That’s My Kind of Night Luke Bryan
+2025-05-04 03:13:31,792 - INFO - [AUDIO FEATURES] Audio features inserted for track 1293e3be-4da1-4590-a7a8-5dbecaf5b076: Infinity
+2025-05-04 03:13:31,798 - INFO - [SEARCHING] Searching YouTube for track 14640d28-2663-45b8-bb56-9d1d819d015e: Been You Justin Bieber
+2025-05-04 03:13:33,187 - INFO - [DOWNLOADED] Downloaded: Luke Bryan - That's My Kind Of Night (Official Music Video) (https://www.youtube.com/watch?v=crCqWK3SmRo) for track 141c8038-ebe2-4aa3-88af-effc8621c7f9
+2025-05-04 03:13:33,278 - INFO - [CORRECT] Metadata inserted for track 141c8038-ebe2-4aa3-88af-effc8621c7f9: That’s My Kind of Night
+2025-05-04 03:13:37,519 - INFO - [DOWNLOADED] Downloaded: Been You (https://www.youtube.com/watch?v=2_HpDEqmK48) for track 14640d28-2663-45b8-bb56-9d1d819d015e
+2025-05-04 03:13:37,706 - INFO - [CORRECT] Metadata inserted for track 14640d28-2663-45b8-bb56-9d1d819d015e: Been You
+2025-05-04 03:13:40,673 - INFO - [AUDIO FEATURES] Audio features inserted for track 12ae89f9-13c2-4e6a-aa2d-29ef9f10f174: Broken Halos
+2025-05-04 03:13:40,678 - INFO - [SEARCHING] Searching YouTube for track 14b4b42e-468b-46b6-8198-b56a7b19b85a: Come Around Me Justin Bieber
+2025-05-04 03:13:46,630 - INFO - [DOWNLOADED] Downloaded: Justin Bieber - Come Around Me (Audio) (https://www.youtube.com/watch?v=C86jztHhLyk) for track 14b4b42e-468b-46b6-8198-b56a7b19b85a
+2025-05-04 03:13:46,767 - INFO - [CORRECT] Metadata inserted for track 14b4b42e-468b-46b6-8198-b56a7b19b85a: Come Around Me
+2025-05-04 03:14:01,111 - INFO - [AUDIO FEATURES] Audio features inserted for track 133f5147-7727-4005-95e7-4154bcfbfde1: Roses
+2025-05-04 03:14:01,141 - INFO - [SEARCHING] Searching YouTube for track 14fe62e9-37ed-4f2b-8382-c10942e17f10: NASA Ariana Grande
+2025-05-04 03:14:04,117 - INFO - [AUDIO FEATURES] Audio features inserted for track 13c5ba92-c6dd-4c8c-88ae-5810626edd6a: Yo Lane
+2025-05-04 03:14:04,211 - INFO - [SEARCHING] Searching YouTube for track 159212e2-a605-4f74-aabf-b2a2edb6178d: goodnight n go Ariana Grande
+2025-05-04 03:14:08,264 - INFO - [DOWNLOADED] Downloaded: Ariana Grande - NASA (Official Audio) (https://www.youtube.com/watch?v=-_aGvdfLTKY) for track 14fe62e9-37ed-4f2b-8382-c10942e17f10
+2025-05-04 03:14:08,496 - INFO - [CORRECT] Metadata inserted for track 14fe62e9-37ed-4f2b-8382-c10942e17f10: NASA
+2025-05-04 03:14:10,552 - INFO - [DOWNLOADED] Downloaded: Ariana Grande - goodnight n go (Official Audio) (https://www.youtube.com/watch?v=sXJ2hajo6rw) for track 159212e2-a605-4f74-aabf-b2a2edb6178d
+2025-05-04 03:14:10,664 - INFO - [CORRECT] Metadata inserted for track 159212e2-a605-4f74-aabf-b2a2edb6178d: goodnight n go
+2025-05-04 03:14:12,865 - INFO - [AUDIO FEATURES] Audio features inserted for track 13fd4b2b-9d5d-4df1-ab8a-e8f3aaf8c4c0: Supermodel
+2025-05-04 03:14:12,920 - INFO - [SEARCHING] Searching YouTube for track 15e2fda3-b76a-4d7d-94a9-a429d336352f: House of Cards Radiohead
+2025-05-04 03:14:19,330 - INFO - [DOWNLOADED] Downloaded: Radiohead - House of Cards (https://www.youtube.com/watch?v=8nTFjVm9sTQ) for track 15e2fda3-b76a-4d7d-94a9-a429d336352f
+2025-05-04 03:14:19,502 - INFO - [CORRECT] Metadata inserted for track 15e2fda3-b76a-4d7d-94a9-a429d336352f: House of Cards
+2025-05-04 03:14:22,424 - INFO - [AUDIO FEATURES] Audio features inserted for track 1374c09f-6ab9-405d-a68e-d255b23dfc4d: Last Thing I Needed, First Thing This Morning
+2025-05-04 03:14:22,432 - INFO - [SEARCHING] Searching YouTube for track 16c51fd8-9860-4be5-8e6b-9ed789cce7be: keep lookin’ up Kacey Musgraves
+2025-05-04 03:14:28,341 - INFO - [DOWNLOADED] Downloaded: KACEY MUSGRAVES - keep lookin’ up (official lyric video) (https://www.youtube.com/watch?v=x1oTD_b9hyw) for track 16c51fd8-9860-4be5-8e6b-9ed789cce7be
+2025-05-04 03:14:28,473 - INFO - [CORRECT] Metadata inserted for track 16c51fd8-9860-4be5-8e6b-9ed789cce7be: keep lookin’ up
+2025-05-04 03:14:30,631 - INFO - [AUDIO FEATURES] Audio features inserted for track 13bb099a-863c-4588-bac2-175b5b41b0db: Floated By
+2025-05-04 03:14:37,281 - INFO - [DOWNLOADED] Downloaded: Piotr Ilich Tchaikovsky - The Nutcracker, Dance of the Reed Flutes (https://www.youtube.com/watch?v=Y04elcETYU4) for track 16c9e040-c6d3-4588-80f3-87de0714cb79
+2025-05-04 03:14:37,393 - INFO - [CORRECT] Metadata inserted for track 16c9e040-c6d3-4588-80f3-87de0714cb79: Dance of the Reed Flutes
+2025-05-04 03:14:44,698 - INFO - [AUDIO FEATURES] Audio features inserted for track 14640d28-2663-45b8-bb56-9d1d819d015e: Been You
+2025-05-04 03:14:44,701 - INFO - [SEARCHING] Searching YouTube for track 16f9118f-1e67-4127-a3df-e26b61a117a4: ALL UP IN YOUR MIND Beyoncé
+2025-05-04 03:14:48,480 - INFO - [AUDIO FEATURES] Audio features inserted for track 141c8038-ebe2-4aa3-88af-effc8621c7f9: That’s My Kind of Night
+2025-05-04 03:14:48,483 - INFO - [SEARCHING] Searching YouTube for track 171524e1-5ee8-4745-817a-a8f5dabedba8: Tickets Maroon 5
+2025-05-04 03:14:49,932 - INFO - [DOWNLOADED] Downloaded: Beyoncé - ALL UP IN YOUR MIND (Official Lyric Video) (https://www.youtube.com/watch?v=Z7Zzl9J0YvQ) for track 16f9118f-1e67-4127-a3df-e26b61a117a4
+2025-05-04 03:14:50,063 - INFO - [CORRECT] Metadata inserted for track 16f9118f-1e67-4127-a3df-e26b61a117a4: ALL UP IN YOUR MIND
+2025-05-04 03:14:52,283 - INFO - [AUDIO FEATURES] Audio features inserted for track 14b4b42e-468b-46b6-8198-b56a7b19b85a: Come Around Me
+2025-05-04 03:14:52,288 - INFO - [SEARCHING] Searching YouTube for track 17221b85-9b7e-4f88-8ce8-2651db51bfe9: Mistake Demi Lovato
+2025-05-04 03:14:53,965 - INFO - [DOWNLOADED] Downloaded: Tickets (Explicit) (https://www.youtube.com/watch?v=C5b4nljpfUk) for track 171524e1-5ee8-4745-817a-a8f5dabedba8
+2025-05-04 03:14:54,071 - INFO - [CORRECT] Metadata inserted for track 171524e1-5ee8-4745-817a-a8f5dabedba8: Tickets
+2025-05-04 03:14:58,477 - INFO - [DOWNLOADED] Downloaded: Mistake (https://www.youtube.com/watch?v=GOh96GiHVgI) for track 17221b85-9b7e-4f88-8ce8-2651db51bfe9
+2025-05-04 03:14:58,577 - INFO - [CORRECT] Metadata inserted for track 17221b85-9b7e-4f88-8ce8-2651db51bfe9: Mistake
+2025-05-04 03:15:10,264 - INFO - [AUDIO FEATURES] Audio features inserted for track 14fe62e9-37ed-4f2b-8382-c10942e17f10: NASA
+2025-05-04 03:15:10,281 - INFO - [SEARCHING] Searching YouTube for track 173c6ba9-afe5-4957-b58a-e1d054fbe3c7: Super Rich Kids Frank Ocean
+2025-05-04 03:15:14,111 - INFO - [AUDIO FEATURES] Audio features inserted for track 159212e2-a605-4f74-aabf-b2a2edb6178d: goodnight n go
+2025-05-04 03:15:14,121 - INFO - [SEARCHING] Searching YouTube for track 1802661a-7f8f-4383-8a71-31550c0673dc: Cool Dua Lipa
+2025-05-04 03:15:18,103 - INFO - [DOWNLOADED] Downloaded: Super Rich Kids (https://www.youtube.com/watch?v=0XCQNpjWmRE) for track 173c6ba9-afe5-4957-b58a-e1d054fbe3c7
+2025-05-04 03:15:18,238 - INFO - [CORRECT] Metadata inserted for track 173c6ba9-afe5-4957-b58a-e1d054fbe3c7: Super Rich Kids
+2025-05-04 03:15:19,742 - INFO - [DOWNLOADED] Downloaded: Dua Lipa - Cool (Official Lyrics Video) (https://www.youtube.com/watch?v=uY8tAKDVxK8) for track 1802661a-7f8f-4383-8a71-31550c0673dc
+2025-05-04 03:15:19,844 - INFO - [CORRECT] Metadata inserted for track 1802661a-7f8f-4383-8a71-31550c0673dc: Cool
+2025-05-04 03:15:22,991 - INFO - [AUDIO FEATURES] Audio features inserted for track 16c9e040-c6d3-4588-80f3-87de0714cb79: Dance of the Reed Flutes
+2025-05-04 03:15:22,998 - INFO - [SEARCHING] Searching YouTube for track 18121d60-bc40-49a9-92c7-87babed045aa: TYRANT Beyoncé
+2025-05-04 03:15:24,980 - INFO - [AUDIO FEATURES] Audio features inserted for track 16c51fd8-9860-4be5-8e6b-9ed789cce7be: keep lookin’ up
+2025-05-04 03:15:24,993 - INFO - [SEARCHING] Searching YouTube for track 18730ab6-a8c1-4916-ba46-7cf24253aa46: End of Spring ONEWE
+2025-05-04 03:15:30,797 - INFO - [DOWNLOADED] Downloaded: Beyoncé, Dolly Parton - TYRANT (Official Lyric Video) (https://www.youtube.com/watch?v=bgtuQptR1U4) for track 18121d60-bc40-49a9-92c7-87babed045aa
+2025-05-04 03:15:30,900 - INFO - [CORRECT] Metadata inserted for track 18121d60-bc40-49a9-92c7-87babed045aa: TYRANT
+2025-05-04 03:15:31,660 - INFO - [CORRECT] Metadata inserted for track 18730ab6-a8c1-4916-ba46-7cf24253aa46: End of Spring
+2025-05-04 03:15:46,451 - INFO - [AUDIO FEATURES] Audio features inserted for track 15e2fda3-b76a-4d7d-94a9-a429d336352f: House of Cards
+2025-05-04 03:15:46,473 - INFO - [SEARCHING] Searching YouTube for track 1878d513-3436-4495-a88d-08225ce9bd06: FEAR. Kendrick Lamar
+2025-05-04 03:15:48,537 - INFO - [AUDIO FEATURES] Audio features inserted for track 16f9118f-1e67-4127-a3df-e26b61a117a4: ALL UP IN YOUR MIND
+2025-05-04 03:15:48,552 - INFO - [SEARCHING] Searching YouTube for track 187e5fba-2877-4e42-a487-886b3218158e: My Life Billy Joel
+2025-05-04 03:15:55,155 - INFO - [DOWNLOADED] Downloaded: FEAR. (https://www.youtube.com/watch?v=jdbQYDkNjfk) for track 1878d513-3436-4495-a88d-08225ce9bd06
+2025-05-04 03:15:55,282 - INFO - [CORRECT] Metadata inserted for track 1878d513-3436-4495-a88d-08225ce9bd06: FEAR.
+2025-05-04 03:15:55,282 - INFO - [DOWNLOADED] Downloaded: Billy Joel - My Life (Official Video) (https://www.youtube.com/watch?v=h3JFEfdK_Ls) for track 187e5fba-2877-4e42-a487-886b3218158e
+2025-05-04 03:15:55,446 - INFO - [CORRECT] Metadata inserted for track 187e5fba-2877-4e42-a487-886b3218158e: My Life
+2025-05-04 03:16:00,503 - INFO - [AUDIO FEATURES] Audio features inserted for track 171524e1-5ee8-4745-817a-a8f5dabedba8: Tickets
+2025-05-04 03:16:00,530 - INFO - [SEARCHING] Searching YouTube for track 1892f310-8713-47e5-b9a8-06f8d4021ca9: YOSEMITE Travis Scott
+2025-05-04 03:16:06,749 - INFO - [DOWNLOADED] Downloaded: Travis Scott - YOSEMITE (https://www.youtube.com/watch?v=PJWHAiDARMQ) for track 1892f310-8713-47e5-b9a8-06f8d4021ca9
+2025-05-04 03:16:06,861 - INFO - [CORRECT] Metadata inserted for track 1892f310-8713-47e5-b9a8-06f8d4021ca9: YOSEMITE
+2025-05-04 03:16:09,305 - INFO - [AUDIO FEATURES] Audio features inserted for track 17221b85-9b7e-4f88-8ce8-2651db51bfe9: Mistake
+2025-05-04 03:16:09,320 - INFO - [SEARCHING] Searching YouTube for track 18a64e4e-a3f9-4cdc-911c-2173ef5a9a8b: Whiskey and You Chris Stapleton
+2025-05-04 03:16:15,817 - INFO - [DOWNLOADED] Downloaded: Whiskey And You (https://www.youtube.com/watch?v=6VTm5SO_CCc) for track 18a64e4e-a3f9-4cdc-911c-2173ef5a9a8b
+2025-05-04 03:16:15,976 - INFO - [CORRECT] Metadata inserted for track 18a64e4e-a3f9-4cdc-911c-2173ef5a9a8b: Whiskey and You
+2025-05-04 03:16:29,983 - INFO - [AUDIO FEATURES] Audio features inserted for track 1802661a-7f8f-4383-8a71-31550c0673dc: Cool
+2025-05-04 03:16:30,003 - INFO - [SEARCHING] Searching YouTube for track 18b8db96-0f05-4937-aeaa-d780a1f95835: Blue Jeans Lana Del Rey
+2025-05-04 03:16:36,295 - INFO - [DOWNLOADED] Downloaded: Lana Del Rey - Blue Jeans (https://www.youtube.com/watch?v=JRWox-i6aAk) for track 18b8db96-0f05-4937-aeaa-d780a1f95835
+2025-05-04 03:16:36,409 - INFO - [CORRECT] Metadata inserted for track 18b8db96-0f05-4937-aeaa-d780a1f95835: Blue Jeans
+2025-05-04 03:16:44,814 - INFO - [AUDIO FEATURES] Audio features inserted for track 18730ab6-a8c1-4916-ba46-7cf24253aa46: End of Spring
+2025-05-04 03:16:44,826 - INFO - [SEARCHING] Searching YouTube for track 18cd5ec3-19ff-42ac-91e6-240082877e6d: Xxplosive Dr. Dre
+2025-05-04 03:16:57,772 - INFO - [AUDIO FEATURES] Audio features inserted for track 173c6ba9-afe5-4957-b58a-e1d054fbe3c7: Super Rich Kids
+2025-05-04 03:16:57,791 - INFO - [SEARCHING] Searching YouTube for track 1906584d-d18c-4818-ad57-aad41e2c5386: Golden Harry Styles
+2025-05-04 03:16:58,043 - INFO - [AUDIO FEATURES] Audio features inserted for track 18121d60-bc40-49a9-92c7-87babed045aa: TYRANT
+2025-05-04 03:16:58,047 - INFO - [SEARCHING] Searching YouTube for track 1909814b-6dbc-429d-a6c8-8a1991bc18a7: More of You Chris Stapleton
+2025-05-04 03:16:59,635 - INFO - [DOWNLOADED] Downloaded: Dr. Dre. - Xxplosive  (ORIGINAL) (https://www.youtube.com/watch?v=2jnUjUWCXSk) for track 18cd5ec3-19ff-42ac-91e6-240082877e6d
+2025-05-04 03:16:59,712 - INFO - [CORRECT] Metadata inserted for track 18cd5ec3-19ff-42ac-91e6-240082877e6d: Xxplosive
+2025-05-04 03:17:04,716 - INFO - [DOWNLOADED] Downloaded: Harry Styles - Golden (Official Video) (https://www.youtube.com/watch?v=P3cffdsEXXw) for track 1906584d-d18c-4818-ad57-aad41e2c5386
+2025-05-04 03:17:04,823 - INFO - [CORRECT] Metadata inserted for track 1906584d-d18c-4818-ad57-aad41e2c5386: Golden
+2025-05-04 03:17:06,190 - INFO - [DOWNLOADED] Downloaded: More Of You (https://www.youtube.com/watch?v=G0eDE1mtfcI) for track 1909814b-6dbc-429d-a6c8-8a1991bc18a7
+2025-05-04 03:17:06,319 - INFO - [CORRECT] Metadata inserted for track 1909814b-6dbc-429d-a6c8-8a1991bc18a7: More of You
+2025-05-04 03:17:47,183 - INFO - [AUDIO FEATURES] Audio features inserted for track 1892f310-8713-47e5-b9a8-06f8d4021ca9: YOSEMITE
+2025-05-04 03:17:47,196 - INFO - [SEARCHING] Searching YouTube for track 19227a56-9974-462b-bc2d-ae1abc68289b: End of an Era Dua Lipa
+2025-05-04 03:17:48,075 - INFO - [AUDIO FEATURES] Audio features inserted for track 18a64e4e-a3f9-4cdc-911c-2173ef5a9a8b: Whiskey and You
+2025-05-04 03:17:48,079 - INFO - [SEARCHING] Searching YouTube for track 196a9bc5-6468-455e-a602-00f923b34198: Grapejuice Harry Styles
+2025-05-04 03:17:54,531 - INFO - [DOWNLOADED] Downloaded: Dua Lipa - End Of An Era (Official Visualiser) (https://www.youtube.com/watch?v=hWw3dS2cyLc) for track 19227a56-9974-462b-bc2d-ae1abc68289b
+2025-05-04 03:17:54,618 - INFO - [CORRECT] Metadata inserted for track 19227a56-9974-462b-bc2d-ae1abc68289b: End of an Era
+2025-05-04 03:17:55,343 - INFO - [DOWNLOADED] Downloaded: Harry Styles - Grapejuice (Audio) (https://www.youtube.com/watch?v=95pX92cUwV8) for track 196a9bc5-6468-455e-a602-00f923b34198
+2025-05-04 03:17:55,459 - INFO - [CORRECT] Metadata inserted for track 196a9bc5-6468-455e-a602-00f923b34198: Grapejuice
+2025-05-04 03:18:04,859 - INFO - [AUDIO FEATURES] Audio features inserted for track 18b8db96-0f05-4937-aeaa-d780a1f95835: Blue Jeans
+2025-05-04 03:18:04,869 - INFO - [SEARCHING] Searching YouTube for track 199da456-4ea9-4f25-becf-651457f924b8: Living Proof Camila Cabello
+2025-05-04 03:18:06,400 - INFO - [AUDIO FEATURES] Audio features inserted for track 187e5fba-2877-4e42-a487-886b3218158e: My Life
+2025-05-04 03:18:06,408 - INFO - [SEARCHING] Searching YouTube for track 19d77e75-6677-439d-8472-dcb9d78b18b1: Swervo tdf
+2025-05-04 03:18:11,539 - INFO - [DOWNLOADED] Downloaded: Camila Cabello - Living Proof (Official Music Video) (https://www.youtube.com/watch?v=6q4kCRREAgk) for track 199da456-4ea9-4f25-becf-651457f924b8
+2025-05-04 03:18:11,658 - INFO - [CORRECT] Metadata inserted for track 199da456-4ea9-4f25-becf-651457f924b8: Living Proof
+2025-05-04 03:18:12,932 - INFO - [DOWNLOADED] Downloaded: pasto flocco - swervo (tdf) (https://www.youtube.com/watch?v=1pYH7FZBoB0) for track 19d77e75-6677-439d-8472-dcb9d78b18b1
+2025-05-04 03:18:13,033 - INFO - [CORRECT] Metadata inserted for track 19d77e75-6677-439d-8472-dcb9d78b18b1: Swervo
+2025-05-04 03:18:19,357 - INFO - [AUDIO FEATURES] Audio features inserted for track 1906584d-d18c-4818-ad57-aad41e2c5386: Golden
+2025-05-04 03:18:19,400 - INFO - [SEARCHING] Searching YouTube for track 1a1519e4-8184-4015-91de-28c767b7f523: Work (R3hab extended instrumental) Rihanna
+2025-05-04 03:18:20,505 - INFO - [AUDIO FEATURES] Audio features inserted for track 18cd5ec3-19ff-42ac-91e6-240082877e6d: Xxplosive
+2025-05-04 03:18:20,515 - INFO - [SEARCHING] Searching YouTube for track 1a6f3d0e-ebaa-44c8-b450-2009e09b97a4: Envy the Leaves Madison Beer
+2025-05-04 03:18:26,853 - INFO - [AUDIO FEATURES] Audio features inserted for track 1878d513-3436-4495-a88d-08225ce9bd06: FEAR.
+2025-05-04 03:18:26,861 - INFO - [SEARCHING] Searching YouTube for track 1a9d7149-39ff-4393-814c-6e4f4eaa1175: THIQUE Beyoncé
+2025-05-04 03:18:27,091 - INFO - [DOWNLOADED] Downloaded: Work (R3hab Extended Instrumental) (https://www.youtube.com/watch?v=RzEguPGc8bY) for track 1a1519e4-8184-4015-91de-28c767b7f523
+2025-05-04 03:18:27,190 - INFO - [CORRECT] Metadata inserted for track 1a1519e4-8184-4015-91de-28c767b7f523: Work (R3hab extended instrumental)
+2025-05-04 03:18:27,775 - INFO - [DOWNLOADED] Downloaded: Madison Beer - Envy the Leaves (Official Lyric Video) (https://www.youtube.com/watch?v=XGGr-Z4JrSc) for track 1a6f3d0e-ebaa-44c8-b450-2009e09b97a4
+2025-05-04 03:18:27,881 - INFO - [CORRECT] Metadata inserted for track 1a6f3d0e-ebaa-44c8-b450-2009e09b97a4: Envy the Leaves
+2025-05-04 03:18:32,565 - INFO - [DOWNLOADED] Downloaded: Beyoncé - THIQUE (Official Lyric Video) (https://www.youtube.com/watch?v=kmh-ejuvnAg) for track 1a9d7149-39ff-4393-814c-6e4f4eaa1175
+2025-05-04 03:18:32,682 - INFO - [CORRECT] Metadata inserted for track 1a9d7149-39ff-4393-814c-6e4f4eaa1175: THIQUE
+2025-05-04 03:18:42,166 - INFO - [AUDIO FEATURES] Audio features inserted for track 1909814b-6dbc-429d-a6c8-8a1991bc18a7: More of You
+2025-05-04 03:18:42,195 - INFO - [SEARCHING] Searching YouTube for track 1aa650a8-4f6e-4235-b75a-8708e4f0981b: I Miss You Kacey Musgraves
+2025-05-04 03:18:48,578 - INFO - [DOWNLOADED] Downloaded: I Miss You (https://www.youtube.com/watch?v=yekRj3c99Ms) for track 1aa650a8-4f6e-4235-b75a-8708e4f0981b
+2025-05-04 03:18:48,701 - INFO - [CORRECT] Metadata inserted for track 1aa650a8-4f6e-4235-b75a-8708e4f0981b: I Miss You
+2025-05-04 03:18:57,838 - INFO - [AUDIO FEATURES] Audio features inserted for track 19d77e75-6677-439d-8472-dcb9d78b18b1: Swervo
+2025-05-04 03:18:57,843 - INFO - [SEARCHING] Searching YouTube for track 1b85a6a7-0175-4bf1-ba75-9dc7f5505689: prfct Sabrina Carpenter
+2025-05-04 03:18:59,287 - INFO - [AUDIO FEATURES] Audio features inserted for track 19227a56-9974-462b-bc2d-ae1abc68289b: End of an Era
+2025-05-04 03:18:59,360 - INFO - [SEARCHING] Searching YouTube for track 1b8b35e2-bad3-48b0-96df-f0bd5d081a70: Piggy Bank 50 Cent
+2025-05-04 03:19:01,994 - INFO - [AUDIO FEATURES] Audio features inserted for track 196a9bc5-6468-455e-a602-00f923b34198: Grapejuice
+2025-05-04 03:19:01,997 - INFO - [SEARCHING] Searching YouTube for track 1bb3c6e4-9c45-49d8-a8d8-510a60c2ccaa: better off Ariana Grande
+2025-05-04 03:19:05,303 - INFO - [DOWNLOADED] Downloaded: prfct (https://www.youtube.com/watch?v=KsEpaChZ3sM) for track 1b85a6a7-0175-4bf1-ba75-9dc7f5505689
+2025-05-04 03:19:05,520 - INFO - [CORRECT] Metadata inserted for track 1b85a6a7-0175-4bf1-ba75-9dc7f5505689: prfct
+2025-05-04 03:19:07,636 - INFO - [DOWNLOADED] Downloaded: 50 Cent - Piggy Bank (https://www.youtube.com/watch?v=3dmtR9ao2r4) for track 1b8b35e2-bad3-48b0-96df-f0bd5d081a70
+2025-05-04 03:19:07,769 - INFO - [CORRECT] Metadata inserted for track 1b8b35e2-bad3-48b0-96df-f0bd5d081a70: Piggy Bank
+2025-05-04 03:19:07,987 - INFO - [DOWNLOADED] Downloaded: Ariana Grande - better off (Official Audio) (https://www.youtube.com/watch?v=-mNEr0OGusU) for track 1bb3c6e4-9c45-49d8-a8d8-510a60c2ccaa
+2025-05-04 03:19:08,119 - INFO - [CORRECT] Metadata inserted for track 1bb3c6e4-9c45-49d8-a8d8-510a60c2ccaa: better off
+2025-05-04 03:19:16,979 - INFO - [AUDIO FEATURES] Audio features inserted for track 199da456-4ea9-4f25-becf-651457f924b8: Living Proof
+2025-05-04 03:19:16,985 - INFO - [SEARCHING] Searching YouTube for track 1bc18d29-a398-45a1-a33e-7a61d83fbe28: safety net Ariana Grande
+2025-05-04 03:19:23,115 - INFO - [DOWNLOADED] Downloaded: Ariana Grande - safety net (official audio) ft. Ty Dolla $ign (https://www.youtube.com/watch?v=LBBZeJhteRE) for track 1bc18d29-a398-45a1-a33e-7a61d83fbe28
+2025-05-04 03:19:23,216 - INFO - [CORRECT] Metadata inserted for track 1bc18d29-a398-45a1-a33e-7a61d83fbe28: safety net
+2025-05-04 03:19:31,716 - INFO - [AUDIO FEATURES] Audio features inserted for track 1a6f3d0e-ebaa-44c8-b450-2009e09b97a4: Envy the Leaves
+2025-05-04 03:19:31,725 - INFO - [SEARCHING] Searching YouTube for track 1c268e92-924e-4481-8c1f-c5885f0f695d: Wildfire Demi Lovato
+2025-05-04 03:19:38,254 - INFO - [DOWNLOADED] Downloaded: Demi Lovato - Wildfire (Official Audio) (https://www.youtube.com/watch?v=8kApNZjn750) for track 1c268e92-924e-4481-8c1f-c5885f0f695d
+2025-05-04 03:19:38,379 - INFO - [CORRECT] Metadata inserted for track 1c268e92-924e-4481-8c1f-c5885f0f695d: Wildfire
+2025-05-04 03:19:47,810 - INFO - [AUDIO FEATURES] Audio features inserted for track 1a1519e4-8184-4015-91de-28c767b7f523: Work (R3hab extended instrumental)
+2025-05-04 03:19:47,855 - INFO - [SEARCHING] Searching YouTube for track 1c27df20-c5f9-4c82-a155-8eac7298edab: Chromatica III Lady Gaga
+2025-05-04 03:19:52,136 - INFO - [AUDIO FEATURES] Audio features inserted for track 1a9d7149-39ff-4393-814c-6e4f4eaa1175: THIQUE
+2025-05-04 03:19:52,141 - INFO - [SEARCHING] Searching YouTube for track 1c7bd86b-b9b7-46d7-8335-bc4144a37ba3: In the Dark Camila Cabello
+2025-05-04 03:19:53,504 - INFO - [DOWNLOADED] Downloaded: Lady Gaga - Chromatica III (Official Audio) (https://www.youtube.com/watch?v=U4VUEdlaxhU) for track 1c27df20-c5f9-4c82-a155-8eac7298edab
+2025-05-04 03:19:53,625 - INFO - [CORRECT] Metadata inserted for track 1c27df20-c5f9-4c82-a155-8eac7298edab: Chromatica III
+2025-05-04 03:19:58,309 - INFO - [DOWNLOADED] Downloaded: Camila Cabello - In the Dark (Audio) (https://www.youtube.com/watch?v=NGPgr8tnWfw) for track 1c7bd86b-b9b7-46d7-8335-bc4144a37ba3
+2025-05-04 03:19:58,406 - INFO - [CORRECT] Metadata inserted for track 1c7bd86b-b9b7-46d7-8335-bc4144a37ba3: In the Dark
+2025-05-04 03:20:03,353 - INFO - [AUDIO FEATURES] Audio features inserted for track 1c27df20-c5f9-4c82-a155-8eac7298edab: Chromatica III
+2025-05-04 03:20:03,379 - INFO - [SEARCHING] Searching YouTube for track 1c8e1f61-6593-4ce4-a9da-13f0978d8260: Get It Hot AC/DC
+2025-05-04 03:20:03,530 - INFO - [AUDIO FEATURES] Audio features inserted for track 1b85a6a7-0175-4bf1-ba75-9dc7f5505689: prfct
+2025-05-04 03:20:03,539 - INFO - [SEARCHING] Searching YouTube for track 1ca59c67-9cce-487b-a1f4-107de68d8098: Regulus ONEWE
+2025-05-04 03:20:07,227 - INFO - [AUDIO FEATURES] Audio features inserted for track 1aa650a8-4f6e-4235-b75a-8708e4f0981b: I Miss You
+2025-05-04 03:20:07,352 - INFO - [SEARCHING] Searching YouTube for track 1ca6701d-aa25-4aac-8b11-bc1afc48fb33: Not Coming Home Maroon 5
+2025-05-04 03:20:10,148 - INFO - [DOWNLOADED] Downloaded: AC/DC - Get It Hot (Audio) (https://www.youtube.com/watch?v=9FzC5881E4s) for track 1c8e1f61-6593-4ce4-a9da-13f0978d8260
+2025-05-04 03:20:10,151 - INFO - [AUDIO FEATURES] Audio features inserted for track 1bb3c6e4-9c45-49d8-a8d8-510a60c2ccaa: better off
+2025-05-04 03:20:10,156 - INFO - [SEARCHING] Searching YouTube for track 1cb2d6e8-22dc-44f1-b82a-bfe82f18cfde: Skyline To Frank Ocean
+2025-05-04 03:20:10,239 - INFO - [CORRECT] Metadata inserted for track 1c8e1f61-6593-4ce4-a9da-13f0978d8260: Get It Hot
+2025-05-04 03:20:12,789 - INFO - [CORRECT] Metadata inserted for track 1ca59c67-9cce-487b-a1f4-107de68d8098: Regulus
+2025-05-04 03:20:15,532 - INFO - [DOWNLOADED] Downloaded: Not Coming Home (https://www.youtube.com/watch?v=mJ8kStDAb1Y) for track 1ca6701d-aa25-4aac-8b11-bc1afc48fb33
+2025-05-04 03:20:15,680 - INFO - [CORRECT] Metadata inserted for track 1ca6701d-aa25-4aac-8b11-bc1afc48fb33: Not Coming Home
+2025-05-04 03:20:16,339 - INFO - [DOWNLOADED] Downloaded: Frank Ocean - Skyline To (https://www.youtube.com/watch?v=CtkUJb22oSQ) for track 1cb2d6e8-22dc-44f1-b82a-bfe82f18cfde
+2025-05-04 03:20:16,468 - INFO - [CORRECT] Metadata inserted for track 1cb2d6e8-22dc-44f1-b82a-bfe82f18cfde: Skyline To
+2025-05-04 03:20:34,739 - INFO - [AUDIO FEATURES] Audio features inserted for track 1bc18d29-a398-45a1-a33e-7a61d83fbe28: safety net
+2025-05-04 03:20:34,742 - INFO - [SEARCHING] Searching YouTube for track 1cdd7971-c330-4222-9999-623b58638ff5: Beautiful Goodbye Maroon 5
+2025-05-04 03:20:39,847 - INFO - [AUDIO FEATURES] Audio features inserted for track 1c268e92-924e-4481-8c1f-c5885f0f695d: Wildfire
+2025-05-04 03:20:39,859 - INFO - [SEARCHING] Searching YouTube for track 1d02db34-268e-463f-b029-51b485ba3b68: P.S. I Love You The Beatles
+2025-05-04 03:20:39,949 - INFO - [AUDIO FEATURES] Audio features inserted for track 1b8b35e2-bad3-48b0-96df-f0bd5d081a70: Piggy Bank
+2025-05-04 03:20:39,962 - INFO - [SEARCHING] Searching YouTube for track 1d1b8996-4848-4c31-9247-dd9d6ca1c3dd: Lights Up Harry Styles
+2025-05-04 03:20:41,077 - INFO - [DOWNLOADED] Downloaded: Beautiful Goodbye (https://www.youtube.com/watch?v=FIaXgKtg0AU) for track 1cdd7971-c330-4222-9999-623b58638ff5
+2025-05-04 03:20:41,169 - INFO - [CORRECT] Metadata inserted for track 1cdd7971-c330-4222-9999-623b58638ff5: Beautiful Goodbye
+2025-05-04 03:20:46,004 - INFO - [DOWNLOADED] Downloaded: P.S. I Love You (Remastered 2009) (https://www.youtube.com/watch?v=MA5DkiVKSlM) for track 1d02db34-268e-463f-b029-51b485ba3b68
+2025-05-04 03:20:46,146 - INFO - [CORRECT] Metadata inserted for track 1d02db34-268e-463f-b029-51b485ba3b68: P.S. I Love You
+2025-05-04 03:20:46,745 - INFO - [DOWNLOADED] Downloaded: Harry Styles - Lights Up (Official Video) (https://www.youtube.com/watch?v=9NZvM1918_E) for track 1d1b8996-4848-4c31-9247-dd9d6ca1c3dd
+2025-05-04 03:20:46,845 - INFO - [CORRECT] Metadata inserted for track 1d1b8996-4848-4c31-9247-dd9d6ca1c3dd: Lights Up
+2025-05-04 03:21:02,130 - INFO - [AUDIO FEATURES] Audio features inserted for track 1c8e1f61-6593-4ce4-a9da-13f0978d8260: Get It Hot
+2025-05-04 03:21:02,132 - INFO - [SEARCHING] Searching YouTube for track 1dcddf66-8eca-4161-9827-54d1e701d6ce: Queen Shawn Mendes
+2025-05-04 03:21:07,525 - INFO - [AUDIO FEATURES] Audio features inserted for track 1c7bd86b-b9b7-46d7-8335-bc4144a37ba3: In the Dark
+2025-05-04 03:21:07,540 - INFO - [SEARCHING] Searching YouTube for track 1e01a716-13f3-423a-9085-4bfebb0f6465: Love Somebody Maroon 5
+2025-05-04 03:21:07,689 - INFO - [DOWNLOADED] Downloaded: Queen (https://www.youtube.com/watch?v=hXjwr3Hfn60) for track 1dcddf66-8eca-4161-9827-54d1e701d6ce
+2025-05-04 03:21:07,812 - INFO - [CORRECT] Metadata inserted for track 1dcddf66-8eca-4161-9827-54d1e701d6ce: Queen
+2025-05-04 03:21:13,025 - INFO - [DOWNLOADED] Downloaded: Maroon 5 - Love Somebody (https://www.youtube.com/watch?v=MU8B4XDI3Uw) for track 1e01a716-13f3-423a-9085-4bfebb0f6465
+2025-05-04 03:21:13,116 - INFO - [CORRECT] Metadata inserted for track 1e01a716-13f3-423a-9085-4bfebb0f6465: Love Somebody
+2025-05-04 03:21:18,118 - INFO - [AUDIO FEATURES] Audio features inserted for track 1cb2d6e8-22dc-44f1-b82a-bfe82f18cfde: Skyline To
+2025-05-04 03:21:18,128 - INFO - [SEARCHING] Searching YouTube for track 1e4a1a44-0c60-4333-bcac-f1527c30a559: Drive Slow Ye
+2025-05-04 03:21:24,337 - INFO - [DOWNLOADED] Downloaded: Drive Slow (https://www.youtube.com/watch?v=Q1ViJEYNki4) for track 1e4a1a44-0c60-4333-bcac-f1527c30a559
+2025-05-04 03:21:24,442 - INFO - [CORRECT] Metadata inserted for track 1e4a1a44-0c60-4333-bcac-f1527c30a559: Drive Slow
+2025-05-04 03:21:29,575 - INFO - [AUDIO FEATURES] Audio features inserted for track 1d02db34-268e-463f-b029-51b485ba3b68: P.S. I Love You
+2025-05-04 03:21:29,582 - INFO - [SEARCHING] Searching YouTube for track 1e4dd7b4-67e4-4301-9a18-56e6f724c782: I Wonder Madison Beer
+2025-05-04 03:21:30,114 - INFO - [AUDIO FEATURES] Audio features inserted for track 1ca59c67-9cce-487b-a1f4-107de68d8098: Regulus
+2025-05-04 03:21:30,133 - INFO - [SEARCHING] Searching YouTube for track 1e534f7d-e48e-43c9-9620-d0e5d6849f8a: No Pressure Justin Bieber
+2025-05-04 03:21:35,737 - INFO - [DOWNLOADED] Downloaded: Madison Beer - I Wonder (Official Lyric Video) (https://www.youtube.com/watch?v=s6IXLjaP1kM) for track 1e4dd7b4-67e4-4301-9a18-56e6f724c782
+2025-05-04 03:21:35,861 - INFO - [CORRECT] Metadata inserted for track 1e4dd7b4-67e4-4301-9a18-56e6f724c782: I Wonder
+2025-05-04 03:21:37,136 - INFO - [DOWNLOADED] Downloaded: Justin Bieber - No Pressure Ft. Big Sean (Audio) (https://www.youtube.com/watch?v=f5tCvZcScZQ) for track 1e534f7d-e48e-43c9-9620-d0e5d6849f8a
+2025-05-04 03:21:37,233 - INFO - [CORRECT] Metadata inserted for track 1e534f7d-e48e-43c9-9620-d0e5d6849f8a: No Pressure
+2025-05-04 03:21:41,980 - INFO - [AUDIO FEATURES] Audio features inserted for track 1ca6701d-aa25-4aac-8b11-bc1afc48fb33: Not Coming Home
+2025-05-04 03:21:42,010 - INFO - [SEARCHING] Searching YouTube for track 1e79f696-1018-4cc5-b89d-2e9a03652ab0: Lyrical Gangbang Dr. Dre
+2025-05-04 03:21:43,654 - INFO - [AUDIO FEATURES] Audio features inserted for track 1d1b8996-4848-4c31-9247-dd9d6ca1c3dd: Lights Up
+2025-05-04 03:21:43,663 - INFO - [SEARCHING] Searching YouTube for track 1ee21f1d-3b1a-4ffa-8f33-24c01e77455a: Drew Barrymore SZA
+2025-05-04 03:21:49,315 - INFO - [DOWNLOADED] Downloaded: Dr. Dre - Lyrical Gangbang [Official Audio] (https://www.youtube.com/watch?v=SrXO7bGlX30) for track 1e79f696-1018-4cc5-b89d-2e9a03652ab0
+2025-05-04 03:21:49,405 - INFO - [CORRECT] Metadata inserted for track 1e79f696-1018-4cc5-b89d-2e9a03652ab0: Lyrical Gangbang
+2025-05-04 03:21:50,570 - INFO - [DOWNLOADED] Downloaded: SZA - Drew Barrymore (Official Video) (https://www.youtube.com/watch?v=dp45V_M4Akw) for track 1ee21f1d-3b1a-4ffa-8f33-24c01e77455a
+2025-05-04 03:21:50,751 - INFO - [CORRECT] Metadata inserted for track 1ee21f1d-3b1a-4ffa-8f33-24c01e77455a: Drew Barrymore
+2025-05-04 03:22:04,411 - INFO - [AUDIO FEATURES] Audio features inserted for track 1cdd7971-c330-4222-9999-623b58638ff5: Beautiful Goodbye
+2025-05-04 03:22:04,415 - INFO - [SEARCHING] Searching YouTube for track 1ef1471c-93f3-47c6-aa34-25e51c930d22: James Joint Rihanna
+2025-05-04 03:22:09,197 - INFO - [DOWNLOADED] Downloaded: James Joint (https://www.youtube.com/watch?v=EDNaJ1ou71Y) for track 1ef1471c-93f3-47c6-aa34-25e51c930d22
+2025-05-04 03:22:09,308 - INFO - [CORRECT] Metadata inserted for track 1ef1471c-93f3-47c6-aa34-25e51c930d22: James Joint
+2025-05-04 03:22:12,164 - INFO - [AUDIO FEATURES] Audio features inserted for track 1dcddf66-8eca-4161-9827-54d1e701d6ce: Queen
+2025-05-04 03:22:12,189 - INFO - [SEARCHING] Searching YouTube for track 1f08f3e6-a981-44b1-8dcb-43f67098819c: You Miley Cyrus
+2025-05-04 03:22:18,393 - INFO - [DOWNLOADED] Downloaded: Miley Cyrus - You (Official Lyric Video) (https://www.youtube.com/watch?v=w7Xqzji5p_0) for track 1f08f3e6-a981-44b1-8dcb-43f67098819c
+2025-05-04 03:22:18,514 - INFO - [CORRECT] Metadata inserted for track 1f08f3e6-a981-44b1-8dcb-43f67098819c: You
+2025-05-04 03:22:29,072 - INFO - [AUDIO FEATURES] Audio features inserted for track 1e4dd7b4-67e4-4301-9a18-56e6f724c782: I Wonder
+2025-05-04 03:22:29,085 - INFO - [SEARCHING] Searching YouTube for track 1f760fba-f3f5-492e-9d2e-eb59d83dc7cd: Hey Stephen Taylor Swift
+2025-05-04 03:22:29,740 - INFO - [AUDIO FEATURES] Audio features inserted for track 1e01a716-13f3-423a-9085-4bfebb0f6465: Love Somebody
+2025-05-04 03:22:29,789 - INFO - [SEARCHING] Searching YouTube for track 1fbb2b12-a0ab-4ebc-8904-14a1ee8251ab: Don’t Hurt Yourself Beyoncé
+2025-05-04 03:22:35,944 - INFO - [DOWNLOADED] Downloaded: Taylor Swift - Hey Stephen (Taylor's Version) (Lyric Video) (https://www.youtube.com/watch?v=tMhiHrL7rPE) for track 1f760fba-f3f5-492e-9d2e-eb59d83dc7cd
+2025-05-04 03:22:36,050 - INFO - [CORRECT] Metadata inserted for track 1f760fba-f3f5-492e-9d2e-eb59d83dc7cd: Hey Stephen
+2025-05-04 03:22:36,065 - INFO - [DOWNLOADED] Downloaded: Beyoncé ft Jack White - Don't Hurt Yourself ( Official Music Video ) Pre Promo (https://www.youtube.com/watch?v=10pOVWHrWck) for track 1fbb2b12-a0ab-4ebc-8904-14a1ee8251ab
+2025-05-04 03:22:36,162 - INFO - [CORRECT] Metadata inserted for track 1fbb2b12-a0ab-4ebc-8904-14a1ee8251ab: Don’t Hurt Yourself
+2025-05-04 03:22:38,502 - INFO - [AUDIO FEATURES] Audio features inserted for track 1ef1471c-93f3-47c6-aa34-25e51c930d22: James Joint
+2025-05-04 03:22:38,511 - INFO - [SEARCHING] Searching YouTube for track 1fbedf3f-7173-4590-b2bd-4453fc1d814c: God Gave Me Style 50 Cent
+2025-05-04 03:22:44,354 - INFO - [DOWNLOADED] Downloaded: 50 Cent - God Gave Me Style (https://www.youtube.com/watch?v=FgHrdRUwtfY) for track 1fbedf3f-7173-4590-b2bd-4453fc1d814c
+2025-05-04 03:22:44,440 - INFO - [CORRECT] Metadata inserted for track 1fbedf3f-7173-4590-b2bd-4453fc1d814c: God Gave Me Style
+2025-05-04 03:22:52,512 - INFO - [AUDIO FEATURES] Audio features inserted for track 1e4a1a44-0c60-4333-bcac-f1527c30a559: Drive Slow
+2025-05-04 03:22:52,520 - INFO - [SEARCHING] Searching YouTube for track 1fd54288-3141-4ff9-910a-5057b36712da: Merry Go ’Round Kacey Musgraves
+2025-05-04 03:22:58,505 - INFO - [DOWNLOADED] Downloaded: Kacey Musgraves - Merry Go 'Round (Official Music Video) (https://www.youtube.com/watch?v=GZfj2Ir3GgQ) for track 1fd54288-3141-4ff9-910a-5057b36712da
+2025-05-04 03:22:58,610 - INFO - [CORRECT] Metadata inserted for track 1fd54288-3141-4ff9-910a-5057b36712da: Merry Go ’Round
+2025-05-04 03:23:09,021 - INFO - [AUDIO FEATURES] Audio features inserted for track 1e534f7d-e48e-43c9-9620-d0e5d6849f8a: No Pressure
+2025-05-04 03:23:09,025 - INFO - [SEARCHING] Searching YouTube for track 2019b3ce-8b3e-4512-a876-d4b5bd163984: Red Taylor Swift
+2025-05-04 03:23:10,062 - INFO - [AUDIO FEATURES] Audio features inserted for track 1ee21f1d-3b1a-4ffa-8f33-24c01e77455a: Drew Barrymore
+2025-05-04 03:23:10,066 - INFO - [SEARCHING] Searching YouTube for track 20405515-3ba4-4a7c-8970-077de685ee0d: Cinema Harry Styles
+2025-05-04 03:23:10,881 - INFO - [AUDIO FEATURES] Audio features inserted for track 1e79f696-1018-4cc5-b89d-2e9a03652ab0: Lyrical Gangbang
+2025-05-04 03:23:10,886 - INFO - [SEARCHING] Searching YouTube for track 218d5999-9efb-49ac-99da-ea1bc2eba8d4: Gone Ye
+2025-05-04 03:23:17,690 - INFO - [DOWNLOADED] Downloaded: Taylor Swift - Red (https://www.youtube.com/watch?v=Zlot0i3Zykw) for track 2019b3ce-8b3e-4512-a876-d4b5bd163984
+2025-05-04 03:23:17,784 - INFO - [CORRECT] Metadata inserted for track 2019b3ce-8b3e-4512-a876-d4b5bd163984: Red
+2025-05-04 03:23:18,368 - INFO - [DOWNLOADED] Downloaded: Harry Styles - Cinema (Audio) (https://www.youtube.com/watch?v=_ecXNJP-ERY) for track 20405515-3ba4-4a7c-8970-077de685ee0d
+2025-05-04 03:23:18,495 - INFO - [CORRECT] Metadata inserted for track 20405515-3ba4-4a7c-8970-077de685ee0d: Cinema
+2025-05-04 03:23:18,861 - INFO - [DOWNLOADED] Downloaded: Gone (https://www.youtube.com/watch?v=TwPCaWQIJME) for track 218d5999-9efb-49ac-99da-ea1bc2eba8d4
+2025-05-04 03:23:18,983 - INFO - [CORRECT] Metadata inserted for track 218d5999-9efb-49ac-99da-ea1bc2eba8d4: Gone
+2025-05-04 03:23:22,649 - INFO - [AUDIO FEATURES] Audio features inserted for track 1f08f3e6-a981-44b1-8dcb-43f67098819c: You
+2025-05-04 03:23:22,660 - INFO - [SEARCHING] Searching YouTube for track 21d7b206-91a2-4bb4-8fd6-409084364369: Give Your Heart a Break Demi Lovato
+2025-05-04 03:23:28,396 - INFO - [DOWNLOADED] Downloaded: Demi Lovato - Give Your Heart a Break (Official Video) (https://www.youtube.com/watch?v=1zfzka5VwRc) for track 21d7b206-91a2-4bb4-8fd6-409084364369
+2025-05-04 03:23:28,553 - INFO - [CORRECT] Metadata inserted for track 21d7b206-91a2-4bb4-8fd6-409084364369: Give Your Heart a Break
+2025-05-04 03:23:39,600 - INFO - [AUDIO FEATURES] Audio features inserted for track 1fbb2b12-a0ab-4ebc-8904-14a1ee8251ab: Don’t Hurt Yourself
+2025-05-04 03:23:39,608 - INFO - [SEARCHING] Searching YouTube for track 21d8826e-3dc1-4f56-b3a7-036de07ceed4: Maggie's Song Chris Stapleton
+2025-05-04 03:23:46,016 - INFO - [DOWNLOADED] Downloaded: Chris Stapleton - Maggie's Song (Official Audio) (https://www.youtube.com/watch?v=sQ3J9YnXmUI) for track 21d8826e-3dc1-4f56-b3a7-036de07ceed4
+2025-05-04 03:23:46,135 - INFO - [CORRECT] Metadata inserted for track 21d8826e-3dc1-4f56-b3a7-036de07ceed4: Maggie's Song
+2025-05-04 03:23:47,177 - INFO - [AUDIO FEATURES] Audio features inserted for track 1fbedf3f-7173-4590-b2bd-4453fc1d814c: God Gave Me Style
+2025-05-04 03:23:47,199 - INFO - [SEARCHING] Searching YouTube for track 22201fe6-1c33-43ba-ae8b-0da31ffa9213: DESERT EAGLE Beyoncé
+2025-05-04 03:23:52,558 - INFO - [DOWNLOADED] Downloaded: Beyoncé - DESERT EAGLE (Official Lyric Video) (https://www.youtube.com/watch?v=FpXJR3YYius) for track 22201fe6-1c33-43ba-ae8b-0da31ffa9213
+2025-05-04 03:23:52,644 - INFO - [CORRECT] Metadata inserted for track 22201fe6-1c33-43ba-ae8b-0da31ffa9213: DESERT EAGLE
+2025-05-04 03:23:59,903 - INFO - [AUDIO FEATURES] Audio features inserted for track 1f760fba-f3f5-492e-9d2e-eb59d83dc7cd: Hey Stephen
+2025-05-04 03:23:59,909 - INFO - [SEARCHING] Searching YouTube for track 22b7c3ba-e1e4-40ef-bb46-ef52979cec5a: Stained Glass Madison Beer
+2025-05-04 03:24:01,279 - INFO - [AUDIO FEATURES] Audio features inserted for track 1fd54288-3141-4ff9-910a-5057b36712da: Merry Go ’Round
+2025-05-04 03:24:01,290 - INFO - [SEARCHING] Searching YouTube for track 234c6212-36e9-41f6-8244-6f3de779b094: Purpose Justin Bieber
+2025-05-04 03:24:07,232 - INFO - [DOWNLOADED] Downloaded: Madison Beer - Stained Glass (Visualizer Video) (https://www.youtube.com/watch?v=dUkSt5XOFLE) for track 22b7c3ba-e1e4-40ef-bb46-ef52979cec5a
+2025-05-04 03:24:07,341 - INFO - [CORRECT] Metadata inserted for track 22b7c3ba-e1e4-40ef-bb46-ef52979cec5a: Stained Glass
+2025-05-04 03:24:08,287 - INFO - [DOWNLOADED] Downloaded: Justin Bieber - Purpose (PURPOSE : The Movement) (Official Music Video) (https://www.youtube.com/watch?v=Ca1i6DZC3iY) for track 234c6212-36e9-41f6-8244-6f3de779b094
+2025-05-04 03:24:08,400 - INFO - [CORRECT] Metadata inserted for track 234c6212-36e9-41f6-8244-6f3de779b094: Purpose
+2025-05-04 03:24:20,726 - INFO - [AUDIO FEATURES] Audio features inserted for track 22201fe6-1c33-43ba-ae8b-0da31ffa9213: DESERT EAGLE
+2025-05-04 03:24:20,729 - INFO - [SEARCHING] Searching YouTube for track 235fe8f2-ea2f-4e4e-ab32-03be815452f9: Shake a Leg AC/DC
+2025-05-04 03:24:26,854 - INFO - [DOWNLOADED] Downloaded: Shake a Leg (https://www.youtube.com/watch?v=ww40RmFNsNo) for track 235fe8f2-ea2f-4e4e-ab32-03be815452f9
+2025-05-04 03:24:26,960 - INFO - [CORRECT] Metadata inserted for track 235fe8f2-ea2f-4e4e-ab32-03be815452f9: Shake a Leg
+2025-05-04 03:24:34,212 - INFO - [AUDIO FEATURES] Audio features inserted for track 2019b3ce-8b3e-4512-a876-d4b5bd163984: Red
+2025-05-04 03:24:34,217 - INFO - [SEARCHING] Searching YouTube for track 23893d22-c201-49d8-a262-022f163bb42a: Changes Justin Bieber
+2025-05-04 03:24:39,726 - INFO - [AUDIO FEATURES] Audio features inserted for track 20405515-3ba4-4a7c-8970-077de685ee0d: Cinema
+2025-05-04 03:24:39,734 - INFO - [SEARCHING] Searching YouTube for track 239bc79d-564c-48a9-8bb9-68acb2dbcb99: Long Way Down One Direction
+2025-05-04 03:24:40,369 - INFO - [DOWNLOADED] Downloaded: Justin Bieber - Changes (Nature Visual) (https://www.youtube.com/watch?v=AUnypjWNa7Q) for track 23893d22-c201-49d8-a262-022f163bb42a
+2025-05-04 03:24:40,534 - INFO - [CORRECT] Metadata inserted for track 23893d22-c201-49d8-a262-022f163bb42a: Changes
+2025-05-04 03:24:44,114 - INFO - [AUDIO FEATURES] Audio features inserted for track 21d7b206-91a2-4bb4-8fd6-409084364369: Give Your Heart a Break
+2025-05-04 03:24:44,127 - INFO - [SEARCHING] Searching YouTube for track 239be118-8f35-448e-8ae5-df417b1b64e7: the last great american dynasty Taylor Swift
+2025-05-04 03:24:46,115 - INFO - [DOWNLOADED] Downloaded: One Direction - Long Way Down (Audio) (https://www.youtube.com/watch?v=fwfVwqIeObE) for track 239bc79d-564c-48a9-8bb9-68acb2dbcb99
+2025-05-04 03:24:46,218 - INFO - [CORRECT] Metadata inserted for track 239bc79d-564c-48a9-8bb9-68acb2dbcb99: Long Way Down
+2025-05-04 03:24:50,282 - INFO - [DOWNLOADED] Downloaded: Taylor Swift - the last great american dynasty (Official Lyric Video) (https://www.youtube.com/watch?v=2s5xdY6MCeI) for track 239be118-8f35-448e-8ae5-df417b1b64e7
+2025-05-04 03:24:50,383 - INFO - [CORRECT] Metadata inserted for track 239be118-8f35-448e-8ae5-df417b1b64e7: the last great american dynasty
+2025-05-04 03:24:57,484 - INFO - [AUDIO FEATURES] Audio features inserted for track 21d8826e-3dc1-4f56-b3a7-036de07ceed4: Maggie's Song
+2025-05-04 03:24:57,501 - INFO - [SEARCHING] Searching YouTube for track 23f60f02-48b4-49ab-9e40-4305851964df: successful Ariana Grande
+2025-05-04 03:25:03,491 - INFO - [DOWNLOADED] Downloaded: Ariana Grande - successful (Official Audio) (https://www.youtube.com/watch?v=_IvArrFhcp0) for track 23f60f02-48b4-49ab-9e40-4305851964df
+2025-05-04 03:25:03,651 - INFO - [CORRECT] Metadata inserted for track 23f60f02-48b4-49ab-9e40-4305851964df: successful
+2025-05-04 03:25:08,065 - INFO - [AUDIO FEATURES] Audio features inserted for track 218d5999-9efb-49ac-99da-ea1bc2eba8d4: Gone
+2025-05-04 03:25:08,075 - INFO - [SEARCHING] Searching YouTube for track 2421ac91-d401-4c69-9a4c-feca38b95d71: The Doctor’s Office Dr. Dre
+2025-05-04 03:25:12,977 - INFO - [DOWNLOADED] Downloaded: Dr. Dre - The Doctor's Office [Official Audio] (https://www.youtube.com/watch?v=fr-pMt00lY0) for track 2421ac91-d401-4c69-9a4c-feca38b95d71
+2025-05-04 03:25:13,109 - INFO - [CORRECT] Metadata inserted for track 2421ac91-d401-4c69-9a4c-feca38b95d71: The Doctor’s Office
+2025-05-04 03:25:16,340 - INFO - [AUDIO FEATURES] Audio features inserted for track 22b7c3ba-e1e4-40ef-bb46-ef52979cec5a: Stained Glass
+2025-05-04 03:25:16,367 - INFO - [SEARCHING] Searching YouTube for track 242d99f7-5b74-44db-928e-94ccc14845a4: Just the Way You Are Billy Joel
+2025-05-04 03:25:18,854 - INFO - [AUDIO FEATURES] Audio features inserted for track 234c6212-36e9-41f6-8244-6f3de779b094: Purpose
+2025-05-04 03:25:18,867 - INFO - [SEARCHING] Searching YouTube for track 24431176-d846-4b6a-a444-d4937eb57154: Perfect Celebrity Lady Gaga
+2025-05-04 03:25:25,645 - INFO - [DOWNLOADED] Downloaded: Lady Gaga - Perfect Celebrity (Official Audio) (https://www.youtube.com/watch?v=tDZ6bi-YguU) for track 24431176-d846-4b6a-a444-d4937eb57154
+2025-05-04 03:25:25,721 - INFO - [CORRECT] Metadata inserted for track 24431176-d846-4b6a-a444-d4937eb57154: Perfect Celebrity
+2025-05-04 03:25:26,794 - INFO - [DOWNLOADED] Downloaded: Billy Joel - Just the Way You Are (Official Audio) (https://www.youtube.com/watch?v=HaA3YZ6QdJU) for track 242d99f7-5b74-44db-928e-94ccc14845a4
+2025-05-04 03:25:26,913 - INFO - [CORRECT] Metadata inserted for track 242d99f7-5b74-44db-928e-94ccc14845a4: Just the Way You Are
+2025-05-04 03:25:30,921 - INFO - [AUDIO FEATURES] Audio features inserted for track 23893d22-c201-49d8-a262-022f163bb42a: Changes
+2025-05-04 03:25:30,968 - INFO - [SEARCHING] Searching YouTube for track 245b5530-c62f-433f-8d68-3019aec6546b: Don’t Start Now Dua Lipa
+2025-05-04 03:25:36,334 - INFO - [AUDIO FEATURES] Audio features inserted for track 2421ac91-d401-4c69-9a4c-feca38b95d71: The Doctor’s Office
+2025-05-04 03:25:36,336 - INFO - [SEARCHING] Searching YouTube for track 246ac34a-9108-426f-9691-3524c5ebba4a: Unbroken Demi Lovato
+2025-05-04 03:25:36,745 - INFO - [DOWNLOADED] Downloaded: Dua Lipa - Don't Start Now (Official Music Video) (https://www.youtube.com/watch?v=oygrmJFKYZY) for track 245b5530-c62f-433f-8d68-3019aec6546b
+2025-05-04 03:25:36,935 - INFO - [CORRECT] Metadata inserted for track 245b5530-c62f-433f-8d68-3019aec6546b: Don’t Start Now
+2025-05-04 03:25:41,969 - INFO - [DOWNLOADED] Downloaded: Unbroken (https://www.youtube.com/watch?v=iLfB6-slQdc) for track 246ac34a-9108-426f-9691-3524c5ebba4a
+2025-05-04 03:25:42,066 - INFO - [CORRECT] Metadata inserted for track 246ac34a-9108-426f-9691-3524c5ebba4a: Unbroken
+2025-05-04 03:25:49,931 - INFO - [AUDIO FEATURES] Audio features inserted for track 235fe8f2-ea2f-4e4e-ab32-03be815452f9: Shake a Leg
+2025-05-04 03:25:49,950 - INFO - [SEARCHING] Searching YouTube for track 246b8196-bcd9-4bb3-9bfb-ee52e3bc0dbf: My House Kacey Musgraves
+2025-05-04 03:25:51,310 - INFO - [AUDIO FEATURES] Audio features inserted for track 239bc79d-564c-48a9-8bb9-68acb2dbcb99: Long Way Down
+2025-05-04 03:25:51,314 - INFO - [SEARCHING] Searching YouTube for track 24d39078-a9d0-4cbd-bd8b-3a24a0be96c7: Innocent Taylor Swift
+2025-05-04 03:25:56,479 - INFO - [DOWNLOADED] Downloaded: My House (https://www.youtube.com/watch?v=v7OPPYQ-Svg) for track 246b8196-bcd9-4bb3-9bfb-ee52e3bc0dbf
+2025-05-04 03:25:56,606 - INFO - [CORRECT] Metadata inserted for track 246b8196-bcd9-4bb3-9bfb-ee52e3bc0dbf: My House
+2025-05-04 03:25:58,241 - INFO - [DOWNLOADED] Downloaded: Taylor Swift - Innocent (Taylor's Version) (Lyric Video) (https://www.youtube.com/watch?v=vO6JqQpJboY) for track 24d39078-a9d0-4cbd-bd8b-3a24a0be96c7
+2025-05-04 03:25:58,387 - INFO - [CORRECT] Metadata inserted for track 24d39078-a9d0-4cbd-bd8b-3a24a0be96c7: Innocent
+2025-05-04 03:26:05,400 - INFO - [AUDIO FEATURES] Audio features inserted for track 239be118-8f35-448e-8ae5-df417b1b64e7: the last great american dynasty
+2025-05-04 03:26:05,413 - INFO - [SEARCHING] Searching YouTube for track 2540e227-d5cd-492c-a66b-8b31b01f8c73: sweetener Ariana Grande
+2025-05-04 03:26:11,295 - INFO - [AUDIO FEATURES] Audio features inserted for track 23f60f02-48b4-49ab-9e40-4305851964df: successful
+2025-05-04 03:26:11,314 - INFO - [SEARCHING] Searching YouTube for track 2569717d-2211-4152-8d58-05e9fa80d1ea: Killah Lady Gaga
+2025-05-04 03:26:11,681 - INFO - [DOWNLOADED] Downloaded: Ariana Grande - sweetener (Official Audio) (https://www.youtube.com/watch?v=6vay5SgNPpk) for track 2540e227-d5cd-492c-a66b-8b31b01f8c73
+2025-05-04 03:26:11,798 - INFO - [CORRECT] Metadata inserted for track 2540e227-d5cd-492c-a66b-8b31b01f8c73: sweetener
+2025-05-04 03:26:17,109 - INFO - [DOWNLOADED] Downloaded: Lady Gaga - Killah (feat. Gesaffelstein) [Official Audio] (https://www.youtube.com/watch?v=No_avjkyTLo) for track 2569717d-2211-4152-8d58-05e9fa80d1ea
+2025-05-04 03:26:17,206 - INFO - [CORRECT] Metadata inserted for track 2569717d-2211-4152-8d58-05e9fa80d1ea: Killah
+2025-05-04 03:26:35,215 - INFO - [AUDIO FEATURES] Audio features inserted for track 245b5530-c62f-433f-8d68-3019aec6546b: Don’t Start Now
+2025-05-04 03:26:35,237 - INFO - [SEARCHING] Searching YouTube for track 26290d76-ba05-4f65-acc8-6d08615f0489: The Best Day Taylor Swift
+2025-05-04 03:26:39,592 - INFO - [AUDIO FEATURES] Audio features inserted for track 246ac34a-9108-426f-9691-3524c5ebba4a: Unbroken
+2025-05-04 03:26:39,668 - INFO - [SEARCHING] Searching YouTube for track 26b14fbc-8c89-4d15-ab44-fbb656cfc29f: The Way I Loved You Taylor Swift
+2025-05-04 03:26:39,822 - INFO - [AUDIO FEATURES] Audio features inserted for track 24431176-d846-4b6a-a444-d4937eb57154: Perfect Celebrity
+2025-05-04 03:26:39,825 - INFO - [SEARCHING] Searching YouTube for track 271ffacb-06a5-461b-b605-27f4c8fb208b: We Are Never Ever Getting Back Together Taylor Swift
+2025-05-04 03:26:41,116 - INFO - [DOWNLOADED] Downloaded: Taylor Swift - The Best Day (Taylor's Version) (Official Music Video) (https://www.youtube.com/watch?v=n0cde-Km05o) for track 26290d76-ba05-4f65-acc8-6d08615f0489
+2025-05-04 03:26:41,197 - INFO - [CORRECT] Metadata inserted for track 26290d76-ba05-4f65-acc8-6d08615f0489: The Best Day
+2025-05-04 03:26:46,817 - INFO - [DOWNLOADED] Downloaded: Taylor Swift - The Way I Loved You (Taylor's Version) (Lyric Video) (https://www.youtube.com/watch?v=DlexmDDSDZ0) for track 26b14fbc-8c89-4d15-ab44-fbb656cfc29f
+2025-05-04 03:26:46,979 - INFO - [CORRECT] Metadata inserted for track 26b14fbc-8c89-4d15-ab44-fbb656cfc29f: The Way I Loved You
+2025-05-04 03:26:47,540 - INFO - [DOWNLOADED] Downloaded: Taylor Swift - We Are Never Ever Getting Back Together (https://www.youtube.com/watch?v=WA4iX5D9Z64) for track 271ffacb-06a5-461b-b605-27f4c8fb208b
+2025-05-04 03:26:47,634 - INFO - [CORRECT] Metadata inserted for track 271ffacb-06a5-461b-b605-27f4c8fb208b: We Are Never Ever Getting Back Together
+2025-05-04 03:26:51,986 - INFO - [AUDIO FEATURES] Audio features inserted for track 246b8196-bcd9-4bb3-9bfb-ee52e3bc0dbf: My House
+2025-05-04 03:26:52,053 - INFO - [SEARCHING] Searching YouTube for track 27659585-8b8a-4720-abb8-1b59826552e6: The Chronic (Intro) Dr. Dre
+2025-05-04 03:26:57,537 - INFO - [DOWNLOADED] Downloaded: Dr. Dre - The Chronic (Intro) [Official Audio] (https://www.youtube.com/watch?v=jV7GkcqyMqo) for track 27659585-8b8a-4720-abb8-1b59826552e6
+2025-05-04 03:26:57,652 - INFO - [CORRECT] Metadata inserted for track 27659585-8b8a-4720-abb8-1b59826552e6: The Chronic (Intro)
+2025-05-04 03:27:04,197 - INFO - [AUDIO FEATURES] Audio features inserted for track 242d99f7-5b74-44db-928e-94ccc14845a4: Just the Way You Are
+2025-05-04 03:27:04,210 - INFO - [SEARCHING] Searching YouTube for track 279880e4-b5d8-43e1-88f3-3bf1ed6027f9: Sour Candy Lady Gaga
+2025-05-04 03:27:09,778 - INFO - [DOWNLOADED] Downloaded: Lady Gaga, BLACKPINK - Sour Candy (Audio) (https://www.youtube.com/watch?v=fnPn6At3v28) for track 279880e4-b5d8-43e1-88f3-3bf1ed6027f9
+2025-05-04 03:27:09,887 - INFO - [CORRECT] Metadata inserted for track 279880e4-b5d8-43e1-88f3-3bf1ed6027f9: Sour Candy
+2025-05-04 03:27:22,683 - INFO - [AUDIO FEATURES] Audio features inserted for track 2540e227-d5cd-492c-a66b-8b31b01f8c73: sweetener
+2025-05-04 03:27:22,693 - INFO - [SEARCHING] Searching YouTube for track 27ceae9a-4b12-4c72-96e0-f1d7e7fd3714: All I Need Radiohead
+2025-05-04 03:27:23,720 - INFO - [AUDIO FEATURES] Audio features inserted for track 2569717d-2211-4152-8d58-05e9fa80d1ea: Killah
+2025-05-04 03:27:23,749 - INFO - [SEARCHING] Searching YouTube for track 280f3661-cdb9-4dbe-9bd2-9a008b84f145: If I Can't 50 Cent
+2025-05-04 03:27:29,721 - INFO - [DOWNLOADED] Downloaded: Radiohead - All I Need (https://www.youtube.com/watch?v=wUL8NklXDsw) for track 27ceae9a-4b12-4c72-96e0-f1d7e7fd3714
+2025-05-04 03:27:29,775 - INFO - [DOWNLOADED] Downloaded: If I Can't (https://www.youtube.com/watch?v=z5zz7GHU4ec) for track 280f3661-cdb9-4dbe-9bd2-9a008b84f145
+2025-05-04 03:27:29,807 - INFO - [CORRECT] Metadata inserted for track 27ceae9a-4b12-4c72-96e0-f1d7e7fd3714: All I Need
+2025-05-04 03:27:29,898 - INFO - [CORRECT] Metadata inserted for track 280f3661-cdb9-4dbe-9bd2-9a008b84f145: If I Can't
+2025-05-04 03:27:36,801 - INFO - [AUDIO FEATURES] Audio features inserted for track 27659585-8b8a-4720-abb8-1b59826552e6: The Chronic (Intro)
+2025-05-04 03:27:36,817 - INFO - [SEARCHING] Searching YouTube for track 2830f016-9968-432d-b6d9-83f0fbac135f: Bang Bang Dr. Dre
+2025-05-04 03:27:40,682 - INFO - [AUDIO FEATURES] Audio features inserted for track 24d39078-a9d0-4cbd-bd8b-3a24a0be96c7: Innocent
+2025-05-04 03:27:40,686 - INFO - [SEARCHING] Searching YouTube for track 28a1ff2e-a126-4858-a95f-4e73b817c1cb: Lost Frank Ocean
+2025-05-04 03:27:44,162 - INFO - [DOWNLOADED] Downloaded: Dr. Dre - Bang Bang [HD] (https://www.youtube.com/watch?v=kCjEjRn_CYQ) for track 2830f016-9968-432d-b6d9-83f0fbac135f
+2025-05-04 03:27:44,289 - INFO - [CORRECT] Metadata inserted for track 2830f016-9968-432d-b6d9-83f0fbac135f: Bang Bang
+2025-05-04 03:27:46,465 - INFO - [DOWNLOADED] Downloaded: Frank Ocean - Lost (Lyrics) (https://www.youtube.com/watch?v=xjoBP7SDgaY) for track 28a1ff2e-a126-4858-a95f-4e73b817c1cb
+2025-05-04 03:27:46,573 - INFO - [CORRECT] Metadata inserted for track 28a1ff2e-a126-4858-a95f-4e73b817c1cb: Lost
+2025-05-04 03:28:02,426 - INFO - [AUDIO FEATURES] Audio features inserted for track 279880e4-b5d8-43e1-88f3-3bf1ed6027f9: Sour Candy
+2025-05-04 03:28:02,454 - INFO - [SEARCHING] Searching YouTube for track 28f528a1-9c0e-4300-9ccb-e5aabf070088: good wife Kacey Musgraves
+2025-05-04 03:28:06,267 - INFO - [AUDIO FEATURES] Audio features inserted for track 271ffacb-06a5-461b-b605-27f4c8fb208b: We Are Never Ever Getting Back Together
+2025-05-04 03:28:06,341 - INFO - [SEARCHING] Searching YouTube for track 29637996-3944-4469-8f84-79ab851576f1: Happy & Sad Kacey Musgraves
+2025-05-04 03:28:07,722 - INFO - [AUDIO FEATURES] Audio features inserted for track 26b14fbc-8c89-4d15-ab44-fbb656cfc29f: The Way I Loved You
+2025-05-04 03:28:07,725 - INFO - [SEARCHING] Searching YouTube for track 29bba3c4-58a2-4465-a5a6-4f9f526376d6: Remain in Me Peter Cat Recording Co.
+2025-05-04 03:28:10,577 - INFO - [DOWNLOADED] Downloaded: KACEY MUSGRAVES - good wife (official lyric video) (https://www.youtube.com/watch?v=eFu1P-BPglE) for track 28f528a1-9c0e-4300-9ccb-e5aabf070088
+2025-05-04 03:28:10,824 - INFO - [CORRECT] Metadata inserted for track 28f528a1-9c0e-4300-9ccb-e5aabf070088: good wife
+2025-05-04 03:28:12,233 - INFO - [AUDIO FEATURES] Audio features inserted for track 26290d76-ba05-4f65-acc8-6d08615f0489: The Best Day
+2025-05-04 03:28:12,239 - INFO - [SEARCHING] Searching YouTube for track 2a1f8028-6d5e-45a5-b821-42a45a2fa6b1: Bejeweled Taylor Swift
+2025-05-04 03:28:13,349 - INFO - [DOWNLOADED] Downloaded: Kacey Musgraves - Happy & Sad (Official Audio) (https://www.youtube.com/watch?v=U5oIvfraRrU) for track 29637996-3944-4469-8f84-79ab851576f1
+2025-05-04 03:28:13,449 - INFO - [CORRECT] Metadata inserted for track 29637996-3944-4469-8f84-79ab851576f1: Happy & Sad
+2025-05-04 03:28:14,245 - INFO - [DOWNLOADED] Downloaded: Remain in Me (https://www.youtube.com/watch?v=vxrjK4OtslY) for track 29bba3c4-58a2-4465-a5a6-4f9f526376d6
+2025-05-04 03:28:14,335 - INFO - [CORRECT] Metadata inserted for track 29bba3c4-58a2-4465-a5a6-4f9f526376d6: Remain in Me
+2025-05-04 03:28:18,986 - INFO - [DOWNLOADED] Downloaded: Taylor Swift - Bejeweled (Official Music Video) (https://www.youtube.com/watch?v=b7QlX3yR2xs) for track 2a1f8028-6d5e-45a5-b821-42a45a2fa6b1
+2025-05-04 03:28:19,083 - INFO - [CORRECT] Metadata inserted for track 2a1f8028-6d5e-45a5-b821-42a45a2fa6b1: Bejeweled
+2025-05-04 03:28:34,361 - INFO - [AUDIO FEATURES] Audio features inserted for track 280f3661-cdb9-4dbe-9bd2-9a008b84f145: If I Can't
+2025-05-04 03:28:34,374 - INFO - [SEARCHING] Searching YouTube for track 2ad32cf1-96c5-4db2-bfe9-826a86ce8329: Sgt. Pepper's Lonely Hearts Club Band The Beatles
+2025-05-04 03:28:39,476 - INFO - [DOWNLOADED] Downloaded: Sgt. Pepper's Lonely Hearts Club Band (Remastered 2009) (https://www.youtube.com/watch?v=R7dQjOCLQI8) for track 2ad32cf1-96c5-4db2-bfe9-826a86ce8329
+2025-05-04 03:28:39,577 - INFO - [CORRECT] Metadata inserted for track 2ad32cf1-96c5-4db2-bfe9-826a86ce8329: Sgt. Pepper's Lonely Hearts Club Band
+2025-05-04 03:28:42,931 - INFO - [AUDIO FEATURES] Audio features inserted for track 27ceae9a-4b12-4c72-96e0-f1d7e7fd3714: All I Need
+2025-05-04 03:28:42,949 - INFO - [SEARCHING] Searching YouTube for track 2aeeb920-2e46-4b09-bfe9-ee1c56f0294d: Where Were You in the Morning? Shawn Mendes
+2025-05-04 03:28:48,969 - INFO - [AUDIO FEATURES] Audio features inserted for track 2830f016-9968-432d-b6d9-83f0fbac135f: Bang Bang
+2025-05-04 03:28:48,975 - INFO - [SEARCHING] Searching YouTube for track 2b5791a6-8f6a-4000-839d-4299d77bea31: Forgot About Dre Dr. Dre
+2025-05-04 03:28:49,350 - INFO - [DOWNLOADED] Downloaded: Where Were You In The Morning? (https://www.youtube.com/watch?v=RRic28k8sVU) for track 2aeeb920-2e46-4b09-bfe9-ee1c56f0294d
+2025-05-04 03:28:49,431 - INFO - [CORRECT] Metadata inserted for track 2aeeb920-2e46-4b09-bfe9-ee1c56f0294d: Where Were You in the Morning?
+2025-05-04 03:28:55,966 - INFO - [DOWNLOADED] Downloaded: Eminem, Dr. Dre - Forgot About Dre (Explicit) (Official Music Video) ft. Hittman (https://www.youtube.com/watch?v=QFcv5Ma8u8k) for track 2b5791a6-8f6a-4000-839d-4299d77bea31
+2025-05-04 03:28:56,113 - INFO - [CORRECT] Metadata inserted for track 2b5791a6-8f6a-4000-839d-4299d77bea31: Forgot About Dre
+2025-05-04 03:29:00,024 - INFO - [AUDIO FEATURES] Audio features inserted for track 28a1ff2e-a126-4858-a95f-4e73b817c1cb: Lost
+2025-05-04 03:29:00,031 - INFO - [SEARCHING] Searching YouTube for track 2b61c476-6f2b-44b9-8eee-cb3f53c826ff: I Want to Write You a Song One Direction
+2025-05-04 03:29:05,509 - INFO - [DOWNLOADED] Downloaded: One Direction - I Want to Write You a Song (Audio) (https://www.youtube.com/watch?v=dTvgQ7-jPYk) for track 2b61c476-6f2b-44b9-8eee-cb3f53c826ff
+2025-05-04 03:29:05,619 - INFO - [CORRECT] Metadata inserted for track 2b61c476-6f2b-44b9-8eee-cb3f53c826ff: I Want to Write You a Song
+2025-05-04 03:29:19,750 - INFO - [AUDIO FEATURES] Audio features inserted for track 2ad32cf1-96c5-4db2-bfe9-826a86ce8329: Sgt. Pepper's Lonely Hearts Club Band
+2025-05-04 03:29:19,753 - INFO - [SEARCHING] Searching YouTube for track 2bbd29fa-b951-4e78-9e24-85918142f1f1: Montage_ ONEWE
+2025-05-04 03:29:26,450 - INFO - [CORRECT] Metadata inserted for track 2bbd29fa-b951-4e78-9e24-85918142f1f1: Montage_
+2025-05-04 03:29:33,421 - INFO - [AUDIO FEATURES] Audio features inserted for track 28f528a1-9c0e-4300-9ccb-e5aabf070088: good wife
+2025-05-04 03:29:33,507 - INFO - [SEARCHING] Searching YouTube for track 2bd647e5-6bc3-4381-b0c3-63d4a8730e5c: Hope You Know tdf
+2025-05-04 03:29:34,850 - INFO - [AUDIO FEATURES] Audio features inserted for track 29637996-3944-4469-8f84-79ab851576f1: Happy & Sad
+2025-05-04 03:29:34,853 - INFO - [SEARCHING] Searching YouTube for track 2bf5444e-9d88-4b34-aec0-5a423b4d348a: Rave tdf
+2025-05-04 03:29:40,740 - INFO - [DOWNLOADED] Downloaded: 1oneam - Hope You Know (Prod By Tdf) (https://www.youtube.com/watch?v=N2b0YLoz_GQ) for track 2bd647e5-6bc3-4381-b0c3-63d4a8730e5c
+2025-05-04 03:29:40,852 - INFO - [CORRECT] Metadata inserted for track 2bd647e5-6bc3-4381-b0c3-63d4a8730e5c: Hope You Know
+2025-05-04 03:29:43,135 - INFO - [DOWNLOADED] Downloaded: benjicold - rave (tdf) (https://www.youtube.com/watch?v=wrQlI7SUihg) for track 2bf5444e-9d88-4b34-aec0-5a423b4d348a
+2025-05-04 03:29:43,333 - INFO - [CORRECT] Metadata inserted for track 2bf5444e-9d88-4b34-aec0-5a423b4d348a: Rave
+2025-05-04 03:29:55,063 - INFO - [AUDIO FEATURES] Audio features inserted for track 29bba3c4-58a2-4465-a5a6-4f9f526376d6: Remain in Me
+2025-05-04 03:29:55,093 - INFO - [SEARCHING] Searching YouTube for track 2bfc39fb-c9a8-403a-8513-42980a1b1777: Saturn Returns Interlude Ariana Grande
+2025-05-04 03:29:59,734 - INFO - [AUDIO FEATURES] Audio features inserted for track 2aeeb920-2e46-4b09-bfe9-ee1c56f0294d: Where Were You in the Morning?
+2025-05-04 03:29:59,939 - INFO - [SEARCHING] Searching YouTube for track 2c0a0a30-e749-4e78-b3c9-f1e9083d170f: Mutual Shawn Mendes
+2025-05-04 03:30:02,882 - INFO - [DOWNLOADED] Downloaded: Ariana Grande - Saturn Returns Interlude (lyric visualizer) (https://www.youtube.com/watch?v=f68Og1FPFfw) for track 2bfc39fb-c9a8-403a-8513-42980a1b1777
+2025-05-04 03:30:03,104 - INFO - [CORRECT] Metadata inserted for track 2bfc39fb-c9a8-403a-8513-42980a1b1777: Saturn Returns Interlude
+2025-05-04 03:30:08,419 - INFO - [DOWNLOADED] Downloaded: Mutual (https://www.youtube.com/watch?v=gYC1z2fkqAs) for track 2c0a0a30-e749-4e78-b3c9-f1e9083d170f
+2025-05-04 03:30:08,513 - INFO - [CORRECT] Metadata inserted for track 2c0a0a30-e749-4e78-b3c9-f1e9083d170f: Mutual
+2025-05-04 03:30:17,603 - INFO - [AUDIO FEATURES] Audio features inserted for track 2b61c476-6f2b-44b9-8eee-cb3f53c826ff: I Want to Write You a Song
+2025-05-04 03:30:17,608 - INFO - [SEARCHING] Searching YouTube for track 2c87a473-7e69-4322-8770-39e024c88f91: invisible string Taylor Swift
+2025-05-04 03:30:22,145 - INFO - [AUDIO FEATURES] Audio features inserted for track 2bfc39fb-c9a8-403a-8513-42980a1b1777: Saturn Returns Interlude
+2025-05-04 03:30:22,158 - INFO - [SEARCHING] Searching YouTube for track 2c9b2882-7418-40cb-a768-4aebb319750c: there is a light Kacey Musgraves
+2025-05-04 03:30:23,593 - INFO - [DOWNLOADED] Downloaded: Taylor Swift – invisible string (Official Lyric Video) (https://www.youtube.com/watch?v=OuFnpmGwg5k) for track 2c87a473-7e69-4322-8770-39e024c88f91
+2025-05-04 03:30:23,728 - INFO - [CORRECT] Metadata inserted for track 2c87a473-7e69-4322-8770-39e024c88f91: invisible string
+2025-05-04 03:30:27,621 - INFO - [AUDIO FEATURES] Audio features inserted for track 2a1f8028-6d5e-45a5-b821-42a45a2fa6b1: Bejeweled
+2025-05-04 03:30:27,636 - INFO - [SEARCHING] Searching YouTube for track 2cdb088f-6c49-421c-9b81-4dc1f847a41d: Patiently Waiting 50 Cent
+2025-05-04 03:30:29,286 - INFO - [DOWNLOADED] Downloaded: KACEY MUSGRAVES - there is a light (official lyric video) (https://www.youtube.com/watch?v=vRCgBRL0NUo) for track 2c9b2882-7418-40cb-a768-4aebb319750c
+2025-05-04 03:30:29,394 - INFO - [CORRECT] Metadata inserted for track 2c9b2882-7418-40cb-a768-4aebb319750c: there is a light
+2025-05-04 03:30:34,070 - INFO - [DOWNLOADED] Downloaded: Patiently Waiting (https://www.youtube.com/watch?v=BFPmu10joSE) for track 2cdb088f-6c49-421c-9b81-4dc1f847a41d
+2025-05-04 03:30:34,212 - INFO - [CORRECT] Metadata inserted for track 2cdb088f-6c49-421c-9b81-4dc1f847a41d: Patiently Waiting
+2025-05-04 03:30:35,711 - INFO - [AUDIO FEATURES] Audio features inserted for track 2bf5444e-9d88-4b34-aec0-5a423b4d348a: Rave
+2025-05-04 03:30:41,315 - INFO - [DOWNLOADED] Downloaded: Tchaikovsky - The Nutcracker Suite (Arabian Dance "Coffee") (https://www.youtube.com/watch?v=jV9GylFJIC0) for track 2cee6992-6bd2-44fa-9b8b-7a372ad4bcd9
+2025-05-04 03:30:41,434 - INFO - [CORRECT] Metadata inserted for track 2cee6992-6bd2-44fa-9b8b-7a372ad4bcd9: The Nutcracker (Suite), Op.71a, TH. 35: IId. Arabian Dance (Coffee)
+2025-05-04 03:30:48,187 - INFO - [AUDIO FEATURES] Audio features inserted for track 2bbd29fa-b951-4e78-9e24-85918142f1f1: Montage_
+2025-05-04 03:30:48,195 - INFO - [SEARCHING] Searching YouTube for track 2d0975f6-6833-40af-a47f-d9ac9dbb5536: SKITZO Travis Scott
+2025-05-04 03:30:50,390 - INFO - [AUDIO FEATURES] Audio features inserted for track 2b5791a6-8f6a-4000-839d-4299d77bea31: Forgot About Dre
+2025-05-04 03:30:50,399 - INFO - [SEARCHING] Searching YouTube for track 2d329a5b-e471-450f-9ab1-6526dcb70bdd: Kick the Dust Up Luke Bryan
+2025-05-04 03:30:55,902 - INFO - [DOWNLOADED] Downloaded: Travis Scott - SKITZO (Official Audio) ft. Young Thug (https://www.youtube.com/watch?v=Zk-4WvSPpac) for track 2d0975f6-6833-40af-a47f-d9ac9dbb5536
+2025-05-04 03:30:56,061 - INFO - [CORRECT] Metadata inserted for track 2d0975f6-6833-40af-a47f-d9ac9dbb5536: SKITZO
+2025-05-04 03:30:56,061 - INFO - [AUDIO FEATURES] Audio features inserted for track 2bd647e5-6bc3-4381-b0c3-63d4a8730e5c: Hope You Know
+2025-05-04 03:30:56,061 - INFO - [AUDIO FEATURES] Audio features inserted for track 2c0a0a30-e749-4e78-b3c9-f1e9083d170f: Mutual
+2025-05-04 03:30:56,064 - INFO - [SEARCHING] Searching YouTube for track 2d8c1ca8-9c61-413b-93c5-1a3848f5306a: Must Get Out Maroon 5
+2025-05-04 03:30:56,065 - INFO - [SEARCHING] Searching YouTube for track 2df4ff22-a494-4d96-920f-cd84cb40df9e: DOLLY P Beyoncé
+2025-05-04 03:30:57,612 - INFO - [DOWNLOADED] Downloaded: Luke Bryan - Kick The Dust Up (Official Lyric Video) (https://www.youtube.com/watch?v=Gz2oHRD2pF4) for track 2d329a5b-e471-450f-9ab1-6526dcb70bdd
+2025-05-04 03:30:57,711 - INFO - [CORRECT] Metadata inserted for track 2d329a5b-e471-450f-9ab1-6526dcb70bdd: Kick the Dust Up
+2025-05-04 03:31:02,277 - INFO - [DOWNLOADED] Downloaded: Beyoncé, Dolly Parton - DOLLY P (Official Lyric Video) (https://www.youtube.com/watch?v=j_mEC6UNIJg) for track 2df4ff22-a494-4d96-920f-cd84cb40df9e
+2025-05-04 03:31:02,409 - INFO - [CORRECT] Metadata inserted for track 2df4ff22-a494-4d96-920f-cd84cb40df9e: DOLLY P
+2025-05-04 03:31:03,301 - INFO - [DOWNLOADED] Downloaded: Must Get Out (https://www.youtube.com/watch?v=kSsFN8g9FBM) for track 2d8c1ca8-9c61-413b-93c5-1a3848f5306a
+2025-05-04 03:31:03,452 - INFO - [CORRECT] Metadata inserted for track 2d8c1ca8-9c61-413b-93c5-1a3848f5306a: Must Get Out
+2025-05-04 03:31:14,287 - INFO - [AUDIO FEATURES] Audio features inserted for track 2df4ff22-a494-4d96-920f-cd84cb40df9e: DOLLY P
+2025-05-04 03:31:14,306 - INFO - [SEARCHING] Searching YouTube for track 2e8f9c02-ebc6-4098-84cb-224d46e46ef8: Way Way Back Luke Bryan
+2025-05-04 03:31:19,757 - INFO - [DOWNLOADED] Downloaded: Way Way Back (https://www.youtube.com/watch?v=xDoo04h6P2Y) for track 2e8f9c02-ebc6-4098-84cb-224d46e46ef8
+2025-05-04 03:31:19,885 - INFO - [CORRECT] Metadata inserted for track 2e8f9c02-ebc6-4098-84cb-224d46e46ef8: Way Way Back
+2025-05-04 03:31:38,052 - INFO - [AUDIO FEATURES] Audio features inserted for track 2cee6992-6bd2-44fa-9b8b-7a372ad4bcd9: The Nutcracker (Suite), Op.71a, TH. 35: IId. Arabian Dance (Coffee)
+2025-05-04 03:31:38,072 - INFO - [SEARCHING] Searching YouTube for track 2e9ff3e6-9c69-4675-a249-abcf05241811: fake smile Ariana Grande
+2025-05-04 03:31:42,248 - INFO - [AUDIO FEATURES] Audio features inserted for track 2c87a473-7e69-4322-8770-39e024c88f91: invisible string
+2025-05-04 03:31:42,303 - INFO - [SEARCHING] Searching YouTube for track 2eb31ac7-885c-486e-9de0-15b790ae784d: Silence Between Songs Madison Beer
+2025-05-04 03:31:43,682 - INFO - [AUDIO FEATURES] Audio features inserted for track 2c9b2882-7418-40cb-a768-4aebb319750c: there is a light
+2025-05-04 03:31:43,700 - INFO - [SEARCHING] Searching YouTube for track 2ee37619-a388-440e-a83c-ca200462cfc2: Particular Taste Shawn Mendes
+2025-05-04 03:31:44,362 - INFO - [DOWNLOADED] Downloaded: Ariana Grande - fake smile (Official Audio) (https://www.youtube.com/watch?v=XTZigwkcJhw) for track 2e9ff3e6-9c69-4675-a249-abcf05241811
+2025-05-04 03:31:44,444 - INFO - [CORRECT] Metadata inserted for track 2e9ff3e6-9c69-4675-a249-abcf05241811: fake smile
+2025-05-04 03:31:48,977 - INFO - [DOWNLOADED] Downloaded: Madison Beer - Silence Between Songs (Official Lyric Video) (https://www.youtube.com/watch?v=liCJ2UkFjCk) for track 2eb31ac7-885c-486e-9de0-15b790ae784d
+2025-05-04 03:31:49,085 - INFO - [CORRECT] Metadata inserted for track 2eb31ac7-885c-486e-9de0-15b790ae784d: Silence Between Songs
+2025-05-04 03:31:50,957 - INFO - [DOWNLOADED] Downloaded: Shawn Mendes - Particular Taste (lyrics) (https://www.youtube.com/watch?v=g929-Mw4-8w) for track 2ee37619-a388-440e-a83c-ca200462cfc2
+2025-05-04 03:31:51,086 - INFO - [CORRECT] Metadata inserted for track 2ee37619-a388-440e-a83c-ca200462cfc2: Particular Taste
+2025-05-04 03:32:06,220 - INFO - [AUDIO FEATURES] Audio features inserted for track 2d329a5b-e471-450f-9ab1-6526dcb70bdd: Kick the Dust Up
+2025-05-04 03:32:06,256 - INFO - [SEARCHING] Searching YouTube for track 2f26c5bb-72cd-45b4-85b4-67806e441593: Have A Drink On Me AC/DC
+2025-05-04 03:32:08,156 - INFO - [AUDIO FEATURES] Audio features inserted for track 2cdb088f-6c49-421c-9b81-4dc1f847a41d: Patiently Waiting
+2025-05-04 03:32:08,167 - INFO - [SEARCHING] Searching YouTube for track 2f3b06db-e7c4-4409-a807-499efe7b7d0d: Pink + White Frank Ocean
+2025-05-04 03:32:13,582 - INFO - [DOWNLOADED] Downloaded: AC/DC - Have a Drink on Me (Official Audio) (https://www.youtube.com/watch?v=mKc_Ej8RiVs) for track 2f26c5bb-72cd-45b4-85b4-67806e441593
+2025-05-04 03:32:13,715 - INFO - [CORRECT] Metadata inserted for track 2f26c5bb-72cd-45b4-85b4-67806e441593: Have A Drink On Me
+2025-05-04 03:32:14,323 - INFO - [DOWNLOADED] Downloaded: Frank Ocean - Pink + White (https://www.youtube.com/watch?v=uzS3WG6__G4) for track 2f3b06db-e7c4-4409-a807-499efe7b7d0d
+2025-05-04 03:32:14,449 - INFO - [CORRECT] Metadata inserted for track 2f3b06db-e7c4-4409-a807-499efe7b7d0d: Pink + White
+2025-05-04 03:32:22,803 - INFO - [AUDIO FEATURES] Audio features inserted for track 2d8c1ca8-9c61-413b-93c5-1a3848f5306a: Must Get Out
+2025-05-04 03:32:22,807 - INFO - [SEARCHING] Searching YouTube for track 2f4c47f4-4ebd-4735-b353-389aeae67a7b: High All the Time 50 Cent
+2025-05-04 03:32:25,150 - INFO - [AUDIO FEATURES] Audio features inserted for track 2e8f9c02-ebc6-4098-84cb-224d46e46ef8: Way Way Back
+2025-05-04 03:32:25,209 - INFO - [SEARCHING] Searching YouTube for track 2f56fa90-87d6-4851-9724-22a5cfacb7ba: The Blacker the Berry Kendrick Lamar
+2025-05-04 03:32:30,625 - INFO - [DOWNLOADED] Downloaded: High All The Time (https://www.youtube.com/watch?v=m13_w0h6s4M) for track 2f4c47f4-4ebd-4735-b353-389aeae67a7b
+2025-05-04 03:32:30,770 - INFO - [CORRECT] Metadata inserted for track 2f4c47f4-4ebd-4735-b353-389aeae67a7b: High All the Time
+2025-05-04 03:32:32,905 - INFO - [DOWNLOADED] Downloaded: The Blacker The Berry (https://www.youtube.com/watch?v=VdPtVZDspIY) for track 2f56fa90-87d6-4851-9724-22a5cfacb7ba
+2025-05-04 03:32:33,022 - INFO - [CORRECT] Metadata inserted for track 2f56fa90-87d6-4851-9724-22a5cfacb7ba: The Blacker the Berry
+2025-05-04 03:32:40,007 - INFO - [AUDIO FEATURES] Audio features inserted for track 2eb31ac7-885c-486e-9de0-15b790ae784d: Silence Between Songs
+2025-05-04 03:32:40,027 - INFO - [SEARCHING] Searching YouTube for track 2f821f9a-ab1f-436d-ae27-99f31615fdbf: When the Stars Come Out Chris Stapleton
+2025-05-04 03:32:46,100 - INFO - [DOWNLOADED] Downloaded: Chris Stapleton - When The Stars Come Out (Official Audio) (https://www.youtube.com/watch?v=4laaHlLBYdk) for track 2f821f9a-ab1f-436d-ae27-99f31615fdbf
+2025-05-04 03:32:46,224 - INFO - [CORRECT] Metadata inserted for track 2f821f9a-ab1f-436d-ae27-99f31615fdbf: When the Stars Come Out
+2025-05-04 03:32:50,246 - INFO - [AUDIO FEATURES] Audio features inserted for track 2ee37619-a388-440e-a83c-ca200462cfc2: Particular Taste
+2025-05-04 03:32:50,271 - INFO - [SEARCHING] Searching YouTube for track 2f8545af-1790-40c7-9b26-ec75e496a3db: SUMMER RENAISSANCE Beyoncé
+2025-05-04 03:32:54,903 - INFO - [AUDIO FEATURES] Audio features inserted for track 2e9ff3e6-9c69-4675-a249-abcf05241811: fake smile
+2025-05-04 03:32:54,907 - INFO - [SEARCHING] Searching YouTube for track 2fa3a91f-69d6-4c1b-a971-6f3641c82120: California Lana Del Rey
+2025-05-04 03:32:56,337 - INFO - [AUDIO FEATURES] Audio features inserted for track 2d0975f6-6833-40af-a47f-d9ac9dbb5536: SKITZO
+2025-05-04 03:32:56,345 - INFO - [SEARCHING] Searching YouTube for track 2fd7149a-8023-4c43-81d6-bd4b0ac5a6d8: love language Ariana Grande
+2025-05-04 03:32:56,795 - INFO - [DOWNLOADED] Downloaded: Beyoncé - SUMMER RENAISSANCE (Official Lyric Video) (https://www.youtube.com/watch?v=QDXcMqgO7oQ) for track 2f8545af-1790-40c7-9b26-ec75e496a3db
+2025-05-04 03:32:56,881 - INFO - [CORRECT] Metadata inserted for track 2f8545af-1790-40c7-9b26-ec75e496a3db: SUMMER RENAISSANCE
+2025-05-04 03:33:01,846 - INFO - [DOWNLOADED] Downloaded: California (https://www.youtube.com/watch?v=vK1YiArMDfg) for track 2fa3a91f-69d6-4c1b-a971-6f3641c82120
+2025-05-04 03:33:01,959 - INFO - [CORRECT] Metadata inserted for track 2fa3a91f-69d6-4c1b-a971-6f3641c82120: California
+2025-05-04 03:33:02,831 - INFO - [DOWNLOADED] Downloaded: Ariana Grande - love language (Official Audio) (https://www.youtube.com/watch?v=MY8K95oaexQ) for track 2fd7149a-8023-4c43-81d6-bd4b0ac5a6d8
+2025-05-04 03:33:02,970 - INFO - [CORRECT] Metadata inserted for track 2fd7149a-8023-4c43-81d6-bd4b0ac5a6d8: love language
+2025-05-04 03:33:12,508 - INFO - [AUDIO FEATURES] Audio features inserted for track 2f3b06db-e7c4-4409-a807-499efe7b7d0d: Pink + White
+2025-05-04 03:33:12,611 - INFO - [SEARCHING] Searching YouTube for track 2fedfd5e-d88e-458c-9890-0265e8c41a8c: Mine Taylor Swift
+2025-05-04 08:50:00,153 - INFO - [DOWNLOADED] Downloaded: Taylor Swift - Mine (https://www.youtube.com/watch?v=XPBwXKgDTdE) for track 2fedfd5e-d88e-458c-9890-0265e8c41a8c
+2025-05-04 08:50:22,699 - ERROR - [EXCEPTION] Error processing track Have A Drink On Me (2f26c5bb-72cd-45b4-85b4-67806e441593): no connection to the server
+
+2025-05-04 08:50:22,748 - INFO - [SEARCHING] Searching YouTube for track 30040ba9-feac-4ce8-bc6f-019734ff1bb7: All Falls Down Ye
+2025-05-04 08:50:22,755 - INFO - [CORRECT] Metadata inserted for track 2fedfd5e-d88e-458c-9890-0265e8c41a8c: Mine
+2025-05-04 08:50:23,226 - ERROR - [EXCEPTION] Error processing track Mine (2fedfd5e-d88e-458c-9890-0265e8c41a8c): Error opening <_io.BytesIO object at 0x000001C21C8243B0>: Format not recognised.
+2025-05-04 08:50:23,320 - INFO - [SEARCHING] Searching YouTube for track 3004682d-7f25-4879-b24b-19f0479dfbd6: I Saw Her Standing There The Beatles
+2025-05-04 08:50:32,534 - INFO - [DOWNLOADED] Downloaded: Kanye West - All Falls Down ft. Syleena Johnson (https://www.youtube.com/watch?v=8kyWDhB_QeI) for track 30040ba9-feac-4ce8-bc6f-019734ff1bb7
+2025-05-04 08:50:32,537 - INFO - [CORRECT] Metadata inserted for track 30040ba9-feac-4ce8-bc6f-019734ff1bb7: All Falls Down
+2025-05-04 08:50:32,768 - INFO - [DOWNLOADED] Downloaded: I Saw Her Standing There (Remastered 2009) (https://www.youtube.com/watch?v=oxwAB3SECtc) for track 3004682d-7f25-4879-b24b-19f0479dfbd6
+2025-05-04 08:50:32,772 - INFO - [CORRECT] Metadata inserted for track 3004682d-7f25-4879-b24b-19f0479dfbd6: I Saw Her Standing There
+2025-05-04 08:50:48,554 - ERROR - [EXCEPTION] Error processing track High All the Time (2f4c47f4-4ebd-4735-b353-389aeae67a7b): connection already closed
+2025-05-04 08:50:48,563 - INFO - [SEARCHING] Searching YouTube for track 30786ddd-b4c2-4b80-8fea-aabd05b4f7fb: Garden (Say It Like Dat) SZA
+2025-05-04 08:50:54,333 - ERROR - [EXCEPTION] Error processing track love language (2fd7149a-8023-4c43-81d6-bd4b0ac5a6d8): connection already closed
+2025-05-04 08:50:54,338 - INFO - [SEARCHING] Searching YouTube for track 307f9077-a6f7-4ac8-869e-2b92ed5c97c2: PARASAIL Travis Scott
+2025-05-04 08:50:56,347 - INFO - [DOWNLOADED] Downloaded: SZA - Garden (Say It Like Dat) (Official Video) (https://www.youtube.com/watch?v=pcJo0tIWybY) for track 30786ddd-b4c2-4b80-8fea-aabd05b4f7fb
+2025-05-04 08:50:56,354 - INFO - [CORRECT] Metadata inserted for track 30786ddd-b4c2-4b80-8fea-aabd05b4f7fb: Garden (Say It Like Dat)
+2025-05-04 08:51:01,012 - INFO - [DOWNLOADED] Downloaded: Travis Scott - PARASAIL (Official Audio) ft. Yung Lean, Dave Chappelle (https://www.youtube.com/watch?v=aEiD3UZDmiY) for track 307f9077-a6f7-4ac8-869e-2b92ed5c97c2
+2025-05-04 08:51:01,059 - INFO - [CORRECT] Metadata inserted for track 307f9077-a6f7-4ac8-869e-2b92ed5c97c2: PARASAIL
+2025-05-04 08:51:06,287 - ERROR - [EXCEPTION] Error processing track When the Stars Come Out (2f821f9a-ab1f-436d-ae27-99f31615fdbf): connection already closed
+2025-05-04 08:51:06,297 - INFO - [SEARCHING] Searching YouTube for track 30949eea-c017-4da2-88d7-6fe7be5aecac: Ski Mask Way 50 Cent
+2025-05-04 08:51:16,228 - INFO - [DOWNLOADED] Downloaded: Ski Mask Way (https://www.youtube.com/watch?v=g5tTHbqV74Y) for track 30949eea-c017-4da2-88d7-6fe7be5aecac
+2025-05-04 08:51:16,294 - INFO - [CORRECT] Metadata inserted for track 30949eea-c017-4da2-88d7-6fe7be5aecac: Ski Mask Way
+2025-05-04 08:51:27,302 - ERROR - [EXCEPTION] Error processing track The Blacker the Berry (2f56fa90-87d6-4851-9724-22a5cfacb7ba): connection already closed
+2025-05-04 08:51:27,392 - INFO - [SEARCHING] Searching YouTube for track 30b3d1a1-03a5-45c6-a75a-4cf01c500e60: Secret Maroon 5
+2025-05-04 08:51:33,658 - ERROR - [EXCEPTION] Error processing track SUMMER RENAISSANCE (2f8545af-1790-40c7-9b26-ec75e496a3db): connection already closed
+2025-05-04 08:51:33,677 - INFO - [SEARCHING] Searching YouTube for track 30e574e6-2492-487d-ba84-5da5743003fb: Death Row Chris Stapleton
+2025-05-04 08:51:35,570 - INFO - [DOWNLOADED] Downloaded: Secret (https://www.youtube.com/watch?v=_h8rbnZ2sKQ) for track 30b3d1a1-03a5-45c6-a75a-4cf01c500e60
+2025-05-04 08:51:35,608 - INFO - [CORRECT] Metadata inserted for track 30b3d1a1-03a5-45c6-a75a-4cf01c500e60: Secret
+2025-05-04 08:51:39,813 - INFO - [DOWNLOADED] Downloaded: Chris Stapleton - Death Row (Official Audio) (https://www.youtube.com/watch?v=m_TsUb0T95E) for track 30e574e6-2492-487d-ba84-5da5743003fb
+2025-05-04 08:51:39,845 - INFO - [CORRECT] Metadata inserted for track 30e574e6-2492-487d-ba84-5da5743003fb: Death Row
+2025-05-04 08:51:43,704 - ERROR - [EXCEPTION] Error processing track I Saw Her Standing There (3004682d-7f25-4879-b24b-19f0479dfbd6): connection already closed
+2025-05-04 08:51:43,711 - INFO - [SEARCHING] Searching YouTube for track 30ef0a00-b07d-4f62-9b7a-465f36c771da: Up to No Good Livin’ Chris Stapleton
+2025-05-04 08:51:45,219 - ERROR - [EXCEPTION] Error processing track California (2fa3a91f-69d6-4c1b-a971-6f3641c82120): connection already closed
+2025-05-04 08:51:45,223 - INFO - [SEARCHING] Searching YouTube for track 3125b023-6a45-4a68-98ec-a88634866983: Sign of the Times Harry Styles
+2025-05-04 08:51:51,893 - INFO - [DOWNLOADED] Downloaded: Chris Stapleton - Up To No Good Livin' (Official Audio) (https://www.youtube.com/watch?v=DOWS7tSinzs) for track 30ef0a00-b07d-4f62-9b7a-465f36c771da
+2025-05-04 08:51:51,901 - INFO - [CORRECT] Metadata inserted for track 30ef0a00-b07d-4f62-9b7a-465f36c771da: Up to No Good Livin’
+2025-05-04 08:51:53,389 - INFO - [DOWNLOADED] Downloaded: Harry Styles - Sign of the Times (Official Video) (https://www.youtube.com/watch?v=qN4ooNx77u0) for track 3125b023-6a45-4a68-98ec-a88634866983
+2025-05-04 08:51:53,435 - INFO - [CORRECT] Metadata inserted for track 3125b023-6a45-4a68-98ec-a88634866983: Sign of the Times
+2025-05-04 08:52:01,179 - ERROR - [EXCEPTION] Error processing track PARASAIL (307f9077-a6f7-4ac8-869e-2b92ed5c97c2): connection already closed
+2025-05-04 08:52:01,211 - INFO - [SEARCHING] Searching YouTube for track 312d4f9b-7230-4d59-b642-bcf5b20edac1: LUST. Kendrick Lamar
+2025-05-04 08:52:06,737 - ERROR - [EXCEPTION] Error processing track All Falls Down (30040ba9-feac-4ce8-bc6f-019734ff1bb7): connection already closed
+2025-05-04 08:52:06,759 - INFO - [SEARCHING] Searching YouTube for track 3165428a-a0a5-477f-8926-0e8c364eee14: Fast Luke Bryan
+2025-05-04 08:52:08,252 - INFO - [DOWNLOADED] Downloaded: LUST. (https://www.youtube.com/watch?v=qUx8EwR0Otg) for track 312d4f9b-7230-4d59-b642-bcf5b20edac1
+2025-05-04 08:52:08,290 - INFO - [CORRECT] Metadata inserted for track 312d4f9b-7230-4d59-b642-bcf5b20edac1: LUST.
+2025-05-04 08:52:13,575 - INFO - [DOWNLOADED] Downloaded: Luke Bryan - Fast (Official Music Video) (https://www.youtube.com/watch?v=QH35AWCnugg) for track 3165428a-a0a5-477f-8926-0e8c364eee14
+2025-05-04 08:52:13,616 - INFO - [CORRECT] Metadata inserted for track 3165428a-a0a5-477f-8926-0e8c364eee14: Fast
+2025-05-04 08:52:21,131 - ERROR - [EXCEPTION] Error processing track Ski Mask Way (30949eea-c017-4da2-88d7-6fe7be5aecac): connection already closed
+2025-05-04 08:52:21,231 - INFO - [SEARCHING] Searching YouTube for track 31865c23-d609-4ca9-957c-73badb3b4529: Into You Ariana Grande
+2025-05-04 08:52:21,462 - ERROR - [EXCEPTION] Error processing track Garden (Say It Like Dat) (30786ddd-b4c2-4b80-8fea-aabd05b4f7fb): connection already closed
+2025-05-04 08:52:21,466 - INFO - [SEARCHING] Searching YouTube for track 31bfea26-0d56-4c74-94f5-926cf0566680: Get 'em High Ye
+2025-05-04 08:52:29,488 - INFO - [DOWNLOADED] Downloaded: Get Em High (https://www.youtube.com/watch?v=UHpaLbhk8vM) for track 31bfea26-0d56-4c74-94f5-926cf0566680
+2025-05-04 08:52:29,518 - INFO - [CORRECT] Metadata inserted for track 31bfea26-0d56-4c74-94f5-926cf0566680: Get 'em High
+2025-05-04 08:52:30,206 - INFO - [DOWNLOADED] Downloaded: Ariana Grande - Into You (Official Video) (https://www.youtube.com/watch?v=1ekZEVeXwek) for track 31865c23-d609-4ca9-957c-73badb3b4529
+2025-05-04 08:52:30,209 - INFO - [CORRECT] Metadata inserted for track 31865c23-d609-4ca9-957c-73badb3b4529: Into You
+2025-05-04 08:53:02,216 - ERROR - [EXCEPTION] Error processing track Death Row (30e574e6-2492-487d-ba84-5da5743003fb): connection already closed
+2025-05-04 08:53:02,229 - INFO - [SEARCHING] Searching YouTube for track 31c0e5f2-fbdc-43ea-b6f9-126fd19a7817: A Taste of Honey The Beatles
+2025-05-04 08:53:08,307 - INFO - [DOWNLOADED] Downloaded: A Taste Of Honey (Remastered 2009) (https://www.youtube.com/watch?v=MkQ1eOcl5ug) for track 31c0e5f2-fbdc-43ea-b6f9-126fd19a7817
+2025-05-04 08:53:08,374 - INFO - [CORRECT] Metadata inserted for track 31c0e5f2-fbdc-43ea-b6f9-126fd19a7817: A Taste of Honey
+2025-05-04 08:53:16,207 - ERROR - [EXCEPTION] Error processing track Up to No Good Livin’ (30ef0a00-b07d-4f62-9b7a-465f36c771da): connection already closed
+2025-05-04 08:53:16,230 - INFO - [SEARCHING] Searching YouTube for track 32302363-0617-4e82-a75f-d0648825ec5f: Fertilizer Frank Ocean
+2025-05-04 08:53:20,288 - ERROR - [EXCEPTION] Error processing track Secret (30b3d1a1-03a5-45c6-a75a-4cf01c500e60): connection already closed
+2025-05-04 08:53:20,402 - INFO - [SEARCHING] Searching YouTube for track 32669d0f-49e8-413a-bd81-c15788f8984a: Skyscraper Demi Lovato
+2025-05-04 08:53:22,368 - INFO - [DOWNLOADED] Downloaded: Fertilizer by James Fauntleroy Ft Frank Ocean (https://www.youtube.com/watch?v=aRD7sUKTvCE) for track 32302363-0617-4e82-a75f-d0648825ec5f
+2025-05-04 08:53:22,383 - INFO - [CORRECT] Metadata inserted for track 32302363-0617-4e82-a75f-d0648825ec5f: Fertilizer
+2025-05-04 08:53:27,961 - INFO - [DOWNLOADED] Downloaded: Demi Lovato - Skyscraper (Official Video) (https://www.youtube.com/watch?v=r_8ydghbGSg) for track 32669d0f-49e8-413a-bd81-c15788f8984a
+2025-05-04 08:53:27,996 - INFO - [CORRECT] Metadata inserted for track 32669d0f-49e8-413a-bd81-c15788f8984a: Skyscraper
+2025-05-04 08:53:40,039 - ERROR - [EXCEPTION] Error processing track Fast (3165428a-a0a5-477f-8926-0e8c364eee14): connection already closed
+2025-05-04 08:53:40,050 - INFO - [SEARCHING] Searching YouTube for track 32b377a5-34d1-4bf0-aff1-93caf44ce9c4: Change Taylor Swift
+2025-05-04 08:53:47,129 - INFO - [DOWNLOADED] Downloaded: Taylor Swift - Change (https://www.youtube.com/watch?v=B1jYllE0T-k) for track 32b377a5-34d1-4bf0-aff1-93caf44ce9c4
+2025-05-04 08:53:47,130 - INFO - [CORRECT] Metadata inserted for track 32b377a5-34d1-4bf0-aff1-93caf44ce9c4: Change
+2025-05-04 08:53:52,978 - ERROR - [EXCEPTION] Error processing track A Taste of Honey (31c0e5f2-fbdc-43ea-b6f9-126fd19a7817): connection already closed
+2025-05-04 08:53:52,997 - INFO - [SEARCHING] Searching YouTube for track 338de6d0-81a3-4e3c-859f-148c20204d97: Ladykiller Maroon 5
+2025-05-04 08:53:58,812 - INFO - [DOWNLOADED] Downloaded: Ladykiller (https://www.youtube.com/watch?v=-oQ_XtatZ0U) for track 338de6d0-81a3-4e3c-859f-148c20204d97
+2025-05-04 08:53:58,844 - INFO - [CORRECT] Metadata inserted for track 338de6d0-81a3-4e3c-859f-148c20204d97: Ladykiller
+2025-05-04 08:54:03,780 - ERROR - [EXCEPTION] Error processing track LUST. (312d4f9b-7230-4d59-b642-bcf5b20edac1): connection already closed
+2025-05-04 08:54:03,863 - INFO - [SEARCHING] Searching YouTube for track 3393af70-94d3-4d94-aacd-af2e973ee458: Music For a Sushi Restaurant Harry Styles
+2025-05-04 08:54:04,892 - ERROR - [EXCEPTION] Error processing track Into You (31865c23-d609-4ca9-957c-73badb3b4529): connection already closed
+2025-05-04 08:54:04,936 - INFO - [SEARCHING] Searching YouTube for track 3396b34a-ad1d-448b-88f1-7ddce36abc7a: Blowin’ Smoke Kacey Musgraves
+2025-05-04 08:54:05,143 - ERROR - [EXCEPTION] Error processing track Sign of the Times (3125b023-6a45-4a68-98ec-a88634866983): connection already closed
+2025-05-04 08:54:12,853 - INFO - [DOWNLOADED] Downloaded: Harry Styles - Music For a Sushi Restaurant (Official Video) (https://www.youtube.com/watch?v=CiwMDFh_Rog) for track 3393af70-94d3-4d94-aacd-af2e973ee458
+2025-05-04 08:54:12,881 - INFO - [CORRECT] Metadata inserted for track 3393af70-94d3-4d94-aacd-af2e973ee458: Music For a Sushi Restaurant
+2025-05-04 08:54:13,324 - INFO - [DOWNLOADED] Downloaded: Kacey Musgraves - Blowin' Smoke (Official Music Video) (https://www.youtube.com/watch?v=JEsEUpk5rU8) for track 3396b34a-ad1d-448b-88f1-7ddce36abc7a
+2025-05-04 08:54:13,361 - INFO - [CORRECT] Metadata inserted for track 3396b34a-ad1d-448b-88f1-7ddce36abc7a: Blowin’ Smoke
+2025-05-04 08:54:13,836 - INFO - [DOWNLOADED] Downloaded: Dance of the Sugar Plum Fairy from The Nutcracker (The Royal Ballet) (https://www.youtube.com/watch?v=zV1qLYukTH8) for track 33a30cce-7de8-4265-a5b4-2c13085b7340
+2025-05-04 08:54:13,861 - INFO - [CORRECT] Metadata inserted for track 33a30cce-7de8-4265-a5b4-2c13085b7340: Star Dancing: Dance of the Sugar Plum Fairy
+2025-05-04 08:54:19,542 - ERROR - [EXCEPTION] Error processing track Get 'em High (31bfea26-0d56-4c74-94f5-926cf0566680): connection already closed
+2025-05-04 08:54:19,545 - INFO - [SEARCHING] Searching YouTube for track 33af7793-a23e-4002-ab1b-28097bb00d11: The Stranger Billy Joel
+2025-05-04 08:54:26,879 - INFO - [DOWNLOADED] Downloaded: Billy Joel - The Stranger (Audio) (https://www.youtube.com/watch?v=E5ofVsxTPoc) for track 33af7793-a23e-4002-ab1b-28097bb00d11
+2025-05-04 08:54:26,907 - INFO - [CORRECT] Metadata inserted for track 33af7793-a23e-4002-ab1b-28097bb00d11: The Stranger
+2025-05-04 08:54:34,090 - ERROR - [EXCEPTION] Error processing track Fertilizer (32302363-0617-4e82-a75f-d0648825ec5f): connection already closed
+2025-05-04 08:54:34,104 - INFO - [SEARCHING] Searching YouTube for track 33e4d394-fd59-48a9-9b70-249eb767eeb9: Olivia One Direction
+2025-05-04 08:54:40,782 - INFO - [DOWNLOADED] Downloaded: One Direction - Olivia (Audio) (https://www.youtube.com/watch?v=jD6C71xKWSs) for track 33e4d394-fd59-48a9-9b70-249eb767eeb9
+2025-05-04 08:54:40,797 - INFO - [CORRECT] Metadata inserted for track 33e4d394-fd59-48a9-9b70-249eb767eeb9: Olivia
+2025-05-04 08:54:55,684 - ERROR - [EXCEPTION] Error processing track Ladykiller (338de6d0-81a3-4e3c-859f-148c20204d97): connection already closed
+2025-05-04 08:54:55,713 - INFO - [SEARCHING] Searching YouTube for track 3436cfd9-1e77-4355-9311-1d19e79e0d9c: SPAGHETTII Beyoncé
+2025-05-04 08:54:56,302 - ERROR - [EXCEPTION] Error processing track Skyscraper (32669d0f-49e8-413a-bd81-c15788f8984a): connection already closed
+2025-05-04 08:54:56,307 - INFO - [SEARCHING] Searching YouTube for track 346c5920-4b36-4472-9447-139d2c9e4560: 5% TINT Travis Scott
+2025-05-04 08:55:02,586 - INFO - [DOWNLOADED] Downloaded: Beyoncé, Linda Martell & Shaboozey - SPAGHETTII (Official Lyric Video) (https://www.youtube.com/watch?v=MxNMvZ5BhSU) for track 3436cfd9-1e77-4355-9311-1d19e79e0d9c
+2025-05-04 08:55:02,595 - INFO - [CORRECT] Metadata inserted for track 3436cfd9-1e77-4355-9311-1d19e79e0d9c: SPAGHETTII
+2025-05-04 08:55:04,174 - INFO - [DOWNLOADED] Downloaded: Travis Scott - 5% TINT (Audio) (https://www.youtube.com/watch?v=6SLD1ZQZ_4Y) for track 346c5920-4b36-4472-9447-139d2c9e4560
+2025-05-04 08:55:04,210 - INFO - [CORRECT] Metadata inserted for track 346c5920-4b36-4472-9447-139d2c9e4560: 5% TINT
+2025-05-04 08:55:10,408 - ERROR - [EXCEPTION] Error processing track Star Dancing: Dance of the Sugar Plum Fairy (33a30cce-7de8-4265-a5b4-2c13085b7340): connection already closed
+2025-05-04 08:55:10,413 - INFO - [SEARCHING] Searching YouTube for track 34b5e938-5d4c-40ef-acb4-e8bb8c386d58: Knockin’ Boots Luke Bryan
+2025-05-04 08:55:17,663 - ERROR - [EXCEPTION] Error processing track Change (32b377a5-34d1-4bf0-aff1-93caf44ce9c4): connection already closed
+2025-05-04 08:55:17,668 - INFO - [SEARCHING] Searching YouTube for track 34cfe870-aab4-418c-82fa-46761bdd48e0: Stamped tdf
+2025-05-04 08:55:18,540 - INFO - [DOWNLOADED] Downloaded: Luke Bryan - Knockin' Boots (Official Music Video) (https://www.youtube.com/watch?v=Ioz93bSi2uc) for track 34b5e938-5d4c-40ef-acb4-e8bb8c386d58
+2025-05-04 08:55:18,542 - INFO - [CORRECT] Metadata inserted for track 34b5e938-5d4c-40ef-acb4-e8bb8c386d58: Knockin’ Boots
+2025-05-04 08:55:24,280 - INFO - [CORRECT] Metadata inserted for track 34cfe870-aab4-418c-82fa-46761bdd48e0: Stamped
+2025-05-04 08:55:26,480 - ERROR - [EXCEPTION] Error processing track Blowin’ Smoke (3396b34a-ad1d-448b-88f1-7ddce36abc7a): connection already closed
+2025-05-04 08:55:26,520 - INFO - [SEARCHING] Searching YouTube for track 35181f72-868e-4298-b516-ac6c4c75652f: What Now Rihanna
+2025-05-04 08:55:29,633 - ERROR - [EXCEPTION] Error processing track Music For a Sushi Restaurant (3393af70-94d3-4d94-aacd-af2e973ee458): connection already closed
+2025-05-04 08:55:29,651 - INFO - [SEARCHING] Searching YouTube for track 3630fe80-36e2-439c-a7f9-83a5a283a5ed: VIRGO'S GROOVE Beyoncé
+2025-05-04 08:55:34,000 - INFO - [DOWNLOADED] Downloaded: Rihanna - What Now (Official) (https://www.youtube.com/watch?v=b-3BI9AspYc) for track 35181f72-868e-4298-b516-ac6c4c75652f
+2025-05-04 08:55:34,030 - INFO - [CORRECT] Metadata inserted for track 35181f72-868e-4298-b516-ac6c4c75652f: What Now
+2025-05-04 08:55:38,898 - INFO - [DOWNLOADED] Downloaded: Beyoncé - VIRGO'S GROOVE (Official Lyric Video) (https://www.youtube.com/watch?v=aD3HgrfjrAw) for track 3630fe80-36e2-439c-a7f9-83a5a283a5ed
+2025-05-04 08:55:38,921 - INFO - [CORRECT] Metadata inserted for track 3630fe80-36e2-439c-a7f9-83a5a283a5ed: VIRGO'S GROOVE
+2025-05-04 08:55:44,396 - ERROR - [EXCEPTION] Error processing track Olivia (33e4d394-fd59-48a9-9b70-249eb767eeb9): connection already closed
+2025-05-04 08:55:44,436 - INFO - [SEARCHING] Searching YouTube for track 3632305b-f08f-4057-8595-c150bf2c2f0c: Rosalinda’s Eyes Billy Joel
+2025-05-04 08:55:51,067 - INFO - [DOWNLOADED] Downloaded: Billy Joel - Rosalind's Eyes (Audio) (https://www.youtube.com/watch?v=LB-tkHD4uXU) for track 3632305b-f08f-4057-8595-c150bf2c2f0c
+2025-05-04 08:55:51,079 - INFO - [CORRECT] Metadata inserted for track 3632305b-f08f-4057-8595-c150bf2c2f0c: Rosalinda’s Eyes
+2025-05-04 08:56:00,681 - ERROR - [EXCEPTION] Error processing track SPAGHETTII (3436cfd9-1e77-4355-9311-1d19e79e0d9c): connection already closed
+2025-05-04 08:56:00,708 - INFO - [SEARCHING] Searching YouTube for track 363b2590-63b0-4ea4-894a-a89f4db3207e: WHO? WHAT! Travis Scott
+2025-05-04 08:56:06,505 - ERROR - [EXCEPTION] Error processing track The Stranger (33af7793-a23e-4002-ab1b-28097bb00d11): connection already closed
+2025-05-04 08:56:06,509 - INFO - [SEARCHING] Searching YouTube for track 367bef76-5b13-45dc-b755-e78f6b823030: The Feeling Justin Bieber
+2025-05-04 08:56:07,060 - INFO - [DOWNLOADED] Downloaded: Travis Scott - WHO? WHAT! (Audio) (https://www.youtube.com/watch?v=gLkQA7iLNUk) for track 363b2590-63b0-4ea4-894a-a89f4db3207e
+2025-05-04 08:56:07,080 - INFO - [CORRECT] Metadata inserted for track 363b2590-63b0-4ea4-894a-a89f4db3207e: WHO? WHAT!
+2025-05-04 08:56:11,072 - ERROR - [EXCEPTION] Error processing track 5% TINT (346c5920-4b36-4472-9447-139d2c9e4560): connection already closed
+2025-05-04 08:56:11,080 - INFO - [SEARCHING] Searching YouTube for track 3681e10c-2e36-43bc-b974-64de5051694f: Fuck Wit Dre Day (And Everybody's Celebratin') Dr. Dre
+2025-05-04 08:56:13,566 - INFO - [DOWNLOADED] Downloaded: Justin Bieber - The Feeling (PURPOSE : The Movement) ft. Halsey (https://www.youtube.com/watch?v=qYj4l5Xntt0) for track 367bef76-5b13-45dc-b755-e78f6b823030
+2025-05-04 08:56:13,575 - INFO - [CORRECT] Metadata inserted for track 367bef76-5b13-45dc-b755-e78f6b823030: The Feeling
+2025-05-04 08:56:18,725 - INFO - [DOWNLOADED] Downloaded: Dre Day by Dr. Dre ft. Snoop Dogg | Interscope (https://www.youtube.com/watch?v=0xS9hvs5F7s) for track 3681e10c-2e36-43bc-b974-64de5051694f
+2025-05-04 08:56:18,763 - INFO - [CORRECT] Metadata inserted for track 3681e10c-2e36-43bc-b974-64de5051694f: Fuck Wit Dre Day (And Everybody's Celebratin')
+2025-05-04 08:56:24,153 - ERROR - [EXCEPTION] Error processing track Knockin’ Boots (34b5e938-5d4c-40ef-acb4-e8bb8c386d58): connection already closed
+2025-05-04 08:56:24,203 - INFO - [SEARCHING] Searching YouTube for track 36c50645-c468-4317-b8f5-6e7812300949: Light Speed Dr. Dre
+2025-05-04 08:56:25,585 - ERROR - [EXCEPTION] Error processing track Stamped (34cfe870-aab4-418c-82fa-46761bdd48e0): connection already closed
+2025-05-04 08:56:25,627 - INFO - [SEARCHING] Searching YouTube for track 36c6f7be-fbd5-4ca3-a8e9-f8dc4727fd7c: Outlaw State of Mind Chris Stapleton
+2025-05-04 08:56:32,112 - INFO - [DOWNLOADED] Downloaded: Light Speed (https://www.youtube.com/watch?v=Ct32AqbvS_Y) for track 36c50645-c468-4317-b8f5-6e7812300949
+2025-05-04 08:56:32,113 - INFO - [CORRECT] Metadata inserted for track 36c50645-c468-4317-b8f5-6e7812300949: Light Speed
+2025-05-04 08:56:34,286 - INFO - [DOWNLOADED] Downloaded: Outlaw State Of Mind (https://www.youtube.com/watch?v=bSpqGbNUF0c) for track 36c6f7be-fbd5-4ca3-a8e9-f8dc4727fd7c
+2025-05-04 08:56:34,317 - INFO - [CORRECT] Metadata inserted for track 36c6f7be-fbd5-4ca3-a8e9-f8dc4727fd7c: Outlaw State of Mind
+2025-05-04 08:57:07,519 - ERROR - [EXCEPTION] Error processing track What Now (35181f72-868e-4298-b516-ac6c4c75652f): connection already closed
+2025-05-04 08:57:07,534 - INFO - [SEARCHING] Searching YouTube for track 36d0756b-58ef-425e-9b88-f9848718b9ce: Motion Picture Soundtrack Radiohead
+2025-05-04 08:57:14,503 - INFO - [DOWNLOADED] Downloaded: Motion Picture Soundtrack (https://www.youtube.com/watch?v=EcSvMFm2ABE) for track 36d0756b-58ef-425e-9b88-f9848718b9ce
+2025-05-04 08:57:14,577 - INFO - [CORRECT] Metadata inserted for track 36d0756b-58ef-425e-9b88-f9848718b9ce: Motion Picture Soundtrack
+2025-05-04 08:57:15,694 - ERROR - [EXCEPTION] Error processing track WHO? WHAT! (363b2590-63b0-4ea4-894a-a89f4db3207e): connection already closed
+2025-05-04 08:57:15,700 - INFO - [SEARCHING] Searching YouTube for track 36ee6c34-5aa7-4dd0-a79e-b2da8986a8e8: I Don’t Care Ariana Grande
+2025-05-04 08:57:22,470 - INFO - [DOWNLOADED] Downloaded: I Don't Care (https://www.youtube.com/watch?v=Ao87MtSwxsQ) for track 36ee6c34-5aa7-4dd0-a79e-b2da8986a8e8
+2025-05-04 08:57:22,511 - INFO - [CORRECT] Metadata inserted for track 36ee6c34-5aa7-4dd0-a79e-b2da8986a8e8: I Don’t Care
+2025-05-04 08:57:26,755 - ERROR - [EXCEPTION] Error processing track Rosalinda’s Eyes (3632305b-f08f-4057-8595-c150bf2c2f0c): connection already closed
+2025-05-04 08:57:26,772 - INFO - [SEARCHING] Searching YouTube for track 37481dc0-06d8-4d8f-a56f-ee67b8d089b5: All in It Justin Bieber
+2025-05-04 08:57:28,048 - ERROR - [EXCEPTION] Error processing track Light Speed (36c50645-c468-4317-b8f5-6e7812300949): connection already closed
+2025-05-04 08:57:28,068 - INFO - [SEARCHING] Searching YouTube for track 3757fa89-a6b2-44cf-8493-a2d0e87db82a: Meet Me in the Hallway Harry Styles
+2025-05-04 08:57:34,521 - INFO - [DOWNLOADED] Downloaded: All In It (https://www.youtube.com/watch?v=QuZ4185RqFc) for track 37481dc0-06d8-4d8f-a56f-ee67b8d089b5
+2025-05-04 08:57:34,524 - INFO - [CORRECT] Metadata inserted for track 37481dc0-06d8-4d8f-a56f-ee67b8d089b5: All in It
+2025-05-04 08:57:35,499 - INFO - [DOWNLOADED] Downloaded: Harry Styles - Meet Me in the Hallway (Official Audio) (https://www.youtube.com/watch?v=vvZMygu99uE) for track 3757fa89-a6b2-44cf-8493-a2d0e87db82a
+2025-05-04 08:57:35,530 - INFO - [CORRECT] Metadata inserted for track 3757fa89-a6b2-44cf-8493-a2d0e87db82a: Meet Me in the Hallway
+2025-05-04 08:57:48,203 - ERROR - [EXCEPTION] Error processing track The Feeling (367bef76-5b13-45dc-b755-e78f6b823030): connection already closed
+2025-05-04 08:57:48,211 - INFO - [SEARCHING] Searching YouTube for track 375ccd95-4ae0-4463-8f8f-bc1c64ff479f: pov Ariana Grande
+2025-05-04 08:57:53,506 - ERROR - [EXCEPTION] Error processing track VIRGO'S GROOVE (3630fe80-36e2-439c-a7f9-83a5a283a5ed): connection already closed
+2025-05-04 08:57:53,514 - INFO - [SEARCHING] Searching YouTube for track 37ab8dfb-f868-4a94-be36-a2e203fad98c: CHURCH GIRL Beyoncé
+2025-05-04 08:57:54,702 - INFO - [DOWNLOADED] Downloaded: Ariana Grande - pov (official audio) (https://www.youtube.com/watch?v=nQJEp-k-ogs) for track 375ccd95-4ae0-4463-8f8f-bc1c64ff479f
+2025-05-04 08:57:54,734 - INFO - [CORRECT] Metadata inserted for track 375ccd95-4ae0-4463-8f8f-bc1c64ff479f: pov
+2025-05-04 08:58:00,616 - INFO - [DOWNLOADED] Downloaded: Beyoncé - CHURCH GIRL (Official Lyric Video) (https://www.youtube.com/watch?v=_sZirWKsOBg) for track 37ab8dfb-f868-4a94-be36-a2e203fad98c
+2025-05-04 08:58:00,660 - INFO - [CORRECT] Metadata inserted for track 37ab8dfb-f868-4a94-be36-a2e203fad98c: CHURCH GIRL
+2025-05-04 08:58:05,838 - ERROR - [EXCEPTION] Error processing track Fuck Wit Dre Day (And Everybody's Celebratin') (3681e10c-2e36-43bc-b974-64de5051694f): connection already closed
+2025-05-04 08:58:05,862 - INFO - [SEARCHING] Searching YouTube for track 37d90223-e343-449d-ac1d-896c9f5b280b: Baby Madison Beer
+2025-05-04 08:58:12,360 - INFO - [DOWNLOADED] Downloaded: Madison Beer - Baby (Official Music Video) (https://www.youtube.com/watch?v=GfsLT7W80AE) for track 37d90223-e343-449d-ac1d-896c9f5b280b
+2025-05-04 08:58:12,379 - INFO - [CORRECT] Metadata inserted for track 37d90223-e343-449d-ac1d-896c9f5b280b: Baby
+2025-05-04 08:58:23,194 - ERROR - [EXCEPTION] Error processing track Motion Picture Soundtrack (36d0756b-58ef-425e-9b88-f9848718b9ce): connection already closed
+2025-05-04 08:58:23,221 - INFO - [SEARCHING] Searching YouTube for track 380f29ee-3df8-4fc9-9cd7-b2688f118261: Soulless Friends Peter Cat Recording Co.
+2025-05-04 08:58:24,602 - ERROR - [EXCEPTION] Error processing track I Don’t Care (36ee6c34-5aa7-4dd0-a79e-b2da8986a8e8): connection already closed
+2025-05-04 08:58:24,615 - INFO - [SEARCHING] Searching YouTube for track 3813580a-be75-41ad-b7ec-d3f7e4c74f05: White Frank Ocean
+2025-05-04 08:58:29,764 - ERROR - [EXCEPTION] Error processing track Outlaw State of Mind (36c6f7be-fbd5-4ca3-a8e9-f8dc4727fd7c): connection already closed
+2025-05-04 08:58:29,771 - INFO - [SEARCHING] Searching YouTube for track 38314ee4-fbe7-4572-9009-f8ea1bb4b131: These Walls Dua Lipa
+2025-05-04 08:58:30,830 - INFO - [DOWNLOADED] Downloaded: Soulless Friends (https://www.youtube.com/watch?v=-bWZgqF0pJs) for track 380f29ee-3df8-4fc9-9cd7-b2688f118261
+2025-05-04 08:58:30,853 - INFO - [CORRECT] Metadata inserted for track 380f29ee-3df8-4fc9-9cd7-b2688f118261: Soulless Friends
+2025-05-04 08:58:31,589 - INFO - [DOWNLOADED] Downloaded: Frank Ocean - White Ferrari (https://www.youtube.com/watch?v=Dlz_XHeUUis) for track 3813580a-be75-41ad-b7ec-d3f7e4c74f05
+2025-05-04 08:58:31,605 - INFO - [CORRECT] Metadata inserted for track 3813580a-be75-41ad-b7ec-d3f7e4c74f05: White
+2025-05-04 08:58:36,927 - INFO - [DOWNLOADED] Downloaded: Dua Lipa - These Walls feat Pierre de Maere (Lyric Video) (https://www.youtube.com/watch?v=vjx5kv05x3A) for track 38314ee4-fbe7-4572-9009-f8ea1bb4b131
+2025-05-04 08:58:36,967 - INFO - [CORRECT] Metadata inserted for track 38314ee4-fbe7-4572-9009-f8ea1bb4b131: These Walls
+2025-05-04 08:58:52,664 - ERROR - [EXCEPTION] Error processing track Meet Me in the Hallway (3757fa89-a6b2-44cf-8493-a2d0e87db82a): connection already closed
+2025-05-04 08:58:52,688 - INFO - [SEARCHING] Searching YouTube for track 389c8aa9-8447-4878-bb4b-3211375f1324: Sparks Fly Taylor Swift
+2025-05-04 08:58:53,699 - ERROR - [EXCEPTION] Error processing track All in It (37481dc0-06d8-4d8f-a56f-ee67b8d089b5): connection already closed
+2025-05-04 08:58:53,708 - INFO - [SEARCHING] Searching YouTube for track 38f43b95-0afb-487f-8065-7b5e1c3c200c: Cherry Harry Styles
+2025-05-04 08:59:00,379 - INFO - [DOWNLOADED] Downloaded: Taylor Swift - Sparks Fly (https://www.youtube.com/watch?v=oKar-tF__ac) for track 389c8aa9-8447-4878-bb4b-3211375f1324
+2025-05-04 08:59:00,406 - INFO - [CORRECT] Metadata inserted for track 389c8aa9-8447-4878-bb4b-3211375f1324: Sparks Fly
+2025-05-04 08:59:01,191 - INFO - [DOWNLOADED] Downloaded: Harry Styles - Cherry (Official Audio) (https://www.youtube.com/watch?v=rGeJ73yAAhQ) for track 38f43b95-0afb-487f-8065-7b5e1c3c200c
+2025-05-04 08:59:01,195 - INFO - [CORRECT] Metadata inserted for track 38f43b95-0afb-487f-8065-7b5e1c3c200c: Cherry
+2025-05-04 08:59:04,489 - ERROR - [EXCEPTION] Error processing track pov (375ccd95-4ae0-4463-8f8f-bc1c64ff479f): connection already closed
+2025-05-04 08:59:04,531 - INFO - [SEARCHING] Searching YouTube for track 39973f6c-4d2f-4683-947c-10f74f909cfe: Dark Paradise Lana Del Rey
+2025-05-04 08:59:11,578 - INFO - [DOWNLOADED] Downloaded: Dark Paradise (https://www.youtube.com/watch?v=dvSZQ4oMHGM) for track 39973f6c-4d2f-4683-947c-10f74f909cfe
+2025-05-04 08:59:11,609 - INFO - [CORRECT] Metadata inserted for track 39973f6c-4d2f-4683-947c-10f74f909cfe: Dark Paradise
+2025-05-04 08:59:15,308 - ERROR - [EXCEPTION] Error processing track CHURCH GIRL (37ab8dfb-f868-4a94-be36-a2e203fad98c): connection already closed
+2025-05-04 08:59:15,313 - INFO - [SEARCHING] Searching YouTube for track 39a5b7f5-f79d-491f-9003-cf88e615f220: Norman Fucking Rockwell Lana Del Rey
+2025-05-04 08:59:33,001 - ERROR - [EXCEPTION] Error processing track Baby (37d90223-e343-449d-ac1d-896c9f5b280b): connection already closed
+2025-05-04 08:59:33,012 - INFO - [SEARCHING] Searching YouTube for track 3a5ad488-aee0-43c8-b011-5d57b0e00287: I’ll Fly Away Ye
+2025-05-04 08:59:37,991 - ERROR - [EXCEPTION] Error processing track Soulless Friends (380f29ee-3df8-4fc9-9cd7-b2688f118261): connection already closed
+2025-05-04 08:59:37,997 - INFO - [SEARCHING] Searching YouTube for track 3a80a7f9-ef48-40c3-80d6-db8f1f7a9249: We Don’t Care Ye
+2025-05-04 08:59:38,416 - INFO - [DOWNLOADED] Downloaded: I'll Fly Away (https://www.youtube.com/watch?v=psb2dFToHLA) for track 3a5ad488-aee0-43c8-b011-5d57b0e00287
+2025-05-04 08:59:38,418 - INFO - [CORRECT] Metadata inserted for track 3a5ad488-aee0-43c8-b011-5d57b0e00287: I’ll Fly Away
+2025-05-04 08:59:42,708 - ERROR - [EXCEPTION] Error processing track These Walls (38314ee4-fbe7-4572-9009-f8ea1bb4b131): connection already closed
+2025-05-04 08:59:42,714 - INFO - [SEARCHING] Searching YouTube for track 3a8f3674-32e1-4c5d-8fb9-d7e3b18f446f: Hold On Shawn Mendes
+2025-05-04 08:59:43,931 - INFO - [DOWNLOADED] Downloaded: We Don't Care (https://www.youtube.com/watch?v=0Tdpq3FRGhY) for track 3a80a7f9-ef48-40c3-80d6-db8f1f7a9249
+2025-05-04 08:59:43,960 - INFO - [CORRECT] Metadata inserted for track 3a80a7f9-ef48-40c3-80d6-db8f1f7a9249: We Don’t Care
+2025-05-04 08:59:49,028 - INFO - [DOWNLOADED] Downloaded: Hold On (https://www.youtube.com/watch?v=rE7X2EdpeRE) for track 3a8f3674-32e1-4c5d-8fb9-d7e3b18f446f
+2025-05-04 08:59:49,086 - INFO - [CORRECT] Metadata inserted for track 3a8f3674-32e1-4c5d-8fb9-d7e3b18f446f: Hold On
+2025-05-04 08:59:52,562 - ERROR - [EXCEPTION] Error processing track White (3813580a-be75-41ad-b7ec-d3f7e4c74f05): connection already closed
+2025-05-04 08:59:52,590 - INFO - [SEARCHING] Searching YouTube for track 3b26db03-6eb1-4980-aad7-ec682773b927: ELEMENT. Kendrick Lamar
+2025-05-04 08:59:58,444 - INFO - [DOWNLOADED] Downloaded: Kendrick Lamar - ELEMENT. (https://www.youtube.com/watch?v=glaG64Ao7sM) for track 3b26db03-6eb1-4980-aad7-ec682773b927
+2025-05-04 08:59:58,477 - INFO - [CORRECT] Metadata inserted for track 3b26db03-6eb1-4980-aad7-ec682773b927: ELEMENT.
+2025-05-04 08:59:59,991 - ERROR - [EXCEPTION] Error processing track I’ll Fly Away (3a5ad488-aee0-43c8-b011-5d57b0e00287): connection already closed
+2025-05-04 08:59:59,999 - INFO - [SEARCHING] Searching YouTube for track 3b5f19ce-2308-40a5-b73f-d600bc765b59: Watch You Burn Chris Stapleton
+2025-05-04 09:00:06,579 - INFO - [DOWNLOADED] Downloaded: Chris Stapleton - Watch You Burn (Official Audio) (https://www.youtube.com/watch?v=bS7vZLhwf_o) for track 3b5f19ce-2308-40a5-b73f-d600bc765b59
+2025-05-04 09:00:06,610 - INFO - [CORRECT] Metadata inserted for track 3b5f19ce-2308-40a5-b73f-d600bc765b59: Watch You Burn
+2025-05-04 09:00:21,433 - ERROR - [EXCEPTION] Error processing track Cherry (38f43b95-0afb-487f-8065-7b5e1c3c200c): connection already closed
+2025-05-04 09:00:21,469 - INFO - [SEARCHING] Searching YouTube for track 3c8d6f8e-4712-4ced-9b77-0f921f9e1c54: Ask Me Why The Beatles
+2025-05-04 09:00:22,398 - ERROR - [EXCEPTION] Error processing track Sparks Fly (389c8aa9-8447-4878-bb4b-3211375f1324): connection already closed
+2025-05-04 09:00:22,402 - INFO - [SEARCHING] Searching YouTube for track 3cafa807-62d6-4a07-aaa1-1b6ff0be9f7e: Go Gina SZA
+2025-05-04 09:00:24,283 - ERROR - [EXCEPTION] Error processing track Dark Paradise (39973f6c-4d2f-4683-947c-10f74f909cfe): connection already closed
+2025-05-04 09:00:24,287 - INFO - [SEARCHING] Searching YouTube for track 3cd7f392-cf14-4e86-a8fc-eaee832b31e4: ALLIIGATOR TEARS Beyoncé
+2025-05-04 09:00:28,261 - INFO - [DOWNLOADED] Downloaded: Ask Me Why (Remastered 2009) (https://www.youtube.com/watch?v=2ttGjtfQ7EA) for track 3c8d6f8e-4712-4ced-9b77-0f921f9e1c54
+2025-05-04 09:00:28,269 - INFO - [CORRECT] Metadata inserted for track 3c8d6f8e-4712-4ced-9b77-0f921f9e1c54: Ask Me Why
+2025-05-04 09:00:30,415 - INFO - [DOWNLOADED] Downloaded: SZA - Go Gina (Audio) (https://www.youtube.com/watch?v=UWktRW128UA) for track 3cafa807-62d6-4a07-aaa1-1b6ff0be9f7e
+2025-05-04 09:00:30,418 - INFO - [CORRECT] Metadata inserted for track 3cafa807-62d6-4a07-aaa1-1b6ff0be9f7e: Go Gina
+2025-05-04 09:00:31,534 - INFO - [DOWNLOADED] Downloaded: Beyoncé - ALLIIGATOR TEARS (Official Lyric Video) (https://www.youtube.com/watch?v=OuSCmrRPcFI) for track 3cd7f392-cf14-4e86-a8fc-eaee832b31e4
+2025-05-04 09:00:31,537 - INFO - [CORRECT] Metadata inserted for track 3cd7f392-cf14-4e86-a8fc-eaee832b31e4: ALLIIGATOR TEARS
+2025-05-04 09:00:48,444 - ERROR - [EXCEPTION] Error processing track Hold On (3a8f3674-32e1-4c5d-8fb9-d7e3b18f446f): connection already closed
+2025-05-04 09:00:52,694 - ERROR - [EXCEPTION] Error processing track We Don’t Care (3a80a7f9-ef48-40c3-80d6-db8f1f7a9249): connection already closed
+2025-05-04 09:00:52,702 - INFO - [SEARCHING] Searching YouTube for track 3d2ab201-2f0f-483e-baeb-8d79af95dd73: Lonely Weekend Kacey Musgraves
+2025-05-04 09:00:53,630 - INFO - [DOWNLOADED] Downloaded: Tchaikovsky Nutcracker Suite - Russian Dance Trepak (https://www.youtube.com/watch?v=z2ISRMSIyX8) for track 3d18207d-b1ec-4a2e-9932-eacfdc6a8d5c
+2025-05-04 09:00:53,632 - INFO - [CORRECT] Metadata inserted for track 3d18207d-b1ec-4a2e-9932-eacfdc6a8d5c: Nutcracker Suite - Russian Dance
+2025-05-04 09:00:59,688 - INFO - [DOWNLOADED] Downloaded: Kacey Musgraves - Lonely Weekend (Official Audio) (https://www.youtube.com/watch?v=Zr3gscRpAhA) for track 3d2ab201-2f0f-483e-baeb-8d79af95dd73
+2025-05-04 09:00:59,691 - INFO - [CORRECT] Metadata inserted for track 3d2ab201-2f0f-483e-baeb-8d79af95dd73: Lonely Weekend
+2025-05-04 09:01:02,840 - ERROR - [EXCEPTION] Error processing track ELEMENT. (3b26db03-6eb1-4980-aad7-ec682773b927): connection already closed
+2025-05-04 09:01:02,843 - INFO - [SEARCHING] Searching YouTube for track 3d381f93-3cb5-4875-870f-647d7ee93fd5: Normal Girl SZA
+2025-05-04 09:01:09,243 - INFO - [DOWNLOADED] Downloaded: SZA - Normal Girl (Official Audio) (https://www.youtube.com/watch?v=_R2LiwXtuLQ) for track 3d381f93-3cb5-4875-870f-647d7ee93fd5
+2025-05-04 09:01:09,280 - INFO - [CORRECT] Metadata inserted for track 3d381f93-3cb5-4875-870f-647d7ee93fd5: Normal Girl
+2025-05-04 09:01:16,699 - ERROR - [EXCEPTION] Error processing track Watch You Burn (3b5f19ce-2308-40a5-b73f-d600bc765b59): connection already closed
+2025-05-04 09:01:16,714 - INFO - [SEARCHING] Searching YouTube for track 3d46340b-2531-499c-927d-1385175a2db4: History One Direction
+2025-05-04 09:01:17,187 - ERROR - [EXCEPTION] Error processing track Ask Me Why (3c8d6f8e-4712-4ced-9b77-0f921f9e1c54): connection already closed
+2025-05-04 09:01:17,190 - INFO - [SEARCHING] Searching YouTube for track 3d48d56d-edff-4d62-abe0-92d029a5c233: make up Ariana Grande
+2025-05-04 09:01:17,570 - ERROR - [EXCEPTION] Error processing track Nutcracker Suite - Russian Dance (3d18207d-b1ec-4a2e-9932-eacfdc6a8d5c): connection already closed
+2025-05-04 09:01:17,571 - INFO - [SEARCHING] Searching YouTube for track 3d57c263-f827-4e71-b24d-7420e16aa18d: Forever & Always Taylor Swift
+2025-05-04 09:01:19,173 - ERROR - [EXCEPTION] Error processing track Go Gina (3cafa807-62d6-4a07-aaa1-1b6ff0be9f7e): connection already closed
+2025-05-04 09:01:19,179 - INFO - [SEARCHING] Searching YouTube for track 3de1bf3c-f779-4024-b5f5-a8ffe833425f: Speak Now Taylor Swift
+2025-05-04 09:01:25,839 - INFO - [DOWNLOADED] Downloaded: One Direction - History (Official Video) (https://www.youtube.com/watch?v=yjmp8CoZBIo) for track 3d46340b-2531-499c-927d-1385175a2db4
+2025-05-04 09:01:25,842 - INFO - [DOWNLOADED] Downloaded: Ariana Grande - make up (Official Audio) (https://www.youtube.com/watch?v=DOJremEQw88) for track 3d48d56d-edff-4d62-abe0-92d029a5c233
+2025-05-04 09:01:25,845 - INFO - [CORRECT] Metadata inserted for track 3d46340b-2531-499c-927d-1385175a2db4: History
+2025-05-04 09:01:25,845 - INFO - [CORRECT] Metadata inserted for track 3d48d56d-edff-4d62-abe0-92d029a5c233: make up
+2025-05-04 09:01:26,540 - INFO - [DOWNLOADED] Downloaded: Taylor Swift - Forever & Always (Taylor's Version) (Lyric Video) (https://www.youtube.com/watch?v=T-41vMWQTUA) for track 3d57c263-f827-4e71-b24d-7420e16aa18d
+2025-05-04 09:01:26,542 - INFO - [CORRECT] Metadata inserted for track 3d57c263-f827-4e71-b24d-7420e16aa18d: Forever & Always
+2025-05-04 09:01:27,217 - INFO - [DOWNLOADED] Downloaded: Taylor Swift - Speak Now (Taylor's Version) (Lyric Video) (https://www.youtube.com/watch?v=JlZnvyBqceY) for track 3de1bf3c-f779-4024-b5f5-a8ffe833425f
+2025-05-04 09:01:27,230 - INFO - [CORRECT] Metadata inserted for track 3de1bf3c-f779-4024-b5f5-a8ffe833425f: Speak Now
+2025-05-04 09:01:31,422 - ERROR - [EXCEPTION] Error processing track ALLIIGATOR TEARS (3cd7f392-cf14-4e86-a8fc-eaee832b31e4): connection already closed
+2025-05-04 09:01:31,436 - INFO - [SEARCHING] Searching YouTube for track 3df16fd5-7659-4703-9d8b-98b177df26e6: Ackrite Dr. Dre
+2025-05-04 09:01:37,736 - INFO - [DOWNLOADED] Downloaded: Dr. Dre - Ackrite (feat. Hittman) (https://www.youtube.com/watch?v=-14jrBSWZpM) for track 3df16fd5-7659-4703-9d8b-98b177df26e6
+2025-05-04 09:01:37,743 - INFO - [CORRECT] Metadata inserted for track 3df16fd5-7659-4703-9d8b-98b177df26e6: Ackrite
+2025-05-04 09:01:59,249 - ERROR - [EXCEPTION] Error processing track Lonely Weekend (3d2ab201-2f0f-483e-baeb-8d79af95dd73): connection already closed
+2025-05-04 09:01:59,256 - INFO - [SEARCHING] Searching YouTube for track 3e19b1a8-9680-421a-95d9-7b43b1943eb2: Get Used to It Justin Bieber
+2025-05-04 09:02:05,556 - INFO - [DOWNLOADED] Downloaded: Get Used To It (https://www.youtube.com/watch?v=VwfrbYFUrfo) for track 3e19b1a8-9680-421a-95d9-7b43b1943eb2
+2025-05-04 09:02:05,565 - INFO - [CORRECT] Metadata inserted for track 3e19b1a8-9680-421a-95d9-7b43b1943eb2: Get Used to It
+2025-05-04 09:02:08,046 - ERROR - [EXCEPTION] Error processing track make up (3d48d56d-edff-4d62-abe0-92d029a5c233): connection already closed
+2025-05-04 09:02:08,057 - INFO - [SEARCHING] Searching YouTube for track 3e338646-91ac-4840-ade7-81809b44a770: Lucy In The Sky With Diamonds The Beatles
+2025-05-04 09:02:14,045 - INFO - [DOWNLOADED] Downloaded: Lucy In The Sky With Diamonds (Remastered 2009) (https://www.youtube.com/watch?v=aGPTfxdw_lw) for track 3e338646-91ac-4840-ade7-81809b44a770
+2025-05-04 09:02:14,051 - INFO - [CORRECT] Metadata inserted for track 3e338646-91ac-4840-ade7-81809b44a770: Lucy In The Sky With Diamonds
+2025-05-04 09:02:21,140 - ERROR - [EXCEPTION] Error processing track Normal Girl (3d381f93-3cb5-4875-870f-647d7ee93fd5): connection already closed
+2025-05-04 09:02:21,165 - INFO - [SEARCHING] Searching YouTube for track 3e341bc1-16e2-43e3-adf5-d7a8c2059b0d: Nights Frank Ocean
+2025-05-04 09:02:22,933 - ERROR - [EXCEPTION] Error processing track History (3d46340b-2531-499c-927d-1385175a2db4): connection already closed
+2025-05-04 09:02:22,940 - INFO - [SEARCHING] Searching YouTube for track 3e81a39c-de08-4245-9ab7-bc21ee0b07c3: RIIVERDANCE Beyoncé
+2025-05-04 09:02:28,813 - INFO - [DOWNLOADED] Downloaded: Frank Ocean - Nights (https://www.youtube.com/watch?v=r4l9bFqgMaQ) for track 3e341bc1-16e2-43e3-adf5-d7a8c2059b0d
+2025-05-04 09:02:28,816 - INFO - [CORRECT] Metadata inserted for track 3e341bc1-16e2-43e3-adf5-d7a8c2059b0d: Nights
+2025-05-04 09:02:29,642 - INFO - [DOWNLOADED] Downloaded: Beyoncé - RIIVERDANCE (Official Lyric Video) (https://www.youtube.com/watch?v=AO8oJ1OHLHU) for track 3e81a39c-de08-4245-9ab7-bc21ee0b07c3
+2025-05-04 09:02:29,655 - INFO - [CORRECT] Metadata inserted for track 3e81a39c-de08-4245-9ab7-bc21ee0b07c3: RIIVERDANCE
+2025-05-04 09:02:34,777 - ERROR - [EXCEPTION] Error processing track Forever & Always (3d57c263-f827-4e71-b24d-7420e16aa18d): connection already closed
+2025-05-04 09:02:34,802 - INFO - [SEARCHING] Searching YouTube for track 3e958eeb-f30b-4b32-b5b3-03bfcc66c4fa: How Bad Do U Want Me Lady Gaga
+2025-05-04 09:02:40,957 - ERROR - [EXCEPTION] Error processing track Ackrite (3df16fd5-7659-4703-9d8b-98b177df26e6): connection already closed
+2025-05-04 09:02:40,961 - INFO - [SEARCHING] Searching YouTube for track 3ec43616-c0f4-4100-82e0-973a67705f6a: Paris Sabrina Carpenter
+2025-05-04 09:02:41,393 - ERROR - [EXCEPTION] Error processing track Speak Now (3de1bf3c-f779-4024-b5f5-a8ffe833425f): connection already closed
+2025-05-04 09:02:41,409 - INFO - [SEARCHING] Searching YouTube for track 3efa0e80-b0ed-460e-a423-6e0f525b9a80: Running Over Justin Bieber
+2025-05-04 09:02:41,411 - INFO - [DOWNLOADED] Downloaded: Lady Gaga - How Bad Do U Want Me (Official Audio) (https://www.youtube.com/watch?v=Nd_M9A5xFlY) for track 3e958eeb-f30b-4b32-b5b3-03bfcc66c4fa
+2025-05-04 09:02:41,411 - INFO - [CORRECT] Metadata inserted for track 3e958eeb-f30b-4b32-b5b3-03bfcc66c4fa: How Bad Do U Want Me
+2025-05-04 09:02:48,204 - INFO - [DOWNLOADED] Downloaded: Sabrina Carpenter - Paris (https://www.youtube.com/watch?v=COt5MibFxMs) for track 3ec43616-c0f4-4100-82e0-973a67705f6a
+2025-05-04 09:02:48,213 - INFO - [CORRECT] Metadata inserted for track 3ec43616-c0f4-4100-82e0-973a67705f6a: Paris
+2025-05-04 09:02:48,707 - INFO - [DOWNLOADED] Downloaded: Justin Bieber - Running Over (CHANGES: The Movement) ft. Lil Dicky (https://www.youtube.com/watch?v=RlLMhdLO1tg) for track 3efa0e80-b0ed-460e-a423-6e0f525b9a80
+2025-05-04 09:02:48,734 - INFO - [CORRECT] Metadata inserted for track 3efa0e80-b0ed-460e-a423-6e0f525b9a80: Running Over
+2025-05-04 09:03:09,194 - ERROR - [EXCEPTION] Error processing track Get Used to It (3e19b1a8-9680-421a-95d9-7b43b1943eb2): connection already closed
+2025-05-04 09:03:09,199 - INFO - [SEARCHING] Searching YouTube for track 407427a6-ecdb-47e5-8e40-6b1536f47593: HOUSTONFORNICATION Travis Scott
+2025-05-04 09:03:09,324 - ERROR - [EXCEPTION] Error processing track Lucy In The Sky With Diamonds (3e338646-91ac-4840-ade7-81809b44a770): connection already closed
+2025-05-04 09:03:09,333 - INFO - [SEARCHING] Searching YouTube for track 4078e8ff-4663-461c-8c5c-acd134baaa50: Replay Lady Gaga
+2025-05-04 09:03:16,417 - INFO - [DOWNLOADED] Downloaded: Lady Gaga - Replay (Official Audio) (https://www.youtube.com/watch?v=ZTwpCLZLdRs) for track 4078e8ff-4663-461c-8c5c-acd134baaa50
+2025-05-04 09:03:16,426 - INFO - [CORRECT] Metadata inserted for track 4078e8ff-4663-461c-8c5c-acd134baaa50: Replay
+2025-05-04 09:03:16,816 - INFO - [DOWNLOADED] Downloaded: Travis Scott - HOUSTONFORNICATION (Audio) (https://www.youtube.com/watch?v=XzmnM2PLPfs) for track 407427a6-ecdb-47e5-8e40-6b1536f47593
+2025-05-04 09:03:16,824 - INFO - [CORRECT] Metadata inserted for track 407427a6-ecdb-47e5-8e40-6b1536f47593: HOUSTONFORNICATION
+2025-05-04 09:03:42,823 - ERROR - [EXCEPTION] Error processing track RIIVERDANCE (3e81a39c-de08-4245-9ab7-bc21ee0b07c3): connection already closed
+2025-05-04 09:03:42,833 - INFO - [SEARCHING] Searching YouTube for track 409eef7e-e80f-4d80-90b3-a27cf256f523: Treat You Better Shawn Mendes
+2025-05-04 09:03:44,768 - ERROR - [EXCEPTION] Error processing track Running Over (3efa0e80-b0ed-460e-a423-6e0f525b9a80): connection already closed
+2025-05-04 09:03:44,774 - INFO - [SEARCHING] Searching YouTube for track 40ab29f7-f8a0-4838-a562-4a62ed8f447c: Sometimes I Cry Chris Stapleton
+2025-05-04 09:03:50,669 - INFO - [DOWNLOADED] Downloaded: Shawn Mendes - Treat You Better (https://www.youtube.com/watch?v=lY2yjAdbvdQ) for track 409eef7e-e80f-4d80-90b3-a27cf256f523
+2025-05-04 09:03:50,674 - INFO - [CORRECT] Metadata inserted for track 409eef7e-e80f-4d80-90b3-a27cf256f523: Treat You Better
+2025-05-04 09:03:51,933 - INFO - [DOWNLOADED] Downloaded: Chris Stapleton - Sometimes I Cry (Bing Lounge) (https://www.youtube.com/watch?v=Lq3Av1IA8rc) for track 40ab29f7-f8a0-4838-a562-4a62ed8f447c
+2025-05-04 09:03:51,953 - INFO - [CORRECT] Metadata inserted for track 40ab29f7-f8a0-4838-a562-4a62ed8f447c: Sometimes I Cry
+2025-05-04 09:03:57,141 - ERROR - [EXCEPTION] Error processing track How Bad Do U Want Me (3e958eeb-f30b-4b32-b5b3-03bfcc66c4fa): connection already closed
+2025-05-04 09:03:57,157 - INFO - [SEARCHING] Searching YouTube for track 40de2945-dca3-4814-a1c0-57e9d4e11642: no tears left to cry Ariana Grande
+2025-05-04 09:03:58,577 - ERROR - [EXCEPTION] Error processing track Paris (3ec43616-c0f4-4100-82e0-973a67705f6a): connection already closed
+2025-05-04 09:03:58,587 - INFO - [SEARCHING] Searching YouTube for track 4101573a-72b9-41e5-bf2d-13b7fe040ff7: We Are Justin Bieber
+2025-05-04 09:03:58,713 - ERROR - [EXCEPTION] Error processing track Nights (3e341bc1-16e2-43e3-adf5-d7a8c2059b0d): connection already closed
+2025-05-04 09:03:58,719 - INFO - [SEARCHING] Searching YouTube for track 4172d4e5-a438-4c1d-b2cd-ddcd581131a1: Peaches Justin Bieber
+2025-05-04 09:04:05,746 - INFO - [DOWNLOADED] Downloaded: We Are (https://www.youtube.com/watch?v=vHUtiaaaZPg) for track 4101573a-72b9-41e5-bf2d-13b7fe040ff7
+2025-05-04 09:04:05,746 - INFO - [CORRECT] Metadata inserted for track 4101573a-72b9-41e5-bf2d-13b7fe040ff7: We Are
+2025-05-04 09:04:05,985 - INFO - [DOWNLOADED] Downloaded: Ariana Grande - no tears left to cry (Official Video) (https://www.youtube.com/watch?v=ffxKSjUwKdU) for track 40de2945-dca3-4814-a1c0-57e9d4e11642
+2025-05-04 09:04:05,988 - INFO - [CORRECT] Metadata inserted for track 40de2945-dca3-4814-a1c0-57e9d4e11642: no tears left to cry
+2025-05-04 09:04:06,432 - INFO - [DOWNLOADED] Downloaded: Justin Bieber - Peaches ft. Daniel Caesar, Giveon (https://www.youtube.com/watch?v=tQ0yjYUFKAE) for track 4172d4e5-a438-4c1d-b2cd-ddcd581131a1
+2025-05-04 09:04:06,504 - INFO - [CORRECT] Metadata inserted for track 4172d4e5-a438-4c1d-b2cd-ddcd581131a1: Peaches
+2025-05-04 09:04:14,104 - ERROR - [EXCEPTION] Error processing track Replay (4078e8ff-4663-461c-8c5c-acd134baaa50): connection already closed
+2025-05-04 09:04:14,107 - INFO - [SEARCHING] Searching YouTube for track 419a5897-df3a-4db2-aa8c-f6903f248441: Hells Bells AC/DC
+2025-05-04 09:04:18,891 - ERROR - [EXCEPTION] Error processing track HOUSTONFORNICATION (407427a6-ecdb-47e5-8e40-6b1536f47593): connection already closed
+2025-05-04 09:04:18,895 - INFO - [SEARCHING] Searching YouTube for track 41aad600-b29c-403c-bb8d-f84a8af48f38: Ask Me Why The Beatles
+2025-05-04 09:04:20,386 - INFO - [DOWNLOADED] Downloaded: AC/DC - Hells Bells (Official 4K Video) (https://www.youtube.com/watch?v=etAIpkdhU9Q) for track 419a5897-df3a-4db2-aa8c-f6903f248441
+2025-05-04 09:04:20,393 - INFO - [CORRECT] Metadata inserted for track 419a5897-df3a-4db2-aa8c-f6903f248441: Hells Bells
+2025-05-04 09:04:24,789 - INFO - [DOWNLOADED] Downloaded: Ask Me Why (Remastered 2009) (https://www.youtube.com/watch?v=2ttGjtfQ7EA) for track 41aad600-b29c-403c-bb8d-f84a8af48f38
+2025-05-04 09:04:24,798 - INFO - [CORRECT] Metadata inserted for track 41aad600-b29c-403c-bb8d-f84a8af48f38: Ask Me Why
+2025-05-04 09:05:02,941 - ERROR - [EXCEPTION] Error processing track Treat You Better (409eef7e-e80f-4d80-90b3-a27cf256f523): connection already closed
+2025-05-04 09:05:02,955 - INFO - [SEARCHING] Searching YouTube for track 41ac94c5-c105-4865-acfd-019a3395778f: The Man Who Never Lied Maroon 5
+2025-05-04 09:05:04,153 - ERROR - [EXCEPTION] Error processing track Peaches (4172d4e5-a438-4c1d-b2cd-ddcd581131a1): connection already closed
+2025-05-04 09:05:04,171 - INFO - [SEARCHING] Searching YouTube for track 41acfb06-fc8a-4301-b8f2-5247ed2b1f52: Used to Be tdf
+2025-05-04 09:05:06,481 - ERROR - [EXCEPTION] Error processing track We Are (4101573a-72b9-41e5-bf2d-13b7fe040ff7): connection already closed
+2025-05-04 09:05:06,628 - INFO - [SEARCHING] Searching YouTube for track 41b99346-0cfe-4695-9f69-692b9c6fd7e0: Nothing Matters but You Madison Beer
+2025-05-04 09:05:07,555 - ERROR - [EXCEPTION] Error processing track Sometimes I Cry (40ab29f7-f8a0-4838-a562-4a62ed8f447c): connection already closed
+2025-05-04 09:05:07,561 - INFO - [SEARCHING] Searching YouTube for track 41bce2e0-8af9-4970-868f-a5c808460a41: Nobody To Blame Chris Stapleton
+2025-05-04 09:05:10,269 - INFO - [DOWNLOADED] Downloaded: The Man Who Never Lied (https://www.youtube.com/watch?v=ZLo1zU4etx4) for track 41ac94c5-c105-4865-acfd-019a3395778f
+2025-05-04 09:05:10,270 - INFO - [CORRECT] Metadata inserted for track 41ac94c5-c105-4865-acfd-019a3395778f: The Man Who Never Lied
+2025-05-04 09:05:11,827 - ERROR - [EXCEPTION] Error processing track Ask Me Why (41aad600-b29c-403c-bb8d-f84a8af48f38): connection already closed
+2025-05-04 09:05:11,832 - INFO - [SEARCHING] Searching YouTube for track 41dbd6b7-b74b-43c7-a1fa-57d2b034291b: Parting ONEWE
+2025-05-04 09:05:14,198 - INFO - [DOWNLOADED] Downloaded: wildkarduno - used to be (ft. smokingskul) (tdf) (https://www.youtube.com/watch?v=U5__b9-79oI) for track 41acfb06-fc8a-4301-b8f2-5247ed2b1f52
+2025-05-04 09:05:14,208 - INFO - [CORRECT] Metadata inserted for track 41acfb06-fc8a-4301-b8f2-5247ed2b1f52: Used to Be
+2025-05-04 09:05:15,748 - INFO - [DOWNLOADED] Downloaded: Madison Beer - Nothing Matters But You (Official Lyric Video) (https://www.youtube.com/watch?v=FubW045NoDY) for track 41b99346-0cfe-4695-9f69-692b9c6fd7e0
+2025-05-04 09:05:15,751 - INFO - [CORRECT] Metadata inserted for track 41b99346-0cfe-4695-9f69-692b9c6fd7e0: Nothing Matters but You
+2025-05-04 09:05:16,925 - INFO - [DOWNLOADED] Downloaded: Chris Stapleton - Nobody to Blame (https://www.youtube.com/watch?v=P0mwo-dAABA) for track 41bce2e0-8af9-4970-868f-a5c808460a41
+2025-05-04 09:05:16,932 - INFO - [CORRECT] Metadata inserted for track 41bce2e0-8af9-4970-868f-a5c808460a41: Nobody To Blame
+2025-05-04 09:05:18,194 - INFO - [CORRECT] Metadata inserted for track 41dbd6b7-b74b-43c7-a1fa-57d2b034291b: Parting
+2025-05-04 09:05:21,719 - ERROR - [EXCEPTION] Error processing track no tears left to cry (40de2945-dca3-4814-a1c0-57e9d4e11642): connection already closed
+2025-05-04 09:05:21,738 - INFO - [SEARCHING] Searching YouTube for track 4226de6c-1e88-44a8-aee2-2bb3732e317f: Breathe In, Breathe Out Ye
+2025-05-04 09:05:28,667 - INFO - [DOWNLOADED] Downloaded: Breathe In Breathe Out (https://www.youtube.com/watch?v=E3dWKq3s6u0) for track 4226de6c-1e88-44a8-aee2-2bb3732e317f
+2025-05-04 09:05:28,693 - INFO - [CORRECT] Metadata inserted for track 4226de6c-1e88-44a8-aee2-2bb3732e317f: Breathe In, Breathe Out
+2025-05-04 09:05:37,393 - INFO - [DOWNLOADED] Downloaded: Lana Del Rey - Norman F***ing Rockwell (Official Music Video) (https://www.youtube.com/watch?v=soRjcajliHE) for track 39a5b7f5-f79d-491f-9003-cf88e615f220
+2025-05-04 09:05:37,469 - INFO - [CORRECT] Metadata inserted for track 39a5b7f5-f79d-491f-9003-cf88e615f220: Norman Fucking Rockwell
+2025-05-04 09:06:03,384 - ERROR - [EXCEPTION] Error processing track Hells Bells (419a5897-df3a-4db2-aa8c-f6903f248441): connection already closed
+2025-05-04 09:06:03,408 - INFO - [SEARCHING] Searching YouTube for track 423bf628-f4bb-4074-9c0f-8e02df353377: 21 Questions 50 Cent

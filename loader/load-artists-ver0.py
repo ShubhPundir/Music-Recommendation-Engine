@@ -37,7 +37,7 @@ with open('Loader/Albums  - Sheet2.csv', newline='', encoding='utf-8') as csvfil
 
         # Insert into MongoDB
         try:
-            result = db['artist'].insert_one(lastfm_data)
+            result = db['artists'].insert_one(lastfm_data)
             print("Inserted artist with _id:", result.inserted_id, f" --> {artist} DONE :)")
         except Exception as e:
             print(f"MongoDB insert failed for {artist}: {e}")
