@@ -15,6 +15,9 @@ MONGO_COLLECTION_ARTIST = "artist"
 MONGO_COLLECTION_ALBUMS = "albums"
 MONGO_COLLECTION_USERS = "users"
 
+os.environ['HADOOP_HOME'] = "C:\\hadoop"
+os.environ['hadoop.home.dir'] = "C:\\hadoop"
+
 # Initialize Spark session with MongoDB connector package
 spark = SparkSession.builder \
     .appName("Spark MongoDB Operations") \
