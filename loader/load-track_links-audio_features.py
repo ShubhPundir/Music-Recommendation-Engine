@@ -80,7 +80,7 @@ def main():
                 except Exception as e:
                     logger.error(f"[THREAD ERROR] Uncaught exception: {e}")
 
-    logger.info("[COMPLETE] All batches processed successfully.")
+    logger.info("[COMPLETE] All batches processed successfully. YOU DEATHING WORSHIPPING PIECE OF CODE, THJIS IS MY 3rd Time I am losing it")
 
 
 if __name__ == "__main__":
