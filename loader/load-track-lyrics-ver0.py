@@ -66,6 +66,11 @@ def process_track(artist_name, album_name, track_name):
 
         if track_data  and lyrics_data :
         
+            # Insert into CockroachDB
+            insert_lyrics_into_cockroach(lyrics_data)
+            print(f"Track = {track_name} inserted")
+            logger.info(f"Track = {track_name} inserted")
+            
             # Insert into MongoDB
             track_metadata = {
                 "artist": artist_name,
@@ -78,10 +83,6 @@ def process_track(artist_name, album_name, track_name):
             print(f"✅ Inserted track metadata for '{track_name}' into MongoDB")
             logger.info(f"✅ Inserted track metadata for '{track_name}' into MongoDB")
 
-            # Insert into CockroachDB
-            insert_lyrics_into_cockroach(lyrics_data)
-            print(f"Track = {track_name} inserted")
-            logger.info(f"Track = {track_name} inserted")
 
         else:
             print(f"❌ MusicBrainz ID not found for '{track_name}': {e}")
