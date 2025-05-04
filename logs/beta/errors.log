@@ -1,0 +1,90 @@
+2025-05-04 03:06:26,477 - ERROR - [EXCEPTION] Error processing track Daylight (07bb7cd7-fd7a-4106-bff5-28eb150d1a3d): Error opening <_io.BytesIO object at 0x000001C21CA0C7C0>: Format not recognised.
+2025-05-04 08:50:22,699 - ERROR - [EXCEPTION] Error processing track Have A Drink On Me (2f26c5bb-72cd-45b4-85b4-67806e441593): no connection to the server
+
+2025-05-04 08:50:23,226 - ERROR - [EXCEPTION] Error processing track Mine (2fedfd5e-d88e-458c-9890-0265e8c41a8c): Error opening <_io.BytesIO object at 0x000001C21C8243B0>: Format not recognised.
+2025-05-04 08:50:48,554 - ERROR - [EXCEPTION] Error processing track High All the Time (2f4c47f4-4ebd-4735-b353-389aeae67a7b): connection already closed
+2025-05-04 08:50:54,333 - ERROR - [EXCEPTION] Error processing track love language (2fd7149a-8023-4c43-81d6-bd4b0ac5a6d8): connection already closed
+2025-05-04 08:51:06,287 - ERROR - [EXCEPTION] Error processing track When the Stars Come Out (2f821f9a-ab1f-436d-ae27-99f31615fdbf): connection already closed
+2025-05-04 08:51:27,302 - ERROR - [EXCEPTION] Error processing track The Blacker the Berry (2f56fa90-87d6-4851-9724-22a5cfacb7ba): connection already closed
+2025-05-04 08:51:33,658 - ERROR - [EXCEPTION] Error processing track SUMMER RENAISSANCE (2f8545af-1790-40c7-9b26-ec75e496a3db): connection already closed
+2025-05-04 08:51:43,704 - ERROR - [EXCEPTION] Error processing track I Saw Her Standing There (3004682d-7f25-4879-b24b-19f0479dfbd6): connection already closed
+2025-05-04 08:51:45,219 - ERROR - [EXCEPTION] Error processing track California (2fa3a91f-69d6-4c1b-a971-6f3641c82120): connection already closed
+2025-05-04 08:52:01,179 - ERROR - [EXCEPTION] Error processing track PARASAIL (307f9077-a6f7-4ac8-869e-2b92ed5c97c2): connection already closed
+2025-05-04 08:52:06,737 - ERROR - [EXCEPTION] Error processing track All Falls Down (30040ba9-feac-4ce8-bc6f-019734ff1bb7): connection already closed
+2025-05-04 08:52:21,131 - ERROR - [EXCEPTION] Error processing track Ski Mask Way (30949eea-c017-4da2-88d7-6fe7be5aecac): connection already closed
+2025-05-04 08:52:21,462 - ERROR - [EXCEPTION] Error processing track Garden (Say It Like Dat) (30786ddd-b4c2-4b80-8fea-aabd05b4f7fb): connection already closed
+2025-05-04 08:53:02,216 - ERROR - [EXCEPTION] Error processing track Death Row (30e574e6-2492-487d-ba84-5da5743003fb): connection already closed
+2025-05-04 08:53:16,207 - ERROR - [EXCEPTION] Error processing track Up to No Good Livin’ (30ef0a00-b07d-4f62-9b7a-465f36c771da): connection already closed
+2025-05-04 08:53:20,288 - ERROR - [EXCEPTION] Error processing track Secret (30b3d1a1-03a5-45c6-a75a-4cf01c500e60): connection already closed
+2025-05-04 08:53:40,039 - ERROR - [EXCEPTION] Error processing track Fast (3165428a-a0a5-477f-8926-0e8c364eee14): connection already closed
+2025-05-04 08:53:52,978 - ERROR - [EXCEPTION] Error processing track A Taste of Honey (31c0e5f2-fbdc-43ea-b6f9-126fd19a7817): connection already closed
+2025-05-04 08:54:03,780 - ERROR - [EXCEPTION] Error processing track LUST. (312d4f9b-7230-4d59-b642-bcf5b20edac1): connection already closed
+2025-05-04 08:54:04,892 - ERROR - [EXCEPTION] Error processing track Into You (31865c23-d609-4ca9-957c-73badb3b4529): connection already closed
+2025-05-04 08:54:05,143 - ERROR - [EXCEPTION] Error processing track Sign of the Times (3125b023-6a45-4a68-98ec-a88634866983): connection already closed
+2025-05-04 08:54:19,542 - ERROR - [EXCEPTION] Error processing track Get 'em High (31bfea26-0d56-4c74-94f5-926cf0566680): connection already closed
+2025-05-04 08:54:34,090 - ERROR - [EXCEPTION] Error processing track Fertilizer (32302363-0617-4e82-a75f-d0648825ec5f): connection already closed
+2025-05-04 08:54:55,684 - ERROR - [EXCEPTION] Error processing track Ladykiller (338de6d0-81a3-4e3c-859f-148c20204d97): connection already closed
+2025-05-04 08:54:56,302 - ERROR - [EXCEPTION] Error processing track Skyscraper (32669d0f-49e8-413a-bd81-c15788f8984a): connection already closed
+2025-05-04 08:55:10,408 - ERROR - [EXCEPTION] Error processing track Star Dancing: Dance of the Sugar Plum Fairy (33a30cce-7de8-4265-a5b4-2c13085b7340): connection already closed
+2025-05-04 08:55:17,663 - ERROR - [EXCEPTION] Error processing track Change (32b377a5-34d1-4bf0-aff1-93caf44ce9c4): connection already closed
+2025-05-04 08:55:26,480 - ERROR - [EXCEPTION] Error processing track Blowin’ Smoke (3396b34a-ad1d-448b-88f1-7ddce36abc7a): connection already closed
+2025-05-04 08:55:29,633 - ERROR - [EXCEPTION] Error processing track Music For a Sushi Restaurant (3393af70-94d3-4d94-aacd-af2e973ee458): connection already closed
+2025-05-04 08:55:44,396 - ERROR - [EXCEPTION] Error processing track Olivia (33e4d394-fd59-48a9-9b70-249eb767eeb9): connection already closed
+2025-05-04 08:56:00,681 - ERROR - [EXCEPTION] Error processing track SPAGHETTII (3436cfd9-1e77-4355-9311-1d19e79e0d9c): connection already closed
+2025-05-04 08:56:06,505 - ERROR - [EXCEPTION] Error processing track The Stranger (33af7793-a23e-4002-ab1b-28097bb00d11): connection already closed
+2025-05-04 08:56:11,072 - ERROR - [EXCEPTION] Error processing track 5% TINT (346c5920-4b36-4472-9447-139d2c9e4560): connection already closed
+2025-05-04 08:56:24,153 - ERROR - [EXCEPTION] Error processing track Knockin’ Boots (34b5e938-5d4c-40ef-acb4-e8bb8c386d58): connection already closed
+2025-05-04 08:56:25,585 - ERROR - [EXCEPTION] Error processing track Stamped (34cfe870-aab4-418c-82fa-46761bdd48e0): connection already closed
+2025-05-04 08:57:07,519 - ERROR - [EXCEPTION] Error processing track What Now (35181f72-868e-4298-b516-ac6c4c75652f): connection already closed
+2025-05-04 08:57:15,694 - ERROR - [EXCEPTION] Error processing track WHO? WHAT! (363b2590-63b0-4ea4-894a-a89f4db3207e): connection already closed
+2025-05-04 08:57:26,755 - ERROR - [EXCEPTION] Error processing track Rosalinda’s Eyes (3632305b-f08f-4057-8595-c150bf2c2f0c): connection already closed
+2025-05-04 08:57:28,048 - ERROR - [EXCEPTION] Error processing track Light Speed (36c50645-c468-4317-b8f5-6e7812300949): connection already closed
+2025-05-04 08:57:48,203 - ERROR - [EXCEPTION] Error processing track The Feeling (367bef76-5b13-45dc-b755-e78f6b823030): connection already closed
+2025-05-04 08:57:53,506 - ERROR - [EXCEPTION] Error processing track VIRGO'S GROOVE (3630fe80-36e2-439c-a7f9-83a5a283a5ed): connection already closed
+2025-05-04 08:58:05,838 - ERROR - [EXCEPTION] Error processing track Fuck Wit Dre Day (And Everybody's Celebratin') (3681e10c-2e36-43bc-b974-64de5051694f): connection already closed
+2025-05-04 08:58:23,194 - ERROR - [EXCEPTION] Error processing track Motion Picture Soundtrack (36d0756b-58ef-425e-9b88-f9848718b9ce): connection already closed
+2025-05-04 08:58:24,602 - ERROR - [EXCEPTION] Error processing track I Don’t Care (36ee6c34-5aa7-4dd0-a79e-b2da8986a8e8): connection already closed
+2025-05-04 08:58:29,764 - ERROR - [EXCEPTION] Error processing track Outlaw State of Mind (36c6f7be-fbd5-4ca3-a8e9-f8dc4727fd7c): connection already closed
+2025-05-04 08:58:52,664 - ERROR - [EXCEPTION] Error processing track Meet Me in the Hallway (3757fa89-a6b2-44cf-8493-a2d0e87db82a): connection already closed
+2025-05-04 08:58:53,699 - ERROR - [EXCEPTION] Error processing track All in It (37481dc0-06d8-4d8f-a56f-ee67b8d089b5): connection already closed
+2025-05-04 08:59:04,489 - ERROR - [EXCEPTION] Error processing track pov (375ccd95-4ae0-4463-8f8f-bc1c64ff479f): connection already closed
+2025-05-04 08:59:15,308 - ERROR - [EXCEPTION] Error processing track CHURCH GIRL (37ab8dfb-f868-4a94-be36-a2e203fad98c): connection already closed
+2025-05-04 08:59:33,001 - ERROR - [EXCEPTION] Error processing track Baby (37d90223-e343-449d-ac1d-896c9f5b280b): connection already closed
+2025-05-04 08:59:37,991 - ERROR - [EXCEPTION] Error processing track Soulless Friends (380f29ee-3df8-4fc9-9cd7-b2688f118261): connection already closed
+2025-05-04 08:59:42,708 - ERROR - [EXCEPTION] Error processing track These Walls (38314ee4-fbe7-4572-9009-f8ea1bb4b131): connection already closed
+2025-05-04 08:59:52,562 - ERROR - [EXCEPTION] Error processing track White (3813580a-be75-41ad-b7ec-d3f7e4c74f05): connection already closed
+2025-05-04 08:59:59,991 - ERROR - [EXCEPTION] Error processing track I’ll Fly Away (3a5ad488-aee0-43c8-b011-5d57b0e00287): connection already closed
+2025-05-04 09:00:21,433 - ERROR - [EXCEPTION] Error processing track Cherry (38f43b95-0afb-487f-8065-7b5e1c3c200c): connection already closed
+2025-05-04 09:00:22,398 - ERROR - [EXCEPTION] Error processing track Sparks Fly (389c8aa9-8447-4878-bb4b-3211375f1324): connection already closed
+2025-05-04 09:00:24,283 - ERROR - [EXCEPTION] Error processing track Dark Paradise (39973f6c-4d2f-4683-947c-10f74f909cfe): connection already closed
+2025-05-04 09:00:48,444 - ERROR - [EXCEPTION] Error processing track Hold On (3a8f3674-32e1-4c5d-8fb9-d7e3b18f446f): connection already closed
+2025-05-04 09:00:52,694 - ERROR - [EXCEPTION] Error processing track We Don’t Care (3a80a7f9-ef48-40c3-80d6-db8f1f7a9249): connection already closed
+2025-05-04 09:01:02,840 - ERROR - [EXCEPTION] Error processing track ELEMENT. (3b26db03-6eb1-4980-aad7-ec682773b927): connection already closed
+2025-05-04 09:01:16,699 - ERROR - [EXCEPTION] Error processing track Watch You Burn (3b5f19ce-2308-40a5-b73f-d600bc765b59): connection already closed
+2025-05-04 09:01:17,187 - ERROR - [EXCEPTION] Error processing track Ask Me Why (3c8d6f8e-4712-4ced-9b77-0f921f9e1c54): connection already closed
+2025-05-04 09:01:17,570 - ERROR - [EXCEPTION] Error processing track Nutcracker Suite - Russian Dance (3d18207d-b1ec-4a2e-9932-eacfdc6a8d5c): connection already closed
+2025-05-04 09:01:19,173 - ERROR - [EXCEPTION] Error processing track Go Gina (3cafa807-62d6-4a07-aaa1-1b6ff0be9f7e): connection already closed
+2025-05-04 09:01:31,422 - ERROR - [EXCEPTION] Error processing track ALLIIGATOR TEARS (3cd7f392-cf14-4e86-a8fc-eaee832b31e4): connection already closed
+2025-05-04 09:01:59,249 - ERROR - [EXCEPTION] Error processing track Lonely Weekend (3d2ab201-2f0f-483e-baeb-8d79af95dd73): connection already closed
+2025-05-04 09:02:08,046 - ERROR - [EXCEPTION] Error processing track make up (3d48d56d-edff-4d62-abe0-92d029a5c233): connection already closed
+2025-05-04 09:02:21,140 - ERROR - [EXCEPTION] Error processing track Normal Girl (3d381f93-3cb5-4875-870f-647d7ee93fd5): connection already closed
+2025-05-04 09:02:22,933 - ERROR - [EXCEPTION] Error processing track History (3d46340b-2531-499c-927d-1385175a2db4): connection already closed
+2025-05-04 09:02:34,777 - ERROR - [EXCEPTION] Error processing track Forever & Always (3d57c263-f827-4e71-b24d-7420e16aa18d): connection already closed
+2025-05-04 09:02:40,957 - ERROR - [EXCEPTION] Error processing track Ackrite (3df16fd5-7659-4703-9d8b-98b177df26e6): connection already closed
+2025-05-04 09:02:41,393 - ERROR - [EXCEPTION] Error processing track Speak Now (3de1bf3c-f779-4024-b5f5-a8ffe833425f): connection already closed
+2025-05-04 09:03:09,194 - ERROR - [EXCEPTION] Error processing track Get Used to It (3e19b1a8-9680-421a-95d9-7b43b1943eb2): connection already closed
+2025-05-04 09:03:09,324 - ERROR - [EXCEPTION] Error processing track Lucy In The Sky With Diamonds (3e338646-91ac-4840-ade7-81809b44a770): connection already closed
+2025-05-04 09:03:42,823 - ERROR - [EXCEPTION] Error processing track RIIVERDANCE (3e81a39c-de08-4245-9ab7-bc21ee0b07c3): connection already closed
+2025-05-04 09:03:44,768 - ERROR - [EXCEPTION] Error processing track Running Over (3efa0e80-b0ed-460e-a423-6e0f525b9a80): connection already closed
+2025-05-04 09:03:57,141 - ERROR - [EXCEPTION] Error processing track How Bad Do U Want Me (3e958eeb-f30b-4b32-b5b3-03bfcc66c4fa): connection already closed
+2025-05-04 09:03:58,577 - ERROR - [EXCEPTION] Error processing track Paris (3ec43616-c0f4-4100-82e0-973a67705f6a): connection already closed
+2025-05-04 09:03:58,713 - ERROR - [EXCEPTION] Error processing track Nights (3e341bc1-16e2-43e3-adf5-d7a8c2059b0d): connection already closed
+2025-05-04 09:04:14,104 - ERROR - [EXCEPTION] Error processing track Replay (4078e8ff-4663-461c-8c5c-acd134baaa50): connection already closed
+2025-05-04 09:04:18,891 - ERROR - [EXCEPTION] Error processing track HOUSTONFORNICATION (407427a6-ecdb-47e5-8e40-6b1536f47593): connection already closed
+2025-05-04 09:05:02,941 - ERROR - [EXCEPTION] Error processing track Treat You Better (409eef7e-e80f-4d80-90b3-a27cf256f523): connection already closed
+2025-05-04 09:05:04,153 - ERROR - [EXCEPTION] Error processing track Peaches (4172d4e5-a438-4c1d-b2cd-ddcd581131a1): connection already closed
+2025-05-04 09:05:06,481 - ERROR - [EXCEPTION] Error processing track We Are (4101573a-72b9-41e5-bf2d-13b7fe040ff7): connection already closed
+2025-05-04 09:05:07,555 - ERROR - [EXCEPTION] Error processing track Sometimes I Cry (40ab29f7-f8a0-4838-a562-4a62ed8f447c): connection already closed
+2025-05-04 09:05:11,827 - ERROR - [EXCEPTION] Error processing track Ask Me Why (41aad600-b29c-403c-bb8d-f84a8af48f38): connection already closed
+2025-05-04 09:05:21,719 - ERROR - [EXCEPTION] Error processing track no tears left to cry (40de2945-dca3-4814-a1c0-57e9d4e11642): connection already closed
+2025-05-04 09:06:03,384 - ERROR - [EXCEPTION] Error processing track Hells Bells (419a5897-df3a-4db2-aa8c-f6903f248441): connection already closed

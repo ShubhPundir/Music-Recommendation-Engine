@@ -6,8 +6,8 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 import yt_dlp
 import subprocess
 import io
-from pprint import pprint
-
+import time
+import psycopg2
 from database.cockroachdb import get_cockroach_connection
 from wavScripts.analyzer import extract_audio_features_from_buffer
 
@@ -54,26 +54,44 @@ def download_audio_to_memory(song_query):
     
     return None, None, None, None  # Return None for all in case of error
 
-def insert_music_metadata(musicbrainz_id, track_title, channel, webpage_url, table="track_links"):
-    try:
-        # Construct the data dictionary to be inserted
-        data = {
-            "musicbrainz_id": musicbrainz_id,
-            "track_title": track_title,
-            "channel": channel,
-            "webpage_url": webpage_url
-        }
 
-        # Insert the data into the music_metadata table
-        with conn.cursor() as cur:
-            cur.execute(f"""
-                INSERT INTO {table} (musicbrainz_id, track_title, channel, webpage_url)
-                VALUES (%(musicbrainz_id)s, %(track_title)s, %(channel)s, %(webpage_url)s)
-            """, data)
-            conn.commit()
-            print("✅ Metadata inserted into database")
-    except Exception as e:
-        print(f"❌ An error occurred while inserting metadata: {str(e)}")
+
+def retry_on_connection_error(retries=3, delay=5):
+    def decorator(func):
+        def wrapper(*args, **kwargs):
+            for attempt in range(retries):
+                try:
+                    return func(*args, **kwargs)
+                except psycopg2.OperationalError as e:
+                    if 'connection already closed' in str(e).lower():
+                        time.sleep(delay)
+                        continue
+                    raise
+        return wrapper
+    return decorator
+
+@retry_on_connection_error()
+def insert_music_metadata(musicbrainz_id, track_title, channel, webpage_url, table="track_links"):
+    with get_cockroach_connection() as conn:
+        try:
+            # Construct the data dictionary to be inserted
+            data = {
+                "musicbrainz_id": musicbrainz_id,
+                "track_title": track_title,
+                "channel": channel,
+                "webpage_url": webpage_url
+            }
+
+            # Insert the data into the music_metadata table
+            with conn.cursor() as cur:
+                cur.execute(f"""
+                    INSERT INTO {table} (musicbrainz_id, track_title, channel, webpage_url)
+                    VALUES (%(musicbrainz_id)s, %(track_title)s, %(channel)s, %(webpage_url)s)
+                """, data)
+                conn.commit()
+                print("✅ Metadata inserted into database")
+        except Exception as e:
+            print(f"❌ An error occurred while inserting metadata: {str(e)}")
 
 
 
@@ -87,46 +105,50 @@ def insert_to_db(data, table="audio_features"):
         **{f"tonnetz_{i+1}": data["tonnetz"][i] if i < len(data["tonnetz"]) else 0.0 for i in range(6)},
     }
 
-    with conn.cursor() as cur:
-        cur.execute(f"""
-            INSERT INTO {table} (
-                track_id, duration_seconds, sample_rate, tempo, loudness, danceability,
-                energy, speechiness, acousticness, instrumentalness, liveness, valence,
-                spectral_centroid, spectral_rolloff, spectral_bandwidth, spectral_flatness,
-                zero_crossing_rate, rms_energy, tempo_variability, f0_mean, mel_mean, dynamic_range,
+    try:
+        with get_cockroach_connection() as conn:
+            with conn.cursor() as cur:
+                cur.execute(f"""
+                    INSERT INTO {table} (
+                        track_id, duration_seconds, sample_rate, tempo, loudness, danceability,
+                        energy, speechiness, acousticness, instrumentalness, liveness, valence,
+                        spectral_centroid, spectral_rolloff, spectral_bandwidth, spectral_flatness,
+                        zero_crossing_rate, rms_energy, tempo_variability, f0_mean, mel_mean, dynamic_range,
 
-                mfcc_1, mfcc_2, mfcc_3, mfcc_4, mfcc_5, mfcc_6, mfcc_7,
-                mfcc_8, mfcc_9, mfcc_10, mfcc_11, mfcc_12, mfcc_13,
+                        mfcc_1, mfcc_2, mfcc_3, mfcc_4, mfcc_5, mfcc_6, mfcc_7,
+                        mfcc_8, mfcc_9, mfcc_10, mfcc_11, mfcc_12, mfcc_13,
 
-                spectral_contrast_1, spectral_contrast_2, spectral_contrast_3, spectral_contrast_4,
-                spectral_contrast_5, spectral_contrast_6, spectral_contrast_7,
+                        spectral_contrast_1, spectral_contrast_2, spectral_contrast_3, spectral_contrast_4,
+                        spectral_contrast_5, spectral_contrast_6, spectral_contrast_7,
 
-                chroma_cens_1, chroma_cens_2, chroma_cens_3, chroma_cens_4,
-                chroma_cens_5, chroma_cens_6, chroma_cens_7, chroma_cens_8,
-                chroma_cens_9, chroma_cens_10, chroma_cens_11, chroma_cens_12,
+                        chroma_cens_1, chroma_cens_2, chroma_cens_3, chroma_cens_4,
+                        chroma_cens_5, chroma_cens_6, chroma_cens_7, chroma_cens_8,
+                        chroma_cens_9, chroma_cens_10, chroma_cens_11, chroma_cens_12,
 
-                tonnetz_1, tonnetz_2, tonnetz_3, tonnetz_4, tonnetz_5, tonnetz_6
-            ) VALUES (
-                %(track_id)s, %(duration_seconds)s, %(sample_rate)s, %(tempo)s, %(loudness)s, %(danceability)s,
-                %(energy)s, %(speechiness)s, %(acousticness)s, %(instrumentalness)s, %(liveness)s, %(valence)s,
-                %(spectral_centroid)s, %(spectral_rolloff)s, %(spectral_bandwidth)s, %(spectral_flatness)s,
-                %(zero_crossing_rate)s, %(rms_energy)s, %(tempo_variability)s, %(f0_mean)s, %(mel_mean)s, %(dynamic_range)s,
+                        tonnetz_1, tonnetz_2, tonnetz_3, tonnetz_4, tonnetz_5, tonnetz_6
+                    ) VALUES (
+                        %(track_id)s, %(duration_seconds)s, %(sample_rate)s, %(tempo)s, %(loudness)s, %(danceability)s,
+                        %(energy)s, %(speechiness)s, %(acousticness)s, %(instrumentalness)s, %(liveness)s, %(valence)s,
+                        %(spectral_centroid)s, %(spectral_rolloff)s, %(spectral_bandwidth)s, %(spectral_flatness)s,
+                        %(zero_crossing_rate)s, %(rms_energy)s, %(tempo_variability)s, %(f0_mean)s, %(mel_mean)s, %(dynamic_range)s,
 
-                %(mfcc_1)s, %(mfcc_2)s, %(mfcc_3)s, %(mfcc_4)s, %(mfcc_5)s, %(mfcc_6)s, %(mfcc_7)s,
-                %(mfcc_8)s, %(mfcc_9)s, %(mfcc_10)s, %(mfcc_11)s, %(mfcc_12)s, %(mfcc_13)s,
+                        %(mfcc_1)s, %(mfcc_2)s, %(mfcc_3)s, %(mfcc_4)s, %(mfcc_5)s, %(mfcc_6)s, %(mfcc_7)s,
+                        %(mfcc_8)s, %(mfcc_9)s, %(mfcc_10)s, %(mfcc_11)s, %(mfcc_12)s, %(mfcc_13)s,
 
-                %(spectral_contrast_1)s, %(spectral_contrast_2)s, %(spectral_contrast_3)s, %(spectral_contrast_4)s,
-                %(spectral_contrast_5)s, %(spectral_contrast_6)s, %(spectral_contrast_7)s,
+                        %(spectral_contrast_1)s, %(spectral_contrast_2)s, %(spectral_contrast_3)s, %(spectral_contrast_4)s,
+                        %(spectral_contrast_5)s, %(spectral_contrast_6)s, %(spectral_contrast_7)s,
 
-                %(chroma_cens_1)s, %(chroma_cens_2)s, %(chroma_cens_3)s, %(chroma_cens_4)s,
-                %(chroma_cens_5)s, %(chroma_cens_6)s, %(chroma_cens_7)s, %(chroma_cens_8)s,
-                %(chroma_cens_9)s, %(chroma_cens_10)s, %(chroma_cens_11)s, %(chroma_cens_12)s,
+                        %(chroma_cens_1)s, %(chroma_cens_2)s, %(chroma_cens_3)s, %(chroma_cens_4)s,
+                        %(chroma_cens_5)s, %(chroma_cens_6)s, %(chroma_cens_7)s, %(chroma_cens_8)s,
+                        %(chroma_cens_9)s, %(chroma_cens_10)s, %(chroma_cens_11)s, %(chroma_cens_12)s,
 
-                %(tonnetz_1)s, %(tonnetz_2)s, %(tonnetz_3)s, %(tonnetz_4)s, %(tonnetz_5)s, %(tonnetz_6)s
-            )
-        """, prepared_data)
-        conn.commit()
-        print("✅ Inserted into database")
+                        %(tonnetz_1)s, %(tonnetz_2)s, %(tonnetz_3)s, %(tonnetz_4)s, %(tonnetz_5)s, %(tonnetz_6)s
+                    )
+                """, prepared_data)
+                conn.commit()
+                print("✅ Inserted into database")
+    except Exception as e:
+        print(f"❌ Error inserting audio features: {e}")
 
 # if __name__ == "__main__":
 #     track_name = "Let it be"
