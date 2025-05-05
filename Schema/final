@@ -15,7 +15,7 @@
       extralarge: String,
       mega: String
     },
-    tracks: Array (14) [
+    tracks: Array [
         {
           name: String,
           duration: Number,
@@ -37,7 +37,7 @@ artists = {
       summary: String,
       content: String
     },
-    musicbrainz_id: String/uuid
+    musicbrainz_id: String/UUID
   } 
 
 tracks_metadata = {
@@ -47,29 +47,29 @@ tracks_metadata = {
     album: String,
     metadata: {
       prompted_artist: String,
-      prompted_track: String
+      prompted_track: String,
+      musicbrainz: {
+        recording_id: String,
+        title: String,
+        artist: String,
+        artist_id: String,
+        album: String,
+        album_id: String,
+        release_date: String,
+        country: String,
+        length: Number,
+      },
+      lastfm: {
+        tags: Array,
+        similar_tracks: Array
+      },
+      genius: {
+        title: String,
+        artist: String,
+        album: String,
+        release_date: String,
+        song_art_image_url: String,
+        verified: Boolean
+      }
     },
-    musicbrainz: {
-      recording_id: String
-    },
-    title: String,
-    artist: String,
-    artist_id: String,
-    album: String,
-    album_id: String,
-    release_date: String,
-    country: String,
-    length: Number,
-    lastfm: {
-      tags: Array,
-      similar_tracks: Array
-    },
-    genius: {
-      title: String,
-      artist: String,
-      album: String,
-      release_date: String,
-      song_art_image_url: String,
-      verified: Boolean
-    }
   }
