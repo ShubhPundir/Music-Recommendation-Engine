@@ -19,3 +19,15 @@
    title TEXT,
    channel TEXT,
    url TEXT
+
+
+2. 
+
+musicbrainz_id TEXT PRIMARY KEY,
+tempo FLOAT,
+duration FLOAT,
+rms FLOAT,
+zero_crossing_rate FLOAT,
+spectral_centroid FLOAT,
+...
+
