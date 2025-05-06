@@ -25,7 +25,7 @@ def save_analysis_to_csv(lyrics, lyric_id, csv_path="lyrics_analysis.csv"):
 
     # Combine all results into a single row (structured dictionary)
     row = {
-        "lyric_id": lyric_id,
+        "musicbrainz_id": lyric_id,
         **goemotion_results,
         **{f"nrc_{k}": v for k, v in nrc.items()},
         "textblob_polarity": textblob["TextBlob"]["Polarity"],  # Fixed key name
@@ -55,10 +55,10 @@ def process_lyrics_from_csv(input_csv_path, output_csv_path="lyrics_analysis.csv
             
             save_analysis_to_csv(text, musicbrainz_id, output_csv_path)
             count += 1
-            if(count % 25):
+            if(count % 25 == 0):
                 print(f"{count} done")
 
 # === Usage Example ===
 # Provide the path to your input CSV
-input_csv_path = 'test/sentiment_analysis/lyrics_202505062303.csv'
+input_csv_path = 'loader/lyrics_202505062303.csv'
 process_lyrics_from_csv(input_csv_path)
