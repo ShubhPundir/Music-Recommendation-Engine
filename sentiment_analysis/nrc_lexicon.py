@@ -24,6 +24,18 @@ nrc_lexicon = load_nrc_lexicon()
 
 # 🔍 NRC Emotion Analysis
 def analyze_emotions_nrc(text, lexicon=nrc_lexicon):
+    if text == "" or text is None or text == None:
+        return {'anger': 0,
+                'anticipation': 0,
+                'disgust': 0,
+                'fear': 0,
+                'joy': 0,
+                'negative': 0,
+                'positive': 0,
+                'sadness': 0,
+                'surprise': 0,
+                'trust': 0}
+
     words = word_tokenize(text.lower())
     words = [w for w in words if w.isalpha() and w not in stop_words]
     emotions = []
@@ -143,5 +155,5 @@ def analyze_emotions_nrc(text, lexicon=nrc_lexicon):
 # Is you fuckin', is you fuckin'
 # Is you fucking crazy?'''
 
-# x = analyze_emotions_nrc(lyrics)
+# x = analyze_emotions_nrc("")
 # pprint(x)
