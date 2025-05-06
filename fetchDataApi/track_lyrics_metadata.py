@@ -37,6 +37,7 @@ def get_track_lyrics_metadata(artist, track):
 
 
     return track_metadata, lyrics_data
+    ## MONGDB: COLLECTION--> tracks_metadata and COCKRAOCH: TABLE --> lyrics 
 
 # x,y = get_track_lyrics_metadata("Taylor Swift", "Breathe")
 # pprint(x)

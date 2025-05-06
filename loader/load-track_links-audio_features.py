@@ -45,13 +45,17 @@ def process_track(musicbrainz_id, track_name, artist_name):
         if audio_buf is None or audio_buf.getbuffer().nbytes < 100_000:
             logger.warning(f"[SKIPPED] Invalid/too small audio for {track_name} ({musicbrainz_id})")
             return
+        
+        if audio_buf.getbuffer().nbytes > 1_000_000:
+            logger.warning(f"[SKIPPED] Invalid/too big audio for {track_name} ({musicbrainz_id})")
+            return
 
         logger.info(f"[DOWNLOADED] {title} ({webpage_url}) for track {musicbrainz_id}")
         insert_music_metadata(musicbrainz_id, title, channel, webpage_url)
 
         logger.info(f"[META INSERTED] Metadata inserted for {musicbrainz_id}: {track_name}")
         features = extract_audio_features_from_buffer(audio_buf, musicbrainz_id)
-        features["track_id"] = musicbrainz_id
+        features["musicbrainz_id"] = musicbrainz_id
         insert_to_db(features)
 
         logger.info(f"[FEATURES INSERTED] Audio features inserted for {musicbrainz_id}: {track_name}")

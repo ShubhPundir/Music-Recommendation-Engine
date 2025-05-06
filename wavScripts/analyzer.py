@@ -2,7 +2,7 @@ import soundfile as sf
 import librosa
 import numpy as np
 
-def extract_audio_features_from_buffer(audio_buffer, track_id):
+def extract_audio_features_from_buffer(audio_buffer, musicbrainz_id):
     y, sr = sf.read(audio_buffer)
     y = y.astype(np.float32)
     
@@ -36,7 +36,7 @@ def extract_audio_features_from_buffer(audio_buffer, track_id):
     dynamic_range = np.max(rms) - np.min(rms)
 
     return {
-        "musicbrainz_id": track_id,
+        "musicbrainz_id": musicbrainz_id,
         "duration_seconds": duration_seconds,
         "sample_rate": sr,
         "tempo": float(tempo),
