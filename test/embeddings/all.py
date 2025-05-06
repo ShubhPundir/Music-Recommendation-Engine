@@ -69,7 +69,7 @@ def fetch_record_from_cockroach(musicbrainz_id: str):
     return {}
 
 # ─── NRC Emotion Lexicon ───────────────────────────────────────────
-def load_nrc_lexicon(filepath="NRC-Emotion-Lexicon-Wordlevel-v0.92.txt"):
+def load_nrc_lexicon(filepath="test/embeddings/NRC-Emotion-Lexicon-Wordlevel-v0.92.txt"):
     lexicon = {}
     with open(filepath, "r") as file:
         for line in file:
