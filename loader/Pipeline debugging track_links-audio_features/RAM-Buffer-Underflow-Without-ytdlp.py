@@ -1,15 +1,28 @@
+import sys
+import os
+
+# Allow importing modules from parent directory
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
+
 import soundfile as sf
 import librosa
 import numpy as np
+from wavScripts.audio_pipeline import insert_to_db
 
-def extract_audio_features_from_buffer(audio_buffer, musicbrainz_id):
-    y, sr = sf.read(audio_buffer)
+def extract_audio_features_from_file(file_path, musicbrainz_id):
+    y, sr = sf.read(file_path)
     y = y.astype(np.float32)
-    
+
+    print(f"Loaded '{file_path}' with shape {y.shape} and sample rate {sr}")
+
     if y.ndim == 2:
         y = np.mean(y, axis=1)
-        print('Analyzing stereo to mono')
-    
+
+    print(f"Changed '{file_path}' with shape {y.shape} and sample rate {sr}")
+
+    if len(y) < 2048:
+        raise ValueError(f"Audio file too short for processing: {file_path}")
+
     duration_seconds = librosa.get_duration(y=y, sr=sr)
     harmonic, _ = librosa.effects.hpss(y)
     onset_env = librosa.onset.onset_strength(y=y, sr=sr)
@@ -67,3 +80,25 @@ def extract_audio_features_from_buffer(audio_buffer, musicbrainz_id):
         "f0_mean": float(f0_mean),
         "dynamic_range": float(dynamic_range),
     }
+
+
+OUTPUT_DIR = "audio"
+
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+songs = {
+    "0ec1bf3a-982d-41e3-95b5-ce09283512e5": "Ariana Grande, Nelly Furtado - Motive X Promiscuous (TikTok Mashup) [Lyrics].wav",
+    "280f3661-cdb9-4dbe-9bd2-9a008b84f145": "If I Can't.wav",
+    "a466d852-3b7b-441c-ab67-d389956894e5": "Pause 4 Porno.wav",
+}
+
+
+# Now extract features from WAVs
+for uuid in songs.keys():
+    wav_path = os.path.join(OUTPUT_DIR, f"{uuid}.wav")
+    try:
+        features = extract_audio_features_from_file(wav_path, uuid)
+        insert_to_db(features)
+        print(f"Extracted and inserted features for {uuid}")
+    except Exception as e:
+        print(f"Feature extraction failed for {uuid}: {e}")
