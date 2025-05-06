@@ -45,6 +45,10 @@ def process_track(musicbrainz_id, track_name, artist_name):
         if audio_buf is None or audio_buf.getbuffer().nbytes < 100_000:
             logger.warning(f"[SKIPPED] Invalid/too small audio for {track_name} ({musicbrainz_id})")
             return
+        
+        if audio_buf.getbuffer().nbytes > 1_000_000:
+            logger.warning(f"[SKIPPED] Invalid/too big audio for {track_name} ({musicbrainz_id})")
+            return
 
         logger.info(f"[DOWNLOADED] {title} ({webpage_url}) for track {musicbrainz_id}")
         insert_music_metadata(musicbrainz_id, title, channel, webpage_url)
