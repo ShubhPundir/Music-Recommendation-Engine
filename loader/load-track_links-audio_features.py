@@ -51,7 +51,7 @@ def process_track(musicbrainz_id, track_name, artist_name):
 
         logger.info(f"[META INSERTED] Metadata inserted for {musicbrainz_id}: {track_name}")
         features = extract_audio_features_from_buffer(audio_buf, musicbrainz_id)
-        features["track_id"] = musicbrainz_id
+        features["musicbrainz_id"] = musicbrainz_id
         insert_to_db(features)
 
         logger.info(f"[FEATURES INSERTED] Audio features inserted for {musicbrainz_id}: {track_name}")

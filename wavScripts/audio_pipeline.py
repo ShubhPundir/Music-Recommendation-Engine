@@ -110,7 +110,7 @@ def insert_to_db(data, table="audio_features"):
             with conn.cursor() as cur:
                 cur.execute(f"""
                     INSERT INTO {table} (
-                        track_id, duration_seconds, sample_rate, tempo, loudness, danceability,
+                        musicbrainz_id, duration_seconds, sample_rate, tempo, loudness, danceability,
                         energy, speechiness, acousticness, instrumentalness, liveness, valence,
                         spectral_centroid, spectral_rolloff, spectral_bandwidth, spectral_flatness,
                         zero_crossing_rate, rms_energy, tempo_variability, f0_mean, mel_mean, dynamic_range,
@@ -127,7 +127,7 @@ def insert_to_db(data, table="audio_features"):
 
                         tonnetz_1, tonnetz_2, tonnetz_3, tonnetz_4, tonnetz_5, tonnetz_6
                     ) VALUES (
-                        %(track_id)s, %(duration_seconds)s, %(sample_rate)s, %(tempo)s, %(loudness)s, %(danceability)s,
+                        %(musicbrainz_id)s, %(duration_seconds)s, %(sample_rate)s, %(tempo)s, %(loudness)s, %(danceability)s,
                         %(energy)s, %(speechiness)s, %(acousticness)s, %(instrumentalness)s, %(liveness)s, %(valence)s,
                         %(spectral_centroid)s, %(spectral_rolloff)s, %(spectral_bandwidth)s, %(spectral_flatness)s,
                         %(zero_crossing_rate)s, %(rms_energy)s, %(tempo_variability)s, %(f0_mean)s, %(mel_mean)s, %(dynamic_range)s,

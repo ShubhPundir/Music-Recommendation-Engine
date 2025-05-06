@@ -75,7 +75,7 @@ tracks_metadata = {
   }
 
   CREATE TABLE audio_features (
-    track_id UUID PRIMARY KEY,
+    musicbrainz_id UUID PRIMARY KEY,
     extracted_at TIMESTAMPTZ DEFAULT now(),
     duration_seconds DOUBLE PRECISION,
     sample_rate BIGINT,
