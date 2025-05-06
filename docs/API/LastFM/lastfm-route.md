@@ -1,0 +1,7 @@
+## 🎶 Last.fm API Integration Methods
+
+| Method Name | Description | Output Schema |
+|-------------|-------------|----------------|
+| `search_lastfm_track(artist, track)` | Fetches track information from Last.fm including tags and wiki content. | <details><summary>Click to view</summary> <pre>{<br>  "tags": [str],<br>  "wiki": {<br>    "published": str,<br>    "summary": str,<br>    "content": str<br>  },<br>  "similar_tracks": []<br>}<br>or<br>{ "error": str }</pre></details> |
+| `search_lastfm_album(artist, album)` | Retrieves detailed album metadata from Last.fm including tracklist, tags, images, and wiki summary. | <details><summary>Click to view</summary> <pre>{<br>  "name": str,<br>  "artist": str,<br>  "url": str,<br>  "playcount": str,<br>  "listeners": str,<br>  "tags": [str],<br>  "images": {<br>    size: str (image URL)<br>  },<br>  "tracks": [<br>    {<br>      "name": str,<br>      "duration": int,<br>      "rank": int,<br>      "url": str,<br>      "artist": str<br>    }<br>  ],<br>  "wiki_summary": str<br>}<br>or<br>None / printed {"error": str}</pre></details> |
+| `search_lastfm_artist(artist)` | Retrieves artist details including genre tags, similar artists, and biography info. | <details><summary>Click to view</summary> <pre>{<br>  "name": str,<br>  "tags": [str],<br>  "similar_artists": [<br>    {<br>      "name": str,<br>      "url": str<br>    }<br>  ],<br>  "wiki": {<br>    "published": str,<br>    "summary": str,<br>    "content": str<br>  }<br>}<br>or<br>None / printed {"error": str}</pre></details> |
