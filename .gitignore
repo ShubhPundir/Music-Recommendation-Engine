@@ -1,5 +1,5 @@
 .venv
-# Data
+Data
 .env
 __pycache__
 
