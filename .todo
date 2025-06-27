@@ -1,0 +1,32 @@
+User Database --> Type of NoSQL
+
+1. History-Collection: Each User will have it's own document
+	a. each Document is a json of multiple history objects
+	b. each history object contains
+		1. DateTime of viewing
+		2. trackID
+		3. playlistID
+		4. Implicit-User-Rating: (given) just a number, will denote the likeability  of the song
+		5. Explicit-User-Rating: (given)
+		6. Listened-for: time for the listened time
+		7. Song-Repeated: Degree at which the song was repeated or re-listened
+
+2. Liked-Songs-Collection --> [trackID]
+3. Playlist-Collection --> [playlistID]
+
+
+Examples:
+History-Collection
+{
+	{
+		_user_id: 
+		date: DateTime
+		trackID: _id
+		playlistID:_id
+		implicit: number
+		explicit: number
+		listenedFor: number
+	},
+	{},
+	...
+}	

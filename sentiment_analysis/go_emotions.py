@@ -2,8 +2,6 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification, pipe
 from collections import defaultdict
 import warnings
 
-from pprint import pprint
-
 warnings.filterwarnings("ignore", category=UserWarning)
 
 # Load GoEmotions BERT model
