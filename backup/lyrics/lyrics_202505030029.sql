@@ -1,3 +1,13 @@
+DROP TABLE IF EXISTS lyrics;
+CREATE TABLE lyrics (
+    musicbrainz_id UUID PRIMARY KEY,
+    genius_lyrics TEXT,
+    genius_url VARCHAR(255),
+    lastfm_wiki_summary TEXT,
+    lastfm_wiki_content TEXT
+);
+
+
 INSERT INTO lyrics (musicbrainz_id,genius_lyrics,genius_url,lastfm_wiki_summary,lastfm_wiki_content) VALUES
 	 ('00b1397d-7f3e-4c59-bb42-ccd7fa17ee10','94 Contributors
 Translations

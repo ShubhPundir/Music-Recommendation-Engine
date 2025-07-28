@@ -1,3 +1,18 @@
+DROP TABLE IF EXISTS track_reference;
+CREATE TABLE track_reference (
+    musicbrainz_id UUID PRIMARY KEY,
+    title VARCHAR(255),
+    artist VARCHAR(255),
+    artist_id UUID,
+    album VARCHAR(255) NULL,
+    album_id VARCHAR(36) NULL,
+    release_date DATE, -- Or TIMESTAMP, depending on original type
+    country VARCHAR(20),
+    length BIGINT --, depending on original type
+);
+
+
+
 INSERT INTO track_reference (musicbrainz_id,title,artist,artist_id,album,album_id,release_date,country,length) VALUES
 	 ('00b1397d-7f3e-4c59-bb42-ccd7fa17ee10'::uuid,'raindrops (an angel cried)','Ariana Grande','f4fdbb4c-e4b7-47a0-b83b-d91bbfcfa387','sweetener / thank u, next tour - live at Coachella 2019','6cd36f2a-0c90-45ea-b63b-0e922f1df4ba','2019-04-19','XW',36000),
 	 ('00c9dcab-4abf-47f5-9755-c5c805b779c7'::uuid,'Through the Wire','Ye','164f0d73-1234-4e2c-8743-d77bf2191051','BET Awards: ''04 Nominees','d9f9fa38-f06e-4d22-abf8-73b60983ef8f','2004-01-01','US',270386),
@@ -55,7 +70,7 @@ INSERT INTO track_reference (musicbrainz_id,title,artist,artist_id,album,album_i
 	 ('09532a6e-7b46-4f6f-a36f-c0b896328e5f'::uuid,'Smoking on My Ex Pack','SZA','272989c8-5535-492d-a25c-9f58803e027f','SOS','4e41fd97-eb16-455e-bcc3-8b867b7b84f0','2022-12-09','NULL',83827);
 INSERT INTO track_reference (musicbrainz_id,title,artist,artist_id,album,album_id,release_date,country,length) VALUES
 	 ('0963a17b-fcbb-40f1-8645-61318f6b5b6f'::uuid,'everytime','Ariana Grande','f4fdbb4c-e4b7-47a0-b83b-d91bbfcfa387','sweetener','9776bf8b-c5b9-41c1-b638-be2f5dbb9498','2018-08-17','NULL',172000),
-	 ('09e3ee84-1a1e-41cd-b911-b3b25413bf51'::uuid,'Die With a Smile','Lady Gaga','650e7db6-b795-4eb5-a702-5ea2fc46c848','','',NULL,'NULL',NULL),
+	 ('09e3ee84-1a1e-41cd-b911-b3b25413bf51'::uuid,'Die With a Smile','Lady Gaga','650e7db6-b795-4eb5-a702-5ea2fc46c848',NULL,NULL,NULL,NULL,NULL),
 	 ('0a62410e-efe8-4370-a4e5-e325a54fae16'::uuid,'THE LINDA MARTELL SHOW','Beyoncé','859d0860-d480-4efd-970c-c05d5f1776b8','THE LINDA MARTELL SHOW','fe6e79e2-fc18-43a5-b4e6-9118c54d7657','2024-03-29','NULL',36000),
 	 ('0aa8109d-8f18-4940-aba5-a7085a63732e'::uuid,'Little Freak','Harry Styles','7eb1ce54-a355-41f9-8d68-e018b096d427','Harry’s House','b40e37b2-fe5f-47ac-947b-7c0c6bc67610','2022-04-20','XW',202183),
 	 ('0b0c657b-8f1f-4c16-bd48-c4d0d31e78d7'::uuid,'Default','Madison Beer','749ef494-8518-4b49-b685-63d8e728d25c','Life Support','527f6e9f-bbef-4e89-ac0f-a4f2fb9097c3','2021-02-26','XW',116741),

@@ -1,3 +1,11 @@
+DROP TABLE IF EXISTS track_links;
+CREATE TABLE track_links (
+    musicbrainz_id UUID PRIMARY KEY,
+    track_title VARCHAR(255),
+    channel VARCHAR(255),
+    webpage_url VARCHAR(255)
+);
+
 INSERT INTO track_links (musicbrainz_id,track_title,channel,webpage_url) VALUES
 	 ('00b1397d-7f3e-4c59-bb42-ccd7fa17ee10'::uuid,'Ariana Grande - raindrops (an angel cried) (Audio)','Ariana Grande','https://www.youtube.com/watch?v=-ZoJSLB2N18'),
 	 ('00c9dcab-4abf-47f5-9755-c5c805b779c7'::uuid,'Through The Wire','Kanye West','https://www.youtube.com/watch?v=AE8y25CcE6s'),
