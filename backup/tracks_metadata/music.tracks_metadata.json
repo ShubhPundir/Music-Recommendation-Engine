@@ -45857,4 +45857,332 @@
       "verified": false
     }
   }
+},
+{
+  "_id": {
+    "$oid": "681611198c0dd56f08b6604e"
+  },
+  "artist": "The Beatles",
+  "track": "Misery",
+  "album": "Please Please Me",
+  "metadata": {
+    "prompted_artist": "The Beatles",
+    "prompted_track": "Misery",
+    "musicbrainz": {
+      "recording_id": "c91fd146-01cb-4673-b653-d0845c05e164",
+      "title": "Misery",
+      "artist": "The Beatles",
+      "artist_id": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+      "album": "Please Please Me",
+      "album_id": "c7c24f0a-0849-4a14-9be6-a47559128876",
+      "release_date": "",
+      "country": "CA",
+      "length": 110173
+    },
+    "lastfm": {
+      "tags": [
+        "60s",
+        "classic rock",
+        "british",
+        "rock",
+        "The Beatles"
+      ],
+      "similar_tracks": []
+    },
+    "genius": {
+      "title": "Misery",
+      "artist": "The Beatles",
+      "album": "The Beatles (The Original Studio Recordings)",
+      "release_date": "1963-03-22",
+      "song_art_image_url": "https://images.genius.com/f80b61c22b118e2b11c6b7a2af3391d7.1000x1000x1.jpg",
+      "verified": false
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6816111a8c0dd56f08b6604f"
+  },
+  "artist": "The Beatles",
+  "track": "Anna (Go to Him)",
+  "album": "Please Please Me",
+  "metadata": {
+    "prompted_artist": "The Beatles",
+    "prompted_track": "Anna (Go to Him)",
+    "musicbrainz": {
+      "recording_id": "a31eab71-a326-4a2e-abc0-3233a1f534e5",
+      "title": "Anna (Go to Him)",
+      "artist": "The Beatles",
+      "artist_id": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+      "album": "UK EP Collection, Volume 1",
+      "album_id": "51443d4d-fdb8-4d4e-8b61-58237764e6ae",
+      "release_date": "2000",
+      "country": "XW",
+      "length": 176000
+    },
+    "lastfm": {
+      "tags": [
+        "classic rock",
+        "60s",
+        "rock",
+        "british",
+        "The Beatles"
+      ],
+      "similar_tracks": []
+    },
+    "genius": {
+      "title": "Anna (Go to Him)",
+      "artist": "The Beatles",
+      "album": "The Beatles (The Original Studio Recordings)",
+      "release_date": "1963-03-22",
+      "song_art_image_url": "https://images.genius.com/f80b61c22b118e2b11c6b7a2af3391d7.1000x1000x1.jpg",
+      "verified": false
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6816111f8c0dd56f08b66050"
+  },
+  "artist": "The Beatles",
+  "track": "Boys",
+  "album": "Please Please Me",
+  "metadata": {
+    "prompted_artist": "The Beatles",
+    "prompted_track": "Boys",
+    "musicbrainz": {
+      "recording_id": "4fb2920b-76cd-4414-a6d7-4abdbbccf9aa",
+      "title": "Boys",
+      "artist": "The Beatles",
+      "artist_id": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+      "album": "The Complete BBC Sessions",
+      "album_id": "f610a917-6a9e-46f5-b045-8eeab8ddf4a9",
+      "release_date": "1993",
+      "country": "IT",
+      "length": 209200
+    },
+    "lastfm": {
+      "tags": [
+        "60s",
+        "rock",
+        "classic rock",
+        "british",
+        "pop"
+      ],
+      "similar_tracks": []
+    },
+    "genius": {
+      "title": "Boys",
+      "artist": "The Beatles",
+      "album": "The Beatles (The Original Studio Recordings)",
+      "release_date": "1963-03-22",
+      "song_art_image_url": "https://images.genius.com/48b10995c2e9e31f9a7194c7bab767e6.1000x1000x1.jpg",
+      "verified": false
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6816111f8c0dd56f08b66051"
+  },
+  "artist": "The Beatles",
+  "track": "I Saw Her Standing There",
+  "album": "Please Please Me",
+  "metadata": {
+    "prompted_artist": "The Beatles",
+    "prompted_track": "I Saw Her Standing There",
+    "musicbrainz": {
+      "recording_id": "3004682d-7f25-4879-b24b-19f0479dfbd6",
+      "title": "I Saw Her Standing There",
+      "artist": "The Beatles",
+      "artist_id": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+      "album": "Rock ’n’ Roll Music Live & Rare 1962–1966",
+      "album_id": "33e59db8-be90-4035-acd9-49ec6e418118",
+      "release_date": "",
+      "country": "",
+      "length": 158000
+    },
+    "lastfm": {
+      "tags": [
+        "classic rock",
+        "60s",
+        "rock",
+        "british",
+        "The Beatles"
+      ],
+      "similar_tracks": []
+    },
+    "genius": {
+      "title": "I Saw Her Standing There",
+      "artist": "The Beatles",
+      "album": "The Beatles (The Original Studio Recordings)",
+      "release_date": "1963-03-22",
+      "song_art_image_url": "https://images.genius.com/05a7a75da3c1ae9115e6a60b8e59a903.996x1000x1.jpg",
+      "verified": false
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6816111f8c0dd56f08b66052"
+  },
+  "artist": "The Beatles",
+  "track": "Chains",
+  "album": "Please Please Me",
+  "metadata": {
+    "prompted_artist": "The Beatles",
+    "prompted_track": "Chains",
+    "musicbrainz": {
+      "recording_id": "7c56b21f-17d5-43a3-a698-14373c1f302d",
+      "title": "Chains",
+      "artist": "The Beatles",
+      "artist_id": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+      "album": "The Early Beatles",
+      "album_id": "81afe20c-bfd4-4cdf-8fed-44b0fa7c2f84",
+      "release_date": "",
+      "country": "",
+      "length": 145080
+    },
+    "lastfm": {
+      "tags": [
+        "rock",
+        "60s",
+        "classic rock",
+        "pop",
+        "british"
+      ],
+      "similar_tracks": []
+    },
+    "genius": {
+      "title": "Chains",
+      "artist": "The Beatles",
+      "album": "The Beatles (The Original Studio Recordings)",
+      "release_date": "1963-03-22",
+      "song_art_image_url": "https://images.genius.com/f80b61c22b118e2b11c6b7a2af3391d7.1000x1000x1.jpg",
+      "verified": false
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "681611258c0dd56f08b66053"
+  },
+  "artist": "The Beatles",
+  "track": "Ask Me Why",
+  "album": "Please Please Me",
+  "metadata": {
+    "prompted_artist": "The Beatles",
+    "prompted_track": "Ask Me Why",
+    "musicbrainz": {
+      "recording_id": "41aad600-b29c-403c-bb8d-f84a8af48f38",
+      "title": "Ask Me Why",
+      "artist": "The Beatles",
+      "artist_id": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+      "album": "The Beatles - Favourite Hits 1963-1970",
+      "album_id": "7e04c045-91eb-4fb5-a6f7-213162df7ad0",
+      "release_date": "",
+      "country": "",
+      "length": 143294
+    },
+    "lastfm": {
+      "tags": [
+        "60s",
+        "classic rock",
+        "rock",
+        "pop",
+        "british"
+      ],
+      "similar_tracks": []
+    },
+    "genius": {
+      "title": "Ask Me Why",
+      "artist": "The Beatles",
+      "album": "The Beatles (The Original Studio Recordings)",
+      "release_date": "1963-03-22",
+      "song_art_image_url": "https://images.genius.com/51b4f95d69f9bbfd9c9799897a8354b5.744x743x1.jpg",
+      "verified": false
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "681611268c0dd56f08b66054"
+  },
+  "artist": "The Beatles",
+  "track": "Please Please Me",
+  "album": "Please Please Me",
+  "metadata": {
+    "prompted_artist": "The Beatles",
+    "prompted_track": "Please Please Me",
+    "musicbrainz": {
+      "recording_id": "ac3029e2-e547-47b1-b191-8359013f421b",
+      "title": "Please Please Me",
+      "artist": "The Beatles",
+      "artist_id": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+      "album": "Alphabessential",
+      "album_id": "4a23abe8-cb2e-425f-82fb-a9fcb2e70cb4",
+      "release_date": "",
+      "country": "",
+      "length": 121600
+    },
+    "lastfm": {
+      "tags": [
+        "classic rock",
+        "rock",
+        "60s",
+        "pop",
+        "The Beatles"
+      ],
+      "similar_tracks": []
+    },
+    "genius": {
+      "title": "Please Please Me",
+      "artist": "The Beatles",
+      "album": "The Beatles (The Original Studio Recordings)",
+      "release_date": "1963-01-11",
+      "song_art_image_url": "https://images.genius.com/914cc7ae88a74ff1c7a08dfb2715b7d6.512x506x1.jpg",
+      "verified": false
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "681611278c0dd56f08b66055"
+  },
+  "artist": "The Beatles",
+  "track": "Love Me Do",
+  "album": "Please Please Me",
+  "metadata": {
+    "prompted_artist": "The Beatles",
+    "prompted_track": "Love Me Do",
+    "musicbrainz": {
+      "recording_id": "db06ca54-6cb8-4523-93a1-f34bb0e2bf4e",
+      "title": "Love Me Do",
+      "artist": "The Beatles",
+      "artist_id": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+      "album": "The Beatles - Favourite Hits 1963-1970",
+      "album_id": "7e04c045-91eb-4fb5-a6f7-213162df7ad0",
+      "release_date": "",
+      "country": "",
+      "length": 145640
+    },
+    "lastfm": {
+      "tags": [
+        "classic rock",
+        "60s",
+        "rock",
+        "The Beatles",
+        "pop"
+      ],
+      "similar_tracks": []
+    },
+    "genius": {
+      "title": "Love Me Do",
+      "artist": "The Beatles",
+      "album": "The Beatles (The Original Studio Recordings)",
+      "release_date": "1964-03-22",
+      "song_art_image_url": "https://images.rapgenius.com/956cd17ed482217b2148380468e1ff30.360x360x1.jpg",
+      "verified": false
+    }
+  }
 }]
