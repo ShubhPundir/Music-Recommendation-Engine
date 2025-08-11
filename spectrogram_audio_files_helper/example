@@ -1,0 +1,6 @@
+this file should contain all the helper modules to 
+DOWNLOAD 
+    1. SPECTROGRAM(buf_memory_containing_audio, destination_path_of_image) // this downloads mp3 and saves it /spectrogram
+    2. AUDIO FILES(buf_memory_containing_audio, destination_path_of_audio) // this downloads mp3 and saves it /audio_files
+
+    

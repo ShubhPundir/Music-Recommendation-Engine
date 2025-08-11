@@ -1,7 +1,9 @@
 .venv
-Data
 .env
 __pycache__
 
+
+Data
 audio
 downloaded_audio
+ffmpeg

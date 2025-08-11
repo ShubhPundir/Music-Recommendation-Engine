@@ -3,6 +3,8 @@
 This guide explains how to install `uv` and sync dependencies for your project.
 
 ## Prerequisites
+1. Python 3.10+
+2. FFMPEG installed and and available in PATH
 
 Ensure you have Python installed. You can check by running:
 
@@ -15,6 +17,14 @@ or
 ```sh
 python3 --version
 ```
+
+### Windows FFmpeg Setup:
+
+1. Download from https://www.gyan.dev/ffmpeg/builds/
+2. Extract the ZIP.
+3. Add the `bin/` folder to your System PATH environment variable.
+4. Test: Open CMD and run `ffmpeg -version`
+
 
 ## 1. Installing `uv`
 
