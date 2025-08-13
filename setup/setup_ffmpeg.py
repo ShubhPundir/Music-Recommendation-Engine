@@ -4,6 +4,7 @@ import shutil
 import urllib.request
 import subprocess
 import sys
+from check_ffmpeg import check_ffmpeg
 
 def download_ffmpeg(download_url, dest_path):
     print("⬇️ Downloading FFmpeg...")
@@ -76,4 +77,6 @@ if __name__ == "__main__":
         print("❌ This installer currently supports only Windows.")
         sys.exit(1)
 
+    check_ffmpeg()
+    print("----------------------")
     setup_ffmpeg()
