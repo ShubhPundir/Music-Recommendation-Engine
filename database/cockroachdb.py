@@ -21,6 +21,6 @@ def get_cockroach_connection():
         password=os.getenv("COCKROACH_PASS"),
         host=os.getenv("COCKROACH_HOST"),
         port=os.getenv("COCKROACH_PORT"),
-        sslmode='require'  # Required for CockroachDB Cloud
+        sslmode='disable'  # Required for CockroachDB Cloud
     )
     return conn
