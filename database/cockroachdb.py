@@ -16,7 +16,7 @@ load_dotenv()
 
 def get_cockroach_connection():
     conn = psycopg2.connect(
-        dbname="music",
+        dbname="music_recommendation_engine",
         user=os.getenv("COCKROACH_USER"),
         password=os.getenv("COCKROACH_PASS"),
         host=os.getenv("COCKROACH_HOST"),
