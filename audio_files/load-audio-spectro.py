@@ -4,8 +4,8 @@ from tqdm import tqdm
 # Ensure parent directory is on sys.path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from spectrogram_audio_files_helper.example import save_audio_file, save_spectrogram_image
-from wavScripts import audio_pipeline
+from spectrogram_audio_files_helper.helper import save_audio_file, save_spectrogram_image
+from wavScripts.download_track_via_url import download_audio_from_url
 from database.cockroachdb import get_cockroach_connection
 from utils.logger_setup import setup_logger
 
@@ -13,7 +13,7 @@ from utils.logger_setup import setup_logger
 # -------------------
 # Fetch tracks from DB
 # -------------------
-def fetch_tracks(limit=2):
+def fetch_tracks(limit=1096):
     query = """
         SELECT musicbrainz_id, track_title, channel, webpage_url
         FROM track_links
@@ -26,7 +26,12 @@ def fetch_tracks(limit=2):
 
     tracks = []
     for musicbrainz_id, track_title, channel, url in rows:
-        tracks.append({"id": musicbrainz_id, "url": url})
+        tracks.append({
+            "id": musicbrainz_id, 
+            "track_title": track_title,
+            "channel": channel,
+            "url": url
+        })
     return tracks
 
 
@@ -34,19 +39,19 @@ def fetch_tracks(limit=2):
 # Process one track
 # -------------------
 def process_track(item, output_dir, logger, idx, spectrogram_output_dir):
-    artist, track, musicbrainz_id = item["artist"], item["track"], item["id"]
-    logger.info(f"[{idx}] Processing: {track} by {artist}")
+    musicbrainz_id, track_title, channel, url = item["id"], item["track_title"], item["channel"], item["url"]
+    logger.info(f"[{idx}] Processing: {track_title} by {channel}")
 
-    prefix = f"{musicbrainz_id}_{artist}_{track}".replace(" ", "_").replace("/", "_")
+    prefix = f"{musicbrainz_id}".replace(" ", "_").replace("/", "_")
     wav_path, jpg_path = os.path.join(output_dir, f"{prefix}.wav"), os.path.join(output_dir, f"{prefix}.jpg")
 
     if os.path.exists(wav_path) and os.path.exists(jpg_path):
-        logger.info(f"Skipping {track}: already processed.")
+        logger.info(f"Skipping id: {musicbrainz_id}::{track_title}::{url}: already processed.")
         return
 
     try:
-        logger.debug(f"Downloading audio for: {track} by {artist}")
-        buf, *_ = audio_pipeline.download_audio_to_memory(f"{track} by {artist}")
+        logger.debug(f"Downloading audio from URL: {url}")
+        buf, title, channel_name, url = download_audio_from_url(url)
         if not buf:
             raise RuntimeError("Download failed")
 
@@ -57,10 +62,10 @@ def process_track(item, output_dir, logger, idx, spectrogram_output_dir):
         logger.debug(f"Generating spectrogram: {prefix}.jpg")
         save_spectrogram_image(buf, prefix, spectrogram_output_dir)
 
-        logger.info(f"Successfully processed: {track} by {artist}")
+        logger.info(f"Successfully processed: id:{musicbrainz_id}::{track_title}::{url}")
     except Exception as e:
-        logger.error(f"Error processing {track} by {artist}: {e}")
-        raise e ## fix this as well?
+        logger.error(f"Error processing id:{musicbrainz_id}::{track_title}::{url}: {e}")
+        raise e
 
 
 # -------------------
@@ -97,7 +102,7 @@ def main():
             success_count += 1
         except Exception as e:
             error_count += 1
-            logger.error(f"Failed to process track {idx}: {item.get('track', 'Unknown')} by {item.get('artist', 'Unknown')}")
+            logger.error(f"Failed to process track mb_id: {item.get('id', 'Unknown_MBID')}: {item.get('track_title', 'Unknown')} by {item.get('channel', 'Unknown')}")
 
     logger.info(f"Audio processing completed. Success: {success_count}, Errors: {error_count}")
     logger.info("Test run completed for 10 tracks.")

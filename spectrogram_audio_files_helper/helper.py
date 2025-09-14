@@ -28,7 +28,7 @@ def save_spectrogram_image(buf_memory_containing_audio, filename_prefix, output_
     output_path = os.path.join(output_dir, f"{filename_prefix}.jpg")
     buf_memory_containing_audio.seek(0)
     y, sr = librosa.load(buf_memory_containing_audio, sr=None)
-    S = librosa.amplitude_to_db(librosa.stft(y), ref=np.max)
+    S = librosa.amplitude_to_db(np.abs(librosa.stft(y)), ref=np.max)
 
     fig = plt.figure(figsize=(10, 4))
     ax = fig.add_subplot(111)
