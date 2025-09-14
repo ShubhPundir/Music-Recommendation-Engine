@@ -56,11 +56,11 @@ def process_track(item, output_dir, logger, idx, spectrogram_output_dir):
             raise RuntimeError("Download failed")
 
         logger.debug(f"Saving audio file: {prefix}.wav")
-        save_audio_file(buf, prefix, output_dir)
+        save_audio_file(buf, prefix, output_dir, logger)
         buf.seek(0)
         
         logger.debug(f"Generating spectrogram: {prefix}.jpg")
-        save_spectrogram_image(buf, prefix, spectrogram_output_dir)
+        save_spectrogram_image(buf, prefix, spectrogram_output_dir, logger)
 
         logger.info(f"Successfully processed: id:{musicbrainz_id}::{track_title}::{url}")
     except Exception as e:
