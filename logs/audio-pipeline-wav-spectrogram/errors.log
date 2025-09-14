@@ -1,0 +1,874 @@
+2025-09-06 04:04:13,357 - ERROR - Error processing Hold Up by Demi Lovato: Decoding failed. ffmpeg returned error code: 3199971767
+
+Output from ffmpeg/avlib:
+
+ffmpeg version 7.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 14.2.0 (Rev1, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+[wav @ 000001c9953849c0] invalid start code [0][0][0][0] in RIFF header
+[cache @ 000001c995384fc0] Statistics, cache hits:0 cache misses:0
+[in#0 @ 000001c9953845c0] Error opening input: Invalid data found when processing input
+Error opening input file cache:pipe:0.
+Error opening input files: Invalid data found when processing input
+
+2025-09-06 04:04:13,359 - ERROR - Failed to process track 8: Hold Up by Demi Lovato
+2025-09-13 00:06:06,411 - ERROR - Error processing raindrops (an angel cried) (Audio) by Ariana Grande: FigureCanvasAgg.print_jpg() got an unexpected keyword argument 'bbox'
+2025-09-13 00:06:06,413 - ERROR - Failed to process track 1: raindrops (an angel cried) (Audio) by Ariana Grande
+2025-09-13 00:06:22,102 - ERROR - Error processing Through The Wire by Kanye West: FigureCanvasAgg.print_jpg() got an unexpected keyword argument 'bbox'
+2025-09-13 00:06:22,104 - ERROR - Failed to process track 2: Through The Wire by Kanye West
+2025-09-13 00:06:32,229 - ERROR - Error processing I'll Cry Instead (Remastered 2009) by The Beatles: FigureCanvasAgg.print_jpg() got an unexpected keyword argument 'bbox'
+2025-09-13 00:06:32,230 - ERROR - Failed to process track 3: I'll Cry Instead (Remastered 2009) by The Beatles
+2025-09-13 00:06:47,148 - ERROR - Error processing She's Always a Woman (Official Audio) by Billy Joel: FigureCanvasAgg.print_jpg() got an unexpected keyword argument 'bbox'
+2025-09-13 00:06:47,154 - ERROR - Failed to process track 4: She's Always a Woman (Official Audio) by Billy Joel
+2025-09-13 00:07:00,436 - ERROR - Error processing angel (official lyric video) by KACEY MUSGRAVES: FigureCanvasAgg.print_jpg() got an unexpected keyword argument 'bbox'
+2025-09-13 00:07:00,437 - ERROR - Failed to process track 5: angel (official lyric video) by KACEY MUSGRAVES
+2025-09-13 00:07:20,225 - ERROR - Error processing Karma Police by Radiohead: FigureCanvasAgg.print_jpg() got an unexpected keyword argument 'bbox'
+2025-09-13 00:07:20,227 - ERROR - Failed to process track 6: Karma Police by Radiohead
+2025-09-13 00:07:46,492 - ERROR - Error processing Where the Money Flows by Peter Cat Recording Co.: FigureCanvasAgg.print_jpg() got an unexpected keyword argument 'bbox'
+2025-09-13 00:07:46,499 - ERROR - Failed to process track 7: Where the Money Flows by Peter Cat Recording Co.
+2025-09-13 00:08:00,274 - ERROR - Error processing Hold Up by Demi Lovato: FigureCanvasAgg.print_jpg() got an unexpected keyword argument 'bbox'
+2025-09-13 00:08:00,396 - ERROR - Failed to process track 8: Hold Up by Demi Lovato
+2025-09-13 00:08:22,138 - ERROR - Error processing SWEET ★ HONEY ★ BUCKIIN' (Official Lyric Video) by Beyoncé, Shaboozey: FigureCanvasAgg.print_jpg() got an unexpected keyword argument 'bbox'
+2025-09-13 00:08:22,146 - ERROR - Failed to process track 9: SWEET ★ HONEY ★ BUCKIIN' (Official Lyric Video) by Beyoncé, Shaboozey
+2025-09-13 00:08:41,928 - ERROR - Error processing King Kunta by Kendrick Lamar: FigureCanvasAgg.print_jpg() got an unexpected keyword argument 'bbox'
+2025-09-13 00:08:41,929 - ERROR - Failed to process track 10: King Kunta by Kendrick Lamar
+2025-09-13 00:53:49,926 - ERROR - Error processing F**k You (Feat. Snoop Dogg & Devin The Dude) by Dr. Dre: [Errno 22] Invalid argument: 'rec\\062b0936-8d09-435f-8b40-d365b71548da_Dr._Dre_F**k_You_(Feat._Snoop_Dogg_&_Devin_The_Dude).wav'
+2025-09-13 00:53:49,931 - ERROR - Failed to process track 33: F**k You (Feat. Snoop Dogg & Devin The Dude) by Dr. Dre
+2025-09-13 00:55:40,623 - ERROR - Error processing The Next Episode (Official Music Video) ft. Snoop Dogg, Kurupt, Nate Dogg by Dr. Dre: Decoding failed. ffmpeg returned error code: 3199971767
+
+Output from ffmpeg/avlib:
+
+ffmpeg version 7.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 14.2.0 (Rev1, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+[wav @ 00000219d3ba4b40] invalid start code [0][0][0][0] in RIFF header
+[cache @ 00000219d3ba5100] Statistics, cache hits:0 cache misses:0
+[in#0 @ 00000219d3ba4740] Error opening input: Invalid data found when processing input
+Error opening input file cache:pipe:0.
+Error opening input files: Invalid data found when processing input
+
+2025-09-13 00:55:40,626 - ERROR - Failed to process track 39: The Next Episode (Official Music Video) ft. Snoop Dogg, Kurupt, Nate Dogg by Dr. Dre
+2025-09-13 00:59:00,501 - ERROR - Error processing Smoking on my Ex Pack (Audio) by SZA: Decoding failed. ffmpeg returned error code: 3199971767
+
+Output from ffmpeg/avlib:
+
+ffmpeg version 7.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 14.2.0 (Rev1, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+[wav @ 00000277e62f4b40] invalid start code [0][0][0][0] in RIFF header
+[cache @ 00000277e62f5100] Statistics, cache hits:0 cache misses:0
+[in#0 @ 00000277e62f4740] Error opening input: Invalid data found when processing input
+Error opening input file cache:pipe:0.
+Error opening input files: Invalid data found when processing input
+
+2025-09-13 00:59:00,503 - ERROR - Failed to process track 50: Smoking on my Ex Pack (Audio) by SZA
+2025-09-13 01:00:33,720 - ERROR - Error processing my hair (Official Live Performance) | Vevo by Ariana Grande: [Errno 22] Invalid argument: 'rec\\0c1481db-8f8f-46ba-ba51-a238617c62b1_Ariana_Grande_my_hair_(Official_Live_Performance)_|_Vevo.wav'
+2025-09-13 01:00:33,722 - ERROR - Failed to process track 57: my hair (Official Live Performance) | Vevo by Ariana Grande
+2025-09-13 01:01:55,421 - ERROR - Error processing Daydreaming (Audio) by Harry Styles: Decoding failed. ffmpeg returned error code: 3199971767
+
+Output from ffmpeg/avlib:
+
+ffmpeg version 7.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 14.2.0 (Rev1, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+[wav @ 0000022882104b40] invalid start code [0][0][0][0] in RIFF header
+[cache @ 0000022882105100] Statistics, cache hits:0 cache misses:0
+[in#0 @ 0000022882104740] Error opening input: Invalid data found when processing input
+Error opening input file cache:pipe:0.
+Error opening input files: Invalid data found when processing input
+
+2025-09-13 01:01:55,422 - ERROR - Failed to process track 61: Daydreaming (Audio) by Harry Styles
+2025-09-13 01:02:37,865 - ERROR - Error processing Rihanna (Lyrics) | Send for me by Woo: [Errno 22] Invalid argument: 'rec\\0e225847-0889-418b-9115-2f4a083eb783_Woo_Rihanna_(Lyrics)_|_Send_for_me.wav'
+2025-09-13 01:02:37,866 - ERROR - Failed to process track 64: Rihanna (Lyrics) | Send for me by Woo
+2025-09-13 01:03:11,880 - ERROR - Error processing Motive X Promiscuous (TikTok Mashup) [Lyrics] by Ariana Grande, Nelly Furtado: Decoding failed. ffmpeg returned error code: 3199971767
+
+Output from ffmpeg/avlib:
+
+ffmpeg version 7.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 14.2.0 (Rev1, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+[wav @ 0000023101954b40] invalid start code [0][0][0][0] in RIFF header
+[cache @ 0000023101955100] Statistics, cache hits:0 cache misses:0
+[in#0 @ 0000023101954740] Error opening input: Invalid data found when processing input
+Error opening input file cache:pipe:0.
+Error opening input files: Invalid data found when processing input
+
+2025-09-13 01:03:11,882 - ERROR - Failed to process track 66: Motive X Promiscuous (TikTok Mashup) [Lyrics] by Ariana Grande, Nelly Furtado
+2025-09-13 01:10:09,776 - ERROR - Error processing yo lane (tdf) by wildkarduno: Decoding failed. ffmpeg returned error code: 3199971767
+
+Output from ffmpeg/avlib:
+
+ffmpeg version 7.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 14.2.0 (Rev1, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+[wav @ 0000013249e94b40] invalid start code [0][0][0][0] in RIFF header
+[cache @ 0000013249e95100] Statistics, cache hits:0 cache misses:0
+[in#0 @ 0000013249e94740] Error opening input: Invalid data found when processing input
+Error opening input file cache:pipe:0.
+Error opening input files: Invalid data found when processing input
+
+2025-09-13 01:10:09,778 - ERROR - Failed to process track 87: yo lane (tdf) by wildkarduno
+2025-09-13 01:18:02,163 - ERROR - Error processing Xxplosive  (ORIGINAL) by Dr. Dre.: Decoding failed. ffmpeg returned error code: 3199971767
+
+Output from ffmpeg/avlib:
+
+ffmpeg version 7.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 14.2.0 (Rev1, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+[wav @ 000001d156544b40] invalid start code [0][0][0][0] in RIFF header
+[cache @ 000001d156545100] Statistics, cache hits:0 cache misses:0
+[in#0 @ 000001d156544740] Error opening input: Invalid data found when processing input
+Error opening input file cache:pipe:0.
+Error opening input files: Invalid data found when processing input
+
+2025-09-13 01:18:02,165 - ERROR - Failed to process track 109: Xxplosive  (ORIGINAL) by Dr. Dre.
+2025-09-13 01:21:37,026 - ERROR - Error processing prfct by Sabrina Carpenter: Decoding failed. ffmpeg returned error code: 3199971767
+
+Output from ffmpeg/avlib:
+
+ffmpeg version 7.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 14.2.0 (Rev1, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+[wav @ 000001ef92594b40] invalid start code [0][0][0][0] in RIFF header
+[cache @ 000001ef92595100] Statistics, cache hits:0 cache misses:0
+[in#0 @ 000001ef92594740] Error opening input: Invalid data found when processing input
+Error opening input file cache:pipe:0.
+Error opening input files: Invalid data found when processing input
+
+2025-09-13 01:21:37,028 - ERROR - Failed to process track 119: prfct by Sabrina Carpenter
+2025-09-13 01:56:10,726 - ERROR - Error processing Where Were You In The Morning? by Shawn Mendes: [Errno 22] Invalid argument: 'rec\\2aeeb920-2e46-4b09-bfe9-ee1c56f0294d_Shawn_Mendes_Where_Were_You_In_The_Morning?.wav'
+2025-09-13 01:56:10,731 - ERROR - Failed to process track 183: Where Were You In The Morning? by Shawn Mendes
+2025-09-13 01:59:11,979 - ERROR - Error processing The Nutcracker Suite (Arabian Dance "Coffee") by Tchaikovsky: [Errno 22] Invalid argument: 'rec\\2cee6992-6bd2-44fa-9b8b-7a372ad4bcd9_Tchaikovsky_The_Nutcracker_Suite_(Arabian_Dance_"Coffee").wav'
+2025-09-13 01:59:11,980 - ERROR - Failed to process track 194: The Nutcracker Suite (Arabian Dance "Coffee") by Tchaikovsky
+2025-09-13 02:09:18,604 - ERROR - Error processing A Taste Of Honey (Live At The BBC For "Pop Go The Beatles" / 23rd July, 1963) by The Beatles: [Errno 22] Invalid argument: 'rec\\31c0e5f2-fbdc-43ea-b6f9-126fd19a7817_The_Beatles_A_Taste_Of_Honey_(Live_At_The_BBC_For_"Pop_Go_The_Beatles"___23rd_July,_1963).wav'
+2025-09-13 02:09:18,605 - ERROR - Failed to process track 225: A Taste Of Honey (Live At The BBC For "Pop Go The Beatles" / 23rd July, 1963) by The Beatles
+2025-09-13 02:14:09,662 - ERROR - Error processing WHO? WHAT! (Audio) by Travis Scott: [Errno 22] Invalid argument: 'rec\\363b2590-63b0-4ea4-894a-a89f4db3207e_Travis_Scott_WHO?_WHAT!_(Audio).wav'
+2025-09-13 02:14:09,663 - ERROR - Failed to process track 242: WHO? WHAT! (Audio) by Travis Scott
+2025-09-13 02:14:36,414 - ERROR - Error processing Dre Day by Dr. Dre ft. Snoop Dogg | Interscope by Interscope Records: [Errno 22] Invalid argument: 'rec\\3681e10c-2e36-43bc-b974-64de5051694f_Interscope_Records_Dre_Day_by_Dr._Dre_ft._Snoop_Dogg_|_Interscope.wav'
+2025-09-13 02:14:36,414 - ERROR - Failed to process track 244: Dre Day by Dr. Dre ft. Snoop Dogg | Interscope by Interscope Records
+2025-09-13 02:16:49,466 - ERROR - Error processing CHURCH GIRL (Official Lyric Video) by Beyoncé: Decoding failed. ffmpeg returned error code: 3199971767
+
+Output from ffmpeg/avlib:
+
+ffmpeg version 7.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 14.2.0 (Rev1, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+[wav @ 0000026cf1194b40] invalid start code [0][0][0][0] in RIFF header
+[cache @ 0000026cf1195100] Statistics, cache hits:0 cache misses:0
+[in#0 @ 0000026cf1194740] Error opening input: Invalid data found when processing input
+Error opening input file cache:pipe:0.
+Error opening input files: Invalid data found when processing input
+
+2025-09-13 02:16:49,468 - ERROR - Failed to process track 252: CHURCH GIRL (Official Lyric Video) by Beyoncé
+2025-09-13 02:26:10,686 - ERROR - Error processing Norman F***ing Rockwell (Official Music Video) by Lana Del Rey: [Errno 22] Invalid argument: 'rec\\39a5b7f5-f79d-491f-9003-cf88e615f220_Lana_Del_Rey_Norman_F***ing_Rockwell_(Official_Music_Video).wav'
+2025-09-13 02:26:10,687 - ERROR - Failed to process track 260: Norman F***ing Rockwell (Official Music Video) by Lana Del Rey
+2025-09-13 02:38:01,289 - ERROR - Error processing Back To December by Taylor Swift: Decoding failed. ffmpeg returned error code: 3199971767
+
+Output from ffmpeg/avlib:
+
+ffmpeg version 7.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 14.2.0 (Rev1, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+[wav @ 00000212194a4b40] invalid start code [0][0][0][0] in RIFF header
+[cache @ 00000212194a5100] Statistics, cache hits:0 cache misses:0
+[in#0 @ 00000212194a4740] Error opening input: Invalid data found when processing input
+Error opening input file cache:pipe:0.
+Error opening input files: Invalid data found when processing input
+
+2025-09-13 02:38:01,291 - ERROR - Failed to process track 301: Back To December by Taylor Swift
+2025-09-13 02:45:49,462 - ERROR - Error processing Maria (Official Visualiser) by Dua Lipa: Decoding failed. ffmpeg returned error code: 3199971767
+
+Output from ffmpeg/avlib:
+
+ffmpeg version 7.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 14.2.0 (Rev1, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+[wav @ 0000025807b34b40] invalid start code [0][0][0][0] in RIFF header
+[cache @ 0000025807b35100] Statistics, cache hits:0 cache misses:0
+[in#0 @ 0000025807b34740] Error opening input: Invalid data found when processing input
+Error opening input file cache:pipe:0.
+Error opening input files: Invalid data found when processing input
+
+2025-09-13 02:45:49,464 - ERROR - Failed to process track 329: Maria (Official Visualiser) by Dua Lipa
+2025-09-13 02:48:13,391 - ERROR - Error processing out of kontrol∕paparazzi (ft. thr33) (tdf) by wildkarduno: Download failed
+2025-09-13 02:48:13,393 - ERROR - Failed to process track 337: out of kontrol∕paparazzi (ft. thr33) (tdf) by wildkarduno
+2025-09-13 02:48:19,044 - ERROR - Error processing Kill Bill (Official Video) by SZA: Decoding failed. ffmpeg returned error code: 3199971767
+
+Output from ffmpeg/avlib:
+
+ffmpeg version 7.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 14.2.0 (Rev1, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+[wav @ 000001e44c354b40] invalid start code [0][0][0][0] in RIFF header
+[cache @ 000001e44c355100] Statistics, cache hits:0 cache misses:0
+[in#0 @ 000001e44c354740] Error opening input: Invalid data found when processing input
+Error opening input file cache:pipe:0.
+Error opening input files: Invalid data found when processing input
+
+2025-09-13 02:48:19,045 - ERROR - Failed to process track 338: Kill Bill (Official Video) by SZA
+2025-09-13 02:49:06,686 - ERROR - Error processing Beethoven: Symphony No. 5, 2nd movement | Paavo Järvi and the Deutsche Kammerphilharmonie Bremen by DW Classical Music: Download failed
+2025-09-13 02:49:06,688 - ERROR - Failed to process track 342: Beethoven: Symphony No. 5, 2nd movement | Paavo Järvi and the Deutsche Kammerphilharmonie Bremen by DW Classical Music
+2025-09-13 03:07:25,844 - ERROR - Error processing YAH. by Kendrick Lamar: Decoding failed. ffmpeg returned error code: 3199971767
+
+Output from ffmpeg/avlib:
+
+ffmpeg version 7.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 14.2.0 (Rev1, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+[wav @ 000001bcacdc4b40] invalid start code [0][0][0][0] in RIFF header
+[cache @ 000001bcacdc5100] Statistics, cache hits:0 cache misses:0
+[in#0 @ 000001bcacdc4740] Error opening input: Invalid data found when processing input
+Error opening input file cache:pipe:0.
+Error opening input files: Invalid data found when processing input
+
+2025-09-13 03:07:25,847 - ERROR - Failed to process track 403: YAH. by Kendrick Lamar
+2025-09-13 03:13:43,918 - ERROR - Error processing "Father" Live by Demi Lovato: [Errno 22] Invalid argument: 'rec\\61a7ad89-19da-4e5e-a398-5dbec457de44_Demi_Lovato_"Father"_Live.wav'
+2025-09-13 03:13:43,919 - ERROR - Failed to process track 425: "Father" Live by Demi Lovato
+2025-09-13 03:21:45,865 - ERROR - Error processing CUFF IT (Official Lyric Video) by Beyoncé: Decoding failed. ffmpeg returned error code: 3199971767
+
+Output from ffmpeg/avlib:
+
+ffmpeg version 7.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 14.2.0 (Rev1, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+[wav @ 0000020fc27a4b40] invalid start code [0][0][0][0] in RIFF header
+[cache @ 0000020fc27a5100] Statistics, cache hits:0 cache misses:0
+[in#0 @ 0000020fc27a4740] Error opening input: Invalid data found when processing input
+Error opening input file cache:pipe:0.
+Error opening input files: Invalid data found when processing input
+
+2025-09-13 03:21:45,868 - ERROR - Failed to process track 450: CUFF IT (Official Lyric Video) by Beyoncé
+2025-09-13 03:24:45,645 - ERROR - Error processing 15 Step | Radiohead | From The Basement by From The Basement: [Errno 22] Invalid argument: 'rec\\69920139-d198-407c-8da1-8a932b494ed1_From_The_Basement_15_Step_|_Radiohead_|_From_The_Basement.wav'
+2025-09-13 03:24:45,666 - ERROR - Failed to process track 461: 15 Step | Radiohead | From The Basement by From The Basement
+2025-09-13 06:14:53,778 - ERROR - Error processing Should've Said It (Audio) by Camila Cabello: Decoding failed. ffmpeg returned error code: 3199971767
+
+Output from ffmpeg/avlib:
+
+ffmpeg version 7.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 14.2.0 (Rev1, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+[wav @ 000001ca7d354b40] invalid start code [0][0][0][0] in RIFF header
+[cache @ 000001ca7d355100] Statistics, cache hits:0 cache misses:0
+[in#0 @ 000001ca7d354740] Error opening input: Invalid data found when processing input
+Error opening input file cache:pipe:0.
+Error opening input files: Invalid data found when processing input
+
+2025-09-13 06:14:53,781 - ERROR - Failed to process track 520: Should've Said It (Audio) by Camila Cabello
+2025-09-13 06:16:37,828 - ERROR - Error processing Within You Without You (Remastered 2009) by The Beatles: Decoding failed. ffmpeg returned error code: 3199971767
+
+Output from ffmpeg/avlib:
+
+ffmpeg version 7.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 14.2.0 (Rev1, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+[wav @ 0000016443f24b40] invalid start code [0][0][0][0] in RIFF header
+[cache @ 0000016443f25100] Statistics, cache hits:0 cache misses:0
+[in#0 @ 0000016443f24740] Error opening input: Invalid data found when processing input
+Error opening input file cache:pipe:0.
+Error opening input files: Invalid data found when processing input
+
+2025-09-13 06:16:37,829 - ERROR - Failed to process track 526: Within You Without You (Remastered 2009) by The Beatles
+2025-09-13 06:16:44,135 - ERROR - Error processing I KNOW ? (Official Music Video) by Travis Scott: [Errno 22] Invalid argument: 'rec\\7b5f4f0d-fbde-481b-b211-c662a835e455_Travis_Scott_I_KNOW_?_(Official_Music_Video).wav'
+2025-09-13 06:16:44,136 - ERROR - Failed to process track 527: I KNOW ? (Official Music Video) by Travis Scott
+2025-09-13 06:17:27,831 - ERROR - Error processing Do You Want To Know A Secret (Remastered 2009) by The Beatles: Decoding failed. ffmpeg returned error code: 3199971767
+
+Output from ffmpeg/avlib:
+
+ffmpeg version 7.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 14.2.0 (Rev1, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+[wav @ 000001ec3a294b40] invalid start code [0][0][0][0] in RIFF header
+[cache @ 000001ec3a295100] Statistics, cache hits:0 cache misses:0
+[in#0 @ 000001ec3a294740] Error opening input: Invalid data found when processing input
+Error opening input file cache:pipe:0.
+Error opening input files: Invalid data found when processing input
+
+2025-09-13 06:17:27,832 - ERROR - Failed to process track 530: Do You Want To Know A Secret (Remastered 2009) by The Beatles
+2025-09-13 06:19:32,378 - ERROR - Error processing yes, and? (official music video) by Ariana Grande: [Errno 22] Invalid argument: 'rec\\7f66f51c-73a1-4524-93f1-4e472c3e6835_Ariana_Grande_yes,_and?_(official_music_video).wav'
+2025-09-13 06:19:32,379 - ERROR - Failed to process track 538: yes, and? (official music video) by Ariana Grande
+2025-09-13 06:24:02,821 - ERROR - Error processing Hold On by Justin Bieber: Decoding failed. ffmpeg returned error code: 3199971767
+
+Output from ffmpeg/avlib:
+
+ffmpeg version 7.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 14.2.0 (Rev1, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+[wav @ 000001f130974b40] invalid start code [0][0][0][0] in RIFF header
+[cache @ 000001f130975100] Statistics, cache hits:0 cache misses:0
+[in#0 @ 000001f130974740] Error opening input: Invalid data found when processing input
+Error opening input file cache:pipe:0.
+Error opening input files: Invalid data found when processing input
+
+2025-09-13 06:24:02,823 - ERROR - Failed to process track 554: Hold On by Justin Bieber
+2025-09-13 09:02:23,251 - ERROR - Error processing Weird Fishes/Arpeggi | Radiohead | From The Basement by From The Basement: [Errno 22] Invalid argument: 'rec\\87079cc1-5678-4a44-ae31-4b89eb22d541_From_The_Basement_Weird_Fishes_Arpeggi_|_Radiohead_|_From_The_Basement.wav'
+2025-09-13 09:02:23,254 - ERROR - Failed to process track 570: Weird Fishes/Arpeggi | Radiohead | From The Basement by From The Basement
+2025-09-13 09:17:36,810 - ERROR - Error processing For Free? by Kendrick Lamar: Decoding failed. ffmpeg returned error code: 3199971767
+
+Output from ffmpeg/avlib:
+
+ffmpeg version 7.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 14.2.0 (Rev1, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+[wav @ 000002241ed54b40] invalid start code [0][0][0][0] in RIFF header
+[cache @ 000002241ed55100] Statistics, cache hits:0 cache misses:0
+[in#0 @ 000002241ed54740] Error opening input: Invalid data found when processing input
+Error opening input file cache:pipe:0.
+Error opening input files: Invalid data found when processing input
+
+2025-09-13 09:17:36,814 - ERROR - Failed to process track 616: For Free? by Kendrick Lamar
+2025-09-13 09:24:32,641 - ERROR - Error processing I Saw Her Standing There (Remastered 2009) by The Beatles: Decoding failed. ffmpeg returned error code: 3199971767
+
+Output from ffmpeg/avlib:
+
+ffmpeg version 7.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 14.2.0 (Rev1, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+[wav @ 0000024e36f84b40] invalid start code [0][0][0][0] in RIFF header
+[cache @ 0000024e36f85100] Statistics, cache hits:0 cache misses:0
+[in#0 @ 0000024e36f84740] Error opening input: Invalid data found when processing input
+Error opening input file cache:pipe:0.
+Error opening input files: Invalid data found when processing input
+
+2025-09-13 09:24:32,645 - ERROR - Failed to process track 639: I Saw Her Standing There (Remastered 2009) by The Beatles
+2025-09-13 09:31:07,286 - ERROR - Error processing What Do You Mean? by Justin Bieber: [Errno 22] Invalid argument: 'rec\\9df68257-6ce6-4180-92a8-e7077ab1ae0a_Justin_Bieber_What_Do_You_Mean?.wav'
+2025-09-13 09:31:07,288 - ERROR - Failed to process track 661: What Do You Mean? by Justin Bieber
+2025-09-13 09:31:13,522 - ERROR - Error processing Last Kiss (Taylor's Version) (Lyric Video) by Taylor Swift: Decoding failed. ffmpeg returned error code: 3199971767
+
+Output from ffmpeg/avlib:
+
+ffmpeg version 7.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 14.2.0 (Rev1, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+[wav @ 00000281ad9a4b40] invalid start code [0][0][0][0] in RIFF header
+[cache @ 00000281ad9a5100] Statistics, cache hits:0 cache misses:0
+[in#0 @ 00000281ad9a4740] Error opening input: Invalid data found when processing input
+Error opening input file cache:pipe:0.
+Error opening input files: Invalid data found when processing input
+
+2025-09-13 09:31:13,524 - ERROR - Failed to process track 662: Last Kiss (Taylor's Version) (Lyric Video) by Taylor Swift
+2025-09-13 09:33:12,914 - ERROR - Error processing Question...? (Official Lyric Video) by Taylor Swift: [Errno 22] Invalid argument: 'rec\\9fcc8388-46c5-4b1f-94e3-31afee560c51_Taylor_Swift_Question...?_(Official_Lyric_Video).wav'
+2025-09-13 09:33:12,915 - ERROR - Failed to process track 668: Question...? (Official Lyric Video) by Taylor Swift
+2025-09-13 09:33:19,556 - ERROR - Error processing Forward by Beyoncé: Decoding failed. ffmpeg returned error code: 3199971767
+
+Output from ffmpeg/avlib:
+
+ffmpeg version 7.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 14.2.0 (Rev1, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+[wav @ 0000027587db4b40] invalid start code [0][0][0][0] in RIFF header
+[cache @ 0000027587db5100] Statistics, cache hits:0 cache misses:0
+[in#0 @ 0000027587db4740] Error opening input: Invalid data found when processing input
+Error opening input file cache:pipe:0.
+Error opening input files: Invalid data found when processing input
+
+2025-09-13 09:33:19,557 - ERROR - Failed to process track 669: Forward by Beyoncé
+2025-09-13 09:46:04,806 - ERROR - Error processing Easy (Audio) by Camila Cabello: Download failed
+2025-09-13 09:46:04,810 - ERROR - Failed to process track 677: Easy (Audio) by Camila Cabello
+2025-09-13 09:46:05,051 - ERROR - Error processing With A Little Help From My Friends (Remastered 2009) by The Beatles: Download failed
+2025-09-13 09:46:05,052 - ERROR - Failed to process track 678: With A Little Help From My Friends (Remastered 2009) by The Beatles
+2025-09-13 09:46:05,236 - ERROR - Error processing Anna (Go To Him) by The Beatles: Download failed
+2025-09-13 09:46:05,237 - ERROR - Failed to process track 679: Anna (Go To Him) by The Beatles
+2025-09-13 09:46:05,380 - ERROR - Error processing Life Is Worth Living (PURPOSE : The Movement) by Justin Bieber: Download failed
+2025-09-13 09:46:05,381 - ERROR - Failed to process track 680: Life Is Worth Living (PURPOSE : The Movement) by Justin Bieber
+2025-09-13 09:46:05,527 - ERROR - Error processing Sad (Lyrics) by Maroon 5: Download failed
+2025-09-13 09:46:05,528 - ERROR - Failed to process track 681: Sad (Lyrics) by Maroon 5
+2025-09-13 09:46:05,678 - ERROR - Error processing Unstable (Visualizer) ft. The Kid LAROI by Justin Bieber: Download failed
+2025-09-13 09:46:05,680 - ERROR - Failed to process track 682: Unstable (Visualizer) ft. The Kid LAROI by Justin Bieber
+2025-09-13 09:46:05,811 - ERROR - Error processing ONEWE(원위) 'AuRoRa' MV by ONEWE: Download failed
+2025-09-13 09:46:05,813 - ERROR - Failed to process track 683: ONEWE(원위) 'AuRoRa' MV by ONEWE
+2025-09-13 09:46:05,946 - ERROR - Error processing Vigilante Shit (Official Lyric Video) by Taylor Swift: Download failed
+2025-09-13 09:46:05,948 - ERROR - Failed to process track 684: Vigilante Shit (Official Lyric Video) by Taylor Swift
+2025-09-13 09:46:06,105 - ERROR - Error processing bloodline (Official Audio) by Ariana Grande: Download failed
+2025-09-13 09:46:06,107 - ERROR - Failed to process track 685: bloodline (Official Audio) by Ariana Grande
+2025-09-13 09:46:06,248 - ERROR - Error processing Pause 4 Porno by Dr. Dre: Download failed
+2025-09-13 09:46:06,249 - ERROR - Failed to process track 686: Pause 4 Porno by Dr. Dre
+2025-09-13 09:46:06,388 - ERROR - Error processing Somebody (Live from Paris) by Justin Bieber: Download failed
+2025-09-13 09:46:06,390 - ERROR - Failed to process track 687: Somebody (Live from Paris) by Justin Bieber
+2025-09-13 09:46:06,519 - ERROR - Error processing Feel It Twice (Audio) by Camila Cabello: Download failed
+2025-09-13 09:46:06,520 - ERROR - Failed to process track 688: Feel It Twice (Audio) by Camila Cabello
+2025-09-13 09:46:06,660 - ERROR - Error processing You Ain't Gotta Lie (Momma Said) by Kendrick Lamar: Download failed
+2025-09-13 09:46:06,661 - ERROR - Failed to process track 689: You Ain't Gotta Lie (Momma Said) by Kendrick Lamar
+2025-09-13 09:46:06,798 - ERROR - Error processing Maroon 5 by Daylight (lyrics): Download failed
+2025-09-13 09:46:06,799 - ERROR - Failed to process track 690: Maroon 5 by Daylight (lyrics)
+2025-09-13 09:46:06,928 - ERROR - Error processing Tennessee Whiskey (Official Audio) by Chris Stapleton: Download failed
+2025-09-13 09:46:06,930 - ERROR - Failed to process track 691: Tennessee Whiskey (Official Audio) by Chris Stapleton
+2025-09-13 09:46:07,061 - ERROR - Error processing Real Friends (Audio) by Camila Cabello: Download failed
+2025-09-13 09:46:07,062 - ERROR - Failed to process track 692: Real Friends (Audio) by Camila Cabello
+2025-09-13 09:46:07,202 - ERROR - Error processing Scenes from an Italian Restaurant (Audio) by Billy Joel: Download failed
+2025-09-13 09:46:07,203 - ERROR - Failed to process track 693: Scenes from an Italian Restaurant (Audio) by Billy Joel
+2025-09-13 09:46:07,335 - ERROR - Error processing Satellite (Official Video) by Harry Styles: Download failed
+2025-09-13 09:46:07,336 - ERROR - Failed to process track 694: Satellite (Official Video) by Harry Styles
+2025-09-13 09:46:07,468 - ERROR - Error processing don't wanna break up again (lyric visualizer) by Ariana Grande: Download failed
+2025-09-13 09:46:07,469 - ERROR - Failed to process track 695: don't wanna break up again (lyric visualizer) by Ariana Grande
+2025-09-13 09:46:07,608 - ERROR - Error processing Jigsaw Falling Into Place by Radiohead: Download failed
+2025-09-13 09:46:07,609 - ERROR - Failed to process track 696: Jigsaw Falling Into Place by Radiohead
+2025-09-13 09:46:07,742 - ERROR - Error processing I Don't Need 'Em by 50 Cent: Download failed
+2025-09-13 09:46:07,743 - ERROR - Failed to process track 697: I Don't Need 'Em by 50 Cent
+2025-09-13 09:46:07,887 - ERROR - Error processing obvious (official audio) by Ariana Grande: Download failed
+2025-09-13 09:46:07,889 - ERROR - Failed to process track 698: obvious (official audio) by Ariana Grande
+2025-09-13 09:46:08,040 - ERROR - Error processing Better Than Revenge (Taylor's Version) (Lyric Video) by Taylor Swift: Download failed
+2025-09-13 09:46:08,042 - ERROR - Failed to process track 699: Better Than Revenge (Taylor's Version) (Lyric Video) by Taylor Swift
+2025-09-13 09:46:08,214 - ERROR - Error processing Prisoner (Official Video) ft. Dua Lipa by Miley Cyrus: Download failed
+2025-09-13 09:46:08,215 - ERROR - Failed to process track 700: Prisoner (Official Video) ft. Dua Lipa by Miley Cyrus
+2025-09-13 09:46:08,406 - ERROR - Error processing BLACKBIIRD (Official Lyric Video) by Beyoncé: Download failed
+2025-09-13 09:46:08,407 - ERROR - Failed to process track 701: BLACKBIIRD (Official Lyric Video) by Beyoncé
+2025-09-13 09:46:08,583 - ERROR - Error processing Harder To Breathe by Maroon 5: Download failed
+2025-09-13 09:46:08,584 - ERROR - Failed to process track 702: Harder To Breathe by Maroon 5
+2025-09-13 09:46:08,750 - ERROR - Error processing She's Leaving Home (Remastered 2009) by The Beatles: Download failed
+2025-09-13 09:46:08,752 - ERROR - Failed to process track 703: She's Leaving Home (Remastered 2009) by The Beatles
+2025-09-13 09:46:08,982 - ERROR - Error processing Don’t Be A Fool (MTV Unplugged) by Shawn Mendes: Download failed
+2025-09-13 09:46:08,983 - ERROR - Failed to process track 704: Don’t Be A Fool (MTV Unplugged) by Shawn Mendes
+2025-09-13 09:46:09,208 - ERROR - Error processing These Walls (Explicit) ft. Bilal, Anna Wise, Thundercat by Kendrick Lamar: Download failed
+2025-09-13 09:46:09,209 - ERROR - Failed to process track 705: These Walls (Explicit) ft. Bilal, Anna Wise, Thundercat by Kendrick Lamar
+2025-09-13 09:46:09,412 - ERROR - Error processing TOPIA TWINS (Official Music Video) ft. Rob49, 21 Savage by Travis Scott: Download failed
+2025-09-13 09:46:09,413 - ERROR - Failed to process track 706: TOPIA TWINS (Official Music Video) ft. Rob49, 21 Savage by Travis Scott
+2025-09-13 09:46:09,613 - ERROR - Error processing Anything (Audio) by SZA: Download failed
+2025-09-13 09:46:09,615 - ERROR - Failed to process track 707: Anything (Audio) by SZA
+2025-09-13 09:46:09,835 - ERROR - Error processing Saturn Returns Interlude (lyric visualizer) by Ariana Grande: Download failed
+2025-09-13 09:46:09,841 - ERROR - Failed to process track 708: Saturn Returns Interlude (lyric visualizer) by Ariana Grande
+2025-09-13 09:46:10,020 - ERROR - Error processing Pretty Sweet by Frank Ocean: Download failed
+2025-09-13 09:46:10,022 - ERROR - Failed to process track 709: Pretty Sweet by Frank Ocean
+2025-09-13 09:46:10,197 - ERROR - Error processing Demi Lovato by For the Love of a Daughter (Lyrics): Download failed
+2025-09-13 09:46:10,198 - ERROR - Failed to process track 710: Demi Lovato by For the Love of a Daughter (Lyrics)
+2025-09-13 09:46:10,352 - ERROR - Error processing Bartender by Lana Del Rey: Download failed
+2025-09-13 09:46:10,353 - ERROR - Failed to process track 711: Bartender by Lana Del Rey
+2025-09-13 09:46:10,506 - ERROR - Error processing Please Please Me (Remastered 2009) by The Beatles: Download failed
+2025-09-13 09:46:10,508 - ERROR - Failed to process track 712: Please Please Me (Remastered 2009) by The Beatles
+2025-09-13 09:46:10,654 - ERROR - Error processing Adore You (Official Video) by Harry Styles: Download failed
+2025-09-13 09:46:10,655 - ERROR - Failed to process track 713: Adore You (Official Video) by Harry Styles
+2025-09-13 09:46:10,804 - ERROR - Error processing i (Official Video) by Kendrick Lamar: Download failed
+2025-09-13 09:46:10,805 - ERROR - Failed to process track 714: i (Official Video) by Kendrick Lamar
+2025-09-13 09:46:10,952 - ERROR - Error processing A Nigga Witta Gun by Dr. Dre: Download failed
+2025-09-13 09:46:10,953 - ERROR - Failed to process track 715: A Nigga Witta Gun by Dr. Dre
+2025-09-13 09:46:11,110 - ERROR - Error processing Second Emotion (CHANGES: The Movement) ft. Travis Scott by Justin Bieber: Download failed
+2025-09-13 09:46:11,111 - ERROR - Failed to process track 716: Second Emotion (CHANGES: The Movement) ft. Travis Scott by Justin Bieber
+2025-09-13 09:46:11,254 - ERROR - Error processing Get Me (feat. Kehlani)(Audio) by Justin Bieber: Download failed
+2025-09-13 09:46:11,256 - ERROR - Failed to process track 717: Get Me (feat. Kehlani)(Audio) by Justin Bieber
+2025-09-13 09:46:11,414 - ERROR - Error processing Haunted (Taylor's Version) (Lyric Video) by Taylor Swift: Download failed
+2025-09-13 09:46:11,417 - ERROR - Failed to process track 718: Haunted (Taylor's Version) (Lyric Video) by Taylor Swift
+2025-09-13 09:46:11,594 - ERROR - Error processing White Horse by Taylor Swift: Download failed
+2025-09-13 09:46:11,597 - ERROR - Failed to process track 719: White Horse by Taylor Swift
+2025-09-13 09:46:11,807 - ERROR - Error processing Play It Again (Official Music Video) by Luke Bryan: Download failed
+2025-09-13 09:46:11,810 - ERROR - Failed to process track 720: Play It Again (Official Music Video) by Luke Bryan
+2025-09-13 09:46:12,059 - ERROR - Error processing Havana (Audio) ft. Young Thug by Camila Cabello: Download failed
+2025-09-13 09:46:12,062 - ERROR - Failed to process track 721: Havana (Audio) ft. Young Thug by Camila Cabello
+2025-09-13 09:46:12,219 - ERROR - Error processing 17 (Official Lyric Video) by Madison Beer: Download failed
+2025-09-13 09:46:12,220 - ERROR - Failed to process track 722: 17 (Official Lyric Video) by Madison Beer
+2025-09-13 09:46:12,373 - ERROR - Error processing Graduation Day by Kanye West: Download failed
+2025-09-13 09:46:12,375 - ERROR - Failed to process track 723: Graduation Day by Kanye West
+2025-09-13 09:46:12,523 - ERROR - Error processing When I'm With You (Official Audio) by Chris Stapleton: Download failed
+2025-09-13 09:46:12,524 - ERROR - Failed to process track 724: When I'm With You (Official Audio) by Chris Stapleton
+2025-09-13 09:46:12,715 - ERROR - Error processing one for me (prod. tdf) by Riz: Download failed
+2025-09-13 09:46:12,716 - ERROR - Failed to process track 725: one for me (prod. tdf) by Riz
+2025-09-13 09:46:12,893 - ERROR - Error processing What She Wants Tonight (Official Music Video) by Luke Bryan: Download failed
+2025-09-13 09:46:12,896 - ERROR - Failed to process track 726: What She Wants Tonight (Official Music Video) by Luke Bryan
+2025-09-13 09:46:13,096 - ERROR - Error processing Almost Love (Official Video) by Sabrina Carpenter: Download failed
+2025-09-13 09:46:13,098 - ERROR - Failed to process track 727: Almost Love (Official Video) by Sabrina Carpenter
+2025-09-13 09:46:13,346 - ERROR - Error processing No Control (Audio) by One Direction: Download failed
+2025-09-13 09:46:13,352 - ERROR - Failed to process track 728: No Control (Audio) by One Direction
+2025-09-13 09:46:13,585 - ERROR - Error processing This Is 50 by 50 Cent: Download failed
+2025-09-13 09:46:13,588 - ERROR - Failed to process track 729: This Is 50 by 50 Cent
+2025-09-13 09:46:13,755 - ERROR - Error processing Chains (Remastered 2009) by The Beatles: Download failed
+2025-09-13 09:46:13,756 - ERROR - Failed to process track 730: Chains (Remastered 2009) by The Beatles
+2025-09-13 09:56:06,456 - ERROR - Error processing JOLENE (Official Lyric Video) by Beyoncé: Decoding failed. ffmpeg returned error code: 3199971767
+
+Output from ffmpeg/avlib:
+
+ffmpeg version 7.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 14.2.0 (Rev1, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+[wav @ 0000022f238a4b40] invalid start code [0][0][0][0] in RIFF header
+[cache @ 0000022f238a5100] Statistics, cache hits:0 cache misses:0
+[in#0 @ 0000022f238a4740] Error opening input: Invalid data found when processing input
+Error opening input file cache:pipe:0.
+Error opening input files: Invalid data found when processing input
+
+2025-09-13 09:56:06,459 - ERROR - Failed to process track 759: JOLENE (Official Lyric Video) by Beyoncé
+2025-09-13 10:18:32,031 - ERROR - Error processing High (Audio) by Miley Cyrus: Decoding failed. ffmpeg returned error code: 3199971767
+
+Output from ffmpeg/avlib:
+
+ffmpeg version 7.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 14.2.0 (Rev1, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+[wav @ 0000026a01c54b40] invalid start code [0][0][0][0] in RIFF header
+[cache @ 0000026a01c55100] Statistics, cache hits:0 cache misses:0
+[in#0 @ 0000026a01c54740] Error opening input: Invalid data found when processing input
+Error opening input file cache:pipe:0.
+Error opening input files: Invalid data found when processing input
+
+2025-09-13 10:18:32,034 - ERROR - Failed to process track 830: High (Audio) by Miley Cyrus
+2025-09-13 10:36:47,886 - ERROR - Error processing DUCKWORTH. by Kendrick Lamar: Decoding failed. ffmpeg returned error code: 3199971767
+
+Output from ffmpeg/avlib:
+
+ffmpeg version 7.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 14.2.0 (Rev1, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+[wav @ 0000020795d34b40] invalid start code [0][0][0][0] in RIFF header
+[cache @ 0000020795d35100] Statistics, cache hits:0 cache misses:0
+[in#0 @ 0000020795d34740] Error opening input: Invalid data found when processing input
+Error opening input file cache:pipe:0.
+Error opening input files: Invalid data found when processing input
+
+2025-09-13 10:36:47,891 - ERROR - Failed to process track 863: DUCKWORTH. by Kendrick Lamar
+2025-09-13 11:01:41,565 - ERROR - Error processing need some more (tdf) by okaymar: Decoding failed. ffmpeg returned error code: 3199971767
+
+Output from ffmpeg/avlib:
+
+ffmpeg version 7.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 14.2.0 (Rev1, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+[wav @ 00000201353b4b40] invalid start code [0][0][0][0] in RIFF header
+[cache @ 00000201353b5100] Statistics, cache hits:0 cache misses:0
+[in#0 @ 00000201353b4740] Error opening input: Invalid data found when processing input
+Error opening input file cache:pipe:0.
+Error opening input files: Invalid data found when processing input
+
+2025-09-13 11:01:41,567 - ERROR - Failed to process track 878: need some more (tdf) by okaymar
+2025-09-13 11:07:39,930 - ERROR - Error processing Love You Goodbye (Audio) by One Direction: Decoding failed. ffmpeg returned error code: 3199971767
+
+Output from ffmpeg/avlib:
+
+ffmpeg version 7.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 14.2.0 (Rev1, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+[wav @ 000002033d6e4b40] invalid start code [0][0][0][0] in RIFF header
+[cache @ 000002033d6e5100] Statistics, cache hits:0 cache misses:0
+[in#0 @ 000002033d6e4740] Error opening input: Invalid data found when processing input
+Error opening input file cache:pipe:0.
+Error opening input files: Invalid data found when processing input
+
+2025-09-13 11:07:39,939 - ERROR - Failed to process track 889: Love You Goodbye (Audio) by One Direction
+2025-09-13 11:36:21,451 - ERROR - Error processing Zanzibar (Audio) by Billy Joel: Decoding failed. ffmpeg returned error code: 3199971767
+
+Output from ffmpeg/avlib:
+
+ffmpeg version 7.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 14.2.0 (Rev1, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+[wav @ 0000023002114b40] invalid start code [0][0][0][0] in RIFF header
+[cache @ 0000023002115100] Statistics, cache hits:0 cache misses:0
+[in#0 @ 0000023002114740] Error opening input: Invalid data found when processing input
+Error opening input file cache:pipe:0.
+Error opening input files: Invalid data found when processing input
+
+2025-09-13 11:36:21,461 - ERROR - Failed to process track 941: Zanzibar (Audio) by Billy Joel
+2025-09-13 13:46:16,664 - ERROR - Error processing "Where Are Ü Now" with Justin Bieber (Official Video) by Skrillex and Diplo: [Errno 22] Invalid argument: 'rec\\e98bdd50-375a-4930-8f40-ea038ab26759_Skrillex_and_Diplo_"Where_Are_Ü_Now"_with_Justin_Bieber_(Official_Video).wav'
+2025-09-13 13:46:16,707 - ERROR - Failed to process track 990: "Where Are Ü Now" with Justin Bieber (Official Video) by Skrillex and Diplo
+2025-09-13 13:46:22,914 - ERROR - Error processing 2 Much (Live from Paris) by Justin Bieber: Decoding failed. ffmpeg returned error code: 3199971767
+
+Output from ffmpeg/avlib:
+
+ffmpeg version 7.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 14.2.0 (Rev1, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+[wav @ 000001876d264b40] invalid start code [0][0][0][0] in RIFF header
+[cache @ 000001876d265100] Statistics, cache hits:0 cache misses:0
+[in#0 @ 000001876d264740] Error opening input: Invalid data found when processing input
+Error opening input file cache:pipe:0.
+Error opening input files: Invalid data found when processing input
+
+2025-09-13 13:46:22,917 - ERROR - Failed to process track 991: 2 Much (Live from Paris) by Justin Bieber
+2025-09-13 14:05:47,593 - ERROR - Error processing i wish i hated you (lyric visualizer) by Ariana Grande: Decoding failed. ffmpeg returned error code: 3199971767
+
+Output from ffmpeg/avlib:
+
+ffmpeg version 7.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 14.2.0 (Rev1, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+[wav @ 000001c537d34b40] invalid start code [0][0][0][0] in RIFF header
+[cache @ 000001c537d35100] Statistics, cache hits:0 cache misses:0
+[in#0 @ 000001c537d34740] Error opening input: Invalid data found when processing input
+Error opening input file cache:pipe:0.
+Error opening input files: Invalid data found when processing input
+
+2025-09-13 14:05:47,596 - ERROR - Failed to process track 1049: i wish i hated you (lyric visualizer) by Ariana Grande
+2025-09-13 14:08:17,541 - ERROR - Error processing Nuthin' But A "G" Thang [Official Music Video] by Dr Dre: [Errno 22] Invalid argument: 'rec\\f82d892c-dd91-46d6-934c-ce1dbe59e77c_Dr_Dre_Nuthin\'_But_A_"G"_Thang_[Official_Music_Video].wav'
+2025-09-13 14:08:17,544 - ERROR - Failed to process track 1055: Nuthin' But A "G" Thang [Official Music Video] by Dr Dre
+2025-09-13 14:09:16,167 - ERROR - Error processing yes, and? (official music video) by Ariana Grande: [Errno 22] Invalid argument: 'rec\\f8fda7c8-f178-4da2-8d0f-53677e19ca00_Ariana_Grande_yes,_and?_(official_music_video).wav'
+2025-09-13 14:09:16,168 - ERROR - Failed to process track 1058: yes, and? (official music video) by Ariana Grande
+2025-09-13 14:13:56,905 - ERROR - Error processing Waltz of the Flowers by Tchaikovsky: Decoding failed. ffmpeg returned error code: 3199971767
+
+Output from ffmpeg/avlib:
+
+ffmpeg version 7.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 14.2.0 (Rev1, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+[wav @ 0000020a158e4b40] invalid start code [0][0][0][0] in RIFF header
+[cache @ 0000020a158e5100] Statistics, cache hits:0 cache misses:0
+[in#0 @ 0000020a158e4740] Error opening input: Invalid data found when processing input
+Error opening input file cache:pipe:0.
+Error opening input files: Invalid data found when processing input
+
+2025-09-13 14:13:56,907 - ERROR - Failed to process track 1070: Waltz of the Flowers by Tchaikovsky
+2025-09-13 14:23:21,843 - ERROR - Error processing off the table ft. The Weeknd (Official Live Performance) | Vevo by Ariana Grande: [Errno 22] Invalid argument: 'rec\\ffb114e0-e8ce-45c9-bb3b-48bdf3e9ac97_Ariana_Grande_off_the_table_ft._The_Weeknd_(Official_Live_Performance)_|_Vevo.wav'
+2025-09-13 14:23:21,889 - ERROR - Failed to process track 1093: off the table ft. The Weeknd (Official Live Performance) | Vevo by Ariana Grande
+2025-09-14 22:47:36,456 - ERROR - Error processing F**k You (Feat. Snoop Dogg & Devin The Dude) by Dr. Dre: [Errno 22] Invalid argument: 'rec\\unknown_Dr._Dre_F**k_You_(Feat._Snoop_Dogg_&_Devin_The_Dude).wav'
+2025-09-14 22:47:36,459 - ERROR - Still failed to process: F**k You (Feat. Snoop Dogg & Devin The Dude) by Dr. Dre
+2025-09-14 22:48:20,945 - ERROR - Error processing my hair (Official Live Performance) | Vevo by Ariana Grande: [Errno 22] Invalid argument: 'rec\\unknown_Ariana_Grande_my_hair_(Official_Live_Performance)_|_Vevo.wav'
+2025-09-14 22:48:20,946 - ERROR - Still failed to process: my hair (Official Live Performance) | Vevo by Ariana Grande
+2025-09-14 22:48:48,852 - ERROR - Error processing Rihanna (Lyrics) | Send for me by Woo: [Errno 22] Invalid argument: 'rec\\unknown_Woo_Rihanna_(Lyrics)_|_Send_for_me.wav'
+2025-09-14 22:48:48,854 - ERROR - Still failed to process: Rihanna (Lyrics) | Send for me by Woo
+2025-09-14 22:50:29,651 - ERROR - Error processing Where Were You In The Morning? by Shawn Mendes: [Errno 22] Invalid argument: 'rec\\unknown_Shawn_Mendes_Where_Were_You_In_The_Morning?.wav'
+2025-09-14 22:50:29,652 - ERROR - Still failed to process: Where Were You In The Morning? by Shawn Mendes
+2025-09-14 22:50:39,099 - ERROR - Error processing The Nutcracker Suite (Arabian Dance "Coffee") by Tchaikovsky: [Errno 22] Invalid argument: 'rec\\unknown_Tchaikovsky_The_Nutcracker_Suite_(Arabian_Dance_"Coffee").wav'
+2025-09-14 22:50:39,100 - ERROR - Still failed to process: The Nutcracker Suite (Arabian Dance "Coffee") by Tchaikovsky
+2025-09-14 22:50:45,871 - ERROR - Error processing A Taste Of Honey (Live At The BBC For "Pop Go The Beatles" / 23rd July, 1963) by The Beatles: [Errno 22] Invalid argument: 'rec\\unknown_The_Beatles_A_Taste_Of_Honey_(Live_At_The_BBC_For_"Pop_Go_The_Beatles"___23rd_July,_1963).wav'
+2025-09-14 22:50:45,872 - ERROR - Still failed to process: A Taste Of Honey (Live At The BBC For "Pop Go The Beatles" / 23rd July, 1963) by The Beatles
+2025-09-14 22:50:53,864 - ERROR - Error processing WHO? WHAT! (Audio) by Travis Scott: [Errno 22] Invalid argument: 'rec\\unknown_Travis_Scott_WHO?_WHAT!_(Audio).wav'
+2025-09-14 22:50:53,865 - ERROR - Still failed to process: WHO? WHAT! (Audio) by Travis Scott
+2025-09-14 22:51:01,143 - ERROR - Error processing Dre Day by Dr. Dre ft. Snoop Dogg | Interscope by Interscope Records: [Errno 22] Invalid argument: 'rec\\unknown_Interscope_Records_Dre_Day_by_Dr._Dre_ft._Snoop_Dogg_|_Interscope.wav'
+2025-09-14 22:51:01,144 - ERROR - Still failed to process: Dre Day by Dr. Dre ft. Snoop Dogg | Interscope by Interscope Records
+2025-09-14 22:58:42,243 - ERROR - Error processing Norman F***ing Rockwell (Official Music Video) by Lana Del Rey: [Errno 22] Invalid argument: 'rec\\unknown_Lana_Del_Rey_Norman_F***ing_Rockwell_(Official_Music_Video).wav'
+2025-09-14 22:58:42,249 - ERROR - Still failed to process: Norman F***ing Rockwell (Official Music Video) by Lana Del Rey
+2025-09-14 23:00:24,882 - ERROR - Error processing out of kontrol∕paparazzi (ft. thr33) (tdf) by wildkarduno: Download failed
+2025-09-14 23:00:24,886 - ERROR - Still failed to process: out of kontrol∕paparazzi (ft. thr33) (tdf) by wildkarduno
