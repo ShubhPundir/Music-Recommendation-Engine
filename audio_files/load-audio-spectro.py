@@ -40,13 +40,13 @@ def fetch_tracks(limit=1096):
 # -------------------
 def process_track(item, output_dir, logger, idx, spectrogram_output_dir):
     musicbrainz_id, track_title, channel, url = item["id"], item["track_title"], item["channel"], item["url"]
-    logger.info(f"[{idx}] Processing: {track_title} by {channel}")
+    logger.info(f"[{musicbrainz_id}] Processing: {track_title} by {channel}")
 
     prefix = f"{musicbrainz_id}".replace(" ", "_").replace("/", "_")
     wav_path, jpg_path = os.path.join(output_dir, f"{prefix}.wav"), os.path.join(output_dir, f"{prefix}.jpg")
 
     if os.path.exists(wav_path) and os.path.exists(jpg_path):
-        logger.info(f"Skipping id: {musicbrainz_id}::{track_title}::{url}: already processed.")
+        logger.info(f"Skipping id: {musicbrainz_id}::{url}: already processed.")
         return
 
     try:
@@ -62,9 +62,9 @@ def process_track(item, output_dir, logger, idx, spectrogram_output_dir):
         logger.debug(f"Generating spectrogram: {prefix}.jpg")
         save_spectrogram_image(buf, prefix, spectrogram_output_dir, logger)
 
-        logger.info(f"Successfully processed: id:{musicbrainz_id}::{track_title}::{url}")
+        logger.info(f"Successfully processed: id:{musicbrainz_id}::{url}")
     except Exception as e:
-        logger.error(f"Error processing id:{musicbrainz_id}::{track_title}::{url}: {e}")
+        logger.error(f"Error processing id:{musicbrainz_id}::{url}: Error {e}")
         raise e
 
 
@@ -89,7 +89,7 @@ def main():
     os.makedirs(output_dir, exist_ok=True)
     logger.debug(f"Output directory: {output_dir}")
 
-    spectrogram_output_dir = os.path.join("spectrogram", "file_jpg")
+    spectrogram_output_dir = os.path.join("spectrogram")
     os.makedirs(spectrogram_output_dir, exist_ok=True)
     logger.debug(f"Spectrogram output directory: {spectrogram_output_dir}")
 
@@ -102,7 +102,7 @@ def main():
             success_count += 1
         except Exception as e:
             error_count += 1
-            logger.error(f"Failed to process track mb_id: {item.get('id', 'Unknown_MBID')}: {item.get('track_title', 'Unknown')} by {item.get('channel', 'Unknown')}")
+            logger.error(f"Failed to process track mb_id: {item.get('id', 'Unknown_MBID')}::{item.get('channel', 'Unknown')} for the Error: {e}")
 
     logger.info(f"Audio processing completed. Success: {success_count}, Errors: {error_count}")
     logger.info("Test run completed for 10 tracks.")
