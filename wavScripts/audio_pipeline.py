@@ -10,51 +10,40 @@ import time
 import psycopg2
 from database.cockroachdb import get_cockroach_connection
 from wavScripts.analyzer import extract_audio_features_from_buffer
+from wavScripts.download_track_via_url import download_audio_from_url
 
 conn = get_cockroach_connection()
 
-def download_audio_to_memory(song_query):
+def download_audio_to_memory(song_query, track_title=None, channel=None):
     try:
-        # Step 1: Get bestaudio URL
-        ydl_opts = {
-            'format': 'bestaudio/best',
-            'quiet': True,
-            'noplaylist': True,
-            'default_search': 'ytsearch1',
-            'extract_flat': False,
-        }
+        # If song_query is not a URL, assume it's a search query
+        if not song_query.startswith("http"):
+            # For initial search, use the song_query directly.
+            # Fallback will use track_title and channel
+            if not track_title and not channel:
+                # Attempt to parse title and artist from query if not provided
+                if " by " in song_query:
+                    parts = song_query.split(" by ")
+                    track_title = parts[0].strip()
+                    channel = parts[1].strip()
+                else:
+                    track_title = song_query
+                    channel = ""
+            # Construct a search URL for download_audio_from_url
+            initial_download_url = f"ytsearch1:{song_query}"
+        else:
+            initial_download_url = song_query
 
-        with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-            info = ydl.extract_info(song_query, download=False)
-            if 'entries' in info:
-                info = info['entries'][0]
-            url = info['url']
-            title = info.get('title', 'Unknown Title')
-            channel = info.get('uploader', 'Unknown Channel')
-            webpage_url = info.get('webpage_url', 'Unknown URL')
-            print(f"🔗 Downloading stream: {title} ({webpage_url})")
+        # Use the unified download_audio_from_url function
+        audio_buf, title, uploader, webpage_url = download_audio_from_url(
+            initial_download_url, track_title, channel
+        )
 
-        # Step 2: Use ffmpeg to stream into memory as WAV
-        ffmpeg_path = 'C:\\Users\\robot\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-7.1.1-full_build\\bin\\ffmpeg.exe'  # Ensure ffmpeg is in PATH
-        # ffmpeg_path = 'C:\\Users\\RAH\\Downloads\\ffmpeg-7.1.1-essentials_build\\bin\\ffmpeg.exe'  # Ensure ffmpeg is in PATH
-        cmd = [
-            ffmpeg_path, "-i", url, "-f", "wav", "-acodec", "pcm_s16le", "-ar", "44100", "-ac", "1", "-"
-        ] 
-        # add my local path 
-        process = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.DEVNULL)
-        audio_bytes, _ = process.communicate()
+        return audio_buf, title, uploader, webpage_url
 
-        # Returning audio data along with title, channel, and URL
-        return io.BytesIO(audio_bytes), title, channel, webpage_url
-
-    except yt_dlp.utils.DownloadError as e:
-        print(f"    ❌ Download failed for song: {song_query}. Error: {str(e)}")
-    except subprocess.CalledProcessError as e:
-        print(f"    ❌ ffmpeg processing failed for song: {song_query}. Error: {str(e)}")
     except Exception as e:
-        print(f"    ❌ An unexpected error occurred: {str(e)}")
-    
-    return None, None, None, None  # Return None for all in case of error
+        print(f"    ❌ An unexpected error occurred in download_audio_to_memory: {str(e)}")
+        return None, None, None, None  # Return None for all in case of error
 
 
 
