@@ -4,6 +4,7 @@ import librosa.display
 import matplotlib.pyplot as plt
 from pydub import AudioSegment
 import numpy as np
+from tempfile import NamedTemporaryFile
 
 # Output directory for audio and spectrogram images
 OUTPUT_DIR = os.path.join("spectrogram")
@@ -17,7 +18,13 @@ def save_audio_file(buf_memory_containing_audio, filename_prefix, output_dir, lo
         os.makedirs(output_dir, exist_ok=True)
         output_path = os.path.join(output_dir, f"{filename_prefix}.wav")
         buf_memory_containing_audio.seek(0)
-        audio = AudioSegment.from_file(buf_memory_containing_audio, format="wav")
+        
+        with NamedTemporaryFile(delete=True, suffix=".wav") as tmpfile:
+            tmpfile.write(buf_memory_containing_audio.read())
+            tmpfile.flush()
+            buf_memory_containing_audio.seek(0) # Reset buffer for further use
+            audio = AudioSegment.from_file(tmpfile.name, format="wav")
+        
         audio.export(output_path, format="wav")
         if logger:
             logger.debug(f"Audio saved at: {output_path}")
@@ -38,7 +45,13 @@ def save_spectrogram_image(buf_memory_containing_audio, filename_prefix, output_
         os.makedirs(output_dir, exist_ok=True)
         output_path = os.path.join(output_dir, f"{filename_prefix}.jpg")
         buf_memory_containing_audio.seek(0)
-        y, sr = librosa.load(buf_memory_containing_audio, sr=None)
+        
+        with NamedTemporaryFile(delete=True, suffix=".wav") as tmpfile:
+            tmpfile.write(buf_memory_containing_audio.read())
+            tmpfile.flush()
+            buf_memory_containing_audio.seek(0) # Reset buffer for further use
+            y, sr = librosa.load(tmpfile.name, sr=None)
+
         S = librosa.amplitude_to_db(np.abs(librosa.stft(y)), ref=np.max)
 
         fig = plt.figure(figsize=(10, 4))
