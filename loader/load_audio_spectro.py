@@ -108,5 +108,5 @@ def main():
     logger.info("Test run completed for 10 tracks.")
 
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()

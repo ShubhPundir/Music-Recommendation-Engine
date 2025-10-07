@@ -7,7 +7,7 @@ from tqdm import tqdm
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '.')))
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), 'audio_files')))
 
-from audio_files.audio_wav import process_track
+from load_audio_spectro import process_track
 from utils.logger_setup import setup_logger
 
 def parse_failed_tracks(log_path):
