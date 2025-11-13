@@ -49,19 +49,22 @@ def cleanse_tags():
     try:
         cursor.execute("""
             ALTER TABLE tracks_metadata
-            ADD COLUMN IF NOT EXISTS cleansed_tags TEXT[]
+            ADD COLUMN IF NOT EXISTS final_tags JSONB
         """)
         try:
             cursor.execute("""
                 ALTER TABLE tracks_metadata
-                ALTER COLUMN cleansed_tags TYPE TEXT[] USING 
+                ALTER COLUMN final_tags TYPE JSONB USING 
                     CASE 
-                        WHEN cleansed_tags IS NULL THEN NULL 
-                        WHEN cleansed_tags LIKE '[' || '%' THEN (
-                            -- try to coerce JSON-like text to array by removing brackets and quotes
-                            string_to_array(replace(replace(trim(both '[]' from cleansed_tags), '"', ''), '\\'', ''), ',')
+                        WHEN final_tags IS NULL THEN NULL 
+                        WHEN left(trim(both ' ' from final_tags::STRING), 1) = '[' THEN final_tags::JSONB
+                        ELSE (
+                            to_json(
+                                string_to_array(
+                                    replace(replace(trim(both '[]' from final_tags::STRING), '"', ''), '\\'', ''), ','
+                                )
+                            )::JSONB
                         )
-                        ELSE string_to_array(cleansed_tags, ',')
                     END
             """)
         except Exception:
@@ -147,9 +150,9 @@ def cleanse_tags():
         # Update database
         cursor.execute("""
             UPDATE tracks_metadata 
-            SET cleansed_tags = %s 
+            SET final_tags = %s::JSONB 
             WHERE mongo_id = %s
-        """, (final_list, mongo_id))
+        """, (json.dumps(final_list), mongo_id))
     
     # Commit changes and close connection
     conn.commit()
