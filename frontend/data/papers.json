@@ -1,0 +1,30 @@
+[
+    {
+        "type": "Data Engineering",
+        "theme": "Scalable Music Data Pipelines and Feature Stores",
+        "description": "This research focuses on the data engineering backbone required to support music recommendation systems at scale.",
+        "title": "Data Engineering Research",
+        "topics": [
+            "ETL Pipelines",
+            "External APIs Integration",
+            "Data Warehousing",
+            "Structured & Unstructured Data",
+            "Batch vs Streaming"
+        ],
+        "outcome": "A unified analytical data warehouse capable of supporting downstream machine learning workloads and exploratory data analysis."
+    },
+    {
+        "type": "Machine Learning",
+        "theme": "Audio Representation Learning for Music Recommendation",
+        "description": "This research explores how deep learning models understand music directly from audio signals.",
+        "title": "Machine Learning & Deep Learning Research",
+        "topics": [
+            "Spectrogram-based Learning",
+            "Transformer-based Audio Models",
+            "Pretrained Embeddings (OpenL3, CLAP)",
+            "Vector Similarity Search",
+            "Content-based Recommendation"
+        ],
+        "outcome": "A recommendation pipeline that compares songs using learned audio embeddings rather than relying solely on metadata."
+    }
+]

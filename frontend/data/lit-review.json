@@ -1,0 +1,42 @@
+[
+    {
+        "id": "1",
+        "title": "Deep Content-Based Music Recommendation",
+        "authors": "Van den Oord, A., Dieleman, S., Schrauwen, B.",
+        "year": "2013",
+        "venue": "NIPS",
+        "focus": "Audio Representation Learning"
+    },
+    {
+        "id": "2",
+        "title": "Musicnn: Pre-trained convolutional neural networks for music audio tagging",
+        "authors": "Pons, J., Serra, X.",
+        "year": "2019",
+        "venue": "ISMIR",
+        "focus": "Deep Learning / MIR"
+    },
+    {
+        "id": "3",
+        "title": "Jukebox: A Generative Model for Music",
+        "authors": "Dhariwal, P., et al.",
+        "year": "2020",
+        "venue": "ArXiv",
+        "focus": "Generative Audio"
+    },
+    {
+        "id": "4",
+        "title": "The Million Song Dataset",
+        "authors": "Bertin-Mahieux, T., et al.",
+        "year": "2011",
+        "venue": "ISMIR",
+        "focus": "Data Engineering / Datasets"
+    },
+    {
+        "id": "5",
+        "title": "CLAP: Contrastive Language-Audio Pretraining",
+        "authors": "Elizalde, B., et al.",
+        "year": "2023",
+        "venue": "ICASSP",
+        "focus": "Multimodal Learning"
+    }
+]
